@@ -116,7 +116,7 @@
   "fuente": "browse",
   "url": "https://publicapi.solotodo.com/categories/39/browse/?search=2+TB&ordering=offer_price_usd&page_size=100",
   "incluye": ["2 TB"],
-  "marcas_ok": ["SN850X", "SN770", "SN7100", "SN5000", "SN8100", "990 PRO", "990 EVO", "980", "970 EVO", "P3 Plus", "P310", "T500", "T705", "E100", "NV3", "NV2", "KC3000", "MP44", "MP600", "Rocket", "FireCuda", "Legend 800", "Legend 850", "Legend 960", "NM790", "Spatium M480", "Spatium M570"]
+  "marcas_ok": ["SN850X", "SN770", "SN7100", "SN5000", "SN8100", "990 PRO", "990 EVO", "Samsung 980", "970 EVO", "P3 Plus", "P310", "T500", "T705", "Crucial E100", "NV3", "NV2", "KC3000", "MP44", "MP600", "Rocket", "FireCuda", "Legend 800", "Legend 850", "Legend 960", "NM790", "Spatium M480", "Spatium M570"]
  },
  {
   "id": "ssd-2tb-premium",
@@ -133,7 +133,7 @@
   "fuente": "browse",
   "url": "https://publicapi.solotodo.com/categories/39/browse/?search=1+TB&ordering=offer_price_usd&page_size=100",
   "incluye": ["1 TB"],
-  "marcas_ok": ["SN850X", "SN770", "SN7100", "SN5000", "SN8100", "990 PRO", "990 EVO", "980", "970 EVO", "P3 Plus", "P310", "T500", "T705", "E100", "NV3", "NV2", "KC3000", "MP44", "MP600", "Rocket", "FireCuda", "Legend 800", "Legend 850", "Legend 960", "NM790", "Spatium M480", "Spatium M570"]
+  "marcas_ok": ["SN850X", "SN770", "SN7100", "SN5000", "SN8100", "990 PRO", "990 EVO", "Samsung 980", "970 EVO", "P3 Plus", "P310", "T500", "T705", "Crucial E100", "NV3", "NV2", "KC3000", "MP44", "MP600", "Rocket", "FireCuda", "Legend 800", "Legend 850", "Legend 960", "NM790", "Spatium M480", "Spatium M570"]
  },
  {
   "id": "psu-850",
