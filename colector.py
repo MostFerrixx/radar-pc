@@ -167,13 +167,6 @@ def procesar(item, tiendas, clp, usd):
 
     dolar_muestra = None
     cands = []
-    if item["id"] == "psu-850":  # muestra de la estructura, para depurar
-        try:
-            pe0 = d["results"][0]["product_entries"][0]
-            salida["_meta_ejemplo"] = pe0.get("metadata")
-            salida["_specs_claves"] = sorted((pe0.get("product") or {}).get("specs", {}).keys())[:60]
-        except Exception as e:
-            salida["_meta_ejemplo"] = "no pude: %s" % e
     if item.get("fuente") == "entities":
         for res in d.get("results", []):
             p = res.get("product") or {}
