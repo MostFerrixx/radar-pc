@@ -1,1 +1,166 @@
-
+[
+ {
+  "id": "gpu-5070ti",
+  "nombre": "RTX 5070 Ti · 16 GB",
+  "grupo": "Tarjeta de video",
+  "fuente": "browse",
+  "url": "https://publicapi.solotodo.com/categories/2/browse/?search=5070+ti&ordering=offer_price_usd&page_size=20",
+  "incluye": ["5070 Ti"],
+  "excluye": ["notebook", "laptop", "predator", "nitro", "legion", "victus", "omen", "aspire", "katana", "raider", "zephyrus", "super"]
+ },
+ {
+  "id": "gpu-5070ti-super",
+  "nombre": "RTX 5070 Ti Super · 24 GB",
+  "grupo": "Tarjeta de video",
+  "fuente": "browse",
+  "url": "https://publicapi.solotodo.com/categories/2/browse/?search=5070+ti+super&ordering=offer_price_usd&page_size=20",
+  "incluye": ["5070 Ti Super"],
+  "excluye": ["notebook", "laptop", "predator", "nitro", "legion", "victus", "omen", "aspire", "katana", "raider", "zephyrus"],
+  "pendiente": true
+ },
+ {
+  "id": "gpu-5080",
+  "nombre": "RTX 5080 · 16 GB",
+  "grupo": "Tarjeta de video",
+  "fuente": "browse",
+  "url": "https://publicapi.solotodo.com/categories/2/browse/?search=5080&ordering=offer_price_usd&page_size=20",
+  "incluye": ["5080"],
+  "excluye": ["notebook", "laptop", "predator", "nitro", "legion", "victus", "omen", "aspire", "katana", "raider", "zephyrus"]
+ },
+ {
+  "id": "gpu-5090",
+  "nombre": "RTX 5090 · 32 GB",
+  "grupo": "Tarjeta de video",
+  "fuente": "browse",
+  "url": "https://publicapi.solotodo.com/categories/2/browse/?search=5090&ordering=offer_price_usd&page_size=20",
+  "incluye": ["5090"],
+  "excluye": ["notebook", "laptop", "predator", "nitro", "legion", "victus", "omen", "aspire", "katana", "raider", "zephyrus"]
+ },
+ {
+  "id": "gpu-9070xt",
+  "nombre": "Radeon RX 9070 XT · 16 GB",
+  "grupo": "Tarjeta de video",
+  "fuente": "browse",
+  "url": "https://publicapi.solotodo.com/categories/2/browse/?search=9070+XT&ordering=offer_price_usd&page_size=20",
+  "incluye": ["9070 XT"],
+  "excluye": ["notebook", "laptop", "predator", "nitro", "legion", "victus", "omen", "aspire", "katana", "raider", "zephyrus"]
+ },
+ {
+  "id": "cpu-9800x3d",
+  "nombre": "Ryzen 7 9800X3D",
+  "grupo": "Procesador",
+  "fuente": "entities",
+  "url": "https://publicapi.solotodo.com/products/available_entities/?ids=260863"
+ },
+ {
+  "id": "cpu-9700x",
+  "nombre": "Ryzen 7 9700X",
+  "grupo": "Procesador",
+  "fuente": "entities",
+  "url": "https://publicapi.solotodo.com/products/available_entities/?ids=252399"
+ },
+ {
+  "id": "cpu-9600x",
+  "nombre": "Ryzen 5 9600X",
+  "grupo": "Procesador",
+  "fuente": "entities",
+  "url": "https://publicapi.solotodo.com/products/available_entities/?ids=252401"
+ },
+ {
+  "id": "cpu-7800x3d",
+  "nombre": "Ryzen 7 7800X3D",
+  "grupo": "Procesador",
+  "fuente": "entities",
+  "url": "https://publicapi.solotodo.com/products/available_entities/?ids=241309"
+ },
+ {
+  "id": "mb-b850-wifi",
+  "nombre": "Placa madre B850M con WiFi",
+  "grupo": "Placa madre AM5",
+  "fuente": "browse",
+  "url": "https://publicapi.solotodo.com/categories/5/browse/?search=B850+WIFI&ordering=offer_price_usd&page_size=25",
+  "incluye": ["B850", "WIFI"],
+  "excluye": ["ASRock"]
+ },
+ {
+  "id": "mb-b650-wifi",
+  "nombre": "Placa madre B650M con WiFi",
+  "grupo": "Placa madre AM5",
+  "fuente": "browse",
+  "url": "https://publicapi.solotodo.com/categories/5/browse/?search=B650+WIFI&ordering=offer_price_usd&page_size=25",
+  "incluye": ["B650", "WIFI"],
+  "excluye": ["Gigabyte", "ASRock"]
+ },
+ {
+  "id": "ram-2x16",
+  "nombre": "RAM 32 GB (2×16) DDR5-6000",
+  "grupo": "Memoria RAM",
+  "fuente": "browse",
+  "url": "https://publicapi.solotodo.com/categories/7/browse/?search=DDR5+32GB+6000&ordering=offer_price_usd&page_size=40",
+  "incluye": ["2 x 16 GB", "DDR5-6000"],
+  "excluye": ["ECC", "SO-DIMM"]
+ },
+ {
+  "id": "ram-1x32",
+  "nombre": "RAM 32 GB (1×32) DDR5-6000",
+  "grupo": "Memoria RAM",
+  "fuente": "browse",
+  "url": "https://publicapi.solotodo.com/categories/7/browse/?search=DDR5+32GB+6000&ordering=offer_price_usd&page_size=40",
+  "incluye": ["1 x 32 GB", "DDR5-6000"],
+  "excluye": ["ECC", "SO-DIMM"]
+ },
+ {
+  "id": "ssd-2tb",
+  "nombre": "SSD 2 TB NVMe PCIe 4.0",
+  "grupo": "Almacenamiento",
+  "fuente": "browse",
+  "url": "https://publicapi.solotodo.com/categories/39/browse/?search=2+TB&ordering=offer_price_usd&page_size=100",
+  "incluye": ["2 TB"],
+  "marcas_ok": ["SN850X", "SN770", "SN7100", "SN5000", "SN8100", "990 PRO", "990 EVO", "980", "970 EVO", "P3 Plus", "P310", "T500", "T705", "E100", "NV3", "NV2", "KC3000", "MP44", "MP600", "Rocket", "FireCuda", "Legend 800", "Legend 850", "Legend 960", "NM790", "Spatium M480", "Spatium M570"]
+ },
+ {
+  "id": "ssd-2tb-premium",
+  "nombre": "SSD 2 TB con TLC confirmada",
+  "grupo": "Almacenamiento",
+  "fuente": "browse",
+  "url": "https://publicapi.solotodo.com/categories/39/browse/?search=NM790&ordering=offer_price_usd&page_size=20",
+  "incluye": ["2 TB"]
+ },
+ {
+  "id": "ssd-1tb",
+  "nombre": "SSD 1 TB NVMe PCIe 4.0",
+  "grupo": "Almacenamiento",
+  "fuente": "browse",
+  "url": "https://publicapi.solotodo.com/categories/39/browse/?search=1+TB&ordering=offer_price_usd&page_size=100",
+  "incluye": ["1 TB"],
+  "marcas_ok": ["SN850X", "SN770", "SN7100", "SN5000", "SN8100", "990 PRO", "990 EVO", "980", "970 EVO", "P3 Plus", "P310", "T500", "T705", "E100", "NV3", "NV2", "KC3000", "MP44", "MP600", "Rocket", "FireCuda", "Legend 800", "Legend 850", "Legend 960", "NM790", "Spatium M480", "Spatium M570"]
+ },
+ {
+  "id": "psu-850",
+  "nombre": "Fuente 850 W Gold ATX 3.1",
+  "grupo": "Fuente, refrigeración y armado",
+  "fuente": "browse",
+  "url": "https://publicapi.solotodo.com/categories/9/browse/?search=850W&ordering=offer_price_usd&page_size=60",
+  "incluye": ["850", "Gold"],
+  "marcas_ok": ["MSI", "Corsair", "be quiet", "Seasonic", "Gigabyte", "XPG", "Cooler Master", "ASUS", "Deepcool", "NZXT", "EVGA", "Antec", "Montech"],
+  "marcas_veto": ["Thermalright", "Aurion", "Gamdias", "Clio", "Segotep", "Snake", "Kronos", "Gamemax", "EsGaming", "MLOGIX", "Xilence", "Cougar", "EINAREX", "DarkFlash"]
+ },
+ {
+  "id": "cooler-pa120",
+  "nombre": "Peerless Assassin 120 SE ARGB",
+  "grupo": "Fuente, refrigeración y armado",
+  "fuente": "browse",
+  "url": "https://publicapi.solotodo.com/categories/12/browse/?search=Peerless+Assassin&ordering=offer_price_usd&page_size=20",
+  "incluye": ["Peerless Assassin 120", "ARGB"],
+  "excluye": ["140", "White"]
+ },
+ {
+  "id": "fans-120",
+  "nombre": "Ventiladores 120 mm (pack de 5)",
+  "grupo": "Fuente, refrigeración y armado",
+  "fuente": "browse",
+  "url": "https://publicapi.solotodo.com/categories/87/browse/?search=P12&ordering=offer_price_usd&page_size=25",
+  "incluye": ["5-Pack"],
+  "marcas_ok": ["Arctic", "Thermalright", "Noctua", "be quiet", "Lian Li", "Corsair", "Cooler Master", "Deepcool", "Phanteks"]
+ }
+]
