@@ -1,0 +1,42 @@
+name: Radar de precios PC
+
+on:
+  schedule:
+    # 11:00 UTC = 07:00 u 08:00 en Chile segun horario de verano.
+    # La tarea de Claude lee el resultado a las 12:00 UTC: una hora de colchon,
+    # porque GitHub puede atrasar los cron varios minutos.
+    - cron: "0 11 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: radar
+  cancel-in-progress: false
+
+jobs:
+  recolectar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Consultar SoloTodo
+        run: python3 colector.py
+
+      - name: Guardar resultado en el repositorio
+        run: |
+          git config user.name "radar-bot"
+          git config user.email "radar-bot@users.noreply.github.com"
+          git add latest.json historial/
+          if git diff --cached --quiet; then
+            echo "sin cambios"
+          else
+            git commit -m "precios $(date -u +%Y-%m-%d)"
+            git push
+          fi
