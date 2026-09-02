@@ -76,6 +76,13 @@ def precios_meta(meta, clp, usd):
     Si el catalogo de monedas no ayuda, usa la magnitud: CLP es ~900 veces USD."""
     pc = pu = None
     vals = []
+    # SoloTodo tambien deja el equivalente en USD como campo directo (offer_price_usd)
+    for k, v in (meta or {}).items():
+        if "usd" in str(k).lower() and "offer" in str(k).lower():
+            try:
+                pu = float(v) or None
+            except Exception:
+                pass
     for p in meta.get("prices_per_currency", []):
         cid = p.get("currency_id") or id_desde_url(p.get("currency"))
         try:
@@ -160,6 +167,13 @@ def procesar(item, tiendas, clp, usd):
 
     dolar_muestra = None
     cands = []
+    if item["id"] == "psu-850":  # muestra de la estructura, para depurar
+        try:
+            pe0 = d["results"][0]["product_entries"][0]
+            salida["_meta_ejemplo"] = pe0.get("metadata")
+            salida["_specs_claves"] = sorted((pe0.get("product") or {}).get("specs", {}).keys())[:60]
+        except Exception as e:
+            salida["_meta_ejemplo"] = "no pude: %s" % e
     if item.get("fuente") == "entities":
         for res in d.get("results", []):
             p = res.get("product") or {}
