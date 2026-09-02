@@ -72,31 +72,47 @@ def ids_monedas():
 
 
 def precios_meta(meta, clp, usd):
-    """Devuelve (precio_clp, precio_usd) de un bloque metadata de browse."""
+    """Devuelve (precio_clp, precio_usd) de un bloque metadata de browse.
+    Si el catalogo de monedas no ayuda, usa la magnitud: CLP es ~900 veces USD."""
     pc = pu = None
+    vals = []
     for p in meta.get("prices_per_currency", []):
         cid = p.get("currency_id") or id_desde_url(p.get("currency"))
-        v = float(p.get("offer_price") or 0) or None
-        if v is None:
+        try:
+            v = float(p.get("offer_price") or 0)
+        except Exception:
+            v = 0
+        if not v:
             continue
-        if cid == clp:
+        vals.append(v)
+        if cid is not None and cid == clp:
             pc = v
-        elif cid == usd:
+        elif cid is not None and cid == usd:
             pu = v
-    if pc is None:  # sin catalogo: CLP es el valor grande, USD el chico
-        vals = sorted(float(p.get("offer_price") or 0) for p in meta.get("prices_per_currency", []))
-        vals = [v for v in vals if v]
-        if vals:
-            pc, pu = vals[-1], (vals[0] if len(vals) > 1 else None)
+    if vals and (pc is None or pu is None):
+        vals.sort()
+        if pc is None:
+            pc = vals[-1]
+        if pu is None and len(vals) > 1 and vals[0] * 100 < vals[-1]:
+            pu = vals[0]
     return (num(pc) if pc else None), pu
 
 
 # ---------- reglas por item ---------------------------------------------------
-def motivo_descarte(nombre, item):
-    """None si el producto cumple; si no, el texto de por que se descarta."""
+def motivo_descarte(nombre, item, specs=None):
+    """None si el producto cumple; si no, el texto de por que se descarta.
+    'incluye' se busca en el nombre Y en la ficha tecnica (specs): por ejemplo
+    la certificacion 80 PLUS de una fuente no viene en el nombre, viene en la
+    ficha. Marcas y exclusiones se miran solo en el nombre."""
     n = (nombre or "").lower()
+    ficha = n
+    if specs:
+        try:
+            ficha = n + " " + json.dumps(specs, ensure_ascii=False).lower()
+        except Exception:
+            pass
     for t in item.get("incluye", []):
-        if t.lower() not in n:
+        if t.lower() not in ficha:
             return "no dice '%s'" % t
     for t in item.get("excluye", []):
         if t.lower() in n:
@@ -168,7 +184,7 @@ def procesar(item, tiendas, clp, usd):
                     continue
                 if dolar_muestra is None and pu:
                     dolar_muestra = round(pc / pu, 2)
-                por_que = motivo_descarte(p.get("name"), item)
+                por_que = motivo_descarte(p.get("name"), item, p.get("specs"))
                 if por_que:
                     salida["descartados"].append({"nombre": p.get("name"), "precio": pc, "motivo": por_que})
                     continue
