@@ -1,8 +1,8 @@
 {
  "fecha": "2026-09-02",
- "generado_utc": "2026-09-02T23:03:21+00:00",
+ "generado_utc": "2026-09-02T23:07:15+00:00",
  "fuente": "SoloTodo publicapi, via GitHub Actions",
- "dolar_referencia": null,
+ "dolar_referencia": 934.53,
  "consultas_total": 19,
  "consultas_ok": 19,
  "errores": {},
@@ -1482,6 +1482,51 @@
      "precio": 134900,
      "motivo": "marca fuera de la lista confiable"
     }
+   ],
+   "_meta_ejemplo": {
+    "score": 49.21,
+    "prices_per_currency": [
+     {
+      "currency": 1,
+      "currency_id": 1,
+      "normal_price": "49989.0",
+      "offer_price": "45990.0"
+     }
+    ],
+    "normal_price_usd": "53.49",
+    "offer_price_usd": "49.21"
+   },
+   "_specs_claves": [
+    "brand_unicode",
+    "certification_id",
+    "certification_name",
+    "certification_unicode",
+    "certification_value",
+    "commercial_model",
+    "currents_on_12V_rails",
+    "currents_on_33V_rails",
+    "currents_on_5V_rails",
+    "default_bucket",
+    "has_active_pfc",
+    "id",
+    "is_modular",
+    "line_brand_brand_id",
+    "line_brand_brand_name",
+    "line_brand_brand_unicode",
+    "line_brand_id",
+    "line_brand_unicode",
+    "line_id",
+    "line_unicode",
+    "picture",
+    "power_connectors",
+    "power_id",
+    "power_unicode",
+    "power_value",
+    "size_id",
+    "size_name",
+    "size_unicode",
+    "tags",
+    "unicode"
    ]
   },
   "cooler-pa120": {
