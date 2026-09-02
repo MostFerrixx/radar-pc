@@ -1,6 +1,6 @@
 {
  "fecha": "2026-09-02",
- "generado_utc": "2026-09-02T22:57:19+00:00",
+ "generado_utc": "2026-09-02T23:03:21+00:00",
  "fuente": "SoloTodo publicapi, via GitHub Actions",
  "dolar_referencia": null,
  "consultas_total": 19,
@@ -617,24 +617,15 @@
   "ssd-2tb": {
    "nombre": "SSD 2 TB NVMe PCIe 4.0",
    "elegido": {
-    "product_id": 155474,
-    "nombre": "Hikvision E100 2 TB (HS-SSD-E100/2048G)",
-    "precio_lista": 199000,
-    "precio": 199000,
-    "tienda": "Gestion y Equipos",
-    "url": "https://gestionyequipos.cl/collections/discos-solidos-ssd/products/disco-ssd-hikvision-e100-2tb-2-5-sata-iii",
-    "n_tiendas": 1
+    "product_id": 365045,
+    "nombre": "Crucial E100 2 TB (CT2000E100SSD8)",
+    "precio_lista": 252990,
+    "precio": 252990,
+    "tienda": "Tecnomas.cl",
+    "url": "https://tecnomas.cl/producto/ct2000e100ssd8",
+    "n_tiendas": 2
    },
    "candidatos": [
-    {
-     "product_id": 155474,
-     "nombre": "Hikvision E100 2 TB (HS-SSD-E100/2048G)",
-     "precio_lista": 199000,
-     "precio": 199000,
-     "tienda": "Gestion y Equipos",
-     "url": "https://gestionyequipos.cl/collections/discos-solidos-ssd/products/disco-ssd-hikvision-e100-2tb-2-5-sata-iii",
-     "n_tiendas": 1
-    },
     {
      "product_id": 365045,
      "nombre": "Crucial E100 2 TB (CT2000E100SSD8)",
@@ -661,6 +652,15 @@
      "tienda": "Notebooksya!",
      "url": "https://notebooksya.cl/producto/2000g-nv3-m-2-2280-nvme-ssd-up-to-6000-mb-s/",
      "n_tiendas": 12
+    },
+    {
+     "product_id": 220675,
+     "nombre": "Lexar NM790 2 TB (LNM790X002T-RNNNGU)",
+     "precio_lista": 429900,
+     "precio": 429900,
+     "tienda": "Tecnocam",
+     "url": "https://www.tecnocam.cl/ssd-lexar-nvme-2tb-m2-2280-pcie-gen4-granel-1",
+     "n_tiendas": 1
     }
    ],
    "descartados": [
@@ -768,6 +768,11 @@
      "nombre": "Corsair Force MP600 GS 1 TB (CSSD-F1000GBMP600GS)",
      "precio": 189990,
      "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "Hikvision E100 2 TB (HS-SSD-E100/2048G)",
+     "precio": 199000,
+     "motivo": "marca fuera de la lista confiable"
     },
     {
      "nombre": "Hiksemi Future 1 TB (HS-SSD-FUTURE CORE 1024G)",
@@ -1236,6 +1241,11 @@
      "motivo": "marca fuera de la lista confiable"
     },
     {
+     "nombre": "A-DATA XPG Mars 980 Pro 1 TB (SMAR-980P-1TCI)",
+     "precio": 289000,
+     "motivo": "marca fuera de la lista confiable"
+    },
+    {
      "nombre": "Kingston FURY Renegade 1 TB (SFYRSK/1000G)",
      "precio": 289900,
      "motivo": "marca fuera de la lista confiable"
@@ -1265,50 +1275,50 @@
   "psu-850": {
    "nombre": "Fuente 850 W Gold ATX 3.1",
    "elegido": {
-    "product_id": 376508,
-    "nombre": "Cooler Master Elite Gold 850W (MPX-8505-AFAG) (850 W)",
-    "precio_lista": 85933,
-    "precio": 86878,
-    "tienda": "Thundertech",
-    "url": "https://www.thundertech.cl/cooler-master-elite-gold-850w-modular",
-    "n_tiendas": 12
+    "product_id": 394045,
+    "nombre": "MSI MAG A850GN PCIE5 (850 W)",
+    "precio_lista": 79890,
+    "precio": 79890,
+    "tienda": "MegaDrive",
+    "url": "https://megadrivestore.cl/fuentes-de-poder/1082-msi-mag-mag-a850gn-pcie5-850-w.html",
+    "n_tiendas": 8
    },
    "candidatos": [
     {
-     "product_id": 376508,
-     "nombre": "Cooler Master Elite Gold 850W (MPX-8505-AFAG) (850 W)",
-     "precio_lista": 85933,
-     "precio": 86878,
-     "tienda": "Thundertech",
-     "url": "https://www.thundertech.cl/cooler-master-elite-gold-850w-modular",
-     "n_tiendas": 12
+     "product_id": 394045,
+     "nombre": "MSI MAG A850GN PCIE5 (850 W)",
+     "precio_lista": 79890,
+     "precio": 79890,
+     "tienda": "MegaDrive",
+     "url": "https://megadrivestore.cl/fuentes-de-poder/1082-msi-mag-mag-a850gn-pcie5-850-w.html",
+     "n_tiendas": 8
     },
     {
-     "product_id": 384783,
-     "nombre": "Cooler Master MWE Gold 850 V3 Non-Modular ATX 3.1 (MPE-8506-ACAG-BWO) (850 W)",
-     "precio_lista": 89990,
-     "precio": 89990,
+     "product_id": 394048,
+     "nombre": "XPG KYBER II 850W (KYBERII850G-BKCCL) (850 W)",
+     "precio_lista": 79990,
+     "precio": 79990,
      "tienda": "MyShop",
-     "url": "https://www.myshop.cl/producto/fuente-de-poder-850w-certificada-cooler-master-850-mwe-gold-850-v3-nm-fr-p41798",
-     "n_tiendas": 1
+     "url": "https://www.myshop.cl/producto/fuente-de-poder-850w-certificada-xpg-kyber-ii-850g-p43070",
+     "n_tiendas": 8
     },
     {
-     "product_id": 253170,
-     "nombre": "Antec Atom G850 Gold (850 W)",
-     "precio_lista": 89990,
-     "precio": 89990,
-     "tienda": "Fiestalan",
-     "url": "https://fiestalan.cl/tienda/fuente-de-poder-850w-antec-atom-g850-ec-certificada-80-plus-gold-color-negro/",
-     "n_tiendas": 1
+     "product_id": 199912,
+     "nombre": "Gigabyte GP-UD850GM PG5 (850 W)",
+     "precio_lista": 84990,
+     "precio": 84990,
+     "tienda": "Progaming",
+     "url": "https://progaming.cl/producto/componentes/fuentes-poder/fuente-de-poder-modular-80-plus-gold-gp-ud850gm-pg5/",
+     "n_tiendas": 6
     },
     {
-     "product_id": 254720,
-     "nombre": "ASUS Prime 850W Gold (AP-850G / 90YE00U0-B0AA00) (850 W)",
-     "precio_lista": 98900,
-     "precio": 98900,
-     "tienda": "Infor-Ingen",
-     "url": "https://store.infor-ingen.com/producto/fuente-de-poder-asus-prime-ap-850g-850w-80plus-gold-f-modular/",
-     "n_tiendas": 13
+     "product_id": 393593,
+     "nombre": "Gigabyte GP-UD850GM PG5 V2 (850 W)",
+     "precio_lista": 84990,
+     "precio": 84990,
+     "tienda": "Dust2",
+     "url": "https://dust2.gg/producto/fuente-de-poder-gigabyte-gp-ud850gm-pg5-v2-850w-80-gold/",
+     "n_tiendas": 6
     }
    ],
    "descartados": [
@@ -1325,7 +1335,7 @@
     {
      "nombre": "Snake Hydra ATX850 (HY850WMG) (850 W)",
      "precio": 59990,
-     "motivo": "no dice 'Gold'"
+     "motivo": "marca vetada (Snake)"
     },
     {
      "nombre": "Xilence Gaming Gold XN320 (XP650R12) (650 W)",
@@ -1355,17 +1365,17 @@
     {
      "nombre": "Gamemax RGB-850 Black (850 W)",
      "precio": 69542,
-     "motivo": "no dice 'Gold'"
+     "motivo": "marca vetada (Gamemax)"
     },
     {
      "nombre": "Thermalright TR-KG850 (850 W)",
      "precio": 69990,
-     "motivo": "no dice 'Gold'"
+     "motivo": "marca vetada (Thermalright)"
     },
     {
      "nombre": "Kronos DG850 (PMT850) (850 W)",
      "precio": 69990,
-     "motivo": "no dice 'Gold'"
+     "motivo": "marca vetada (Kronos)"
     },
     {
      "nombre": "EINAREX Apex L5 850W (850 W)",
@@ -1373,24 +1383,14 @@
      "motivo": "no dice 'Gold'"
     },
     {
-     "nombre": "MSI MAG A850GN PCIE5 (850 W)",
-     "precio": 79890,
-     "motivo": "no dice 'Gold'"
-    },
-    {
-     "nombre": "XPG KYBER II 850W (KYBERII850G-BKCCL) (850 W)",
-     "precio": 79990,
-     "motivo": "no dice 'Gold'"
-    },
-    {
      "nombre": "Xilence Performance X+ XN174 (XP850MR9.2) (850 W)",
      "precio": 79990,
-     "motivo": "no dice 'Gold'"
+     "motivo": "marca vetada (Xilence)"
     },
     {
      "nombre": "DarkFlash PMT850 (850 W)",
      "precio": 82990,
-     "motivo": "no dice 'Gold'"
+     "motivo": "marca vetada (DarkFlash)"
     },
     {
      "nombre": "EINAREX Nexus Lite 850W (850 W)",
@@ -1398,24 +1398,14 @@
      "motivo": "no dice 'Gold'"
     },
     {
-     "nombre": "Gigabyte GP-UD850GM PG5 (850 W)",
-     "precio": 84990,
-     "motivo": "no dice 'Gold'"
-    },
-    {
      "nombre": "Segotep GM850W (850 W)",
      "precio": 84990,
-     "motivo": "no dice 'Gold'"
-    },
-    {
-     "nombre": "Gigabyte GP-UD850GM PG5 V2 (850 W)",
-     "precio": 84990,
-     "motivo": "no dice 'Gold'"
+     "motivo": "marca vetada (Segotep)"
     },
     {
      "nombre": "Gamdias Helios P2-850G V2 (850 W)",
      "precio": 85990,
-     "motivo": "no dice 'Gold'"
+     "motivo": "marca vetada (Gamdias)"
     },
     {
      "nombre": "Thermalright TR-SP850-W (850 W)",
@@ -1428,22 +1418,7 @@
      "motivo": "no dice 'Gold'"
     },
     {
-     "nombre": "MSI MAG A850GLS PCIE5 (850 W)",
-     "precio": 89990,
-     "motivo": "no dice 'Gold'"
-    },
-    {
-     "nombre": "MSI MAG A850GL PCIE5 (850 W)",
-     "precio": 89990,
-     "motivo": "no dice 'Gold'"
-    },
-    {
      "nombre": "Segotep PM850W White (850 W)",
-     "precio": 89990,
-     "motivo": "no dice 'Gold'"
-    },
-    {
-     "nombre": "be quiet! Pure Power 12 850W (BP004/BP004U2) (850 W)",
      "precio": 89990,
      "motivo": "no dice 'Gold'"
     },
@@ -1455,107 +1430,42 @@
     {
      "nombre": "Apevia ATX-PM850W (850 W)",
      "precio": 89990,
-     "motivo": "no dice 'Gold'"
+     "motivo": "marca fuera de la lista confiable"
     },
     {
      "nombre": "Clio ATX PRO-M-850W (850 W)",
      "precio": 91200,
-     "motivo": "no dice 'Gold'"
+     "motivo": "marca vetada (Clio)"
     },
     {
      "nombre": "Redragon RGPS GC-PS010 (850 W)",
      "precio": 94990,
-     "motivo": "no dice 'Gold'"
-    },
-    {
-     "nombre": "Gigabyte GP-UD850GM (850 W)",
-     "precio": 94900,
-     "motivo": "no dice 'Gold'"
-    },
-    {
-     "nombre": "Gigabyte GP-UD850GM PG5W (850 W)",
-     "precio": 94900,
-     "motivo": "no dice 'Gold'"
+     "motivo": "marca fuera de la lista confiable"
     },
     {
      "nombre": "Gamemax RGB-850 SE PRO BK (850 W)",
      "precio": 96903,
-     "motivo": "no dice 'Gold'"
-    },
-    {
-     "nombre": "be quiet! Pure Power 13 M 850W (BP027/BP027U2) (850 W)",
-     "precio": 96990,
-     "motivo": "no dice 'Gold'"
+     "motivo": "marca vetada (Gamemax)"
     },
     {
      "nombre": "Azza PSAZ-850G14 (850 W)",
      "precio": 99900,
-     "motivo": "no dice 'Gold'"
+     "motivo": "marca fuera de la lista confiable"
     },
     {
      "nombre": "Super Flower Zillion FG SF-850Z12FG (850 W)",
      "precio": 99990,
-     "motivo": "no dice 'Gold'"
-    },
-    {
-     "nombre": "Gigabyte UD850GM PG5 V2 ICE (GP-UD850GM PG5 ICE) (850 W)",
-     "precio": 99990,
-     "motivo": "no dice 'Gold'"
-    },
-    {
-     "nombre": "ASUS TUF-GAMING-850G-EVO (90YE00SA-B0AA00) (850 W)",
-     "precio": 101900,
-     "motivo": "no dice 'Gold'"
-    },
-    {
-     "nombre": "DeepCool PN850D (850 W)",
-     "precio": 104900,
-     "motivo": "no dice 'Gold'"
-    },
-    {
-     "nombre": "ASUS TUF Gaming 850G (90YE00S2-BTAA00 / 90YE00S2-B0AA00) (850 W)",
-     "precio": 108182,
-     "motivo": "no dice 'Gold'"
-    },
-    {
-     "nombre": "MSI MAG A850GL PCIE5 WHITE (850 W)",
-     "precio": 108291,
-     "motivo": "no dice 'Gold'"
-    },
-    {
-     "nombre": "Corsair RMe Series RM850e 2025 (CP-9020296-NA) (850 W)",
-     "precio": 108990,
-     "motivo": "no dice 'Gold'"
-    },
-    {
-     "nombre": "Seasonic G12-GC-850 (850 W)",
-     "precio": 109994,
-     "motivo": "no dice 'Gold'"
-    },
-    {
-     "nombre": "DeepCool PM850D (850 W)",
-     "precio": 115990,
-     "motivo": "no dice 'Gold'"
+     "motivo": "marca fuera de la lista confiable"
     },
     {
      "nombre": "Azza PSAZ-850G (850 W)",
      "precio": 116900,
-     "motivo": "no dice 'Gold'"
+     "motivo": "marca fuera de la lista confiable"
     },
     {
      "nombre": "EsGaming ES-850W GOLD (850 W)",
      "precio": 118808,
      "motivo": "marca vetada (EsGaming)"
-    },
-    {
-     "nombre": "MSI MAG A850GLS MLG EDITION (850 W)",
-     "precio": 119900,
-     "motivo": "no dice 'Gold'"
-    },
-    {
-     "nombre": "Seasonic G12-850GM (850 W)",
-     "precio": 119995,
-     "motivo": "no dice 'Gold'"
     },
     {
      "nombre": "Xigmatek Thor T850M V2 (EN45349) (850 W)",
@@ -1571,16 +1481,6 @@
      "nombre": "Lian Li Edge Gold EG0850G - White (850 W)",
      "precio": 134900,
      "motivo": "marca fuera de la lista confiable"
-    },
-    {
-     "nombre": "Corsair RMe Series RM850e 2023 (CP-9020263-NA) (850 W)",
-     "precio": 134900,
-     "motivo": "no dice 'Gold'"
-    },
-    {
-     "nombre": "Antec GSK GSK850 V2 (0-761345-20149-0) (850 W)",
-     "precio": 139900,
-     "motivo": "no dice 'Gold'"
     }
    ]
   },
