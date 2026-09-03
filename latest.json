@@ -1,6 +1,6 @@
 {
  "fecha": "2026-09-03",
- "generado_utc": "2026-09-03T00:50:01+00:00",
+ "generado_utc": "2026-09-03T00:53:51+00:00",
  "fuente": "SoloTodo publicapi, via GitHub Actions",
  "dolar_referencia": 934.53,
  "consultas_total": 19,
@@ -571,7 +571,33 @@
    "nombre": "RAM 64 GB (2×32) DDR5-6000",
    "elegido": null,
    "candidatos": [],
-   "descartados": [],
+   "descartados": [
+    {
+     "nombre": "Kingston Fury Beast KF560C36BBE2-32 (1 x 32 GB | DIMM DDR5-6000)",
+     "precio": 532962,
+     "motivo": "no dice '2 x 32 GB'"
+    },
+    {
+     "nombre": "Kingston Fury Beast KF560C36BBE-32 (1 x 32 GB | DIMM DDR5-6000)",
+     "precio": 549990,
+     "motivo": "no dice '2 x 32 GB'"
+    },
+    {
+     "nombre": "Kingston Fury KF560C36BBE2K2-32 (2 x 16 GB | DIMM DDR5-6000)",
+     "precio": 639990,
+     "motivo": "no dice '2 x 32 GB'"
+    },
+    {
+     "nombre": "Kingston Fury Beast Black RGB KF560C36BBE2AK2-32 (2 x 16 GB | DIMM DDR5-6000)",
+     "precio": 659990,
+     "motivo": "no dice '2 x 32 GB'"
+    },
+    {
+     "nombre": "Kingston Fury Renegade Pro KF560R32RBE-32 (1 x 32 GB | DIMM DDR5-6000 ECC)",
+     "precio": 1091374,
+     "motivo": "no dice '2 x 32 GB'"
+    }
+   ],
    "error": "ningun producto cumple las reglas"
   },
   "ssd-2tb": {
@@ -583,7 +609,7 @@
     "precio": 266990,
     "tienda": "Tecnomas.cl",
     "url": "https://tecnomas.cl/producto/kingston-internal-hard-drive-2000-gb-m-2-2230-solid-state-drive",
-    "n_tiendas": 11
+    "n_tiendas": 10
    },
    "candidatos": [
     {
@@ -593,7 +619,7 @@
      "precio": 266990,
      "tienda": "Tecnomas.cl",
      "url": "https://tecnomas.cl/producto/kingston-internal-hard-drive-2000-gb-m-2-2230-solid-state-drive",
-     "n_tiendas": 11
+     "n_tiendas": 10
     },
     {
      "product_id": 253374,
