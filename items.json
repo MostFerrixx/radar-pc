@@ -110,6 +110,16 @@
   "excluye": ["ECC", "SO-DIMM", "DDR5-6800", "DDR5-7", "DDR5-8"]
  },
  {
+  "id": "ram-32x2",
+  "nombre": "RAM 64 GB (2 módulos sueltos de 32) DDR5-5600/6000",
+  "grupo": "Memoria RAM",
+  "fuente": "browse",
+  "url": "https://publicapi.solotodo.com/categories/7/browse/?search=32GB+DDR5&ordering=offer_price_usd&page_size=100",
+  "cantidad": 2,
+  "incluye": ["1 x 32 GB", "DIMM DDR5-"],
+  "excluye": ["ECC", "SO-DIMM", "RDIMM", "DDR5-4", "DDR5-52", "DDR5-6800", "DDR5-7", "DDR5-8"]
+ },
+ {
   "id": "ssd-2tb",
   "nombre": "SSD 2 TB NVMe PCIe 4.0",
   "grupo": "Almacenamiento",
