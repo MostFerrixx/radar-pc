@@ -210,6 +210,18 @@ def procesar(item, tiendas, clp, usd):
                 salida["descartados"].append({"nombre": c["nombre"], "precio": c["precio_lista"],
                                               "motivo": "en lista pero ninguna tienda con stock"})
     cands.sort(key=lambda c: c["precio"])
+    # "cantidad": el item se compra N veces (por ejemplo dos modulos sueltos de
+    # 32 GB para llegar a 64 GB). El precio que sale es el total de las N unidades.
+    q = int(item.get("cantidad") or 1)
+    if q > 1:
+        for c in cands:
+            c["cantidad"] = q
+            c["precio_unitario"] = c["precio"]
+            c["precio"] = c["precio"] * q
+            if "precio_lista" in c:
+                c["precio_lista"] = c["precio_lista"] * q
+            c["nombre"] = "%d x %s" % (q, c["nombre"])
+        salida["cantidad"] = q
     salida["candidatos"] = cands[:4]
     salida["elegido"] = cands[0] if cands else None
     if not cands and "error" not in salida:
