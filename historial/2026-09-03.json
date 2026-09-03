@@ -1,13 +1,11 @@
 {
  "fecha": "2026-09-03",
- "generado_utc": "2026-09-03T00:53:51+00:00",
+ "generado_utc": "2026-09-03T00:59:06+00:00",
  "fuente": "SoloTodo publicapi, via GitHub Actions",
  "dolar_referencia": 934.53,
  "consultas_total": 19,
- "consultas_ok": 18,
- "errores": {
-  "ram-2x32": "ningun producto cumple las reglas"
- },
+ "consultas_ok": 19,
+ "errores": {},
  "resultados": {
   "gpu-5070ti": {
    "nombre": "RTX 5070 Ti · 16 GB",
@@ -568,37 +566,69 @@
    ]
   },
   "ram-2x32": {
-   "nombre": "RAM 64 GB (2×32) DDR5-6000",
-   "elegido": null,
-   "candidatos": [],
-   "descartados": [
+   "nombre": "RAM 64 GB (2×32) DDR5-6000/6400",
+   "elegido": {
+    "product_id": 257311,
+    "nombre": "Kingston Fury Beast KF564C32BBEK2-64 (2 x 32 GB | DIMM DDR5-6400)",
+    "precio_lista": 1313750,
+    "precio": 1313750,
+    "tienda": "NotebookStore",
+    "url": "https://notebookstore.cl/64gb-6400mts-ddr5-cl32-dimm-kit-of-2-fury-beast",
+    "n_tiendas": 4
+   },
+   "candidatos": [
     {
-     "nombre": "Kingston Fury Beast KF560C36BBE2-32 (1 x 32 GB | DIMM DDR5-6000)",
-     "precio": 532962,
-     "motivo": "no dice '2 x 32 GB'"
-    },
-    {
-     "nombre": "Kingston Fury Beast KF560C36BBE-32 (1 x 32 GB | DIMM DDR5-6000)",
-     "precio": 549990,
-     "motivo": "no dice '2 x 32 GB'"
-    },
-    {
-     "nombre": "Kingston Fury KF560C36BBE2K2-32 (2 x 16 GB | DIMM DDR5-6000)",
-     "precio": 639990,
-     "motivo": "no dice '2 x 32 GB'"
-    },
-    {
-     "nombre": "Kingston Fury Beast Black RGB KF560C36BBE2AK2-32 (2 x 16 GB | DIMM DDR5-6000)",
-     "precio": 659990,
-     "motivo": "no dice '2 x 32 GB'"
-    },
-    {
-     "nombre": "Kingston Fury Renegade Pro KF560R32RBE-32 (1 x 32 GB | DIMM DDR5-6000 ECC)",
-     "precio": 1091374,
-     "motivo": "no dice '2 x 32 GB'"
+     "product_id": 257311,
+     "nombre": "Kingston Fury Beast KF564C32BBEK2-64 (2 x 32 GB | DIMM DDR5-6400)",
+     "precio_lista": 1313750,
+     "precio": 1313750,
+     "tienda": "NotebookStore",
+     "url": "https://notebookstore.cl/64gb-6400mts-ddr5-cl32-dimm-kit-of-2-fury-beast",
+     "n_tiendas": 4
     }
    ],
-   "error": "ningun producto cumple las reglas"
+   "descartados": [
+    {
+     "nombre": "Kingston KTH-PL432/64G (1 x 64 GB | DIMM DDR4-3200 ECC)",
+     "precio": 699900,
+     "motivo": "no dice '2 x 32 GB'"
+    },
+    {
+     "nombre": "Samsung M393A8G40MB2 (1 x 64 GB | DIMM DDR4-2933 ECC)",
+     "precio": 1063000,
+     "motivo": "no dice '2 x 32 GB'"
+    },
+    {
+     "nombre": "Kingston Fury Beast KF556C36BBE-64 (1 x 64 GB | DIMM DDR5-5600)",
+     "precio": 1071933,
+     "motivo": "no dice '2 x 32 GB'"
+    },
+    {
+     "nombre": "Kingston KTD-PE432/64G (1 x 64GB | DIMM DDR4-3200 ECC Full buffer)",
+     "precio": 1378826,
+     "motivo": "no dice '2 x 32 GB'"
+    },
+    {
+     "nombre": "Nemix RAM NEMIX-64GB-DDR5-5600-ECC-RDIMM (1 x 64 GB | DIMM DDR5-5600 ECC Full buffer)",
+     "precio": 2016900,
+     "motivo": "no dice '2 x 32 GB'"
+    },
+    {
+     "nombre": "Kingston KTD-PE556D4-64G (1 x 64 GB | DIMM DDR5-5600 ECC)",
+     "precio": 2391789,
+     "motivo": "no dice '2 x 32 GB'"
+    },
+    {
+     "nombre": "Kingston Fury Beast KF556C36BBEK2-128 (2 x 64 GB | DIMM DDR5-5600)",
+     "precio": 2761270,
+     "motivo": "no dice '2 x 32 GB'"
+    },
+    {
+     "nombre": "Kingston KSM56R46BD4-64HA (1 x 64 GB | DIMM DDR5-5600 ECC)",
+     "precio": 3005952,
+     "motivo": "no dice '2 x 32 GB'"
+    }
+   ]
   },
   "ssd-2tb": {
    "nombre": "SSD 2 TB NVMe PCIe 4.0",
