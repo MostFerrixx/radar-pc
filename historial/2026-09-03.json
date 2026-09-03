@@ -1,10 +1,10 @@
 {
  "fecha": "2026-09-03",
- "generado_utc": "2026-09-03T00:59:06+00:00",
+ "generado_utc": "2026-09-03T03:20:24+00:00",
  "fuente": "SoloTodo publicapi, via GitHub Actions",
  "dolar_referencia": 934.53,
- "consultas_total": 19,
- "consultas_ok": 19,
+ "consultas_total": 20,
+ "consultas_ok": 20,
  "errores": {},
  "resultados": {
   "gpu-5070ti": {
@@ -629,6 +629,224 @@
      "motivo": "no dice '2 x 32 GB'"
     }
    ]
+  },
+  "ram-32x2": {
+   "nombre": "RAM 64 GB (2 módulos sueltos de 32) DDR5-5600/6000",
+   "elegido": {
+    "product_id": 265496,
+    "nombre": "2 x Kingston KCP556UD8-32 (1 x 32 GB | DIMM DDR5-5600)",
+    "precio_lista": 919980,
+    "precio": 919980,
+    "tienda": "Tecnomas.cl",
+    "url": "https://tecnomas.cl/producto/32gb-ddr5-5600mt-s-module",
+    "n_tiendas": 8,
+    "cantidad": 2,
+    "precio_unitario": 459990
+   },
+   "candidatos": [
+    {
+     "product_id": 265496,
+     "nombre": "2 x Kingston KCP556UD8-32 (1 x 32 GB | DIMM DDR5-5600)",
+     "precio_lista": 919980,
+     "precio": 919980,
+     "tienda": "Tecnomas.cl",
+     "url": "https://tecnomas.cl/producto/32gb-ddr5-5600mt-s-module",
+     "n_tiendas": 8,
+     "cantidad": 2,
+     "precio_unitario": 459990
+    },
+    {
+     "product_id": 206513,
+     "nombre": "2 x Kingston Fury Beast KF556C36BBE-32 (1 x 32 GB | DIMM DDR5-5600)",
+     "precio_lista": 959980,
+     "precio": 959980,
+     "tienda": "MyShop",
+     "url": "https://www.myshop.cl/producto/dimm-32-gb-ddr5-5600-mts-kingston-fury-beast-black-intel-xmpamd-expo-kf556c36bbe-32-liq-p43252",
+     "n_tiendas": 3,
+     "cantidad": 2,
+     "precio_unitario": 479990
+    },
+    {
+     "product_id": 250365,
+     "nombre": "2 x A-DATA XPG Lancer Blade AX5U5600C4632G-SLABBK (1 x 32 GB | DIMM DDR5-5600)",
+     "precio_lista": 961980,
+     "precio": 961980,
+     "tienda": "Tecnomas.cl",
+     "url": "https://tecnomas.cl/producto/a-data-xpg-lancer-blade-ax5u5600c4632g-slabbk-1-x-32-gb-dimm-ddr5-5600",
+     "n_tiendas": 2,
+     "cantidad": 2,
+     "precio_unitario": 480990
+    },
+    {
+     "product_id": 235056,
+     "nombre": "2 x Corsair Vengeance CMK32GX5M1B5600C40 (1 x 32 GB | DIMM DDR5-5600)",
+     "precio_lista": 975980,
+     "precio": 975980,
+     "tienda": "MyShop",
+     "url": "https://www.myshop.cl/producto/dimm-32-gb-corsair-vengeance-cmk32gx5m1b5600c40-1-x-32-gb-dimm-ddr5-5600-p34477",
+     "n_tiendas": 1,
+     "cantidad": 2,
+     "precio_unitario": 487990
+    }
+   ],
+   "descartados": [
+    {
+     "nombre": "Lenovo 4X77A77030 (1 x 32 GB | DIMM DDR5-4800 ECC Full buffer)",
+     "precio": 346784,
+     "motivo": "dice 'ECC'"
+    },
+    {
+     "nombre": "Crucial CT32G56C46S5 (1 x 32 GB | SO-DIMM DDR5-5600)",
+     "precio": 429990,
+     "motivo": "dice 'SO-DIMM'"
+    },
+    {
+     "nombre": "Kingston Fury Impact KF556S40IB-32 (1 x 32 GB | SO-DIMM DDR5-5600)",
+     "precio": 459990,
+     "motivo": "dice 'SO-DIMM'"
+    },
+    {
+     "nombre": "Corsair Vengeance RGB CMH32GX5M2B5200C40W (2 x 16GB | DIMM DDR5-5200)",
+     "precio": 469990,
+     "motivo": "no dice '1 x 32 GB'"
+    },
+    {
+     "nombre": "Corsair Vengeance CMK32GX5M2B5600C40 (2 x 16 GB | DIMM DDR5-5600)",
+     "precio": 479900,
+     "motivo": "no dice '1 x 32 GB'"
+    },
+    {
+     "nombre": "Corsair Vengeance RGB CMH32GX5M2B5200Z40K (2 x 16 GB | DIMM DDR5-5200)",
+     "precio": 483460,
+     "motivo": "no dice '1 x 32 GB'"
+    },
+    {
+     "nombre": "Corsair Vengeance CMSX32GX5M1A5600C48 (1 x 32 GB | SO-DIMM DDR5-5600)",
+     "precio": 489900,
+     "motivo": "dice 'SO-DIMM'"
+    },
+    {
+     "nombre": "Kingston KVR56S46BD8-32 (1 x 32 GB | SO-DIMM DDR5-5600)",
+     "precio": 489970,
+     "motivo": "dice 'SO-DIMM'"
+    },
+    {
+     "nombre": "Corsair Vengeance CMK32GX5M1B5200C40 (1 x 32 GB | DIMM DDR5-5200)",
+     "precio": 499990,
+     "motivo": "dice 'DDR5-52'"
+    },
+    {
+     "nombre": "Team T-Force Vulcan Eco FLESD532G6400HC38JDC01 (2 x 16 GB | DIMM DDR5-6400)",
+     "precio": 499990,
+     "motivo": "no dice '1 x 32 GB'"
+    },
+    {
+     "nombre": "Kingston KCP556SD8-32 (1 x 32 GB | SO-DIMM DDR5-5600)",
+     "precio": 507900,
+     "motivo": "dice 'SO-DIMM'"
+    },
+    {
+     "nombre": "Corsair Vengeance RGB CMH32GX5M1B5200Z40 (1 x 32 GB | DIMM DDR5-5200)",
+     "precio": 509990,
+     "motivo": "dice 'DDR5-52'"
+    },
+    {
+     "nombre": "Corsair Vengeance RGB CMH32GX5M2B5600Z40 (2 x 16 GB | DIMM DDR5-5600)",
+     "precio": 527990,
+     "motivo": "no dice '1 x 32 GB'"
+    },
+    {
+     "nombre": "A-DATA XPG Lancer RGB ROG Certified AX5U6600C3216G-DCLARROG (2 x 16 GB | DIMM DDR5-6600)",
+     "precio": 569000,
+     "motivo": "no dice '1 x 32 GB'"
+    },
+    {
+     "nombre": "Kingston Fury Beast KF556C36BBEK2-32 (2 x 16 GB | DIMM DDR5-5600)",
+     "precio": 594990,
+     "motivo": "no dice '1 x 32 GB'"
+    },
+    {
+     "nombre": "Kingston Fury Renegade KF568C34BBEK2-32 (2 x 16 GB | DIMM DDR5-6800)",
+     "precio": 624992,
+     "motivo": "no dice '1 x 32 GB'"
+    },
+    {
+     "nombre": "Kingston Fury KF560C36BBE2K2-32 (2 x 16 GB | DIMM DDR5-6000)",
+     "precio": 639990,
+     "motivo": "no dice '1 x 32 GB'"
+    },
+    {
+     "nombre": "Kingston Fury Beast Black RGB KF560C36BBE2AK2-32 (2 x 16 GB | DIMM DDR5-6000)",
+     "precio": 659990,
+     "motivo": "no dice '1 x 32 GB'"
+    },
+    {
+     "nombre": "Kingston Fury Renegade KF564C32RWAK2-32 (2 x 16 GB | DIMM DDR5-6400)",
+     "precio": 676190,
+     "motivo": "no dice '1 x 32 GB'"
+    },
+    {
+     "nombre": "Kingston Fury Renegade Pro KF556R28RBE2-32 (1 x 32 GB | DIMM DDR5-5600 ECC Full buffer)",
+     "precio": 949990,
+     "motivo": "dice 'ECC'"
+    },
+    {
+     "nombre": "Kingston KSM48R40BS4TMM-32HMR (1 x 32 GB | DIMM DDR5-4800 ECC Full buffer)",
+     "precio": 999900,
+     "motivo": "dice 'ECC'"
+    },
+    {
+     "nombre": "Kingston KTH-PL556D8-32G (1 x 32 GB | DIMM DDR5-5600 ECC)",
+     "precio": 1068864,
+     "motivo": "dice 'ECC'"
+    },
+    {
+     "nombre": "Kingston Fury Renegade Pro KF560R32RBE-32 (1 x 32 GB | DIMM DDR5-6000 ECC)",
+     "precio": 1091374,
+     "motivo": "dice 'ECC'"
+    },
+    {
+     "nombre": "Kingston KTH-PL564D8-32G (1 x 32 GB | DIMM DDR5-6400 ECC)",
+     "precio": 1103162,
+     "motivo": "dice 'ECC'"
+    },
+    {
+     "nombre": "Kingston KTL-TS556E-32G (1 x 32 GB | DIMM DDR5-5600 ECC)",
+     "precio": 1114754,
+     "motivo": "dice 'ECC'"
+    },
+    {
+     "nombre": "Kingston KTD-PE556D8-32G (1 x 32 GB | DIMM DDR5-5600 ECC Full buffer)",
+     "precio": 1123448,
+     "motivo": "dice 'ECC'"
+    },
+    {
+     "nombre": "Lenovo 4X77A90965 (1 x 32 GB | DIMM DDR5-6400 ECC)",
+     "precio": 1422749,
+     "motivo": "dice 'ECC'"
+    },
+    {
+     "nombre": "Lenovo 4X77A99752 (1 x 32 GB | DIMM DDR5-5600 ECC)",
+     "precio": 1695917,
+     "motivo": "dice 'ECC'"
+    },
+    {
+     "nombre": "HP P64706-B21 (1 x 32 GB | DIMM DDR5-5600 ECC)",
+     "precio": 2570000,
+     "motivo": "dice 'ECC'"
+    },
+    {
+     "nombre": "HP P43328-B21 (1 x 32 GB | DIMM DDR5-4800 Full buffer)",
+     "precio": 4246990,
+     "motivo": "dice 'DDR5-4'"
+    },
+    {
+     "nombre": "HP P64339-B21 (1 x 32 GB | DIMM DDR5-4800)",
+     "precio": 5671810,
+     "motivo": "dice 'DDR5-4'"
+    }
+   ],
+   "cantidad": 2
   },
   "ssd-2tb": {
    "nombre": "SSD 2 TB NVMe PCIe 4.0",
