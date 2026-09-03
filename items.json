@@ -102,12 +102,12 @@
  },
  {
   "id": "ram-2x32",
-  "nombre": "RAM 64 GB (2×32) DDR5-6000",
+  "nombre": "RAM 64 GB (2×32) DDR5-6000/6400",
   "grupo": "Memoria RAM",
   "fuente": "browse",
-  "url": "https://publicapi.solotodo.com/categories/7/browse/?search=DDR5+32GB+6000&ordering=offer_price_usd&page_size=100",
-  "incluye": ["2 x 32 GB", "DDR5-6000"],
-  "excluye": ["ECC", "SO-DIMM"]
+  "url": "https://publicapi.solotodo.com/categories/7/browse/?search=64GB&ordering=offer_price_usd&page_size=100",
+  "incluye": ["2 x 32 GB", "DDR5-6"],
+  "excluye": ["ECC", "SO-DIMM", "DDR5-6800", "DDR5-7", "DDR5-8"]
  },
  {
   "id": "ssd-2tb",
