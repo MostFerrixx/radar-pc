@@ -2,10 +2,12 @@ name: Radar de precios PC
 
 on:
   schedule:
-    # 11:00 UTC = 07:00 u 08:00 en Chile segun horario de verano.
-    # La tarea de Claude lee el resultado a las 12:00 UTC: una hora de colchon,
-    # porque GitHub puede atrasar los cron varios minutos.
-    - cron: "0 11 * * *"
+    # 07:23 UTC = 03:23 o 04:23 en Chile. GitHub atrasa los cron programados
+    # (medido: 2 h 40 min y 3 h 48 min de atraso los dias 4 y 5 de septiembre
+    # de 2026 con "0 11"), asi que se corre de madrugada y en un minuto que no
+    # sea en punto, que es cuando mas se atrasan. La tarea de Claude lee el
+    # resultado a las 13:30 UTC: seis horas de colchon.
+    - cron: "23 7 * * *"
   workflow_dispatch: {}
 
 permissions:
