@@ -133,8 +133,10 @@
   "nombre": "SSD 2 TB con TLC confirmada",
   "grupo": "Almacenamiento",
   "fuente": "browse",
-  "url": "https://publicapi.solotodo.com/categories/39/browse/?search=NM790&ordering=offer_price_usd&page_size=20",
-  "incluye": ["2 TB"]
+  "url": "https://publicapi.solotodo.com/categories/39/browse/?search=2+TB&ordering=offer_price_usd&page_size=100",
+  "incluye": ["2 TB"],
+  "excluye": ["QLC", "SATA", "2.5"],
+  "marcas_ok": ["NM790", "NM800", "KC3000", "Fury Renegade", "SN770", "SN7100", "SN850X", "990 PRO", "990 EVO", "970 EVO", "T500", "T705", "MP44", "MP600 PRO", "Rocket 4", "FireCuda 530", "Legend 850", "Legend 960", "Spatium M480", "Spatium M570", "P44 Pro", "AORUS Gen4 7300"]
  },
  {
   "id": "ssd-1tb",
