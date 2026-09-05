@@ -1,8 +1,8 @@
 {
  "fecha": "2026-09-05",
- "generado_utc": "2026-09-05T13:40:28+00:00",
+ "generado_utc": "2026-09-05T17:45:39+00:00",
  "fuente": "SoloTodo publicapi, via GitHub Actions",
- "dolar_referencia": 932.99,
+ "dolar_referencia": 933.0,
  "consultas_total": 20,
  "consultas_ok": 20,
  "errores": {},
@@ -35,7 +35,7 @@
      "precio": 1149490,
      "tienda": "SIPO",
      "url": "https://sipoonline.cl/tarjeta-de-video-msi-rtx-5070-ti-16gb-gddr7-shadow-3x-oc-gddr7",
-     "n_tiendas": 15
+     "n_tiendas": 14
     },
     {
      "product_id": 266814,
@@ -113,7 +113,7 @@
      "precio": 1679980,
      "tienda": "CCLink",
      "url": "https://www.cclink.cl/producto/asus-prime-geforce-rtx-5080-16gb-gddr7-oc-edition/",
-     "n_tiendas": 19
+     "n_tiendas": 18
     }
    ],
    "descartados": []
@@ -234,7 +234,7 @@
     "precio": 488690,
     "tienda": "Xtreme Components",
     "url": "https://xtremecomponents.cl/product/amd-ryzen-7-9800x3d-2/",
-    "n_tiendas": 22
+    "n_tiendas": 21
    },
    "candidatos": [
     {
@@ -243,7 +243,7 @@
      "precio": 488690,
      "tienda": "Xtreme Components",
      "url": "https://xtremecomponents.cl/product/amd-ryzen-7-9800x3d-2/",
-     "n_tiendas": 22
+     "n_tiendas": 21
     }
    ],
    "descartados": []
@@ -278,7 +278,7 @@
     "precio": 205324,
     "tienda": "Xtreme Components",
     "url": "https://xtremecomponents.cl/product/amd-ryzen-5-9600x/",
-    "n_tiendas": 23
+    "n_tiendas": 22
    },
    "candidatos": [
     {
@@ -287,7 +287,7 @@
      "precio": 205324,
      "tienda": "Xtreme Components",
      "url": "https://xtremecomponents.cl/product/amd-ryzen-5-9600x/",
-     "n_tiendas": 23
+     "n_tiendas": 22
     }
    ],
    "descartados": []
@@ -435,7 +435,7 @@
     "precio": 114890,
     "tienda": "MegaBytes",
     "url": "https://www.megabytes.cl/sitio-nuevo/producto/asus-b650m-ayw-wifi/",
-    "n_tiendas": 21
+    "n_tiendas": 20
    },
    "candidatos": [
     {
@@ -445,7 +445,7 @@
      "precio": 114890,
      "tienda": "MegaBytes",
      "url": "https://www.megabytes.cl/sitio-nuevo/producto/asus-b650m-ayw-wifi/",
-     "n_tiendas": 21
+     "n_tiendas": 20
     },
     {
      "product_id": 256062,
@@ -603,7 +603,7 @@
     },
     {
      "nombre": "Kingston Fury Beast KF556C36BBE-64 (1 x 64 GB | DIMM DDR5-5600)",
-     "precio": 1107652,
+     "precio": 1122482,
      "motivo": "no dice '2 x 32 GB'"
     },
     {
@@ -623,7 +623,7 @@
     },
     {
      "nombre": "Kingston KTD-PE556D4-64G (1 x 64 GB | DIMM DDR5-5600 ECC)",
-     "precio": 2381687,
+     "precio": 2408228,
      "motivo": "no dice '2 x 32 GB'"
     },
     {
@@ -647,7 +647,7 @@
     "precio": 919980,
     "tienda": "Tecnomas.cl",
     "url": "https://tecnomas.cl/producto/32gb-ddr5-5600mt-s-module",
-    "n_tiendas": 10,
+    "n_tiendas": 9,
     "cantidad": 2,
     "precio_unitario": 459990
    },
@@ -659,7 +659,7 @@
      "precio": 919980,
      "tienda": "Tecnomas.cl",
      "url": "https://tecnomas.cl/producto/32gb-ddr5-5600mt-s-module",
-     "n_tiendas": 10,
+     "n_tiendas": 9,
      "cantidad": 2,
      "precio_unitario": 459990
     },
@@ -855,7 +855,7 @@
     "precio": 266990,
     "tienda": "Tecnomas.cl",
     "url": "https://tecnomas.cl/producto/kingston-internal-hard-drive-2000-gb-m-2-2230-solid-state-drive",
-    "n_tiendas": 13
+    "n_tiendas": 12
    },
    "candidatos": [
     {
@@ -865,7 +865,7 @@
      "precio": 266990,
      "tienda": "Tecnomas.cl",
      "url": "https://tecnomas.cl/producto/kingston-internal-hard-drive-2000-gb-m-2-2230-solid-state-drive",
-     "n_tiendas": 13
+     "n_tiendas": 12
     },
     {
      "product_id": 253374,
@@ -1226,15 +1226,24 @@
   "ssd-2tb-premium": {
    "nombre": "SSD 2 TB con TLC confirmada",
    "elegido": {
-    "product_id": 220675,
-    "nombre": "Lexar NM790 2 TB (LNM790X002T-RNNNGU)",
-    "precio_lista": 429900,
-    "precio": 429900,
-    "tienda": "Tecnocam",
-    "url": "https://www.tecnocam.cl/ssd-lexar-nvme-2tb-m2-2280-pcie-gen4-granel-1",
-    "n_tiendas": 1
+    "product_id": 125630,
+    "nombre": "Kingston KC3000 2 TB (SKC3000D/2048G)",
+    "precio_lista": 406690,
+    "precio": 406690,
+    "tienda": "Thundertech",
+    "url": "https://www.thundertech.cl/ssd-kingston-kc3000-2tb-nvme-m2-pcie-40-7000mbs-tlc",
+    "n_tiendas": 7
    },
    "candidatos": [
+    {
+     "product_id": 125630,
+     "nombre": "Kingston KC3000 2 TB (SKC3000D/2048G)",
+     "precio_lista": 406690,
+     "precio": 406690,
+     "tienda": "Thundertech",
+     "url": "https://www.thundertech.cl/ssd-kingston-kc3000-2tb-nvme-m2-pcie-40-7000mbs-tlc",
+     "n_tiendas": 7
+    },
     {
      "product_id": 220675,
      "nombre": "Lexar NM790 2 TB (LNM790X002T-RNNNGU)",
@@ -1243,9 +1252,348 @@
      "tienda": "Tecnocam",
      "url": "https://www.tecnocam.cl/ssd-lexar-nvme-2tb-m2-2280-pcie-gen4-granel-1",
      "n_tiendas": 1
+    },
+    {
+     "product_id": 273866,
+     "nombre": "Kingston FURY Renegade G5 2 TB (SFYR2S/2T0)",
+     "precio_lista": 442216,
+     "precio": 442216,
+     "tienda": "MyBox",
+     "url": "https://mybox.cl/almacenamiento/6063-almacenamiento-nvme-kingston-fury-renegade-g5-2tb-pcie-50.html",
+     "n_tiendas": 4
+    },
+    {
+     "product_id": 157673,
+     "nombre": "Kingston FURY Renegade 2 TB (SFYRDK/2000G)",
+     "precio_lista": 539904,
+     "precio": 539904,
+     "tienda": "Winpy",
+     "url": "https://www.winpy.cl/venta/unidad-de-estado-solido-kingston-fury-renegade-de-2tb-m-2-nvme-pcie-4-0-con-disipador/",
+     "n_tiendas": 3
     }
    ],
-   "descartados": []
+   "descartados": [
+    {
+     "nombre": "MSI Spatium S270 480 GB (SPATIUM S270 SATA 2.5)",
+     "precio": 69900,
+     "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "A-DATA Legend 860 500 GB (SLEG-860-500GCS)",
+     "precio": 97900,
+     "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "Kingston 512 GB (OM8SGP4512K2-C00)",
+     "precio": 128990,
+     "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "Airflow Perfect 1 TB (1 TB Gen3x4 2280)",
+     "precio": 139000,
+     "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "A-DATA Ultimate SU650 1 TB (ASU650SS-1TT-R)",
+     "precio": 139990,
+     "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "Crucial E100 1 TB (CT1000E100SSD8)",
+     "precio": 147900,
+     "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "Lexar NQ780 1 TB (LNQ780X001T-RNNNG)",
+     "precio": 151990,
+     "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "Kingston NV3 1 TB (SNV3S/1000G)",
+     "precio": 152850,
+     "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "MSI Spatium M450 1 TB (SPATIUM M450 PCIe 4.0 NVMe M.2)",
+     "precio": 157990,
+     "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "A-DATA Legend 860 1 TB (SLEG-860-1000GCS)",
+     "precio": 161900,
+     "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "A-DATA Legend 710 1 TB (ALEG-710-1TCS)",
+     "precio": 162990,
+     "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "Samsung PM9C1 1 TB (MZVL81T0HELB-00BH1)",
+     "precio": 164990,
+     "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "Crucial P310 1 TB (CT1000P310SSD8)",
+     "precio": 169900,
+     "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "Western Digital Green SN350 1 TB (WDS100T2G0C)",
+     "precio": 177734,
+     "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "Hiksemi Future 1 TB (HS-SSD-FUTURES 2230 1024G)",
+     "precio": 178990,
+     "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "Western Digital Green SN3000 1 TB (WDS100T4G0E)",
+     "precio": 179990,
+     "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "SanDisk SSD Plus 1 TB (SDSSDA3N-1T00-G26)",
+     "precio": 179990,
+     "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "KingSpec P3 2 TB (P3-2TB)",
+     "precio": 184990,
+     "motivo": "marca fuera de la lista confiable"
+    },
+    {
+     "nombre": "Western Digital Blue SN5100 1 TB (WDS100T5B0E)",
+     "precio": 185462,
+     "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "Corsair Force MP600 GS 1 TB (CSSD-F1000GBMP600GS)",
+     "precio": 189990,
+     "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "Hikvision E100 2 TB (HS-SSD-E100/2048G)",
+     "precio": 199000,
+     "motivo": "marca fuera de la lista confiable"
+    },
+    {
+     "nombre": "Hiksemi Future 1 TB (HS-SSD-FUTURE CORE 1024G)",
+     "precio": 199900,
+     "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "Western Digital Green SN350 1 TB (WDS100T3G0C)",
+     "precio": 199990,
+     "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "A-DATA XPG Gammix S70 BLADE 1 TB (AGAMMIXS70B-1T-CS)",
+     "precio": 208600,
+     "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "Hiksemi Wave (S) 2 TB (HS-SSD-WAVE(S)/2048G)",
+     "precio": 211544,
+     "motivo": "marca fuera de la lista confiable"
+    },
+    {
+     "nombre": "Western Digital Black SN7100 1 TB (WDS100T4X0E)",
+     "precio": 219900,
+     "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "KingSpec 1 TB (NX-1TB-2230)",
+     "precio": 223400,
+     "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "A-DATA Legend 960 Max 1 TB (ALEG-960M-1TCS)",
+     "precio": 227990,
+     "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "Kingston NV3 1 TB (SNV3SM3/1T0)",
+     "precio": 229990,
+     "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "Sabrent Rocket 5 1 TB (SB-RKT5-1TB)",
+     "precio": 229990,
+     "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "Kingston FURY Renegade G5 1 TB (SFYR2S/1T0)",
+     "precio": 245900,
+     "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "Crucial E100 2 TB (CT2000E100SSD8)",
+     "precio": 259990,
+     "motivo": "marca fuera de la lista confiable"
+    },
+    {
+     "nombre": "SanDisk 5100 Optimus 1 TB (SDSP51100TAN-000E0)",
+     "precio": 259616,
+     "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "Kingston NV3 2 TB (SNV3SM3/2T0)",
+     "precio": 266990,
+     "motivo": "marca fuera de la lista confiable"
+    },
+    {
+     "nombre": "Kingston KC3000 1 TB (SKC3000S/1024G)",
+     "precio": 273990,
+     "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "A-DATA Legend 710 2 TB (ALEG-710-2TCS)",
+     "precio": 279900,
+     "motivo": "marca fuera de la lista confiable"
+    },
+    {
+     "nombre": "Crucial BX500 2 TB (CT2000BX500SSD1)",
+     "precio": 279990,
+     "motivo": "marca fuera de la lista confiable"
+    },
+    {
+     "nombre": "A-DATA XPG Mars 980 Pro 1 TB (SMAR-980P-1TCI)",
+     "precio": 289000,
+     "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "Kingston FURY Renegade 1 TB (SFYRSK/1000G)",
+     "precio": 289900,
+     "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "Western Digital Black SN770M 1 TB (WDS100T3X0G)",
+     "precio": 293118,
+     "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "Kingston NV3 2 TB (SNV3S/2000G)",
+     "precio": 297990,
+     "motivo": "marca fuera de la lista confiable"
+    },
+    {
+     "nombre": "Samsung 990 EVO Plus 1 TB (MZ-V9S1T0B/AM)",
+     "precio": 299000,
+     "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "A-DATA Legend 860 2 TB (SLEG-860-2000GCS)",
+     "precio": 329500,
+     "motivo": "marca fuera de la lista confiable"
+    },
+    {
+     "nombre": "SanDisk 7100 Optimus GX 1 TB (SDSP71100TAN-000E0)",
+     "precio": 329536,
+     "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "Crucial P3 4 TB (CT4000P3SSD8)",
+     "precio": 329990,
+     "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "HP 2 TB (861681-B21)",
+     "precio": 334400,
+     "motivo": "marca fuera de la lista confiable"
+    },
+    {
+     "nombre": "Western Digital Green SN3000 2 TB (WDS200T4G0E)",
+     "precio": 354498,
+     "motivo": "marca fuera de la lista confiable"
+    },
+    {
+     "nombre": "Western Digital Black SN8100 1 TB (WDS100T1X0M)",
+     "precio": 382773,
+     "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "Samsung 9100 Pro 1 TB (MZ-VAP1T0B/AM)",
+     "precio": 384990,
+     "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "Western Digital Green SN350 2 TB (WDS200T3G0C)",
+     "precio": 399990,
+     "motivo": "marca fuera de la lista confiable"
+    },
+    {
+     "nombre": "Kingston NV3 4 TB (SNV3S/4000G)",
+     "precio": 415180,
+     "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "SanDisk 8100 Optimus GX Pro 1 TB (SDSP82100TAN-000E0)",
+     "precio": 429856,
+     "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "SanDisk 5100 Optimus 2 TB (SDSP51200TAN-000E0)",
+     "precio": 499776,
+     "motivo": "marca fuera de la lista confiable"
+    },
+    {
+     "nombre": "Western Digital Black SN850X 1 TB (WDS100T2X0E)",
+     "precio": 533990,
+     "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "Kingston KC600 2 TB (SKC600/2048G)",
+     "precio": 537990,
+     "motivo": "marca fuera de la lista confiable"
+    },
+    {
+     "nombre": "Corsair Force MP600 Core XT 4 TB (CSSD-F4000GBMP600CXT)",
+     "precio": 611900,
+     "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "Crucial T710 4 TB (CT4000T710SSD8)",
+     "precio": 659490,
+     "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "Kingston FURY Renegade 4 TB (SFYRDK/4000G)",
+     "precio": 689990,
+     "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "Kingston FURY Renegade G5 4 TB (SFYR2S/4T0)",
+     "precio": 694910,
+     "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "Lexar 4 TB (LNM109P004T-RNNNU)",
+     "precio": 799000,
+     "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "Kingston KC3000 4 TB (SKC3000D/4096G)",
+     "precio": 877952,
+     "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "Samsung PM9E1 4 TB (MZVLC4T0HBL1-00B07)",
+     "precio": 1012000,
+     "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "HP 2 TB (P40511-B21)",
+     "precio": 1790800,
+     "motivo": "marca fuera de la lista confiable"
+    },
+    {
+     "nombre": "Kingston FURY Renegade G5 8 TB (SFYR2D/8T1)",
+     "precio": 1866500,
+     "motivo": "no dice '2 TB'"
+    }
+   ]
   },
   "ssd-1tb": {
    "nombre": "SSD 1 TB NVMe PCIe 4.0",
