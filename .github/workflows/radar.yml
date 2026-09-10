@@ -35,6 +35,10 @@ jobs:
       # cambia de forma, los precios se guardan igual.
       - name: Consultar las fuentes del scene PS5
         continue-on-error: true
+        env:
+          # token gratis del propio Actions, solo para no chocar con el limite
+          # de consultas de la API de GitHub
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 colector_ps5.py
 
       - name: Guardar resultado en el repositorio
