@@ -1,0 +1,158 @@
+release 1.3 | Y2JB 1.3 (deprecated) | 2026-05-25
+release 1.5 | Y2JB 1.5 (deprecated) | 2026-05-22
+release 1.6 | Y2JB 1.6 | 2026-06-09
+release 2 | Y2JB-P2JB V2 | 2026-05-22
+release 2.0 | BD-JB5 2.0 | 2026-08-04
+release 2.1 | Y2JB-P2JB V2.1 | 2026-05-22
+release 2.2 | Y2JB-P2JB V2.2 | 2026-05-23
+release 2.3 | Y2JB-P2JB V2.3 | 2026-05-24
+release 2.4 | Y2JB-P2JB V2.4 | 2026-05-24
+release 2.5 | Y2JB-P2JB V2.5 | 2026-05-25
+release 2.5.1 | Y2JB-P2JB V2.5.1 | 2026-05-25
+release 2.5.2 | Y2JB-P2JB V2.5.2 - Y2JB 1.3 PROT_EXEC fix | 2026-05-25
+release 2.6 | Y2JB-P2JB V2.6 - Y2JB 1.5 support | 2026-05-25
+repo Affined-genushypoxis188/Subnautica-2-PS5-Port | Run the Subnautica 2 sequel on Windows with custom optimizations for better performance, higher resolutions, and modern display support.
+repo Coder787-source/KytyPlus | KytyPS5-based PS5 emulator with extra compatibility/HLE work. Experimental crash/boot-reach improvements — not a playability claim.
+repo DeborahO18/ps5-payload-constellation | Ultimate PS5 Payload Atlas 2026: Auto-Synced Exploit Manager
+repo Dudaaa357/trophy-unifier-stack-cleanser | PSN Trophy Tracker 2026 Guide: Best Stack Merging & Unobtainable Removal Leaderboards
+repo EchoStretch/BackPork | Lets you sideload system libraries into PS5 games
+repo EchoStretch/Byepervisor | A PS5 hypervisor exploit for 1.xx-2xx firmwares.
+repo EchoStretch/ESP32-Server-900u | 900 with usb emulation
+repo EchoStretch/FTPS5 | FTP For The PS5 Webkit 3.XX / 4.XX
+repo EchoStretch/GoldHEN_Cheat_Repository | 
+repo EchoStretch/HexForge | This IDA plugin extends the functionality of the assembly and hex view. With this plugin, you can conveniently decode/decrypt/alter data directly from the IDA Pro interface. 
+repo EchoStretch/Icon-Mask | King Lapy Source Code For Icon Mask
+repo EchoStretch/PI-Pwn | pppwn
+repo EchoStretch/PPPwn | PPPwn - PlayStation 4 PPPoE RCE
+repo EchoStretch/PS4_Debug | This repository contains my own version of the system FW 5.05, 6.72, and 7.00 to 11.00 port of ps4debug, ported by EchoStretch. This version will be maintained and worked on by me.
+repo EchoStretch/PS5-IPV6-Kernel-Exploit | An experimental webkit-based kernel exploit (Arb. R/W) for the PS5 on <= 4.51FW
+repo EchoStretch/PS5-SELF-Decrypter | A portable payload to decrypt PS5 SELF files from the filesystem to USB drive
+repo EchoStretch/PS5-Server | ESP8266
+repo EchoStretch/PS5-Server32 | ESP32
+repo EchoStretch/PS5-UMTX-Jailbreak | A webkit-based kernel exploit and jailbreak for PS5
+repo EchoStretch/PS5-kdata-dumper | 
+repo EchoStretch/PS5FTP | PS5 FTP With Decrypt
+repo EchoStretch/PS5SDK | An SDK to build payloads/ELF files compatible with the loader in the PS5 WebKit+Kernel Exploit chain. 
+repo EchoStretch/PSFree | PSFree WebKit Exploit for PS4 6.xx to 9.60 and PS5 1.xx to 5.xx
+repo EchoStretch/Playstation-4-Save-Mounter | 
+repo EchoStretch/ROPgadget | This tool lets you search your gadgets on your binaries to facilitate your ROP exploitation. ROPgadget supports ELF, PE and Mach-O format on x86, x64, ARM, ARM64, PowerPC, SPARC, MIPS, RISC-V 64, and 
+repo EchoStretch/Save-Transfer-Wizard | Save Transfer Wizard
+repo EchoStretch/WebRTE | Open-Source WebRTE Payload By GOLDEN
+repo EchoStretch/Y2JB | Y2JB is userland code execution using PS5 Youtube app
+repo EchoStretch/a53-code-exec | PoC for code execution on a53 used by PS5 on fw 02.00. 
+repo EchoStretch/apollo-ps4 | Apollo Save Tool (PS4)
+repo EchoStretch/apollo-saves | Apollo Save Tool Online Database
+repo EchoStretch/bdj-sdk | 
+repo EchoStretch/bhyve | 
+repo EchoStretch/blsunpack | Unpack 2BLS images
+repo EchoStretch/decrypt_rnps | Decrypts React Native Playstation Apps used on the PS5
+repo EchoStretch/dump_installer | 
+repo EchoStretch/dump_runner | 
+repo EchoStretch/echostretch.github.io | 
+repo EchoStretch/etaHEN-Plugins | etaHEN Plugin SDK used to generate Plugins to be used with the Toolbox's Plugins Menu
+repo EchoStretch/frame4 | 
+repo EchoStretch/ftps5-payload | 
+repo EchoStretch/kstuff | 
+repo EchoStretch/kstuff-lite | 
+repo EchoStretch/kstuff-toggle | 
+repo EchoStretch/mast1c0re | Develop payloads that can be executed on the PlayStation 4 or PlayStation 5 through a game save file.
+repo EchoStretch/mp4rw | 
+repo EchoStretch/pacbrew-repo | A PacBrew package repository for jailbroken PS5s
+repo EchoStretch/pkg_pfs_tool | PKG/PFS unpacker for PS4
+repo EchoStretch/ps4-app-dumper | Payload to dump/decrypt applications on the PlayStation 4
+repo EchoStretch/ps4-app2usb | Payload for 'Unofficial' external drive support for the PlayStation 4
+repo EchoStretch/ps4-backup | Payload to backup databases, licenses, and user data on the PlayStation 4
+repo EchoStretch/ps4-cfw-toolkit | Decrypt/Encrypt various PlayStation®4 firmware files
+repo EchoStretch/ps4-disable-aslr | Payload to disable the ASLR on the PlayStation 4
+repo EchoStretch/ps4-disable-updates | Payload to disable PlayStation 4 firmware updates
+repo EchoStretch/ps4-enable-browser | Payload to enable the web browser on the PlayStation 4
+repo EchoStretch/ps4-enable-updates | Payload to enable PlayStation 4 firmware updates
+repo EchoStretch/ps4-exit-idu | Payload to exit IDU mode on the PlayStation 4 
+repo EchoStretch/ps4-fan-threshold | Payload that sets the cooling fan's profile on the PlayStation 4
+repo EchoStretch/ps4-ftp | Payload to start an FTP server on the PlayStation 4
+repo EchoStretch/ps4-hen-vtx | A fully implemented kernel exploit for the PS4 with HEN
+repo EchoStretch/ps4-history-blocker | Payload to prevent the web browser from returning to the last opened page on the PlayStation 4
+repo EchoStretch/ps4-kernel-clock | Payload to set the internal secure clock on the PlayStation 4
+repo EchoStretch/ps4-kernel-dumper | Payload to dump the devices kernel from memory to a USB device on the PlayStation 4
+repo EchoStretch/ps4-ksdk | This is an SDK for PlayStation 4 kernels
+repo EchoStretch/ps4-linuxpayloads | 
+repo EchoStretch/ps4-module-dumper | Payload to dump the encrypted modules to a USB device on the PlayStation 4
+repo EchoStretch/ps4-payload-guest | Bin Loader PKG for the PlayStation 4
+repo EchoStretch/ps4-payload-sdk | Open Source PlayStation 4 Payload SDK
+repo EchoStretch/ps4-permanent-uart | Payload to enable permanent hardware based UART on the PlayStation 4 
+repo EchoStretch/ps4-pup-decrypt | Payload to decrypt the contents of a firmware update file (PUP) on the PlayStation 4
+repo EchoStretch/ps4-restore | Payload to restore that data saved by the 'Backup' payload on the PlayStation 4
+repo EchoStretch/ps4-rif-renamer | Payload to standardize RIF license file names on the PlayStation 4
+repo EchoStretch/ps4-todex | Payload to spoof the target ID on the PlayStation 4
+repo EchoStretch/ps4debug | PlayStation 4 Debugger
+repo EchoStretch/ps4jb-payloads | Extracted payloads from the main repo
+repo EchoStretch/ps4jb2 | 
+repo EchoStretch/ps5-app-dumper | 
+repo EchoStretch/ps5-bdjb-modified-ISOs | Modified ISOs
+repo EchoStretch/ps5-hen | A Homebrew Enabler (HEN) for PS5 supporting firmware 1.00 to 4.51, based on an HV exploit chain.
+repo EchoStretch/ps5-linux-loader | Linux payload implementing HV exploits to run a custom bootloader
+repo EchoStretch/ps5-payload-sdk | 
+repo EchoStretch/ps5-pup-decrypt | ps5 pup decrypt by asking nicely ps5 to do it. 
+repo EchoStretch/ps5Spoofer | PS5 Spoofer
+repo EchoStretch/ps5debug-NG | PS5 debugger payload — userland TCP wire-protocol server hosted inside SceShellCore. GPL-3.
+repo EchoStretch/remote_lua_loader | 
+repo EchoStretch/umtx2 | A webkit-based kernel exploit and jailbreak for PS5
+repo Gezine/ArtemisLuaLoader | Run arbitrary lua script from savedata
+repo Gezine/BD-JB5 | BD-JB for PS5
+repo Gezine/Luac0re | Luac0re is a mast1c0re variation that uses Lua scripting for easier exploit development.
+repo Gezine/PS4-P3Rfix | PS4 Persona 3 Reload patch file that enables 60fps and disables motion blur.
+repo Gezine/Y2JB | Y2JB is userland code execution using PS5 Youtube app
+repo Gezine/dump_installer | 
+repo Gezine/edk2-SMT733 | EDK2 for Samsung Galaxy Tab S7 FE Wifi model Based on SDM778G(SM7325)
+repo Gezine/elfldr | 
+repo Gezine/ftpsrv | A simple FTP server for jailbroken PS4s and PS5s
+repo Gezine/kexp | payload that does post jailbreak related stuff 
+repo Gezine/remote_lua_loader | 
+repo Gezine/sdk | An SDK for PS5 payloads that uses dynamic linking
+repo Gezine/sdk-ps4 | 
+repo Khandiaz6262/EmuC0re | Run PS5 emulators as native x86_64 shellcode via LuaC0re JIT, enabling homebrew apps from userland with NES support up to firmware 13.00
+repo Klourideish/Astero | An experimental PS5 emulator, using native 64_86 instructions alongside minimal trampolines. Utilising HLE and Ash for Vulkan [Written in rust]
+repo Naivelk/ps5Plus | 
+repo Nerdex21/ps5-pro-stock-checker | Chequea stock de la PS5 Pro cada hora y avisa por Telegram (GitHub Actions)
+repo RavelloH/PSGameSpider | 自动爬取所有PlayStationStore中的所有游戏信息，包括封面、描述、价格、评分等，生成网页并索引 # # # Automatically crawl all game infos in all playstationstore, automatically generate web pages and index them
+repo Renetrox/Ps5-ES-X | Ps5 theme inspired for EmulstionStation-X
+repo TrueDescription/ps5StockCheck | 
+repo Weavelefoster/ps5-emulator-controller | Emulates PS5 hardware on PC — built for gamers who want console titles running natively.
+repo YuryRegis/bdvd | CLI Python para criar imagem de discos ópticos de vídeo: converte MKV em ISO DVD-Video ou Blu-ray e ainda inspeciona, remuxa, edita faixas, gera menu BD-J e comprime para caber no disco preservando HD
+repo acktreptow/ps5pro | 
+repo alegauss/ps5-coop-local | 
+repo andshrew/supreme-enigma | This repository contains an extract of responses from the Sony PlayStation 5 backwards compatibility status API.
+repo blackbearreloaded/ps5-opengl | Experimental OpenGL 3.3 Core and GLSL 3.30 port for PS5 homebrew, powered by Mesa/Gallium, with native EGL support, an SDK, and examples.
+repo capedental/benny-aim-trainer | Benny's PS5 controller aim trainer: Saving Friendship Walkway
+repo dante0747/gamebeeper.gg | All the games worth watching. One signal. — a fast, open-source video game news aggregator.
+repo dayitaah/Dayaah-Capture | Native ultra-low-latency HDMI capture preview for Windows
+repo ecmstudio/Gamepad-Bridge-Core | Gamepad-Core Host Pro API 2026: Native C++ Gamepad Bridge Library
+repo elezra73/ps5-jailbreak-dashboard | Live PS5 jailbreak / homebrew news dashboard — auto-published daily. Source: private elezra73/Agents.
+repo eskeysoftlabo/PBsChatAssistant | PB's ChatAssistant - open the chat window and the console's text input screen from the keyboard's Enter key, for The Elder Scrolls Online on console (PS5/Xbox).
+repo eskeysoftlabo/PBsChatFilter | PB's ChatFilter - show guild chat only from the guilds you choose, and hide guild recruitment adverts, for The Elder Scrolls Online on console (PS5/Xbox).
+repo eskeysoftlabo/PBsCraftMaterialAssistant | PB's CraftMaterialAssistant - materials, held counts and shortfalls for anything you know how to make, in a window of its own, for The Elder Scrolls Online on console (PS5/Xbox).
+repo eskeysoftlabo/PBsDiceExtension | PB's DiceExtension - configurable dice for the chat window's random roll for The Elder Scrolls Online on console (PS5/Xbox).
+repo eskeysoftlabo/PBsMailerExtension | PB's MailerExtension - drafts, sent and kept mail boxes for The Elder Scrolls Online on console (PS5/Xbox).
+repo eskeysoftlabo/PBsNamePlateChanger | PB's NamePlateChanger - change the font size, typeface and outline of the overhead nameplate in The Elder Scrolls Online on console (PS5/Xbox).
+repo eskeysoftlabo/PBsQuestTrackerFontChanger | PB's QuestTrackerFontChanger - adjust the size, typeface and outline of the HUD trackers in the top right (quest tracker, Golden Pursuits, house information) for The Elder Scrolls Online on console (P
+repo eskisanahmet948-pixel/signal-overload-news | 2026 Open Source Gaming News Aggregator: All Games Worth Watching, One Signal
+repo guiaraujog27-lab/Nome-robo-ps5 | 
+repo henrikm07/Subnautica-2-Abyss-Watch | Subnautica 2 PS5 Release Date 2026: Early Access & Multiplayer News
+repo hiddenkernellab/PLM-Repository | HiddenKernel repository for PS5 Payload Manager
+repo huddaiami-rgb/playstation-vault-indexer | PlayStation Store Full Game Database Index 2026 – All Titles, Prices & Ratings
+repo iStark/PS5PCEM | PS5 PC Emulator
+repo joseh3951/np-account-restore | Restore PSN account config on jailbroken PS4/PS5 by writing authentic config.dat and auth.dat to the system registry
+repo kadiga1984sa-max/subnautica-2-ps5-early-build-explorer | Subnautica 2 PS5 Port Leaks & Early Access 2026 Guide
+repo mpereiraesaa/ps5-xash3d | Native PlayStation 5 port of Xash3D FWGS (GoldSrc) on the AGC GPU interface, graphics first, hardware-proven in phases
+repo n00bin/nwc | Neverwinter Compendium — PS5 Item & Data Lookup
+repo netdroppro1/pkg-stream-delivery | Fastest PS5 Homebrew & App Transfer Tool 2026: No Slow Waits
+repo nexgen999/PS5-Super-PLDMGR-Auto-Updater | PS5 Super PLDMGR Auto Updater
+repo oBinds/ps5-tracker | 
+repo sHarK-ps/PS5PayloadManagerUpdater | PS5 Payloads automatically updated from different repos
+repo samuelevans921/elden-ring | Top Elden Ring Gameplay Enhancement Suite 2026: ESP & No Recoil
+repo spongebobmoviept-lab/RuthlessControllerRelay | Use a PS4/PS5 or Xbox controller as a real HOTAS joystick, or a clean regular gamepad, in any Windows game — full rumble/LED/battery support where the hardware allows. Native C, built on vJoy, ViGEmBu
+repo thatboialex/ps5-payload-source | 
+repo titusajongbah2014-alt/spectral-veil | Ultimate PS5 & PS4 Cheat Database Tool 2026 – Game Trainer Hub
+repo tusin22/PS5CAM | 
+repo wangyuechi66-beep/ps5-legacy-status-api-archive | PS5 Backward Compatibility Status Tracker 2026: Full Game Library Overview
+repo yousskabb/ps5pro-email-watcher | 
