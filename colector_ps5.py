@@ -30,22 +30,32 @@ TIMEOUT = 40
 # quedaban sin fuentes. Un runner de GitHub Actions si tiene internet abierto, y
 # Claude puede leer raw.githubusercontent.com sin pedir permiso.
 
+# Cada fuente se intenta por varias puertas: la primera que responda gana. La
+# wiki devolvio 403 al User-Agent del robot, asi que se pide como navegador y se
+# prueba primero la API de MediaWiki, que es la mas estable de leer.
+UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) "
+      "Chrome/140.0.0.0 Safari/537.36")
+
 PS5_FUENTES = [
     {
         "id": "psdevwiki",
         "titulo": "PS Dev Wiki - Vulnerabilities",
-        # action=raw devuelve el wikitext limpio: mismo contenido que la tabla de
-        # la pagina, pero sin HTML y sin cambiar de forma cuando cambia el tema.
-        "url": "https://www.psdevwiki.com/ps5/index.php?title=Vulnerabilities&action=raw",
         "ver_en": "https://www.psdevwiki.com/ps5/Vulnerabilities",
-        "formato": "texto",
+        "intentos": [
+            {"url": "https://www.psdevwiki.com/ps5/api.php?action=parse&page=Vulnerabilities"
+                    "&prop=wikitext&formatversion=2&format=json", "formato": "json_wikitext"},
+            {"url": "https://www.psdevwiki.com/ps5/index.php?title=Vulnerabilities&action=raw",
+             "formato": "texto"},
+            {"url": "https://www.psdevwiki.com/ps5/Vulnerabilities", "formato": "html"},
+        ],
     },
     {
         "id": "wololo",
         "titulo": "Wololo - PS5 Jailbreak and Custom Firmware",
-        "url": "https://wololo.net/ps5-jailbreak-and-custom-firmware/",
         "ver_en": "https://wololo.net/ps5-jailbreak-and-custom-firmware/",
-        "formato": "html",
+        "intentos": [
+            {"url": "https://wololo.net/ps5-jailbreak-and-custom-firmware/", "formato": "html"},
+        ],
     },
 ]
 
@@ -55,32 +65,43 @@ PS5_CLAVES_KERNEL = [
     "kernel", "jailbreak", "downgrade", "cfw", "etahen", "kstuff", "payload",
     "umtx", "kqueue", "ipv6", "lapse", "bootrom", "sandbox escape", "arbitrary rw",
 ]
-PS5_FW_RE = re.compile(r"\b1[3-9]\.\d{2}\b")          # 13.00 y superiores
-PS5_FW_TODOS_RE = re.compile(r"\b\d{1,2}\.\d{2}\b")   # cualquier firmware
+# Un firmware de PS5 es "X.YY" con X entre 1 y 19. El (?<![\d.]) y el (?![\d.])
+# evitan agarrar pedazos de cosas como "23.01-07.61.00", que es el numero
+# interno de Sony y no un firmware.
+PS5_FW_RE = re.compile(r"(?<![\d.])1[3-9]\.\d{2}(?![\d.])")        # 13.00 a 19.99
+PS5_FW_TODOS_RE = re.compile(r"(?<![\d.])(\d{1,2}\.\d{2})(?![\d.])")
 
 
-def ps5_bajar(url):
-    """Baja una URL como texto. Sin reintentos agresivos: si hoy falla, la tarea
-    de Claude lo ve marcado como error y usa la copia anterior."""
-    req = urllib.request.Request(url, headers={
-        "User-Agent": "radar-ps5/1.0 (github actions; uso personal, 1 vez al dia)",
-        "Accept": "text/html,text/plain,*/*",
-    })
-    ultimo = None
-    for i in range(3):
-        try:
-            with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
-                bruto = r.read()
-            return bruto.decode("utf-8", errors="replace")
-        except Exception as e:
-            ultimo = e
-            time.sleep(3 * (i + 1))
-    raise RuntimeError(str(ultimo))
+def ps5_bajar(intentos):
+    """Prueba las puertas de una fuente en orden y devuelve (texto, formato, url)
+    de la primera que responde. Si ninguna responde, levanta el ultimo error."""
+    errores = []
+    for intento in intentos:
+        req = urllib.request.Request(intento["url"], headers={
+            "User-Agent": UA,
+            "Accept": "text/html,application/json,text/plain,*/*",
+            "Accept-Language": "en-US,en;q=0.9",
+        })
+        for i in range(2):
+            try:
+                with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
+                    bruto = r.read()
+                return bruto.decode("utf-8", errors="replace"), intento["formato"], intento["url"]
+            except Exception as e:
+                errores.append("%s -> %s" % (intento["url"].split("//")[-1][:60], e))
+                time.sleep(2 * (i + 1))
+    raise RuntimeError(" | ".join(errores[-3:]))
 
 
 def ps5_a_texto(contenido, formato):
     """Deja el contenido como lineas de texto plano, estables de un dia a otro."""
     t = contenido
+    if formato == "json_wikitext":
+        # respuesta de la API de MediaWiki: {"parse": {"wikitext": "..."}}
+        d = json.loads(t)
+        t = (d.get("parse") or {}).get("wikitext") or ""
+        if isinstance(t, dict):
+            t = t.get("*") or ""
     if formato == "html":
         t = re.sub(r"(?is)<(script|style|noscript|svg)\b.*?</\1>", " ", t)
         t = re.sub(r"(?is)<br\s*/?>|</(p|div|li|tr|h[1-6])>", "\n", t)
@@ -118,6 +139,8 @@ def ps5_pista_kernel(lineas):
                 v = float(fw)
             except Exception:
                 continue
+            if v < 1 or v >= 20:   # no existe un firmware de PS5 fuera de ese rango
+                continue
             if mejor is None or v > mejor[0]:
                 mejor = (v, fw, l[:300])
     if not mejor:
@@ -149,7 +172,9 @@ def recolectar_ps5(aqui):
         r = {"titulo": f["titulo"], "ver_en": f["ver_en"], "ok": False}
         snap = os.path.join(dir_ps5, "snap-%s.txt" % fid)
         try:
-            lineas = ps5_a_texto(ps5_bajar(f["url"]), f["formato"])
+            bruto, formato, url_usada = ps5_bajar(f["intentos"])
+            lineas = ps5_a_texto(bruto, formato)
+            r["url_usada"] = url_usada
             if len(lineas) < 5:
                 raise RuntimeError("respondio pero casi vacio (%d lineas)" % len(lineas))
             previas = []
