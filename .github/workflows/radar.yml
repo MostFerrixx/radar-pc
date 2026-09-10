@@ -28,8 +28,14 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Consultar SoloTodo y las fuentes del scene PS5
+      - name: Consultar SoloTodo
         run: python3 colector.py
+
+      # El radar PS5 va aparte y con continue-on-error: si el scene se cae o
+      # cambia de forma, los precios se guardan igual.
+      - name: Consultar las fuentes del scene PS5
+        continue-on-error: true
+        run: python3 colector_ps5.py
 
       - name: Guardar resultado en el repositorio
         run: |
