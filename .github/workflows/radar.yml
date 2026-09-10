@@ -1,3 +1,47 @@
+name: Radar de precios PC + PS5
+
+on:
+  schedule:
+    # 07:23 UTC = 03:23 o 04:23 en Chile. GitHub atrasa los cron programados
+    # (medido: 2 h 40 min y 3 h 48 min de atraso los dias 4 y 5 de septiembre
+    # de 2026 con "0 11"), asi que se corre de madrugada y en un minuto que no
+    # sea en punto, que es cuando mas se atrasan. La tarea de Claude lee el
+    # resultado a las 13:30 UTC: seis horas de colchon.
+    - cron: "23 7 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: radar
+  cancel-in-progress: false
+
+jobs:
+  recolectar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Consultar SoloTodo y las fuentes del scene PS5
+        run: python3 colector.py
+
+      - name: Guardar resultado en el repositorio
+        run: |
+          git config user.name "radar-bot"
+          git config user.email "radar-bot@users.noreply.github.com"
+          git add latest.json historial/ ps5/
+          if git diff --cached --quiet; then
+            echo "sin cambios"
+          else
+            git commit -m "datos $(date -u +%Y-%m-%d)"
+            git push
+          fi
 name: Radar de precios PC
 
 on:
