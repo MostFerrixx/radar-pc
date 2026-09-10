@@ -37,16 +37,31 @@ UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) "
       "Chrome/140.0.0.0 Safari/537.36")
 
 PS5_FUENTES = [
+    # psdevwiki quedo fuera: esta detras de un muro anti-bots (Cloudflare) que le
+    # responde 403 a cualquier robot, incluido el runner de GitHub Actions.
+    # En su lugar se mira donde el scene realmente publica: GitHub. Un exploit de
+    # kernel de verdad aparece como repositorio o release, no como rumor.
     {
-        "id": "psdevwiki",
-        "titulo": "PS Dev Wiki - Vulnerabilities",
-        "ver_en": "https://www.psdevwiki.com/ps5/Vulnerabilities",
-        "intentos": [
-            {"url": "https://www.psdevwiki.com/ps5/api.php?action=parse&page=Vulnerabilities"
-                    "&prop=wikitext&formatversion=2&format=json", "formato": "json_wikitext"},
-            {"url": "https://www.psdevwiki.com/ps5/index.php?title=Vulnerabilities&action=raw",
-             "formato": "texto"},
-            {"url": "https://www.psdevwiki.com/ps5/Vulnerabilities", "formato": "html"},
+        "id": "github",
+        "titulo": "GitHub - repos y releases del scene PS5",
+        "ver_en": "https://github.com/Gezine",
+        # todas las partes se bajan y se juntan: cada una aporta sus lineas
+        "partes": [
+            {"url": "https://api.github.com/users/Gezine/repos?per_page=100&sort=pushed",
+             "formato": "gh_repos"},
+            {"url": "https://api.github.com/users/EchoStretch/repos?per_page=100&sort=pushed",
+             "formato": "gh_repos"},
+            {"url": "https://api.github.com/repos/Gezine/Y2JB/releases?per_page=10",
+             "formato": "gh_releases"},
+            {"url": "https://api.github.com/repos/Gezine/BD-JB5/releases?per_page=10",
+             "formato": "gh_releases"},
+            {"url": "https://api.github.com/repos/matem6/P2JB-Y2JB-Porting/releases?per_page=10",
+             "formato": "gh_releases"},
+            # la red de arrastre: repos de PS5 tocados hace poco que hablan de
+            # exploit, kernel o jailbreak. Aqui aparecen los nombres nuevos.
+            {"url": "https://api.github.com/search/repositories?q=ps5+"
+                    "%28exploit+OR+kernel+OR+jailbreak%29&sort=updated&order=desc&per_page=50",
+             "formato": "gh_busqueda"},
         ],
     },
     {
@@ -72,16 +87,27 @@ PS5_FW_RE = re.compile(r"(?<![\d.])1[3-9]\.\d{2}(?![\d.])")        # 13.00 a 19.
 PS5_FW_TODOS_RE = re.compile(r"(?<![\d.])(\d{1,2}\.\d{2})(?![\d.])")
 
 
+def cabeceras(url):
+    h = {
+        "User-Agent": UA,
+        "Accept": "text/html,application/json,text/plain,*/*",
+        "Accept-Language": "en-US,en;q=0.9",
+    }
+    # dentro de GitHub Actions hay un token gratis: evita el limite de consultas
+    if "api.github.com" in url:
+        h["Accept"] = "application/vnd.github+json"
+        tok = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
+        if tok:
+            h["Authorization"] = "Bearer " + tok
+    return h
+
+
 def ps5_bajar(intentos):
     """Prueba las puertas de una fuente en orden y devuelve (texto, formato, url)
     de la primera que responde. Si ninguna responde, levanta el ultimo error."""
     errores = []
     for intento in intentos:
-        req = urllib.request.Request(intento["url"], headers={
-            "User-Agent": UA,
-            "Accept": "text/html,application/json,text/plain,*/*",
-            "Accept-Language": "en-US,en;q=0.9",
-        })
+        req = urllib.request.Request(intento["url"], headers=cabeceras(intento["url"]))
         for i in range(2):
             try:
                 with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
@@ -96,6 +122,18 @@ def ps5_bajar(intentos):
 def ps5_a_texto(contenido, formato):
     """Deja el contenido como lineas de texto plano, estables de un dia a otro."""
     t = contenido
+    if formato in ("gh_repos", "gh_releases", "gh_busqueda"):
+        d = json.loads(t)
+        filas = d.get("items", d) if isinstance(d, dict) else d
+        salida = []
+        for it in (filas or []):
+            if formato == "gh_releases":
+                salida.append("release %s | %s | %s" % (
+                    it.get("tag_name"), (it.get("name") or "")[:120], (it.get("published_at") or "")[:10]))
+            else:
+                salida.append("repo %s | %s" % (
+                    it.get("full_name") or it.get("name"), (it.get("description") or "")[:200]))
+        return sorted(set(salida))
     if formato == "json_wikitext":
         # respuesta de la API de MediaWiki: {"parse": {"wikitext": "..."}}
         d = json.loads(t)
@@ -172,11 +210,29 @@ def recolectar_ps5(aqui):
         r = {"titulo": f["titulo"], "ver_en": f["ver_en"], "ok": False}
         snap = os.path.join(dir_ps5, "snap-%s.txt" % fid)
         try:
-            bruto, formato, url_usada = ps5_bajar(f["intentos"])
-            lineas = ps5_a_texto(bruto, formato)
-            r["url_usada"] = url_usada
-            if len(lineas) < 5:
-                raise RuntimeError("respondio pero casi vacio (%d lineas)" % len(lineas))
+            if f.get("partes"):
+                lineas, usadas, fallas = [], [], []
+                for parte in f["partes"]:
+                    try:
+                        bruto, formato, url_usada = ps5_bajar([parte])
+                        lineas += ps5_a_texto(bruto, formato)
+                        usadas.append(url_usada.split("api.github.com/")[-1])
+                    except Exception as e:
+                        fallas.append("%s: %s" % (parte["url"].split("api.github.com/")[-1][:50], e))
+                r["partes_ok"] = usadas
+                if fallas:
+                    r["partes_con_error"] = fallas
+                if not lineas:
+                    raise RuntimeError("ninguna parte respondio: " + " | ".join(fallas[:3]))
+                lineas = sorted(set(lineas))
+            else:
+                bruto, formato, url_usada = ps5_bajar(f["intentos"])
+                lineas = ps5_a_texto(bruto, formato)
+                r["url_usada"] = url_usada
+                # una pagina web que devuelve cuatro lineas es una pagina rota,
+                # no una pagina sin novedades
+                if len(lineas) < 5:
+                    raise RuntimeError("respondio pero casi vacio (%d lineas)" % len(lineas))
             previas = []
             primera_vez = not os.path.exists(snap)
             if not primera_vez:
@@ -189,7 +245,9 @@ def recolectar_ps5(aqui):
                 "ok": True,
                 "primera_vez": primera_vez,
                 "lineas": len(lineas),
-                "cambio": (not primera_vez) and bool(nuevas or quitadas),
+                # "cambio" mira SOLO las lineas nuevas. Si una parte de la
+                # fuente se cae, desaparecen lineas y eso no es una novedad.
+                "cambio": (not primera_vez) and bool(nuevas),
                 # lo que Claude tiene que leer: lo que aparecio hoy y no estaba ayer
                 "lineas_nuevas": nuevas[:60],
                 "lineas_quitadas": quitadas[:30],
@@ -201,8 +259,11 @@ def recolectar_ps5(aqui):
             if r["cambio"]:
                 out["hay_cambios"] = True
             out["fuentes_ok"] += 1
-            with open(snap, "w", encoding="utf-8") as fh:
-                fh.write("\n".join(lineas))
+            # la copia de referencia solo se actualiza si la fuente vino entera:
+            # si no, manana media fuente pareceria "nueva"
+            if not r.get("partes_con_error"):
+                with open(snap, "w", encoding="utf-8") as fh:
+                    fh.write("\n".join(lineas))
         except Exception as e:
             r["error"] = str(e)[:300]
             # la copia anterior NO se toca: asi un dia caido no borra la referencia
