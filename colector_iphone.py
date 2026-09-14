@@ -25,14 +25,15 @@ TIMEOUT = 45
 UA = {"User-Agent": "Mozilla/5.0 (radar-iphone/1.0; github actions; uso personal, 1 vez al dia)",
       "Accept-Language": "es-CL,es;q=0.9,en;q=0.8"}
 
-# Modelos que sigue el radar. "apple" es el slug de la pagina de compra de
-# Apple; varios modelos pueden compartirla (el Pro y el Pro Max viven juntos),
-# por eso hace falta el tamano de pantalla para distinguirlos.
+# Modelos que sigue el radar. El Pro y el Pro Max comparten la misma pagina de
+# Apple, asi que hay que distinguirlos: "apple_familia" es el campo familyType
+# del catalogo (iphone18promax), y "pulgadas" es el respaldo.
 MODELOS = [
     {
         "id": "17-pro-max",
         "nombre": "iPhone 17 Pro Max",
         "apple_slug": "iphone-17-pro",
+        "apple_familia": "iphone17promax",
         "pulgadas": "6.9",
         "descontinuado_apple": True,   # Apple lo saco el 9-sep-2026
         "solotodo_busqueda": "iphone 17 pro max",
@@ -43,6 +44,7 @@ MODELOS = [
         "id": "18-pro-max",
         "nombre": "iPhone 18 Pro Max",
         "apple_slug": "iphone-18-pro",
+        "apple_familia": "iphone18promax",
         "pulgadas": "6.9",
         "descontinuado_apple": False,
         "solotodo_busqueda": "iphone 18 pro max",
@@ -55,6 +57,16 @@ MODELOS = [
 # nombre del producto lo sacan de la comparacion.
 VETO_CONDICION = ["reacondicion", "refurbish", "renewed", "seminuevo", "semi nuevo",
                   "usado", "reparado", "grado a", "grado b", "openbox"]
+
+# Las operadoras publican el precio SUBSIDIADO CON PLAN, no el del equipo solo.
+# En la corrida del 14-sep-2026 eso metio un "17 Pro Max 256 GB" a $899.900 en
+# Claro y uno de 512 GB a $129.990 en Movistar One. Fuera.
+VETO_TIENDA = ["claro", "movistar", "entel", "wom"]
+
+# Piso y techo por capacidad, en pesos. Un Pro Max nuevo no baja de estos
+# valores: lo que quede abajo es precio con plan, un accesorio o un error.
+PISO_CLP = {"256 GB": 900000, "512 GB": 1000000, "1 TB": 1200000}
+TECHO_CLP = 4000000
 
 
 # ---------- red ---------------------------------------------------------------
@@ -112,58 +124,104 @@ def _objeto_json_desde(texto, inicio):
     return None
 
 
-def _recorrer(o):
-    """Todos los diccionarios anidados de una estructura, sin importar la forma."""
-    if isinstance(o, dict):
-        yield o
-        for v in o.values():
-            for x in _recorrer(v):
-                yield x
-    elif isinstance(o, list):
-        for v in o:
-            for x in _recorrer(v):
-                yield x
-
-
-def _norm_cap(t):
-    """'256gb', '256 GB', '1tb' -> '256 GB' / '1 TB'."""
-    m = re.search(r"(\d+)\s*(gb|tb)", str(t or ""), re.I)
-    return "%s %s" % (m.group(1), m.group(2).upper()) if m else None
-
-
-def apple_desde_bootstrap(html, pulgadas):
-    """Camino bueno: el catalogo que Apple deja embebido en la pagina.
-    Devuelve {capacidad: precio} y None si no encuentra la estructura."""
-    pos = html.find("PRODUCT_SELECTION_BOOTSTRAP")
-    if pos < 0:
+def _json_tras_clave(texto, clave):
+    """El objeto JSON que sigue a 'clave' en la pagina. Apple envuelve su
+    catalogo en un objeto JAVASCRIPT (window.PRODUCT_SELECTION_BOOTSTRAP = {
+    productSelectionData: {...} }) cuya llave externa NO lleva comillas, asi que
+    json.loads se cae si uno arranca ahi. Hay que entrar un nivel, al valor de
+    productSelectionData, que si es JSON valido. Ese fue el bug de la primera
+    version: el parseo bueno se caia siempre y quedaba el plan B, que invento
+    precios de 395 y 907 dolares."""
+    p = texto.find(clave)
+    if p < 0:
         return None
-    llave = html.find("{", pos)
-    if llave < 0:
+    inicio = texto.find("{", p)
+    if inicio < 0:
         return None
-    crudo = _objeto_json_desde(html, llave)
+    crudo = _objeto_json_desde(texto, inicio)
     if not crudo:
         return None
     try:
-        datos = json.loads(crudo)
+        return json.loads(crudo)
     except Exception:
         return None
 
+
+def _cap_apple(t):
+    """'256gb' -> '256 GB' ; '1tb' -> '1 TB'."""
+    m = re.fullmatch(r"(\d+)\s*(gb|tb)", str(t or "").strip(), re.I)
+    return "%s %s" % (m.group(1), m.group(2).upper()) if m else None
+
+
+def apple_desde_catalogo(html, familia, digitos_pantalla):
+    """Camino bueno, verificado el 14-sep-2026 en apple.com y apple.com/cl.
+
+    El catalogo trae dos piezas separadas que hay que cruzar:
+      - fichas de producto: {partNumber, dimensionCapacity: "512gb",
+        dimensionScreensize: "6_9inch", familyType: "iphone18promax",
+        fullPrice: "<clave>"}   <- fullPrice es una CLAVE, no un monto
+      - mapa "prices": {"<clave>": {currentPrice: {raw_amount: "1499.00"}, ...}}
+
+    En EE.UU. la misma capacidad aparece con precio de operadora y desbloqueado;
+    solo sirve el desbloqueado. En Chile no hay variantes de operadora.
+    Devuelve {capacidad: precio} o None."""
+    datos = _json_tras_clave(html, "productSelectionData:")
+    if datos is None:
+        return None
+
+    precios_map, fichas = {}, []
+
+    def recorrer(o):
+        if isinstance(o, dict):
+            if not precios_map and isinstance(o.get("prices"), dict):
+                precios_map.update(o["prices"])
+            if isinstance(o.get("dimensionCapacity"), str) and isinstance(o.get("fullPrice"), str):
+                fichas.append(o)
+            for v in o.values():
+                recorrer(v)
+        elif isinstance(o, list):
+            for v in o:
+                recorrer(v)
+
+    recorrer(datos)
+    if not precios_map or not fichas:
+        return None
+
+    def monto(clave):
+        e = precios_map.get(clave)
+        if not isinstance(e, dict):
+            return None
+        cp = e.get("currentPrice")
+        if isinstance(cp, dict) and cp.get("raw_amount"):
+            v = num(cp["raw_amount"])
+            if v:
+                return v
+        return num(e.get("amountBeforeTradeIn"))
+
+    # 1) quedarse con las fichas del modelo pedido (Pro y Pro Max comparten pagina)
+    mias = []
+    for f in fichas:
+        fam = ("%s %s" % (f.get("familyType") or "", f.get("productLocatorFamily") or "")).lower()
+        pant = re.sub(r"\D", "", str(f.get("dimensionScreensize") or ""))
+        if familia and familia.lower() in fam:
+            mias.append(f)
+        elif not familia and digitos_pantalla and pant == digitos_pantalla:
+            mias.append(f)
+    if not mias:
+        return None
+
+    # 2) si hay variantes desbloqueadas, las de operadora no cuentan
+    desbloq = [f for f in mias if "unlocked" in f["fullPrice"].lower()]
+    if desbloq:
+        mias = desbloq
+
     precios = {}
-    for d in _recorrer(datos):
-        dims = d.get("dimensions") if isinstance(d.get("dimensions"), dict) else d
-        cap = _norm_cap(dims.get("dimensionCapacity") or dims.get("capacity"))
-        if not cap:
+    for f in mias:
+        cap = _cap_apple(f.get("dimensionCapacity"))
+        v = monto(f["fullPrice"])
+        if not cap or not v:
             continue
-        pantalla = str(dims.get("dimensionScreensize") or dims.get("screenSize") or "")
-        # el Pro y el Pro Max comparten pagina: separa por tamano de pantalla
-        if pulgadas and pulgadas.replace(".", "") not in pantalla.replace(".", "").replace(",", ""):
-            continue
-        p = d.get("price") if isinstance(d.get("price"), dict) else {}
-        val = p.get("fullPrice") or p.get("sellingPrice") or d.get("fullPrice") or d.get("sellingPrice")
-        val = num(val)
-        if val and val > 100:
-            precios.setdefault(cap, val)
-            precios[cap] = min(precios[cap], val)
+        precios[cap] = min(precios.get(cap, v), v)
     return precios or None
 
 
@@ -174,10 +232,9 @@ RANGO = {"": (200, 6000), "cl/": (200000, 6000000)}
 
 
 def apple_por_cercania(html, pulgadas, region):
-    """Plan B: para cada capacidad, quedarse con el monto que aparece mas veces
-    cerca de ella. Menos fino que el catalogo embebido, pero aguanta que Apple
-    cambie la forma del javascript. Mira solo el trozo de pagina que habla del
-    tamano de pantalla pedido, cuando esa marca existe."""
+    """Plan B, solo si el catalogo no aparece: para cada capacidad, el monto que
+    aparece mas veces cerca de ella. Es tosco y ya se equivoco una vez, asi que
+    el metodo queda anotado en la salida para que la tarea de Claude desconfie."""
     trozo = html
     if pulgadas:
         marcas = [m.start() for m in re.finditer(
@@ -232,19 +289,22 @@ def _monto(s):
     return None
 
 
-def precios_apple(slug, pulgadas, region):
-    """region: '' para EE.UU., 'cl/' para Chile."""
+def precios_apple(slug, pulgadas, region, familia=None, descontinuado=False):
+    """region: '' para EE.UU., 'cl/' para Chile.
+    Un modelo descontinuado ya no tiene pagina: un solo intento, sin reintentos."""
     url = "https://www.apple.com/%sshop/buy-iphone/%s" % (region, slug)
     salida = {"ok": False, "metodo": None, "precios": {}, "error": None, "url": url}
     try:
-        html = bajar(url, json_=False)
+        html = bajar(url, intentos=1 if descontinuado else 3, json_=False)
     except Exception as e:
-        salida["error"] = "no respondio: %s" % e
+        salida["error"] = ("descontinuado, la pagina ya no existe: %s" if descontinuado
+                           else "no respondio: %s") % e
         return salida
-    for metodo, fn in (("bootstrap", lambda h, p_: apple_desde_bootstrap(h, p_)),
-                       ("cercania", lambda h, p_: apple_por_cercania(h, p_, region))):
+    dig = re.sub(r"\D", "", pulgadas or "")
+    for metodo, fn in (("catalogo", lambda h: apple_desde_catalogo(h, familia, dig)),
+                       ("cercania", lambda h: apple_por_cercania(h, pulgadas, region))):
         try:
-            p = fn(html, pulgadas)
+            p = fn(html)
         except Exception as e:
             print("aviso: %s %s fallo: %s" % (slug, metodo, e), file=sys.stderr)
             p = None
@@ -371,10 +431,39 @@ def solotodo_modelo(modelo, tiendas, clp, usd):
         except Exception as e:
             ofs = []
             salida["descartados"].append({"nombre": c["nombre"], "motivo": "sin tiendas: %s" % e})
-        if ofs:
+
+        # Filtrar oferta por oferta antes de elegir la mas barata: una operadora
+        # o un precio bajo el piso contaminan el resultado si se cuelan primero.
+        buenas = []
+        for o in ofs:
+            t = (o.get("tienda") or "").lower()
+            veto = next((v for v in VETO_TIENDA if v in t), None)
+            if veto:
+                salida["descartados"].append({
+                    "nombre": c["nombre"], "precio": o["precio"], "tienda": o["tienda"],
+                    "motivo": "operadora (%s): publica el precio con plan, no el equipo solo" % veto})
+                continue
+            piso = PISO_CLP.get(cap, 900000)
+            if o["precio"] < piso:
+                salida["descartados"].append({
+                    "nombre": c["nombre"], "precio": o["precio"], "tienda": o["tienda"],
+                    "motivo": "bajo el piso de %s para %s: no es el equipo solo" % (piso, cap)})
+                continue
+            if o["precio"] > TECHO_CLP:
+                salida["descartados"].append({
+                    "nombre": c["nombre"], "precio": o["precio"], "tienda": o["tienda"],
+                    "motivo": "sobre el techo de %s" % TECHO_CLP})
+                continue
+            buenas.append(o)
+
+        if buenas:
             salida["por_capacidad"][cap] = {
-                "producto": c["nombre"], "precio": ofs[0]["precio"],
-                "tienda": ofs[0]["tienda"], "url": ofs[0]["url"], "n_tiendas": len(ofs)}
+                "producto": c["nombre"], "precio": buenas[0]["precio"],
+                "tienda": buenas[0]["tienda"], "url": buenas[0]["url"],
+                "n_tiendas": len(buenas)}
+        elif ofs:
+            salida["descartados"].append({"nombre": c["nombre"], "precio": ofs[0]["precio"],
+                                          "motivo": "todas las ofertas quedaron fuera por tienda o por precio"})
         else:
             salida["descartados"].append({"nombre": c["nombre"], "precio": c["precio_lista"],
                                           "motivo": "en lista pero ninguna tienda con stock"})
@@ -457,17 +546,19 @@ def main():
     # Apple: una descarga por pagina, compartida entre modelos que usan el mismo slug
     cache_apple = {}
 
-    def apple(slug, pulgadas, region):
-        k = (slug, region)
+    def apple(m, region):
+        k = (m["apple_slug"], region)
         if k not in cache_apple:
-            cache_apple[k] = precios_apple(slug, pulgadas, region)
+            cache_apple[k] = precios_apple(m["apple_slug"], m["pulgadas"], region,
+                                           m.get("apple_familia"),
+                                           m.get("descontinuado_apple", False))
         return cache_apple[k]
 
     with ThreadPoolExecutor(max_workers=3) as ex:
         tareas = {m["id"]: ex.submit(solotodo_modelo, m, tiendas, clp, usd) for m in MODELOS}
         for m in MODELOS:
-            us = apple(m["apple_slug"], m["pulgadas"], "")
-            cl = apple(m["apple_slug"], m["pulgadas"], "cl/")
+            us = apple(m, "")
+            cl = apple(m, "cl/")
             st = tareas[m["id"]].result()
 
             caps = {}
