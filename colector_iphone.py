@@ -58,10 +58,16 @@ MODELOS = [
 VETO_CONDICION = ["reacondicion", "refurbish", "renewed", "seminuevo", "semi nuevo",
                   "usado", "reparado", "grado a", "grado b", "openbox"]
 
-# Las operadoras publican el precio SUBSIDIADO CON PLAN, no el del equipo solo.
-# En la corrida del 14-sep-2026 eso metio un "17 Pro Max 256 GB" a $899.900 en
-# Claro y uno de 512 GB a $129.990 en Movistar One. Fuera.
-VETO_TIENDA = ["claro", "movistar", "entel", "wom"]
+# Tiendas cuyo precio NO es el de un equipo nuevo suelto:
+#  - operadoras: publican el precio SUBSIDIADO CON PLAN. En la corrida del
+#    14-sep-2026 eso metio un "17 Pro Max 256 GB" a $899.900 en Claro y uno de
+#    512 GB a $129.990 en Movistar One.
+#  - reacondicionadores: Reuse es la marca de reacondicionados de Falabella y
+#    BackOnline vende "iPhone reacondicionados". Martin acepta nuevo y open box,
+#    reacondicionado no, y el nombre del producto no siempre lo dice: hay que
+#    mirar la tienda.
+VETO_TIENDA = ["claro", "movistar", "entel", "wom",
+               "reuse", "backonline"]
 
 # Piso y techo por capacidad, en pesos. Un Pro Max nuevo no baja de estos
 # valores: lo que quede abajo es precio con plan, un accesorio o un error.
@@ -301,8 +307,14 @@ def precios_apple(slug, pulgadas, region, familia=None, descontinuado=False):
                            else "no respondio: %s") % e
         return salida
     dig = re.sub(r"\D", "", pulgadas or "")
-    for metodo, fn in (("catalogo", lambda h: apple_desde_catalogo(h, familia, dig)),
-                       ("cercania", lambda h: apple_por_cercania(h, pulgadas, region))):
+    # Un modelo descontinuado NO puede usar el plan B. La pagina del 17 Pro Max
+    # sigue respondiendo (Apple la dejo viva) pero ya no trae su catalogo, asi
+    # que el plan B se ponia a adivinar y devolvia 395 y 907 dolares como si
+    # fueran precios. Mejor decir "no esta" que inventar.
+    caminos = [("catalogo", lambda h: apple_desde_catalogo(h, familia, dig))]
+    if not descontinuado:
+        caminos.append(("cercania", lambda h: apple_por_cercania(h, pulgadas, region)))
+    for metodo, fn in caminos:
         try:
             p = fn(html)
         except Exception as e:
@@ -311,7 +323,9 @@ def precios_apple(slug, pulgadas, region, familia=None, descontinuado=False):
         if p:
             salida.update({"ok": True, "metodo": metodo, "precios": p})
             return salida
-    salida["error"] = "pagina descargada (%d bytes) pero no encontre precios" % len(html)
+    salida["error"] = (("descontinuado: la pagina responde (%d bytes) pero ya no "
+                        "trae el catalogo de este modelo") if descontinuado
+                       else "pagina descargada (%d bytes) pero no encontre precios") % len(html)
     return salida
 
 
@@ -441,7 +455,7 @@ def solotodo_modelo(modelo, tiendas, clp, usd):
             if veto:
                 salida["descartados"].append({
                     "nombre": c["nombre"], "precio": o["precio"], "tienda": o["tienda"],
-                    "motivo": "operadora (%s): publica el precio con plan, no el equipo solo" % veto})
+                    "motivo": "tienda vetada (%s): no vende el equipo nuevo suelto" % veto})
                 continue
             piso = PISO_CLP.get(cap, 900000)
             if o["precio"] < piso:
