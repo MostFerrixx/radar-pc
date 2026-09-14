@@ -1,6 +1,6 @@
 {
  "fecha": "2026-09-14",
- "generado_utc": "2026-09-14T22:02:02+00:00",
+ "generado_utc": "2026-09-14T23:59:40+00:00",
  "para": "tarea semanal 'Radar PS5 Jailbreak (13.40)' de Claude",
  "linea_base": {
   "firmware_del_usuario": "13.40",
@@ -15,7 +15,7 @@
  },
  "fuentes_ok": 2,
  "fuentes_total": 2,
- "hay_cambios": false,
+ "hay_cambios": true,
  "fuentes": {
   "github": {
    "titulo": "GitHub - repos y releases del scene PS5",
@@ -31,9 +31,19 @@
    ],
    "primera_vez": false,
    "lineas": 158,
-   "cambio": false,
-   "lineas_nuevas": [],
-   "lineas_quitadas": [],
+   "cambio": true,
+   "lineas_nuevas": [
+    "repo Loopayeh/pkg-viewer | PKG Viewer by Loopayeh: view PS4/PS5 package info and cover art",
+    "repo Med1El/ps5-games | ",
+    "repo RavelloH/PSGameSpider | 自动爬取所有PlayStationStore中的所有游戏信息，包括封面、描述、价格、评分等，生成网页并索引 # # # Automatically crawl all game infos in all playstationstore, automatically generate web pages and index them",
+    "repo cashdr10-art/Sea-of-Thieves-Script | Sea of Thieves PS5 Controller Script with Aim Assist, Cannon Assist, and Sword Combo"
+   ],
+   "lineas_quitadas": [
+    "repo Octanium91/plex-ps5-local-playback | Complete guide to local Plex playback on PlayStation 5 Pro without a Remote Watch Pass. Explains the incomplete TLS certificate chain behind it, how to verify each step, and which approaches don't wor",
+    "repo invoice34565/Payment-Confirmed--ps5oucrv | ",
+    "repo shalaga44/ida-ps5-utils | An IDA Pro plugin for PS5 binaries",
+    "repo zerodaysofficial/ps5-exfat-pkg-builder-v1 | "
+   ],
    "menciones_13x_o_superior": [],
    "candidatos_kernel_13x": [],
    "pista_firmware_kernel_mas_alto": {
