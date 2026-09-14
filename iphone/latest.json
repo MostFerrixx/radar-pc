@@ -1,6 +1,6 @@
 {
  "fecha": "2026-09-14",
- "generado_utc": "2026-09-14T21:53:16+00:00",
+ "generado_utc": "2026-09-14T22:02:07+00:00",
  "para": "Radar iPhone: conviene comprarlo aca o alla",
  "sales_tax_supuesto": 0.07,
  "sales_tax_nota": "Florida, el estado donde suele comprar. Es un supuesto fijo, no un dato consultado.",
@@ -12,7 +12,7 @@
   "error": null
  },
  "fuentes": {
-  "consultas_ok": 5,
+  "consultas_ok": 4,
   "consultas_total": 6,
   "dolar_ok": true
  },
@@ -22,29 +22,29 @@
    "descontinuado_apple": true,
    "capacidades": {
     "256 GB": {
-     "usa_apple": 1199,
+     "usa_apple": null,
      "chile_apple": null,
      "chile_retail": {
       "producto": "Apple iPhone 17 Pro Max (256 GB / Deep Blue)",
-      "precio": 1299990,
-      "tienda": "Reuse",
-      "url": "https://www.reuse.cl/collections/celulares/products/apple-iphone-17-pro-max-256gb-azul-reacondicionado",
-      "n_tiendas": 9
+      "precio": 1369990,
+      "tienda": "Hites",
+      "url": "https://www.hites.com/iphone-17-pro-max-apple-5g-256-gb-azul-profundo-liberado-964825001.html",
+      "n_tiendas": 8
      }
     },
     "512 GB": {
-     "usa_apple": 395,
+     "usa_apple": null,
      "chile_apple": null,
      "chile_retail": {
       "producto": "Apple iPhone 17 Pro Max (512 GB / Silver)",
-      "precio": 1649990,
-      "tienda": "BackOnline",
-      "url": "https://backonline.cl/products/iphone-17-pro-max",
-      "n_tiendas": 5
+      "precio": 1659990,
+      "tienda": "Mercado Libre",
+      "url": "https://www.mercadolibre.cl/p/MLC1055308649?pdp_filters=official_store:all",
+      "n_tiendas": 4
      }
     },
     "1 TB": {
-     "usa_apple": 907,
+     "usa_apple": null,
      "chile_apple": null,
      "chile_retail": {
       "producto": "Apple iPhone 17 Pro Max (1 TB / Silver)",
@@ -57,22 +57,22 @@
    },
    "fuentes": {
     "apple_us": {
-     "ok": true,
-     "metodo": "cercania",
-     "error": null,
+     "ok": false,
+     "metodo": null,
+     "error": "descontinuado: la pagina responde (645753 bytes) pero ya no trae el catalogo de este modelo",
      "url": "https://www.apple.com/shop/buy-iphone/iphone-17-pro"
     },
     "apple_cl": {
      "ok": false,
      "metodo": null,
-     "error": "pagina descargada (410708 bytes) pero no encontre precios",
+     "error": "descontinuado: la pagina responde (410852 bytes) pero ya no trae el catalogo de este modelo",
      "url": "https://www.apple.com/cl/shop/buy-iphone/iphone-17-pro"
     },
     "solotodo": {
      "ok": true,
      "error": null,
      "url": "https://publicapi.solotodo.com/categories/6/browse/?search=iphone%2017%20pro%20max&ordering=offer_price_usd&page_size=60",
-     "n_descartados": 58
+     "n_descartados": 60
     }
    },
    "descartados": [
