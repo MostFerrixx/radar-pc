@@ -1,0 +1,245 @@
+{
+ "fecha": "2026-09-14",
+ "generado_utc": "2026-09-14T21:35:08+00:00",
+ "para": "Radar iPhone: conviene comprarlo aca o alla",
+ "sales_tax_supuesto": 0.07,
+ "sales_tax_nota": "Florida, el estado donde suele comprar. Es un supuesto fijo, no un dato consultado.",
+ "dolar": {
+  "ok": true,
+  "valor": 940.91,
+  "fecha": "2026-09-14",
+  "fuente": "mindicador.cl",
+  "error": null
+ },
+ "fuentes": {
+  "consultas_ok": 4,
+  "consultas_total": 6,
+  "dolar_ok": true
+ },
+ "modelos": {
+  "17-pro-max": {
+   "nombre": "iPhone 17 Pro Max",
+   "descontinuado_apple": true,
+   "capacidades": {
+    "256 GB": {
+     "usa_apple": 1199,
+     "chile_apple": null,
+     "chile_retail": {
+      "producto": "Apple iPhone 17 Pro Max (256 GB / Deep Blue)",
+      "precio": 899900,
+      "tienda": "Claro",
+      "url": "https://tienda.clarochile.cl/catalogo/equiposclaro/iphone-17-pro-max-5g-256gb-silver-70015469epp",
+      "n_tiendas": 46
+     }
+    },
+    "512 GB": {
+     "usa_apple": 395,
+     "chile_apple": null,
+     "chile_retail": {
+      "producto": "Apple iPhone 17 Pro Max (512 GB / Silver)",
+      "precio": 129990,
+      "tienda": "Movistar One",
+      "url": "https://ww2.movistar.cl/ofertas/equipo-plan/movistarone/",
+      "n_tiendas": 12
+     }
+    },
+    "1 TB": {
+     "usa_apple": 907,
+     "chile_apple": null,
+     "chile_retail": {
+      "producto": "Apple iPhone 17 Pro Max (1 TB / Silver)",
+      "precio": 1879990,
+      "tienda": "Mercado Libre",
+      "url": "https://www.mercadolibre.cl/p/MLC1055308695?pdp_filters=official_store:all",
+      "n_tiendas": 1
+     }
+    }
+   },
+   "fuentes": {
+    "apple_us": {
+     "ok": true,
+     "metodo": "cercania",
+     "error": null,
+     "url": "https://www.apple.com/shop/buy-iphone/iphone-17-pro"
+    },
+    "apple_cl": {
+     "ok": false,
+     "metodo": null,
+     "error": "pagina descargada (410714 bytes) pero no encontre precios",
+     "url": "https://www.apple.com/cl/shop/buy-iphone/iphone-17-pro"
+    },
+    "solotodo": {
+     "ok": true,
+     "error": null,
+     "url": "https://publicapi.solotodo.com/categories/6/browse/?search=iphone%2017%20pro%20max&ordering=offer_price_usd&page_size=60",
+     "n_descartados": 14
+    }
+   },
+   "descartados": [
+    {
+     "nombre": "Apple iPhone 15 Pro Max (256 GB / Black Titanium)",
+     "precio": 778990,
+     "motivo": "no es iPhone 17 Pro Max"
+    },
+    {
+     "nombre": "Apple iPhone 15 Pro Max (256 GB / Blue Titanium)",
+     "precio": 778990,
+     "motivo": "no es iPhone 17 Pro Max"
+    },
+    {
+     "nombre": "Apple iPhone 15 Pro Max (256 GB / White Titanium)",
+     "precio": 899990,
+     "motivo": "no es iPhone 17 Pro Max"
+    },
+    {
+     "nombre": "Apple iPhone 15 Pro Max (256 GB / Natural Titanium)",
+     "precio": 899990,
+     "motivo": "no es iPhone 17 Pro Max"
+    },
+    {
+     "nombre": "Apple iPhone 15 Pro Max (512 GB / White Titanium)",
+     "precio": 1149990,
+     "motivo": "no es iPhone 17 Pro Max"
+    },
+    {
+     "nombre": "Apple iPhone 15 Pro Max (512 GB / Blue Titanium)",
+     "precio": 1149990,
+     "motivo": "no es iPhone 17 Pro Max"
+    },
+    {
+     "nombre": "Apple iPhone 15 Pro Max (512 GB / Black Titanium)",
+     "precio": 1149990,
+     "motivo": "no es iPhone 17 Pro Max"
+    },
+    {
+     "nombre": "Apple iPhone 15 Pro Max (512 GB / Natural Titanium)",
+     "precio": 1149990,
+     "motivo": "no es iPhone 17 Pro Max"
+    },
+    {
+     "nombre": "Apple iPhone 15 Pro Max (1 TB / White Titanium)",
+     "precio": 1199990,
+     "motivo": "no es iPhone 17 Pro Max"
+    },
+    {
+     "nombre": "Apple iPhone 15 Pro Max (1 TB / Blue Titanium)",
+     "precio": 1199990,
+     "motivo": "no es iPhone 17 Pro Max"
+    },
+    {
+     "nombre": "Apple iPhone 15 Pro Max (1 TB / Natural Titanium)",
+     "precio": 1199990,
+     "motivo": "no es iPhone 17 Pro Max"
+    },
+    {
+     "nombre": "Apple iPhone 17 Pro Max (2 TB / Silver)",
+     "precio": 2189990,
+     "motivo": "capacidad fuera del radar"
+    }
+   ]
+  },
+  "18-pro-max": {
+   "nombre": "iPhone 18 Pro Max",
+   "descontinuado_apple": false,
+   "capacidades": {
+    "256 GB": {
+     "usa_apple": 1199,
+     "chile_apple": null,
+     "chile_retail": null
+    },
+    "512 GB": {
+     "usa_apple": null,
+     "chile_apple": null,
+     "chile_retail": null
+    },
+    "1 TB": {
+     "usa_apple": null,
+     "chile_apple": null,
+     "chile_retail": null
+    }
+   },
+   "fuentes": {
+    "apple_us": {
+     "ok": true,
+     "metodo": "cercania",
+     "error": null,
+     "url": "https://www.apple.com/shop/buy-iphone/iphone-18-pro"
+    },
+    "apple_cl": {
+     "ok": false,
+     "metodo": null,
+     "error": "pagina descargada (642807 bytes) pero no encontre precios",
+     "url": "https://www.apple.com/cl/shop/buy-iphone/iphone-18-pro"
+    },
+    "solotodo": {
+     "ok": true,
+     "error": null,
+     "url": "https://publicapi.solotodo.com/categories/6/browse/?search=iphone%2018%20pro%20max&ordering=offer_price_usd&page_size=60",
+     "n_descartados": 17
+    }
+   },
+   "descartados": [
+    {
+     "nombre": "Apple iPhone 16 Pro Max (256 GB / Natural Titanium)",
+     "precio": 829990,
+     "motivo": "no es iPhone 18 Pro Max"
+    },
+    {
+     "nombre": "Apple iPhone 16 Pro Max (256 GB / White Titanium)",
+     "precio": 829990,
+     "motivo": "no es iPhone 18 Pro Max"
+    },
+    {
+     "nombre": "Apple iPhone 16 Pro Max (256 GB / Desert Titanium)",
+     "precio": 829990,
+     "motivo": "no es iPhone 18 Pro Max"
+    },
+    {
+     "nombre": "Apple iPhone 16 Pro Max (256 GB / Black Titanium)",
+     "precio": 829990,
+     "motivo": "no es iPhone 18 Pro Max"
+    },
+    {
+     "nombre": "Apple iPhone 17 Pro Max (256 GB / Deep Blue)",
+     "precio": 1234990,
+     "motivo": "no es iPhone 18 Pro Max"
+    },
+    {
+     "nombre": "Apple iPhone 17 Pro Max (256 GB / Silver)",
+     "precio": 1369990,
+     "motivo": "no es iPhone 18 Pro Max"
+    },
+    {
+     "nombre": "Apple iPhone 16 Pro Max (512 GB / Natural Titanium)",
+     "precio": 1249990,
+     "motivo": "no es iPhone 18 Pro Max"
+    },
+    {
+     "nombre": "Apple iPhone 16 Pro Max (512 GB / White Titanium)",
+     "precio": 1249990,
+     "motivo": "no es iPhone 18 Pro Max"
+    },
+    {
+     "nombre": "Apple iPhone 16 Pro Max (512 GB / Black Titanium)",
+     "precio": 1249990,
+     "motivo": "no es iPhone 18 Pro Max"
+    },
+    {
+     "nombre": "Apple iPhone 16 Pro Max (512 GB / Desert Titanium)",
+     "precio": 1249990,
+     "motivo": "no es iPhone 18 Pro Max"
+    },
+    {
+     "nombre": "Apple iPhone 16 Pro Max (1 TB / White Titanium)",
+     "precio": 1499990,
+     "motivo": "no es iPhone 18 Pro Max"
+    },
+    {
+     "nombre": "Apple iPhone 16 Pro Max (1 TB / Desert Titanium)",
+     "precio": 1499990,
+     "motivo": "no es iPhone 18 Pro Max"
+    }
+   ]
+  }
+ }
+}

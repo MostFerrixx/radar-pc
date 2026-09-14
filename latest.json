@@ -1,8 +1,8 @@
 {
  "fecha": "2026-09-14",
- "generado_utc": "2026-09-14T14:10:36+00:00",
+ "generado_utc": "2026-09-14T21:34:53+00:00",
  "fuente": "SoloTodo publicapi, via GitHub Actions",
- "dolar_referencia": 941.95,
+ "dolar_referencia": 941.96,
  "consultas_total": 20,
  "consultas_ok": 20,
  "errores": {},
@@ -100,68 +100,74 @@
     {
      "product_id": 265431,
      "nombre": "ASUS PRIME GeForce RTX 5080 16GB GDDR7 OC Edition [PRIME-RTX5080-O16G / 90YV0LX0-M0AA00]",
-     "precio_lista": 1691980,
+     "precio_lista": 1708990,
      "precio": 1708990,
      "tienda": "Centrale",
      "url": "https://centrale.cl/producto/tarjeta-grafica-asus-prime-geforce-rtx-5080-oc-edition-16gb-gddr7-sff-ready/",
      "n_tiendas": 5
+    },
+    {
+     "product_id": 266473,
+     "nombre": "MSI GeForce RTX 5080 16G INSPIRE 3X OC [G5080-16I3C]",
+     "precio_lista": 1715168,
+     "precio": 1715168,
+     "tienda": "Winpy",
+     "url": "https://www.winpy.cl/venta/tarjeta-grafica-msi-geforce-rtx-5080-inspire-3x-oc-de-16gb-gddr7/",
+     "n_tiendas": 4
     }
    ],
-   "descartados": [
-    {
-     "nombre": "Palit GeForce RTX 5080 Infinity 3 OC [NE75080U19T2-GB2035S]",
-     "precio": 1539990,
-     "motivo": "en lista pero ninguna tienda con stock"
-    }
-   ]
+   "descartados": []
   },
   "gpu-5090": {
    "nombre": "RTX 5090 · 32 GB",
    "elegido": {
-    "product_id": 268124,
-    "nombre": "MSI GeForce RTX 5090 32G VENTUS 3X OC [G5090-32V3C]",
-    "precio_lista": 3999990,
-    "precio": 4378816,
-    "tienda": "Winpy",
-    "url": "https://www.winpy.cl/venta/tarjeta-grafica-msi-geforce-rtx-5090-ventus-3x-oc-de-32gb-gddr7/",
-    "n_tiendas": 3
+    "product_id": 362809,
+    "nombre": "Zotac GAMING GeForce RTX 5090 SOLID OC White Edition [ZT-B50900Q-10P]",
+    "precio_lista": 4059000,
+    "precio": 4059000,
+    "tienda": "Nice One",
+    "url": "https://n1g.cl/Home/computacion/3569-zotac-geforce-rtx-5090-32gb-solid-oc-white-edition-512-bit-gddr7-pci-express-50-x16-dlss-40-zt-b50900q-10p.html",
+    "n_tiendas": 1
    },
    "candidatos": [
     {
-     "product_id": 268124,
-     "nombre": "MSI GeForce RTX 5090 32G VENTUS 3X OC [G5090-32V3C]",
-     "precio_lista": 3999990,
-     "precio": 4378816,
-     "tienda": "Winpy",
-     "url": "https://www.winpy.cl/venta/tarjeta-grafica-msi-geforce-rtx-5090-ventus-3x-oc-de-32gb-gddr7/",
-     "n_tiendas": 3
-    },
-    {
-     "product_id": 269746,
-     "nombre": "ASUS TUF Gaming GeForce RTX 5090 32GB GDDR7 OC Edition [TUF-RTX5090-O32G-GAMING / 90YV0LY0-MVAA00]",
-     "precio_lista": 3899990,
-     "precio": 4499500,
-     "tienda": "MyShop",
-     "url": "https://myshop.cl/producto/tarjeta-de-video-asus-tuf-gaming-nvidia-geforce-rtx-5090-o32g-oc-edition-32-gb-gddr7-512-bits-pcie-50-displayport-hdmi-p39162",
+     "product_id": 362809,
+     "nombre": "Zotac GAMING GeForce RTX 5090 SOLID OC White Edition [ZT-B50900Q-10P]",
+     "precio_lista": 4059000,
+     "precio": 4059000,
+     "tienda": "Nice One",
+     "url": "https://n1g.cl/Home/computacion/3569-zotac-geforce-rtx-5090-32gb-solid-oc-white-edition-512-bit-gddr7-pci-express-50-x16-dlss-40-zt-b50900q-10p.html",
      "n_tiendas": 1
     },
     {
-     "product_id": 265691,
-     "nombre": "MSI GeForce RTX 5090 32G GAMING TRIO OC [G5090-32GTC]",
-     "precio_lista": 3999990,
-     "precio": 4499500,
-     "tienda": "MyShop",
-     "url": "https://myshop.cl/producto/tarjeta-de-video-msi-rtx-5090-gamming-trio-oc-32g-gddr7-512-bit-pcie-50-g5090-32gtc-p35246",
-     "n_tiendas": 3
+     "product_id": 395177,
+     "nombre": "Gigabyte AORUS GeForce RTX 5090 STEALTH ICE 32G [GV-N5090AORUSST ICE-32GD]",
+     "precio_lista": 4199900,
+     "precio": 4199900,
+     "tienda": "Invasión Gamer",
+     "url": "https://invasiongamer.com/tarjeta-grafica-aorus-geforce-rtx%E2%84%A2-5090-stealth-ice-32g",
+     "n_tiendas": 2
+    },
+    {
+     "product_id": 269747,
+     "nombre": "ASUS ROG Astral GeForce RTX 5090 32GB GDDR7 OC Edition [90YV0LW0-M0AA00 / 90YV0LW0-MVAA00 / ROG-ASTRAL-RTX5090-O32G-GAMING]",
+     "precio_lista": 4299776,
+     "precio": 4299776,
+     "tienda": "Winpy",
+     "url": "https://www.winpy.cl/venta/tarjeta-grafica-asus-rog-astral-geforce-rtx-5090-oc-de-32gb-gddr7/",
+     "n_tiendas": 6
+    },
+    {
+     "product_id": 271035,
+     "nombre": "Gigabyte GeForce RTX 5090 GAMING OC 32G [GV-N5090GAMING OC-32GD]",
+     "precio_lista": 4299995,
+     "precio": 4299995,
+     "tienda": "SP Digital",
+     "url": "https://www.spdigital.cl/geforce-gigabyte-rtx-5090-gaming-oc-32g",
+     "n_tiendas": 2
     }
    ],
-   "descartados": [
-    {
-     "nombre": "Gigabyte AORUS GeForce RTX 5090 MASTER 32G [GV-N5090AORUS M-32GD]",
-     "precio": 3999990,
-     "motivo": "en lista pero ninguna tienda con stock"
-    }
-   ]
+   "descartados": []
   },
   "gpu-9070xt": {
    "nombre": "Radeon RX 9070 XT · 16 GB",
@@ -250,7 +256,7 @@
     "precio": 339890,
     "tienda": "Campcom",
     "url": "https://campcom.cl/producto/procesador-amd-ryzen-7-9700x",
-    "n_tiendas": 16
+    "n_tiendas": 15
    },
    "candidatos": [
     {
@@ -259,7 +265,7 @@
      "precio": 339890,
      "tienda": "Campcom",
      "url": "https://campcom.cl/producto/procesador-amd-ryzen-7-9700x",
-     "n_tiendas": 16
+     "n_tiendas": 15
     }
    ],
    "descartados": []
@@ -698,15 +704,15 @@
      "precio_unitario": 499900
     },
     {
-     "product_id": 206513,
-     "nombre": "2 x Kingston Fury Beast KF556C36BBE-32 (1 x 32 GB | DIMM DDR5-5600)",
-     "precio_lista": 1049980,
-     "precio": 1065980,
-     "tienda": "MyShop",
-     "url": "https://myshop.cl/producto/dimm-32-gb-kingston-fury-beast-kf556c36bbe-32-1-x-32-gb--dimm-ddr5-5600-p23752",
-     "n_tiendas": 9,
+     "product_id": 391733,
+     "nombre": "2 x Kingston Fury KF556C36BBE2-32 (1 x 32 GB | DIMM DDR5-5600)",
+     "precio_lista": 1059800,
+     "precio": 1059800,
+     "tienda": "Centrale",
+     "url": "https://centrale.cl/producto/memoria-ram-32gb-ddr5-5600mt-s-cl36-kingston-fury-beast-black-expo-xmp/",
+     "n_tiendas": 1,
      "cantidad": 2,
-     "precio_unitario": 532990
+     "precio_unitario": 529900
     }
    ],
    "descartados": [
@@ -806,11 +812,6 @@
      "motivo": "no dice '1 x 32 GB'"
     },
     {
-     "nombre": "Kingston Fury Renegade KF564C32RWAK2-32 (2 x 16 GB | DIMM DDR5-6400)",
-     "precio": 676190,
-     "motivo": "no dice '1 x 32 GB'"
-    },
-    {
      "nombre": "Kingston Fury Beast Black RGB KF560C36BBE2AK2-32 (2 x 16 GB | DIMM DDR5-6000)",
      "precio": 719990,
      "motivo": "no dice '1 x 32 GB'"
@@ -833,11 +834,6 @@
     {
      "nombre": "Kingston Fury Renegade Pro KF560R32RBE-32 (1 x 32 GB | DIMM DDR5-6000 ECC)",
      "precio": 1106835,
-     "motivo": "dice 'ECC'"
-    },
-    {
-     "nombre": "Kingston KTL-TS556E-32G (1 x 32 GB | DIMM DDR5-5600 ECC)",
-     "precio": 1100580,
      "motivo": "dice 'ECC'"
     },
     {
@@ -924,11 +920,6 @@
      "motivo": "no dice '2 TB'"
     },
     {
-     "nombre": "Kingston NV3 1 TB (SNV3S/1000G)",
-     "precio": 99990,
-     "motivo": "no dice '2 TB'"
-    },
-    {
      "nombre": "Kingston 512 GB (OM8SGP4512K2-C00)",
      "precio": 105990,
      "motivo": "no dice '2 TB'"
@@ -946,6 +937,11 @@
     {
      "nombre": "KingSpec 1 TB (NE-1TB-2280)",
      "precio": 151990,
+     "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "Kingston NV3 1 TB (SNV3S/1000G)",
+     "precio": 152690,
      "motivo": "no dice '2 TB'"
     },
     {
@@ -1035,7 +1031,7 @@
     },
     {
      "nombre": "A-DATA XPG Gammix S70 BLADE 1 TB (AGAMMIXS70B-1T-CS)",
-     "precio": 206900,
+     "precio": 209750,
      "motivo": "no dice '2 TB'"
     },
     {
@@ -1130,7 +1126,7 @@
     },
     {
      "nombre": "HP 2 TB (861681-B21)",
-     "precio": 335616,
+     "precio": 337440,
      "motivo": "marca fuera de la lista confiable"
     },
     {
@@ -1210,7 +1206,7 @@
     },
     {
      "nombre": "Crucial T710 4 TB (CT4000T710SSD8)",
-     "precio": 659680,
+     "precio": 662960,
      "motivo": "no dice '2 TB'"
     },
     {
@@ -1316,11 +1312,6 @@
      "motivo": "no dice '2 TB'"
     },
     {
-     "nombre": "Kingston NV3 1 TB (SNV3S/1000G)",
-     "precio": 99990,
-     "motivo": "no dice '2 TB'"
-    },
-    {
      "nombre": "Kingston 512 GB (OM8SGP4512K2-C00)",
      "precio": 105990,
      "motivo": "no dice '2 TB'"
@@ -1338,6 +1329,11 @@
     {
      "nombre": "KingSpec 1 TB (NE-1TB-2280)",
      "precio": 151990,
+     "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "Kingston NV3 1 TB (SNV3S/1000G)",
+     "precio": 152690,
      "motivo": "no dice '2 TB'"
     },
     {
@@ -1427,7 +1423,7 @@
     },
     {
      "nombre": "A-DATA XPG Gammix S70 BLADE 1 TB (AGAMMIXS70B-1T-CS)",
-     "precio": 206900,
+     "precio": 209750,
      "motivo": "no dice '2 TB'"
     },
     {
@@ -1532,7 +1528,7 @@
     },
     {
      "nombre": "HP 2 TB (861681-B21)",
-     "precio": 335616,
+     "precio": 337440,
      "motivo": "marca fuera de la lista confiable"
     },
     {
@@ -1602,7 +1598,7 @@
     },
     {
      "nombre": "Crucial T710 4 TB (CT4000T710SSD8)",
-     "precio": 659680,
+     "precio": 662960,
      "motivo": "no dice '2 TB'"
     },
     {
@@ -1652,7 +1648,7 @@
    "elegido": {
     "product_id": 253373,
     "nombre": "Kingston NV3 1 TB (SNV3S/1000G)",
-    "precio_lista": 99990,
+    "precio_lista": 152690,
     "precio": 152690,
     "tienda": "Notebooksya!",
     "url": "https://notebooksya.cl/producto/unidad-ssd-kingston-nv3-1tb-m-2-2280-nvmepcie-4-0-x4-lectura-6000mb-s-escritura-4000mb-s/",
@@ -1662,7 +1658,7 @@
     {
      "product_id": 253373,
      "nombre": "Kingston NV3 1 TB (SNV3S/1000G)",
-     "precio_lista": 99990,
+     "precio_lista": 152690,
      "precio": 152690,
      "tienda": "Notebooksya!",
      "url": "https://notebooksya.cl/producto/unidad-ssd-kingston-nv3-1tb-m-2-2280-nvmepcie-4-0-x4-lectura-6000mb-s-escritura-4000mb-s/",
@@ -1698,11 +1694,6 @@
    ],
    "descartados": [
     {
-     "nombre": "Western Digital Green 1 TB (WDS100T5G0A)",
-     "precio": 44337,
-     "motivo": "marca fuera de la lista confiable"
-    },
-    {
      "nombre": "Oreton S500 Pro 1 TB (S500 PRO-1TB)",
      "precio": 127900,
      "motivo": "marca fuera de la lista confiable"
@@ -1730,6 +1721,11 @@
     {
      "nombre": "Western Digital Green 1 TB (WDS100T3G0A)",
      "precio": 144900,
+     "motivo": "marca fuera de la lista confiable"
+    },
+    {
+     "nombre": "Western Digital Green 1 TB (WDS100T5G0A)",
+     "precio": 149900,
      "motivo": "marca fuera de la lista confiable"
     },
     {
@@ -1809,7 +1805,7 @@
     },
     {
      "nombre": "A-DATA XPG Gammix S70 BLADE 1 TB (AGAMMIXS70B-1T-CS)",
-     "precio": 206900,
+     "precio": 209750,
      "motivo": "marca fuera de la lista confiable"
     },
     {
