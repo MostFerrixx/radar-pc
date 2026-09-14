@@ -1,4 +1,4 @@
-name: Radar de precios PC + PS5
+name: Radar de precios PC + PS5 + iPhone
 
 on:
   schedule:
@@ -41,11 +41,17 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 colector_ps5.py
 
+      # El radar iPhone tambien va con continue-on-error: depende de que Apple
+      # no cambie la forma de su pagina, y eso no puede tumbar los precios PC.
+      - name: Consultar Apple EE.UU., Apple Chile y SoloTodo (iPhone)
+        continue-on-error: true
+        run: python3 colector_iphone.py
+
       - name: Guardar resultado en el repositorio
         run: |
           git config user.name "radar-bot"
           git config user.email "radar-bot@users.noreply.github.com"
-          git add latest.json historial/ ps5/
+          git add latest.json historial/ ps5/ iphone/
           if git diff --cached --quiet; then
             echo "sin cambios"
           else
