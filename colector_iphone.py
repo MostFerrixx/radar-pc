@@ -7,7 +7,8 @@ nada: solo junta cuatro cosas y anota si cada fuente respondio o no.
 
   1. Apple EE.UU.  precio de lista del iPhone Pro Max, sin impuesto de venta.
   2. Apple Chile   precio de lista del mismo equipo, con IVA incluido.
-  3. SoloTodo      el precio mas barato de verdad en el retail chileno.
+  3. SoloTodo      el precio mas barato de verdad en el retail chileno, mas su
+                   historial de los ultimos meses (minimo real y curva).
   4. mindicador    el dolar observado del Banco Central.
 
 El juicio (veredicto, tablero, avisos) lo hace la tarea diaria de Claude, que
@@ -73,6 +74,11 @@ VETO_TIENDA = ["claro", "movistar", "entel", "wom",
 # valores: lo que quede abajo es precio con plan, un accesorio o un error.
 PISO_CLP = {"256 GB": 900000, "512 GB": 1000000, "1 TB": 1200000}
 TECHO_CLP = 4000000
+
+# Cuantos dias de historial de precios pedirle a SoloTodo. Sirve para dos cosas
+# que el radar no puede sacar de su propia memoria: el minimo real del periodo
+# y la curva de como se ha movido el precio desde antes de que el radar naciera.
+HIST_DIAS = 180
 
 
 # ---------- red ---------------------------------------------------------------
@@ -396,6 +402,54 @@ def precio_clp_meta(meta, clp, usd):
     return num(pc) if pc else None
 
 
+def historial_producto(pid, tiendas, piso):
+    """Serie diaria del precio mas barato del retail chileno para un producto,
+    y el minimo del periodo. SoloTodo guarda el historial por tienda, asi que
+    hay que cruzar todas: para cada dia, el mas barato entre las tiendas que no
+    estan vetadas y que tenian stock. Mismo criterio que usa el radar para el
+    precio de hoy, para que la curva termine justo en el numero que muestra."""
+    desde = (datetime.datetime.now(datetime.timezone.utc)
+             - datetime.timedelta(days=HIST_DIAS)).strftime("%Y-%m-%dT%H:%M:%S")
+    salida = {"serie": [], "minimo": None, "dias": 0, "tiendas": [], "error": None}
+    try:
+        d = bajar("%s/products/%s/pricing_history/?timestamp_after=%s" % (API, pid, desde))
+    except Exception as e:
+        salida["error"] = "sin historial: %s" % e
+        return salida
+
+    por_dia, usadas = {}, set()
+    for e in (d if isinstance(d, list) else []):
+        ent = e.get("entity") or {}
+        sid = ent.get("store_id") or id_desde_url(ent.get("store"))
+        nombre_tienda = tiendas.get(int(sid), "") if sid is not None else ""
+        if any(v in nombre_tienda.lower() for v in VETO_TIENDA):
+            continue
+        for p in (e.get("pricing_history") or []):
+            if not p.get("is_available"):
+                continue
+            v = num(p.get("offer_price"))
+            if not v or v < piso or v > TECHO_CLP:
+                continue
+            f = str(p.get("timestamp") or "")[:10]
+            if len(f) == 10:
+                if nombre_tienda:
+                    usadas.add(nombre_tienda)
+                por_dia[f] = min(por_dia.get(f, v), v)
+
+    if not por_dia:
+        salida["error"] = "el historial vino vacio despues de filtrar"
+        return salida
+    fechas = sorted(por_dia)
+    fmin = min(fechas, key=lambda f: por_dia[f])
+    salida.update({
+        "serie": [[f, por_dia[f]] for f in fechas],
+        "minimo": {"precio": por_dia[fmin], "fecha": fmin},
+        "dias": len(fechas),
+        "tiendas": sorted(usadas),
+    })
+    return salida
+
+
 def solotodo_modelo(modelo, tiendas, clp, usd):
     """Para cada capacidad del modelo, el producto mas barato con stock que
     cumple las reglas. Devuelve {capacidad: dato} y la lista de descartados."""
@@ -471,10 +525,13 @@ def solotodo_modelo(modelo, tiendas, clp, usd):
             buenas.append(o)
 
         if buenas:
+            piso = PISO_CLP.get(cap, 900000)
+            hist = historial_producto(c["product_id"], tiendas, piso)
             salida["por_capacidad"][cap] = {
                 "producto": c["nombre"], "precio": buenas[0]["precio"],
                 "tienda": buenas[0]["tienda"], "url": buenas[0]["url"],
-                "n_tiendas": len(buenas)}
+                "n_tiendas": len(buenas),
+                "historial": hist}
         elif ofs:
             salida["descartados"].append({"nombre": c["nombre"], "precio": ofs[0]["precio"],
                                           "motivo": "todas las ofertas quedaron fuera por tienda o por precio"})
@@ -543,6 +600,7 @@ def main():
         "para": "Radar iPhone: conviene comprarlo aca o alla",
         "sales_tax_supuesto": 0.07,
         "sales_tax_nota": "Florida, el estado donde suele comprar. Es un supuesto fijo, no un dato consultado.",
+        "hist_dias": HIST_DIAS,
         "dolar": None,
         "fuentes": {},
         "modelos": {},
@@ -614,11 +672,14 @@ def main():
         print(" ", m["nombre"])
         for cap, c in m["capacidades"].items():
             r = c["chile_retail"]
-            print("    %-7s  US Apple %-9s  CL Apple %-11s  CL retail %s" % (
+            h = (r or {}).get("historial") or {}
+            mini = h.get("minimo") or {}
+            print("    %-7s  US Apple %-9s  CL Apple %-11s  CL retail %-28s  min %s" % (
                 cap,
                 ("$" + format(c["usa_apple"], ",")) if c["usa_apple"] else "--",
                 ("$" + format(c["chile_apple"], ",").replace(",", ".")) if c["chile_apple"] else "--",
-                ("$" + format(r["precio"], ",").replace(",", ".") + "  " + r["tienda"]) if r else "--"))
+                ("$" + format(r["precio"], ",").replace(",", ".") + "  " + r["tienda"]) if r else "--",
+                ("$" + format(mini["precio"], ",").replace(",", ".") + " el " + mini["fecha"]) if mini else "--"))
 
 
 if __name__ == "__main__":
