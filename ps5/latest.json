@@ -1,6 +1,6 @@
 {
  "fecha": "2026-09-14",
- "generado_utc": "2026-09-14T21:35:04+00:00",
+ "generado_utc": "2026-09-14T21:53:09+00:00",
  "para": "tarea semanal 'Radar PS5 Jailbreak (13.40)' de Claude",
  "linea_base": {
   "firmware_del_usuario": "13.40",
@@ -15,7 +15,7 @@
  },
  "fuentes_ok": 2,
  "fuentes_total": 2,
- "hay_cambios": true,
+ "hay_cambios": false,
  "fuentes": {
   "github": {
    "titulo": "GitHub - repos y releases del scene PS5",
@@ -31,43 +31,9 @@
    ],
    "primera_vez": false,
    "lineas": 158,
-   "cambio": true,
-   "lineas_nuevas": [
-    "repo DieserLaurenz/ps5-blocket | PS5-Angebote in Schweden mit Telegram-Benachrichtigungen",
-    "repo DualSenseClient/DualSenseClient | Unlock the full DualSense experience on Windows & Linux.",
-    "repo KytyPS5/KytyPS5 | PlayStation 5 emulator for Windows, Linux and MacOS",
-    "repo MatheusRibeir098/chiaki-ng-remote-play-kit | Kit para o Remote Play do PS5 (Pro) funcionar no Arch Linux fora de casa: corrige certificado do PSN, binário do chiaki-ng sem o fix do PS5 Pro e STUN bloqueados em redes restritas. Scripts idempotent",
-    "repo RDX-Sci01/PLDMGR_JSON | Custom Payload Repositories for PS5 Payload Manager",
-    "repo ZiZc3/ZiZc3.github.io | PS5 Test",
-    "repo abrarahamed46/Sekiro-Controller-Fix | The Sekiro is abeautiful game but there are controller isues on pc. Its not able to detect my ps5 controller.I made a fix using chatgpt. ",
-    "repo acktreptow/ps5pro | ",
-    "repo akik40792-cloud/PSVR2-OLED-Test | Test page for test OLED screen PS5 VR2 for bug pixels ",
-    "repo alfredo1995/portfolio-games | Portfolio de desenvolvimento de jogos: Unity, C# e C++, titulos publicados em loja e portabilidade para Switch, PS4/PS5 e Xbox. Next.js 16 + Tailwind, bilingue PT/EN. -> https://portfolio-games-alfred",
-    "repo claimore22/ps5rs | PS5 binary analysis, virtual loading, and host-side emulation framework: SELF/ELF/PRX parsing, NID resolver, import analysis, interactive dashboards, and a loader + emulator pipeline with pure-Rust HL",
-    "repo manuelbrewe48-lang/Ps5-fishing-game | ",
-    "repo ps4macedo/ps5 | ",
-    "repo ps5pta/ps5pta.github.io | Jersey City PS5 PTA website",
-    "repo queiroz-labs/PS5Tracker | ",
-    "repo wangyuechi66-beep/ps5-legacy-status-api-archive | PS5 Backward Compatibility Status Tracker 2026: Full Game Library Overview"
-   ],
-   "lineas_quitadas": [
-    "repo Bobas81/Dashboard-F1-2025 | Dashboard F1 2025 PS5",
-    "repo KryoMod/Atlas-Catalog-Scraper | Scrapes dlpsgame for exfat game variations and superpsx for all variations, outputting a merged json file for use with Atlas PS5 Pipeline.",
-    "repo Mohamedgawad1/ps5-dashboard | ",
-    "repo RavelloH/PSGameSpider | 自动爬取所有PlayStationStore中的所有游戏信息，包括封面、描述、价格、评分等，生成网页并索引 # # # Automatically crawl all game infos in all playstationstore, automatically generate web pages and index them",
-    "repo actuaryarticulatorysystem2752/apr-emu-updater | Manage APR Emu versions per PS5 game via a simple web UI, overriding libSceAmpr.sprx at runtime without editing game images.",
-    "repo alessandromargini/infinity_intro | Infinity PSP home screen ported to PS5",
-    "repo alphaxleonidas/DualShock-Multiplayer-uinput | Running **multiple** DualShock (PS4) or DualSense (PS5) controller(s) on Linux with uinput. Works systemwide without steam input, Lutris or Bottles. Supports hotplugging ",
-    "repo caressanoisy333/sharpemu | Emulate PlayStation 5 software on Windows, Linux, and macOS with this experimental emulator written in C#.",
-    "repo gamingcinema/gamingcinema.github.io | Gaming Cinema — PS5 Pro 4K Cinematic Walkthroughs Hub",
-    "repo joey247-dot/ps5-date-time-sync | Restore your PS5's system date and time via public NTP servers when the CMOS battery fails.",
-    "repo louij2/bc250-cachyos-notes | Field notes and setup scripts for running an AMD BC-250 (PS5 Ariel APU) as a Linux gaming console on CachyOS",
-    "repo ransh2014/gt7telemtrace | TRACE - GT7 live telemetry dashboard + 14-chart lap analysis tool. Reads UDP stream from PS4/PS5 over local network.",
-    "repo robvestibular692/retro-chiaki | Stream PS4 and PS5 games to Anbernic H700 handhelds via remote play.",
-    "repo sharpemu/sharpemu-site | SharpEmu website — landing page and PS5 game compatibility database",
-    "repo ursaaustenitic585/DS4Windows | Connect PlayStation controllers to your PC for gaming on Windows 10 and 11. Emulate Xbox 360 controllers for full game compatibility and custom input settings.",
-    "repo zawazaraz/GTA-6-PS5-Emulator-Play-On-PC-2026 | Play GTA 6 on PC with the PS5 emulator for Windows 10/11. Download the 2026 working version and start playing now."
-   ],
+   "cambio": false,
+   "lineas_nuevas": [],
+   "lineas_quitadas": [],
    "menciones_13x_o_superior": [],
    "candidatos_kernel_13x": [],
    "pista_firmware_kernel_mas_alto": {

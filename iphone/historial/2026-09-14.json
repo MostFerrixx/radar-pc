@@ -1,6 +1,6 @@
 {
  "fecha": "2026-09-14",
- "generado_utc": "2026-09-14T21:35:08+00:00",
+ "generado_utc": "2026-09-14T21:53:16+00:00",
  "para": "Radar iPhone: conviene comprarlo aca o alla",
  "sales_tax_supuesto": 0.07,
  "sales_tax_nota": "Florida, el estado donde suele comprar. Es un supuesto fijo, no un dato consultado.",
@@ -12,7 +12,7 @@
   "error": null
  },
  "fuentes": {
-  "consultas_ok": 4,
+  "consultas_ok": 5,
   "consultas_total": 6,
   "dolar_ok": true
  },
@@ -26,10 +26,10 @@
      "chile_apple": null,
      "chile_retail": {
       "producto": "Apple iPhone 17 Pro Max (256 GB / Deep Blue)",
-      "precio": 899900,
-      "tienda": "Claro",
-      "url": "https://tienda.clarochile.cl/catalogo/equiposclaro/iphone-17-pro-max-5g-256gb-silver-70015469epp",
-      "n_tiendas": 46
+      "precio": 1299990,
+      "tienda": "Reuse",
+      "url": "https://www.reuse.cl/collections/celulares/products/apple-iphone-17-pro-max-256gb-azul-reacondicionado",
+      "n_tiendas": 9
      }
     },
     "512 GB": {
@@ -37,10 +37,10 @@
      "chile_apple": null,
      "chile_retail": {
       "producto": "Apple iPhone 17 Pro Max (512 GB / Silver)",
-      "precio": 129990,
-      "tienda": "Movistar One",
-      "url": "https://ww2.movistar.cl/ofertas/equipo-plan/movistarone/",
-      "n_tiendas": 12
+      "precio": 1649990,
+      "tienda": "BackOnline",
+      "url": "https://backonline.cl/products/iphone-17-pro-max",
+      "n_tiendas": 5
      }
     },
     "1 TB": {
@@ -65,14 +65,14 @@
     "apple_cl": {
      "ok": false,
      "metodo": null,
-     "error": "pagina descargada (410714 bytes) pero no encontre precios",
+     "error": "pagina descargada (410708 bytes) pero no encontre precios",
      "url": "https://www.apple.com/cl/shop/buy-iphone/iphone-17-pro"
     },
     "solotodo": {
      "ok": true,
      "error": null,
      "url": "https://publicapi.solotodo.com/categories/6/browse/?search=iphone%2017%20pro%20max&ordering=offer_price_usd&page_size=60",
-     "n_descartados": 14
+     "n_descartados": 58
     }
    },
    "descartados": [
@@ -143,32 +143,32 @@
    "descontinuado_apple": false,
    "capacidades": {
     "256 GB": {
-     "usa_apple": 1199,
-     "chile_apple": null,
+     "usa_apple": 1299,
+     "chile_apple": 1699990,
      "chile_retail": null
     },
     "512 GB": {
-     "usa_apple": null,
-     "chile_apple": null,
+     "usa_apple": 1499,
+     "chile_apple": 1959990,
      "chile_retail": null
     },
     "1 TB": {
-     "usa_apple": null,
-     "chile_apple": null,
+     "usa_apple": 1899,
+     "chile_apple": 2479990,
      "chile_retail": null
     }
    },
    "fuentes": {
     "apple_us": {
      "ok": true,
-     "metodo": "cercania",
+     "metodo": "catalogo",
      "error": null,
      "url": "https://www.apple.com/shop/buy-iphone/iphone-18-pro"
     },
     "apple_cl": {
-     "ok": false,
-     "metodo": null,
-     "error": "pagina descargada (642807 bytes) pero no encontre precios",
+     "ok": true,
+     "metodo": "catalogo",
+     "error": null,
      "url": "https://www.apple.com/cl/shop/buy-iphone/iphone-18-pro"
     },
     "solotodo": {
