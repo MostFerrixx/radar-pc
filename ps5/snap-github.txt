@@ -11,7 +11,11 @@ release 2.5 | Y2JB-P2JB V2.5 | 2026-05-25
 release 2.5.1 | Y2JB-P2JB V2.5.1 | 2026-05-25
 release 2.5.2 | Y2JB-P2JB V2.5.2 - Y2JB 1.3 PROT_EXEC fix | 2026-05-25
 release 2.6 | Y2JB-P2JB V2.6 - Y2JB 1.5 support | 2026-05-25
+repo Alecabrera1/order-ps5yma | X-Git Pro
 repo Blake12609/ps5 | 
+repo Bobas81/Dashboard-F1-2025 | Dashboard F1 2025 PS5
+repo CarlosNacher/ps5-tracker | WebAPP to follow prices of PS5 and send alerts to Telegram
+repo Dudaaa357/trophy-unifier-stack-cleanser | PSN Trophy Tracker 2026 Guide: Best Stack Merging & Unobtainable Removal Leaderboards
 repo EchoStretch/BackPork | Lets you sideload system libraries into PS5 games
 repo EchoStretch/Byepervisor | A PS5 hypervisor exploit for 1.xx-2xx firmwares.
 repo EchoStretch/ESP32-Server-900u | 900 with usb emulation
@@ -107,52 +111,48 @@ repo Gezine/kexp | payload that does post jailbreak related stuff
 repo Gezine/remote_lua_loader | 
 repo Gezine/sdk | An SDK for PS5 payloads that uses dynamic linking
 repo Gezine/sdk-ps4 | 
-repo JabakhanjiStore/ps5 | 
+repo IkpemosiArnold/ps5-price-tracker | 
+repo Kuroge/AnchorPS5 | La tienda de homebrew para tu PS5 · The homebrew store for your PS5
 repo KytyPS5/KytyPS5 | PlayStation 5 emulator for Windows, Linux and MacOS
-repo ManoharPadul/ps5-relapse-autoloader | 
-repo MohamedAliRashad/ps5-launcher | A linux launcher that mimics PS5 launcher
+repo Likely7/Veyra-NRVideo | Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super R
+repo Likounsee/ArchiaEmu | A PS5 (and maybe in the future all console) emulator 
+repo LisherSong/ps5-nexus | PS5 Nexus — web control panel for a jailbroken PS5: file manager, SMB/NFS shares, archive extraction, PKG install, and save backup/restore. Single self-contained ELF. GPL-3.0.
+repo MarcusYuan/ps5-lan-workbench | PS5 LAN workbench for local DNS/HTTPS hosting, component loading, and PKG management.
+repo MihrimatriX/ps5-showcase | Projelerimi bir oyun konsolunun ana ekranı gibi sergileyen portfolyo. Next.js + TypeScript, iki dilli (TR/EN). Klavye, fare, dokunmatik ekran ve oyun kumandasıyla gezilir. Hiçbir ses, logo veya ikon d
 repo Mohamedgawad1/PS5-COMPLETION-PLATFORM | COMPLETION PROGRESS 
 repo Mohamedgawad1/ps5-dashboard | 
 repo Naivelk/ps5Plus | 
-repo Original1110/13600 | Jailbreak Ps5 FW:13.60
-repo PSH5JB/PSH5 | PS5 Host
-repo Portablelle/botty-ps5 | 
-repo RedMadKnight/BC5 | BC-250 + PS5. A native PS5 GPU path for the AMD BC-250 (Cyan Skillfish, gfx1013). User-space backend that feeds PS5 AGC command streams and native RDNA ISA shaders to amdgpu on Linux, without GNM→Vulk
+repo OpenProspero/AGC | OpenProspero-owned clean-room PS5 GPU driver; host validation and firmware-gated hardware bring-up
+repo Portablelle/botty-ps5 | Botty+ is a native, controller-driven download and library manager for PS5 homebrew. It combines a browser launch portal, a background rTorrent daemon and a RAR extraction service.
 repo SailorNoheals/PS5-Relapse-SailorNoheals | 
 repo Slxcky-1/Relapse-Exploit | PS5 Host
-repo VivaLaVent/kodi-ps5 | Unofficial Kodi 22 port for jailbroken PS5
-repo XavyProd/pkg-mutant-shop | PKG MUTANT SHOP - a homebrew PKG store and installer for jailbroken PS5 and PS4, with a Windows companion.
+repo SmallPebblee/MOB1014-PS50116-NguyenDuyAnh | 
+repo Vynxly/Vynx.dev-PS4-PS5-Jailbreak | PS4/PS5 Jailbreak for multiple firmwares
+repo Weavelefoster/ps5-emulator-controller | Emulates PS5 hardware on PC — built for gamers who want console titles running natively.
 repo Zer0Spce/ZeroSpace | The all-in-one Windows toolkit for PS5 file management and direct archive-to-FTP transfers.
-repo abhiag/ps5jb | 
-repo actuaryarticulatorysystem2752/apr-emu-updater | Manage APR Emu versions per PS5 game via a simple web UI, overriding libSceAmpr.sprx at runtime without editing game images.
-repo alaa430/ps5-13.60 | 
-repo blackbearreloaded/ProsperoPuzzles | A collection of polished puzzle games for PS5 homebrew
-repo blackbearreloaded/ps5-homebrew-catalog | 
-repo caressanoisy333/sharpemu | Emulate PlayStation 5 software on Windows, Linux, and macOS with this experimental emulator written in C#.
+repo aladin2l/ps5ogcr | ps5 jailbreak host
+repo alonsojr1980/ps5-jailbreak-compendium | A work-in-progress compendium on PS5 jailbreak. AI generated, do not accept it blindly.
+repo boykopovar/AnyPS5 | Tool for automatic PS5 executables porting to Linux and Windows
+repo bsk193/ps5-unified-autoloader-x | Fork of itsPLK/ps5-unified-autoloader that embeds Payload Manager X as the fallback payload manager.
+repo bsk193/ps5-webkit-autoloader-x | Fork of itsPLK/ps5-webkit-autoloader that autoloads Payload Manager X. Offline WebKit exploit autoloader for PS5 FW 1.00-5.50 and 9.00-12.00.
 repo dante0747/gamebeeper.gg | All the games worth watching. One signal. — a fast, open-source video game news aggregator.
-repo discoverable-rhomboidmuscle244/exFAT-Ripper | Manage your PS5 exFAT library with this desktop launcher. Browse game covers, track PPSA codes, and update your collection using an automated background scraper.
-repo gulo3236/ps5-pkg-manager | Manage and install PlayStation 5 packages from USB or SMB shares with a clean web interface supporting multi-part packages.
+repo duc609363-ai/COM108-PS51227-PhamHuuDuc | 
+repo ecmstudio/Gamepad-Bridge-Core | Gamepad-Core Host Pro API 2026: Native C++ Gamepad Bridge Library
+repo gainly-handclap319/PadPulse | Test PS5, Xbox, Switch, and third-party controllers in your browser for drift, deadzone, triggers, buttons, axis history, and Gamepad API data
+repo gmd4wbp2fg-cmyk/FlightOps-PS5 | 
+repo henrikm07/Subnautica-2-Abyss-Watch | Subnautica 2 PS5 Release Date 2026: Early Access & Multiplayer News
+repo hiddenkernellab/PLM-Repository | HiddenKernel repository for PS5 Payload Manager
 repo iStark/PS5PCEM | PS5 PC Emulator
 repo iStark/PS5PCEM.com | Official hub for the PS5PCEM a PlayStation 5 emulator, featuring game compatibility tracking, performance logs, and active project listings.
-repo joey247-dot/ps5-date-time-sync | Restore your PS5's system date and time via public NTP servers when the CMOS battery fails.
-repo klortekhq/NATIVE-EMUS-PS5 | 
-repo klortekhq/SERVER-EMUS-PS5 | 
-repo kxn/ps5-wkal-esp32s3 | 
+repo m2k7m/Relapse-Exploit | Exploit chain for PS5 7.00 - 13.60
 repo m8jswknhvg-alt/Ps5-bevakning | 
-repo manoaverner-maker/aspl-rennkalender | ASPL GT3 Racing Series - 3D-Globus Rennkalender (ACC, PS5 & Xbox Series)
 repo mihawk-99/PS5_RetroArch | 🎮 RetroArch Homebrew for the PS5 that supports many cores.
-repo mihawk-99/PS5_Vulkan | A Vulkan 1.4+ PS5 native  driver, powered by Mesa/RADV and validated by CTS.
-repo mpereiraesaa/prospero-win-profiles | Game and benchmark profiles for prospero-win, checked on a PS5
-repo murilex07/chiaki-rust | Stream PS5/PS4 remote play to Windows x64 with a native Rust GPU pipeline, NVIDIA VSR upscaling, and OBS virtual camera support.
-repo nexgen999/ps5webkit | ps5webkit
-repo ps4macedo/ps5 | 
-repo ps4macedo/ps51360 | 
-repo robvestibular692/retro-chiaki | Stream PS4 and PS5 games to Anbernic H700 handhelds via remote play.
+repo n00bin/nwc | Neverwinter Compendium — PS5 Item & Data Lookup
+repo nexgen999/PS5-Super-PLDMGR-Auto-Updater | PS5 Super PLDMGR Auto Updater
+repo oBinds/ps5-tracker | 
+repo prathviindusanalytics-netizen/Hollow-Viewer | PS5 Game Mod Studio and Cheat File Manager 2026
+repo quoc-toan07/COM108-PS51869-QuocToan | 
+repo s0liton/ps5-romm | A RomM server client for jailbroken PS5s. Download games from your server, full bi-directional save sync support, and extensible emulator profiles to quickly support new emulators as they release on t
 repo samuelevans921/elden-ring | Top Elden Ring Gameplay Enhancement Suite 2026: ESP & No Recoil
-repo scorpion511/PS5-SCORPION | RELAPSE FOR ALL PS5 FIRMWARES
-repo scorpion511/SCORPION-PS5 | PS5-RELAPSE FIRMWARE 7.00 :13.60
 repo sharpemu/sharpemu | An experimental PlayStation 5 emulator for Windows, Linux and macOS.
-repo sonic998/PS5-Relapse-Jailbreak | PS5 Relapse Jailbreak Firmwares 7.0 - 13.60,
-repo thatboialex/ps5-payload-source | 
-repo ursaaustenitic585/DS4Windows | Connect PlayStation controllers to your PC for gaming on Windows 10 and 11. Emulate Xbox 360 controllers for full game compatibility and custom input settings.
-repo zawazaraz/GTA-6-PS5-Emulator-Play-On-PC-2026 | Play GTA 6 on PC with the PS5 emulator for Windows 10/11. Download the 2026 working version and start playing now.
+repo yourluckyday-7137/Cyberpunk-2076-Desktop | ⭐️ Cyberpunk2077 Cyber Punk 2077 Game | 2026 | AllDlc Bundle Edition | Highspeed Direct Link | Fullversion Pc Windows Xbox Ps5 ⭐️
