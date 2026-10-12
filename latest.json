@@ -1,6 +1,6 @@
 {
- "fecha": "2026-10-11",
- "generado_utc": "2026-10-11T14:07:17+00:00",
+ "fecha": "2026-10-12",
+ "generado_utc": "2026-10-12T16:47:09+00:00",
  "fuente": "SoloTodo publicapi, via GitHub Actions",
  "dolar_referencia": 976.97,
  "consultas_total": 20,
@@ -47,7 +47,7 @@
      "precio": 1393990,
      "tienda": "CTMAN",
      "url": "https://www.ctman.cl/products/msi-frieren-edition-oc-rtx-5070-ti-16g",
-     "n_tiendas": 7
+     "n_tiendas": 6
     }
    ],
    "descartados": [
@@ -159,15 +159,18 @@
      "tienda": "Winpy",
      "url": "https://www.winpy.cl/venta/tarjeta-grafica-asus-rog-astral-geforce-rtx-5090-oc-de-32gb-gddr7/",
      "n_tiendas": 2
+    },
+    {
+     "product_id": 385566,
+     "nombre": "MSI GeForce RTX 5090 32G LIGHTNING Z [G5090-32LZ]",
+     "precio_lista": 5999900,
+     "precio": 5999900,
+     "tienda": "Sandos",
+     "url": "https://sandos.cl/producto/tarjeta-de-video-msi-geforce-rtx-5090-32g-lightning-z-p35291",
+     "n_tiendas": 1
     }
    ],
-   "descartados": [
-    {
-     "nombre": "Gigabyte AORUS GeForce RTX 5090 STEALTH ICE 32G [GV-N5090AORUSST ICE-32GD]",
-     "precio": 4035110,
-     "motivo": "en lista pero ninguna tienda con stock"
-    }
-   ]
+   "descartados": []
   },
   "gpu-9070xt": {
    "nombre": "Radeon RX 9070 XT · 16 GB",
@@ -178,7 +181,7 @@
     "precio": 954990,
     "tienda": "PC Factory",
     "url": "https://www.pcfactory.cl/producto/54708-asus-tarjeta-de-video-prime-radeon-rx-9070-xt-16-gb-oc-edition",
-    "n_tiendas": 19
+    "n_tiendas": 20
    },
    "candidatos": [
     {
@@ -188,7 +191,7 @@
      "precio": 954990,
      "tienda": "PC Factory",
      "url": "https://www.pcfactory.cl/producto/54708-asus-tarjeta-de-video-prime-radeon-rx-9070-xt-16-gb-oc-edition",
-     "n_tiendas": 19
+     "n_tiendas": 20
     },
     {
      "product_id": 360798,
@@ -278,7 +281,7 @@
     "precio": 219900,
     "tienda": "Xtreme Components",
     "url": "https://xtremecomponents.cl/product/amd-ryzen-5-9600x/",
-    "n_tiendas": 19
+    "n_tiendas": 18
    },
    "candidatos": [
     {
@@ -287,7 +290,7 @@
      "precio": 219900,
      "tienda": "Xtreme Components",
      "url": "https://xtremecomponents.cl/product/amd-ryzen-5-9600x/",
-     "n_tiendas": 19
+     "n_tiendas": 18
     }
    ],
    "descartados": []
@@ -439,24 +442,15 @@
   "mb-b650-wifi": {
    "nombre": "Placa madre B650M con WiFi",
    "elegido": {
-    "product_id": 278228,
-    "nombre": "ASUS B650M-AYW WIFI",
-    "precio_lista": 122900,
-    "precio": 122900,
-    "tienda": "Nice One",
-    "url": "https://n1g.cl/Home/computacion/3408-asus-b650m-ayw-wifi-micro-atxddr5am5pcie-50-m2hdmirealtek-25gb-ethernetwi-fi-6rear-usb-10gbps-portssata-6-gbps.html",
-    "n_tiendas": 4
+    "product_id": 256062,
+    "nombre": "MSI B650M GAMING WIFI",
+    "precio_lista": 123990,
+    "precio": 123990,
+    "tienda": "Tecnomas.cl",
+    "url": "https://tecnomas.cl/producto/b650m-gaming-wifi",
+    "n_tiendas": 10
    },
    "candidatos": [
-    {
-     "product_id": 278228,
-     "nombre": "ASUS B650M-AYW WIFI",
-     "precio_lista": 122900,
-     "precio": 122900,
-     "tienda": "Nice One",
-     "url": "https://n1g.cl/Home/computacion/3408-asus-b650m-ayw-wifi-micro-atxddr5am5pcie-50-m2hdmirealtek-25gb-ethernetwi-fi-6rear-usb-10gbps-portssata-6-gbps.html",
-     "n_tiendas": 4
-    },
     {
      "product_id": 256062,
      "nombre": "MSI B650M GAMING WIFI",
@@ -465,6 +459,15 @@
      "tienda": "Tecnomas.cl",
      "url": "https://tecnomas.cl/producto/b650m-gaming-wifi",
      "n_tiendas": 10
+    },
+    {
+     "product_id": 278228,
+     "nombre": "ASUS B650M-AYW WIFI",
+     "precio_lista": 122900,
+     "precio": 127072,
+     "tienda": "Winpy",
+     "url": "https://www.winpy.cl/venta/placa-madre-asus-b650m-ayw-wifi-am5-ddr5-x2-m-2-x2-micro-atx/",
+     "n_tiendas": 4
     },
     {
      "product_id": 369295,
@@ -579,13 +582,13 @@
      "precio": 723456,
      "tienda": "KDTEC",
      "url": "https://kdtec.cl/producto/memoria-32gb-6000mt-s-ddr5-cl36-dimm-kit-of-2-fu-2/",
-     "n_tiendas": 6
+     "n_tiendas": 5
     }
    ],
    "descartados": [
     {
      "nombre": "Kingston Fury Beast KF560C36BBE2-32 (1 x 32 GB | DIMM DDR5-6000)",
-     "precio": 633825,
+     "precio": 635742,
      "motivo": "no dice '2 x 16 GB'"
     },
     {
@@ -627,12 +630,12 @@
     },
     {
      "nombre": "Kingston Fury Beast RGB KF556C36BBEA-64 (1 x 64 GB | DIMM DDR5-5600)",
-     "precio": 1260424,
+     "precio": 1264236,
      "motivo": "no dice '2 x 32 GB'"
     },
     {
      "nombre": "Kingston Fury Beast KF556C36BBE-64 (1 x 64 GB | DIMM DDR5-5600)",
-     "precio": 1282076,
+     "precio": 1285953,
      "motivo": "no dice '2 x 32 GB'"
     },
     {
@@ -647,7 +650,7 @@
     },
     {
      "nombre": "Kingston KTD-PE556D4-64G (1 x 64 GB | DIMM DDR5-5600 ECC)",
-     "precio": 2524148,
+     "precio": 2523990,
      "motivo": "no dice '2 x 32 GB'"
     },
     {
@@ -695,7 +698,7 @@
      "precio": 1112044,
      "tienda": "KDTEC",
      "url": "https://kdtec.cl/producto/memoria-ram-kingston-valueram-32gb-ddr5-5600mts-dimm-desktop-kvr56u46bd8-32/",
-     "n_tiendas": 6,
+     "n_tiendas": 5,
      "cantidad": 2,
      "precio_unitario": 556022
     },
@@ -711,15 +714,15 @@
      "precio_unitario": 589900
     },
     {
-     "product_id": 265496,
-     "nombre": "2 x Kingston KCP556UD8-32 (1 x 32 GB | DIMM DDR5-5600)",
-     "precio_lista": 1146780,
-     "precio": 1299800,
-     "tienda": "PC Express",
-     "url": "https://tienda.pc-express.cl/21005-memoria-udimm-kingston-ddr5-32gb-5600-p-n-kcp556ud8-32",
-     "n_tiendas": 10,
+     "product_id": 206513,
+     "nombre": "2 x Kingston Fury Beast KF556C36BBE-32 (1 x 32 GB | DIMM DDR5-5600)",
+     "precio_lista": 1195980,
+     "precio": 1195980,
+     "tienda": "MyShop",
+     "url": "https://myshop.cl/producto/dimm-32-gb-kingston-fury-beast-kf556c36bbe-32-1-x-32-gb--dimm-ddr5-5600-p23752",
+     "n_tiendas": 11,
      "cantidad": 2,
-     "precio_unitario": 649900
+     "precio_unitario": 597990
     }
    ],
    "descartados": [
@@ -900,7 +903,7 @@
     "precio": 266990,
     "tienda": "Tecnomas.cl",
     "url": "https://tecnomas.cl/producto/kingston-internal-hard-drive-2000-gb-m-2-2230-solid-state-drive",
-    "n_tiendas": 12
+    "n_tiendas": 11
    },
    "candidatos": [
     {
@@ -910,7 +913,7 @@
      "precio": 266990,
      "tienda": "Tecnomas.cl",
      "url": "https://tecnomas.cl/producto/kingston-internal-hard-drive-2000-gb-m-2-2230-solid-state-drive",
-     "n_tiendas": 12
+     "n_tiendas": 11
     },
     {
      "product_id": 253374,
@@ -992,12 +995,12 @@
      "motivo": "no dice '2 TB'"
     },
     {
-     "nombre": "A-DATA Legend 860 1 TB (SLEG-860-1000GCS)",
-     "precio": 159800,
+     "nombre": "Lexar NQ780 1 TB (LNQ780X001T-RNNNG)",
+     "precio": 162990,
      "motivo": "no dice '2 TB'"
     },
     {
-     "nombre": "Lexar NQ780 1 TB (LNQ780X001T-RNNNG)",
+     "nombre": "A-DATA Legend 860 1 TB (SLEG-860-1000GCS)",
      "precio": 162990,
      "motivo": "no dice '2 TB'"
     },
@@ -1042,12 +1045,12 @@
      "motivo": "no dice '2 TB'"
     },
     {
-     "nombre": "Western Digital Green SN350 1 TB (WDS100T3G0C)",
+     "nombre": "PNY CS2150 1 TB (M280CS2150-1TB-TB)",
      "precio": 199990,
      "motivo": "no dice '2 TB'"
     },
     {
-     "nombre": "PNY CS2150 1 TB (M280CS2150-1TB-TB)",
+     "nombre": "Western Digital Green SN350 1 TB (WDS100T3G0C)",
      "precio": 199990,
      "motivo": "no dice '2 TB'"
     },
@@ -1060,11 +1063,6 @@
      "nombre": "Hiksemi Wave (S) 2 TB (HS-SSD-WAVE(S)/2048G)",
      "precio": 211544,
      "motivo": "marca fuera de la lista confiable"
-    },
-    {
-     "nombre": "A-DATA XPG Gammix S70 BLADE 1 TB (AGAMMIXS70B-1T-CS)",
-     "precio": 212990,
-     "motivo": "no dice '2 TB'"
     },
     {
      "nombre": "Hiksemi Future 1 TB (HS-SSD-FUTURES 2230 1024G)",
@@ -1092,6 +1090,11 @@
      "motivo": "no dice '2 TB'"
     },
     {
+     "nombre": "A-DATA XPG Gammix S70 BLADE 1 TB (AGAMMIXS70B-1T-CS)",
+     "precio": 229990,
+     "motivo": "no dice '2 TB'"
+    },
+    {
      "nombre": "KingSpec P3 2 TB (P3-2TB)",
      "precio": 231270,
      "motivo": "marca fuera de la lista confiable"
@@ -1113,13 +1116,8 @@
     },
     {
      "nombre": "Kingston FURY Renegade G5 1 TB (SFYR2S/1T0)",
-     "precio": 264750,
+     "precio": 264990,
      "motivo": "no dice '2 TB'"
-    },
-    {
-     "nombre": "Western Digital Green SN350 2 TB (WDS200T3G0C)",
-     "precio": 279990,
-     "motivo": "marca fuera de la lista confiable"
     },
     {
      "nombre": "SanDisk Ultra 3D 2 TB (SDSSDH3-2T00-G25)",
@@ -1130,6 +1128,11 @@
      "nombre": "Kingston KC3000 1 TB (SKC3000S/1024G)",
      "precio": 279990,
      "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "Western Digital Green SN350 2 TB (WDS200T3G0C)",
+     "precio": 279990,
+     "motivo": "marca fuera de la lista confiable"
     },
     {
      "nombre": "A-DATA XPG Mars 980 Pro 1 TB (SMAR-980P-1TCI)",
@@ -1147,11 +1150,6 @@
      "motivo": "no dice '2 TB'"
     },
     {
-     "nombre": "Western Digital Black SN770M 1 TB (WDS100T3X0G)",
-     "precio": 315872,
-     "motivo": "no dice '2 TB'"
-    },
-    {
      "nombre": "Kingston FURY Renegade 1 TB (SFYRSK/1000G)",
      "precio": 320990,
      "motivo": "no dice '2 TB'"
@@ -1162,9 +1160,9 @@
      "motivo": "no dice '2 TB'"
     },
     {
-     "nombre": "Samsung 9100 Pro 1 TB (MZ-VAP1T0B/AM)",
+     "nombre": "SanDisk 5100 Optimus 2 TB (SDSP51200TAN-000E0)",
      "precio": 329990,
-     "motivo": "no dice '2 TB'"
+     "motivo": "marca fuera de la lista confiable"
     },
     {
      "nombre": "Western Digital Green SN3000 2 TB (WDS200T4G0E)",
@@ -1173,7 +1171,7 @@
     },
     {
      "nombre": "A-DATA Legend 860 2 TB (SLEG-860-2000GCS)",
-     "precio": 338541,
+     "precio": 338890,
      "motivo": "marca fuera de la lista confiable"
     },
     {
@@ -1202,24 +1200,9 @@
      "motivo": "no dice '2 TB'"
     },
     {
-     "nombre": "Western Digital Black SN8100 1 TB (WDS100T1X0M)",
-     "precio": 420736,
-     "motivo": "no dice '2 TB'"
-    },
-    {
-     "nombre": "SanDisk 5100 Optimus 2 TB (SDSP51200TAN-000E0)",
-     "precio": 459648,
-     "motivo": "marca fuera de la lista confiable"
-    },
-    {
      "nombre": "Kingston FURY Renegade G5 2 TB (SFYR2S/2T0)",
      "precio": 479990,
      "motivo": "marca fuera de la lista confiable"
-    },
-    {
-     "nombre": "Kingston FURY Renegade 1 TB (SFYRS/1000G)",
-     "precio": 479990,
-     "motivo": "no dice '2 TB'"
     },
     {
      "nombre": "Crucial P3 4 TB (CT4000P3SSD8)",
@@ -1252,13 +1235,13 @@
      "motivo": "marca fuera de la lista confiable"
     },
     {
-     "nombre": "Kingston FURY Renegade 2 TB (SFYRD/2000G)",
-     "precio": 719990,
-     "motivo": "marca fuera de la lista confiable"
+     "nombre": "Kingston KC3000 4 TB (SKC3000D/4096G)",
+     "precio": 778866,
+     "motivo": "no dice '2 TB'"
     },
     {
-     "nombre": "Kingston KC3000 4 TB (SKC3000D/4096G)",
-     "precio": 778980,
+     "nombre": "Kingston FURY Renegade 1 TB (SFYRS/1000G)",
+     "precio": 819990,
      "motivo": "no dice '2 TB'"
     },
     {
@@ -1277,14 +1260,19 @@
      "motivo": "no dice '2 TB'"
     },
     {
-     "nombre": "Kingston FURY Renegade 4 TB (SFYRDK/4000G)",
-     "precio": 1499990,
-     "motivo": "no dice '2 TB'"
+     "nombre": "Kingston FURY Renegade 2 TB (SFYRD/2000G)",
+     "precio": 1219990,
+     "motivo": "marca fuera de la lista confiable"
     },
     {
      "nombre": "HP 2 TB (P40511-B21)",
      "precio": 1790800,
      "motivo": "marca fuera de la lista confiable"
+    },
+    {
+     "nombre": "Kingston FURY Renegade 4 TB (SFYRDK/4000G)",
+     "precio": 1799990,
+     "motivo": "no dice '2 TB'"
     },
     {
      "nombre": "Kingston FURY Renegade G5 8 TB (SFYR2D/8T1)",
@@ -1394,12 +1382,12 @@
      "motivo": "no dice '2 TB'"
     },
     {
-     "nombre": "A-DATA Legend 860 1 TB (SLEG-860-1000GCS)",
-     "precio": 159800,
+     "nombre": "Lexar NQ780 1 TB (LNQ780X001T-RNNNG)",
+     "precio": 162990,
      "motivo": "no dice '2 TB'"
     },
     {
-     "nombre": "Lexar NQ780 1 TB (LNQ780X001T-RNNNG)",
+     "nombre": "A-DATA Legend 860 1 TB (SLEG-860-1000GCS)",
      "precio": 162990,
      "motivo": "no dice '2 TB'"
     },
@@ -1444,12 +1432,12 @@
      "motivo": "no dice '2 TB'"
     },
     {
-     "nombre": "Western Digital Green SN350 1 TB (WDS100T3G0C)",
+     "nombre": "PNY CS2150 1 TB (M280CS2150-1TB-TB)",
      "precio": 199990,
      "motivo": "no dice '2 TB'"
     },
     {
-     "nombre": "PNY CS2150 1 TB (M280CS2150-1TB-TB)",
+     "nombre": "Western Digital Green SN350 1 TB (WDS100T3G0C)",
      "precio": 199990,
      "motivo": "no dice '2 TB'"
     },
@@ -1462,11 +1450,6 @@
      "nombre": "Hiksemi Wave (S) 2 TB (HS-SSD-WAVE(S)/2048G)",
      "precio": 211544,
      "motivo": "marca fuera de la lista confiable"
-    },
-    {
-     "nombre": "A-DATA XPG Gammix S70 BLADE 1 TB (AGAMMIXS70B-1T-CS)",
-     "precio": 212990,
-     "motivo": "no dice '2 TB'"
     },
     {
      "nombre": "Hiksemi Future 1 TB (HS-SSD-FUTURES 2230 1024G)",
@@ -1494,6 +1477,11 @@
      "motivo": "no dice '2 TB'"
     },
     {
+     "nombre": "A-DATA XPG Gammix S70 BLADE 1 TB (AGAMMIXS70B-1T-CS)",
+     "precio": 229990,
+     "motivo": "no dice '2 TB'"
+    },
+    {
      "nombre": "KingSpec P3 2 TB (P3-2TB)",
      "precio": 231270,
      "motivo": "marca fuera de la lista confiable"
@@ -1515,17 +1503,12 @@
     },
     {
      "nombre": "Kingston FURY Renegade G5 1 TB (SFYR2S/1T0)",
-     "precio": 264750,
+     "precio": 264990,
      "motivo": "no dice '2 TB'"
     },
     {
      "nombre": "Kingston NV3 2 TB (SNV3SM3/2T0)",
      "precio": 266990,
-     "motivo": "marca fuera de la lista confiable"
-    },
-    {
-     "nombre": "Western Digital Green SN350 2 TB (WDS200T3G0C)",
-     "precio": 279990,
      "motivo": "marca fuera de la lista confiable"
     },
     {
@@ -1537,6 +1520,11 @@
      "nombre": "Kingston KC3000 1 TB (SKC3000S/1024G)",
      "precio": 279990,
      "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "Western Digital Green SN350 2 TB (WDS200T3G0C)",
+     "precio": 279990,
+     "motivo": "marca fuera de la lista confiable"
     },
     {
      "nombre": "A-DATA XPG Mars 980 Pro 1 TB (SMAR-980P-1TCI)",
@@ -1559,11 +1547,6 @@
      "motivo": "marca fuera de la lista confiable"
     },
     {
-     "nombre": "Western Digital Black SN770M 1 TB (WDS100T3X0G)",
-     "precio": 315872,
-     "motivo": "no dice '2 TB'"
-    },
-    {
      "nombre": "Kingston FURY Renegade 1 TB (SFYRSK/1000G)",
      "precio": 320990,
      "motivo": "no dice '2 TB'"
@@ -1574,9 +1557,9 @@
      "motivo": "no dice '2 TB'"
     },
     {
-     "nombre": "Samsung 9100 Pro 1 TB (MZ-VAP1T0B/AM)",
+     "nombre": "SanDisk 5100 Optimus 2 TB (SDSP51200TAN-000E0)",
      "precio": 329990,
-     "motivo": "no dice '2 TB'"
+     "motivo": "marca fuera de la lista confiable"
     },
     {
      "nombre": "Western Digital Green SN3000 2 TB (WDS200T4G0E)",
@@ -1585,7 +1568,7 @@
     },
     {
      "nombre": "A-DATA Legend 860 2 TB (SLEG-860-2000GCS)",
-     "precio": 338541,
+     "precio": 338890,
      "motivo": "marca fuera de la lista confiable"
     },
     {
@@ -1611,21 +1594,6 @@
     {
      "nombre": "SanDisk 8100 Optimus GX Pro 1 TB (SDSP82100TAN-000E0)",
      "precio": 399990,
-     "motivo": "no dice '2 TB'"
-    },
-    {
-     "nombre": "Western Digital Black SN8100 1 TB (WDS100T1X0M)",
-     "precio": 420736,
-     "motivo": "no dice '2 TB'"
-    },
-    {
-     "nombre": "SanDisk 5100 Optimus 2 TB (SDSP51200TAN-000E0)",
-     "precio": 459648,
-     "motivo": "marca fuera de la lista confiable"
-    },
-    {
-     "nombre": "Kingston FURY Renegade 1 TB (SFYRS/1000G)",
-     "precio": 479990,
      "motivo": "no dice '2 TB'"
     },
     {
@@ -1655,7 +1623,12 @@
     },
     {
      "nombre": "Kingston KC3000 4 TB (SKC3000D/4096G)",
-     "precio": 778980,
+     "precio": 778866,
+     "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "Kingston FURY Renegade 1 TB (SFYRS/1000G)",
+     "precio": 819990,
      "motivo": "no dice '2 TB'"
     },
     {
@@ -1674,14 +1647,14 @@
      "motivo": "no dice '2 TB'"
     },
     {
-     "nombre": "Kingston FURY Renegade 4 TB (SFYRDK/4000G)",
-     "precio": 1499990,
-     "motivo": "no dice '2 TB'"
-    },
-    {
      "nombre": "HP 2 TB (P40511-B21)",
      "precio": 1790800,
      "motivo": "marca fuera de la lista confiable"
+    },
+    {
+     "nombre": "Kingston FURY Renegade 4 TB (SFYRDK/4000G)",
+     "precio": 1799990,
+     "motivo": "no dice '2 TB'"
     },
     {
      "nombre": "Kingston FURY Renegade G5 8 TB (SFYR2D/8T1)",
@@ -1806,12 +1779,12 @@
      "motivo": "marca fuera de la lista confiable"
     },
     {
-     "nombre": "A-DATA Legend 860 1 TB (SLEG-860-1000GCS)",
-     "precio": 159800,
+     "nombre": "Lexar NQ780 1 TB (LNQ780X001T-RNNNG)",
+     "precio": 162990,
      "motivo": "marca fuera de la lista confiable"
     },
     {
-     "nombre": "Lexar NQ780 1 TB (LNQ780X001T-RNNNG)",
+     "nombre": "A-DATA Legend 860 1 TB (SLEG-860-1000GCS)",
      "precio": 162990,
      "motivo": "marca fuera de la lista confiable"
     },
@@ -1856,23 +1829,18 @@
      "motivo": "marca fuera de la lista confiable"
     },
     {
-     "nombre": "Western Digital Green SN350 1 TB (WDS100T3G0C)",
+     "nombre": "PNY CS2150 1 TB (M280CS2150-1TB-TB)",
      "precio": 199990,
      "motivo": "marca fuera de la lista confiable"
     },
     {
-     "nombre": "PNY CS2150 1 TB (M280CS2150-1TB-TB)",
+     "nombre": "Western Digital Green SN350 1 TB (WDS100T3G0C)",
      "precio": 199990,
      "motivo": "marca fuera de la lista confiable"
     },
     {
      "nombre": "SanDisk SSD Plus 1 TB (SDSSDA-1T00-G28)",
      "precio": 209760,
-     "motivo": "marca fuera de la lista confiable"
-    },
-    {
-     "nombre": "A-DATA XPG Gammix S70 BLADE 1 TB (AGAMMIXS70B-1T-CS)",
-     "precio": 212990,
      "motivo": "marca fuera de la lista confiable"
     },
     {
@@ -1891,13 +1859,18 @@
      "motivo": "marca fuera de la lista confiable"
     },
     {
+     "nombre": "A-DATA XPG Gammix S70 BLADE 1 TB (AGAMMIXS70B-1T-CS)",
+     "precio": 229990,
+     "motivo": "marca fuera de la lista confiable"
+    },
+    {
      "nombre": "Lexar NQ100 1 TB (LNQ100X001T-RNNNG)",
      "precio": 229990,
      "motivo": "marca fuera de la lista confiable"
     },
     {
      "nombre": "Kingston FURY Renegade G5 1 TB (SFYR2S/1T0)",
-     "precio": 264750,
+     "precio": 264990,
      "motivo": "marca fuera de la lista confiable"
     },
     {
@@ -1921,11 +1894,6 @@
      "motivo": "marca fuera de la lista confiable"
     },
     {
-     "nombre": "Samsung 9100 Pro 1 TB (MZ-VAP1T0B/AM)",
-     "precio": 329990,
-     "motivo": "marca fuera de la lista confiable"
-    },
-    {
      "nombre": "Western Digital Green SN3000 2 TB (WDS200T4G0E)",
      "precio": 329990,
      "motivo": "no dice '1 TB'"
@@ -1937,12 +1905,12 @@
     },
     {
      "nombre": "Kingston FURY Renegade 1 TB (SFYRS/1000G)",
-     "precio": 479990,
+     "precio": 819990,
      "motivo": "marca fuera de la lista confiable"
     },
     {
      "nombre": "Lenovo 480 GB (4XB7A90873)",
-     "precio": 1720259,
+     "precio": 1725461,
      "motivo": "no dice '1 TB'"
     }
    ]
@@ -1956,7 +1924,7 @@
     "precio": 69900,
     "tienda": "PC Express",
     "url": "https://tienda.pc-express.cl/21361-fuente-de-poder-msi-850w-gold-no-modular-mag-a850gn-p-n-mag-a850gn-pcie5",
-    "n_tiendas": 14
+    "n_tiendas": 13
    },
    "candidatos": [
     {
@@ -1966,7 +1934,7 @@
      "precio": 69900,
      "tienda": "PC Express",
      "url": "https://tienda.pc-express.cl/21361-fuente-de-poder-msi-850w-gold-no-modular-mag-a850gn-p-n-mag-a850gn-pcie5",
-     "n_tiendas": 14
+     "n_tiendas": 13
     },
     {
      "product_id": 358154,
@@ -1993,7 +1961,7 @@
      "precio": 84790,
      "tienda": "Dust2",
      "url": "https://dust2.gg/producto/fuente-de-poder-xpg-kyber-ii-850w-80-plus-gold/",
-     "n_tiendas": 12
+     "n_tiendas": 11
     }
    ],
    "descartados": [
@@ -2043,24 +2011,19 @@
      "motivo": "no dice 'Gold'"
     },
     {
-     "nombre": "Thermalright TR-KG850 (850 W)",
-     "precio": 69990,
-     "motivo": "marca vetada (Thermalright)"
-    },
-    {
      "nombre": "Segotep GM850W (850 W)",
      "precio": 76491,
      "motivo": "marca vetada (Segotep)"
     },
     {
-     "nombre": "Segotep PM850W White (850 W)",
-     "precio": 80991,
-     "motivo": "no dice 'Gold'"
-    },
-    {
      "nombre": "Apevia ATX-PM850W (850 W)",
      "precio": 80991,
      "motivo": "marca fuera de la lista confiable"
+    },
+    {
+     "nombre": "Segotep PM850W White (850 W)",
+     "precio": 80991,
+     "motivo": "no dice 'Gold'"
     },
     {
      "nombre": "DarkFlash PMT850 (850 W)",
@@ -2094,13 +2057,8 @@
     },
     {
      "nombre": "Clio ATX PRO-M-850W (850 W)",
-     "precio": 89240,
+     "precio": 89510,
      "motivo": "marca vetada (Clio)"
-    },
-    {
-     "nombre": "Redragon RGPS GC-PS010 (850 W)",
-     "precio": 89990,
-     "motivo": "marca fuera de la lista confiable"
     },
     {
      "nombre": "Gamemax GZ-850G BK (850 W)",
@@ -2108,9 +2066,9 @@
      "motivo": "marca vetada (Gamemax)"
     },
     {
-     "nombre": "Thermalright TR-SP850-W (850 W)",
-     "precio": 89900,
-     "motivo": "no dice 'Gold'"
+     "nombre": "Redragon RGPS GC-PS010 (850 W)",
+     "precio": 89990,
+     "motivo": "marca fuera de la lista confiable"
     },
     {
      "nombre": "Gamemax RGB-850 SE PRO BK (850 W)",
@@ -2125,11 +2083,6 @@
     {
      "nombre": "Super Flower Zillion FG SF-850Z12FG (850 W)",
      "precio": 99990,
-     "motivo": "marca fuera de la lista confiable"
-    },
-    {
-     "nombre": "Lian Li Edge Gold EG0850G - Black (850 W)",
-     "precio": 109000,
      "motivo": "marca fuera de la lista confiable"
     },
     {
@@ -2158,18 +2111,28 @@
      "motivo": "no dice 'Gold'"
     },
     {
+     "nombre": "Lian Li Edge Gold EG0850G - Black (850 W)",
+     "precio": 129900,
+     "motivo": "marca fuera de la lista confiable"
+    },
+    {
      "nombre": "Cooler Master Elite Platinum 850 (MPE-85F1-AFP) (850 W)",
      "precio": 133745,
      "motivo": "no dice 'Gold'"
     },
     {
-     "nombre": "Cooler Master Elite Platinum 850 - Sin enchufe (MPE-85F1-AFP-C3B0CNP) (850 W)",
-     "precio": 134015,
+     "nombre": "Gigabyte Aorus GP-AE850PM PG5 (850 W)",
+     "precio": 139990,
      "motivo": "no dice 'Gold'"
     },
     {
-     "nombre": "Gigabyte Aorus GP-AE850PM PG5 (850 W)",
-     "precio": 139990,
+     "nombre": "Xigmatek Fury GD 850 (EN40740) (850 W)",
+     "precio": 144900,
+     "motivo": "marca fuera de la lista confiable"
+    },
+    {
+     "nombre": "Gigabyte Aorus GP-AE850PM PG5 ICE (850 W)",
+     "precio": 146990,
      "motivo": "no dice 'Gold'"
     }
    ]
@@ -2198,7 +2161,7 @@
     {
      "product_id": 270441,
      "nombre": "Thermalright Peerless Assassin 120 Digital ARGB - Black",
-     "precio_lista": 46990,
+     "precio_lista": 49900,
      "precio": 49900,
      "tienda": "RS Tech",
      "url": "https://rstech.cl/producto/cooler-cpu-thermalright-peerless-assassin-120-digital-black-argb/",
