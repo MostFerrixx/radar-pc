@@ -11,11 +11,9 @@ release 2.5 | Y2JB-P2JB V2.5 | 2026-05-25
 release 2.5.1 | Y2JB-P2JB V2.5.1 | 2026-05-25
 release 2.5.2 | Y2JB-P2JB V2.5.2 - Y2JB 1.3 PROT_EXEC fix | 2026-05-25
 release 2.6 | Y2JB-P2JB V2.6 - Y2JB 1.5 support | 2026-05-25
-repo AlxcBTW/anyps5-roadmap | Generated blocker map for AnyPS5, the tool that ports PS5 executables to Linux and Windows (community prototype)
-repo BCSUserGroup26/prsnl-ps5-linux | 
-repo BCSUserGroup26/prsnl-ps5-linux1 | 
-repo BaZZtian/SilverBirch | Independent DS runtime for PS5 homebrew. Loads user-supplied ROMs at runtime; no games or original console BIOS included. GPL-3.0-or-later.
+repo Alexius0815/ps5-raymarch-techdemo | 
 repo C0rn3j/PS5 | PS5 related stuff
+repo ConWan30/qortime | Signed verified match-result receipts for console money matches
 repo DonadoM/ps5-pro-watcher | 
 repo EchoStretch/BackPork | Lets you sideload system libraries into PS5 games
 repo EchoStretch/Byepervisor | A PS5 hypervisor exploit for 1.xx-2xx firmwares.
@@ -114,46 +112,48 @@ repo Gezine/remote_lua_loader |
 repo Gezine/sdk | An SDK for PS5 payloads that uses dynamic linking
 repo Gezine/sdk-ps4 | 
 repo IkpemosiArnold/ps5-price-tracker | 
-repo MehrsamMod/MaurePS5 | PS5 Translation layer for Windows, MacOS and Linux
+repo KytyPS5/KytyPS5 | PlayStation 5 translation layer for Windows, Linux and macOS
+repo Marice/ps5-signal | PS5 background payload that plays beep tunes and LED colour patterns for homebrew, through a small HTTP API on 127.0.0.1
+repo Marice/ps5-signal-companion | PS5 homebrew app to set the console's light colour and edit the startup tune of ps5-signal; built on ps5-homebrew-ui
+repo MiladRx/Breeze | PS5 fan curve payload with a web panel. Works with elfldr and Payload Manager.
 repo Mohamedgawad1/PS5-COMPLETION-PLATFORM | COMPLETION PROGRESS 
 repo Mohamedgawad1/ps5-dashboard | 
 repo Naivelk/ps5Plus | 
 repo PSH5JB/PSH5 | PS5 Host
-repo RDX-Sci01/PLDMGR_JSON | Custom Payload Repositories for PS5 Payload Manager
 repo RedMadKnight/BC5 | BC-250 + PS5. A native PS5 GPU path for the AMD BC-250 (Cyan Skillfish, gfx1013). User-space backend that feeds PS5 AGC command streams and native RDNA ISA shaders to amdgpu on Linux, without GNM→Vulk
+repo Slxcky-1/Relapse-Exploit | PS5 Host
+repo SpiderNic96/ps5-scene-wire | 
 repo Yahballon/tmp_lap | AI PS5 Homebrew Testing Lab 
-repo Yldaca/taratura-siege | Coach per trovare la sensibilità giusta in Rainbow Six Siege su PS5
 repo ZigZagBoi1/PS5-14.10-Research | PS5 firmware 14.10 kernel attack surface research - 62 Lua probes mapping syscalls, memory, networking, and exploit paths from userland
 repo amin575/PS5-Update-Tracker | 
-repo antonreino/ps5-price-bot | 
 repo atanesmarc/mis-payloads-ps5 | Catàleg personal de payloads PS5 (.elf) en format payloads.json
 repo avoidik/ps5-payloads | 
-repo baohuy1122/COM108-LaB5-PS52189-NguyenBaohuy | 
 repo bizkut/ps5-forever | Battle.net launcher for World of Warcraft: Forever on PS5; Wine, RADV and automatic frame generation.
-repo blackbearreloaded/ProsperoEden | Experimental Eden port for PS5
 repo boykopovar/AnyPS5 | Tool for automatic PS5 executables porting to Linux and Windows
-repo cobanov/PS5LM | llama.cpp on a jailbroken PS5: run any GGUF model natively on the console, starting with Qwen 3.8
+repo codevski/aur-ps5upload-bin | AUR package for PS5Upload (ps5upload-bin), auto-updated from upstream releases
 repo dante0747/gamebeeper.gg | All the games worth watching. One signal. — a fast, open-source video game news aggregator.
-repo deepkicks/TitaniaPy | A Python CLI tool that parses, analyzes, and decrypts PS5 PUP/BLS files on PC — no console required. Features BLS extraction, Layer 3 firmware decryption, PBKDF2/KMB key derivation, and entropy-based 
-repo eskisanahmet948-pixel/signal-overload-news | 2026 Open Source Gaming News Aggregator: All Games Worth Watching, One Signal
-repo henrikm07/Subnautica-2-Abyss-Watch | Subnautica 2 PS5 Release Date 2026: Early Access & Multiplayer News
+repo eskeysoftlabo/PBsChatAssistant | PB's ChatAssistant - open the chat window and the console's text input screen from the keyboard's Enter key, for The Elder Scrolls Online on console (PS5/Xbox).
+repo eskeysoftlabo/PBsScreenshotModeShortcut | PB's ScreenshotModeShortcut - Enter screenshot mode with L2 + D-pad Left for The Elder Scrolls Online on console (PS5/Xbox).
 repo hiddenkernellab/PLM-Repository | HiddenKernel repository for PS5 Payload Manager
-repo holdmysocks/mcla-recomp | Static recompilation of Midnight Club: Los Angeles (Xbox 360) for PC and PS5. No game data included.
-repo huddaiami-rgb/playstation-vault-indexer | PlayStation Store Full Game Database Index 2026 – All Titles, Prices & Ratings
-repo jedipunkz/ps5pro-crawl | 
-repo jstrdev/ps5directo | Herramienta de transferencia de archivos a PS5 por red local
-repo knutwurst/ps5-patchdl | Official updates for your PS5 and PS4 games, from any browser. PatchDL runs on the PS5, finds the newest update for every installed game, downloads it with parallel connections and resume, and install
-repo manchildtechnologies-ui/ps5-share | PS5 Share Hub: capture-gallery homebrew that uploads screenshots and videos to Discord
-repo mcAffy47/discord-ps5-homebrew | Experimental PS5 Discord voice homebrew with Windows audio bridge. Development paused — maintainers welcome.
-repo nexgen999/PS5-Super-PLDMGR-Auto-Updater | PS5 Super PLDMGR Auto Updater
+repo iStark/PS5PCEM | PS5 PC Emulator
+repo iStark/PS5PCEM.com | Official hub for the PS5PCEM a PlayStation 5 emulator, featuring game compatibility tracking, performance logs, and active project listings.
+repo iamwill221/dualsense-support-detroit-become-human | DualSense (PS5) controller support for Detroit: Become Human on PC: PlayStation prompts, rumble, lightbar, motion, touchpad, USB and Bluetooth. Drop-in DLL, no Steam Input needed.
+repo kadiga1984sa-max/subnautica-2-ps5-early-build-explorer | Subnautica 2 PS5 Port Leaks & Early Access 2026 Guide
+repo knutwurst/ps5-ultrapack | macOS and Windows app to build PS5 fPKG (.pkg) and .ffpfsc containers from any source. Game folder, archive, or disk image. Pack, unpack, browse a .pkg block-by-block, patch, fake-sign. Verified launc
+repo mateo-cogeanu/ps5-java25-homebrew | Native OpenJDK 25 runtime port for PS5 homebrew, with console-tested milestones and Java acceptance probes.
+repo mateo-cogeanu/ps5-minecraft-java | Future Minecraft Java Edition homebrew for PS5. Java runtime port: https://github.com/mateo-cogeanu/ps5-java25-homebrew
+repo melvindevries/Retro-Rewind-PS5-Patcher | 
+repo misza-one/ps-oneshot | Drive a Hyprland / Omarchy desktop and your AI agents with a PS5 DualSense: radial menus, push-to-talk dictation, lightbar agent status.
+repo mortaljinx/Seedee5 | Philips CD-i emulator for the PS5 (native homebrew title)
+repo naye1120/NayePlmTools | NayePlmTools — PS5 Payload Manager 中文分支（CN-FORK）：游戏改名/存档管理/背景音乐/主屏排序等增强
+repo nexgen999/PS5-Repository-List | List of PS5 repository
+repo nileshchakraborty/AstraPlay | AstraPlay is an open-source PS4/PS5 Remote Play client for Android, Android TV, iOS, macOS, Windows, Linux, and Steam Deck with internet play, console discovery, and app-store installs.
 repo pedrohti/PS5LinkCentalizer | Link hub for the PS5 JB scene
-repo quer3q/ps5-dump-forge | A toolkit for working with PS5 game dumps. Cross-platform - including the PS5 itself.
-repo ransh2014/gt7telemtrace | TRACE - GT7 live telemetry dashboard + 19-chart lap analysis tool. Reads UDP stream from PS4/PS5 over local network.
+repo prathviindusanalytics-netizen/Hollow-Viewer | PS5 Game Mod Studio and Cheat File Manager 2026
 repo sHarK-ps/PS5-PLDMGR-AutoUpdater | PS5 PLDMGR Auto Updater
 repo samuelevans921/elden-ring | Top Elden Ring Gameplay Enhancement Suite 2026: ESP & No Recoil
-repo sebedard-creator/AmbiPlex | Headless, HDMI Splitter-less, Camera-less Ambilight type solution for Plex, Xbox, PS4 and PS5
 repo sephiroth613/synra-games-catalogo | Catalogo de juegos digitales PS4 y PS5 - Synra Games
-repo shivachauhan25051992/ps5-pro-stock-alert | Email alert when PS5 Pro is in stock at PlayStation Direct NL
-repo theghostonline/PS5-LZ4-Compression | LZ4 compression for games, done entirely on the PS5
-repo theory18/ps5-pro-stock-monitor | 
+repo ssdguides/Why-the-Fastest-SSD-on-the-Box-Isn-t-Always-the-Right-One-5d84dc4a | Not sure which SSD fits your PC, laptop or PS5? 🖥️ Start with compatibility, then compare speed, capacity, endurance and value. Includes a 6-drive comparison table, an NVMe vs SATA breakdown, a step-b
+repo stupiditytries/librespot-ps5 | Payload for background Spotify playback on modified PS5 consoles
 repo titusajongbah2014-alt/spectral-veil | Ultimate PS5 & PS4 Cheat Database Tool 2026 – Game Trainer Hub
+repo wangyuechi66-beep/ps5-legacy-status-api-archive | PS5 Backward Compatibility Status Tracker 2026: Full Game Library Overview
