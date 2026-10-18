@@ -1,6 +1,6 @@
 {
- "fecha": "2026-10-17",
- "generado_utc": "2026-10-17T11:39:54+00:00",
+ "fecha": "2026-10-18",
+ "generado_utc": "2026-10-18T12:05:27+00:00",
  "para": "Radar iPhone: conviene comprarlo aca o alla",
  "sales_tax_supuesto": 0.07,
  "sales_tax_nota": "Florida, el estado donde suele comprar. Es un supuesto fijo, no un dato consultado.",
@@ -33,10 +33,6 @@
       "n_tiendas": 6,
       "historial": {
        "serie": [
-        [
-         "2026-04-20",
-         1429990
-        ],
         [
          "2026-04-21",
          1429990
@@ -756,6 +752,10 @@
         [
          "2026-10-17",
          1399990
+        ],
+        [
+         "2026-10-18",
+         1399990
         ]
        ],
        "minimo": {
@@ -792,10 +792,6 @@
       "n_tiendas": 4,
       "historial": {
        "serie": [
-        [
-         "2026-04-21",
-         1699990
-        ],
         [
          "2026-04-22",
          1679990
@@ -1511,6 +1507,10 @@
         [
          "2026-10-17",
          1699990
+        ],
+        [
+         "2026-10-18",
+         1699990
         ]
        ],
        "minimo": {
@@ -1543,10 +1543,6 @@
       "n_tiendas": 1,
       "historial": {
        "serie": [
-        [
-         "2026-04-21",
-         2069990
-        ],
         [
          "2026-04-22",
          2069990
@@ -2262,6 +2258,10 @@
         [
          "2026-10-17",
          2049990
+        ],
+        [
+         "2026-10-18",
+         2049990
         ]
        ],
        "minimo": {
@@ -2283,13 +2283,13 @@
     "apple_us": {
      "ok": false,
      "metodo": null,
-     "error": "descontinuado: la pagina responde (725535 bytes) pero ya no trae el catalogo de este modelo",
+     "error": "descontinuado: la pagina responde (725758 bytes) pero ya no trae el catalogo de este modelo",
      "url": "https://www.apple.com/shop/buy-iphone/iphone-17-pro"
     },
     "apple_cl": {
      "ok": false,
      "metodo": null,
-     "error": "descontinuado: la pagina responde (440115 bytes) pero ya no trae el catalogo de este modelo",
+     "error": "descontinuado: la pagina responde (439969 bytes) pero ya no trae el catalogo de este modelo",
      "url": "https://www.apple.com/cl/shop/buy-iphone/iphone-17-pro"
     },
     "solotodo": {
@@ -2377,7 +2377,7 @@
       "precio": 1665586,
       "tienda": "Mercado Libre",
       "url": "https://www.mercadolibre.cl/p/MLC1077855502?pdp_filters=official_store:all",
-      "n_tiendas": 7,
+      "n_tiendas": 5,
       "historial": {
        "serie": [
         [
@@ -2523,13 +2523,17 @@
         [
          "2026-10-17",
          1665586
+        ],
+        [
+         "2026-10-18",
+         1665586
         ]
        ],
        "minimo": {
         "precio": 1629817,
         "fecha": "2026-09-19"
        },
-       "dias": 36,
+       "dias": 37,
        "tiendas": [
         "ABC",
         "Apple Store",
@@ -2553,7 +2557,7 @@
       "precio": 1959990,
       "tienda": "Apple Store",
       "url": "https://www.apple.com/cl/shop/buy-iphone/iphone-18-pro",
-      "n_tiendas": 3,
+      "n_tiendas": 2,
       "historial": {
        "serie": [
         [
@@ -2699,13 +2703,17 @@
         [
          "2026-10-17",
          1959990
+        ],
+        [
+         "2026-10-18",
+         1959990
         ]
        ],
        "minimo": {
         "precio": 1959990,
         "fecha": "2026-09-12"
        },
-       "dias": 36,
+       "dias": 37,
        "tiendas": [
         "Apple Store",
         "Falabella",
@@ -2721,7 +2729,7 @@
      "usa_apple": 1899,
      "chile_apple": 2479990,
      "chile_retail": {
-      "producto": "Apple iPhone 18 Pro Max (1 TB / Glacier) [MJY14BE/A]",
+      "producto": "Apple iPhone 18 Pro Max (1 TB / Burgundy) [MJY04BE/A]",
       "precio": 2479990,
       "tienda": "Apple Store",
       "url": "https://www.apple.com/cl/shop/buy-iphone/iphone-18-pro",
@@ -2867,18 +2875,21 @@
         [
          "2026-10-17",
          2479990
+        ],
+        [
+         "2026-10-18",
+         2479990
         ]
        ],
        "minimo": {
         "precio": 2479990,
         "fecha": "2026-09-13"
        },
-       "dias": 35,
+       "dias": 36,
        "tiendas": [
         "Apple Store",
         "Falabella",
-        "MacOnline",
-        "Mercado Libre"
+        "MacOnline"
        ],
        "error": null
       }
@@ -2902,12 +2913,12 @@
      "ok": true,
      "error": null,
      "url": "https://publicapi.solotodo.com/categories/6/browse/?search=iphone%2018%20pro%20max&ordering=offer_price_usd&page_size=60",
-     "n_descartados": 69
+     "n_descartados": 56
     }
    },
    "descartados": [
     {
-     "nombre": "Apple iPhone 16 Pro Max (256 GB / Desert Titanium)",
+     "nombre": "Apple iPhone 16 Pro Max (256 GB / Black Titanium)",
      "precio": 829990,
      "motivo": "no es iPhone 18 Pro Max"
     },
@@ -2917,7 +2928,7 @@
      "motivo": "no es iPhone 18 Pro Max"
     },
     {
-     "nombre": "Apple iPhone 16 Pro Max (256 GB / Black Titanium)",
+     "nombre": "Apple iPhone 16 Pro Max (256 GB / Desert Titanium)",
      "precio": 829990,
      "motivo": "no es iPhone 18 Pro Max"
     },
@@ -2927,17 +2938,17 @@
      "motivo": "no es iPhone 18 Pro Max"
     },
     {
-     "nombre": "Apple iPhone 16 Pro Max (512 GB / White Titanium)",
-     "precio": 1101990,
-     "motivo": "no es iPhone 18 Pro Max"
-    },
-    {
      "nombre": "Apple iPhone 16 Pro Max (512 GB / Black Titanium)",
      "precio": 1101990,
      "motivo": "no es iPhone 18 Pro Max"
     },
     {
      "nombre": "Apple iPhone 16 Pro Max (512 GB / Natural Titanium)",
+     "precio": 1199990,
+     "motivo": "no es iPhone 18 Pro Max"
+    },
+    {
+     "nombre": "Apple iPhone 16 Pro Max (512 GB / White Titanium)",
      "precio": 1199990,
      "motivo": "no es iPhone 18 Pro Max"
     },
