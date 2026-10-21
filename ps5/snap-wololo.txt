@@ -68,6 +68,8 @@ Follolow:
 Popular
 Popular Posts
 Recent Posts
+Homebrew Release: Warnel Chawpiovs v1.8.0: adds “Agents of S.H.I.E.L.D.” expansion and GUI Improvements
+October 20, 2026
 Homebrew Release: Warnel Chawpiovs v1.7.0: adds “Age of Apocalypse” expansion, web version, support for French language, and more
 September 24, 2026
 Homebrew Release: Warnel Chawpiovs v1.6.0 (PC, Nintendo Switch, Android), adds “Next Evolution” expansion, improved support for fanmade cards
@@ -76,10 +78,10 @@ Homebrew Release: Warnel Chawpiovs v1.5.0 (PC, Nintendo Switch, Android), adds 9
 July 3, 2026
 Homebrew Release: Warnel Chawpiovs v1.4.0 (PC, Nintendo Switch, Android), adds Android Support, 7 new heroes, and 5 new scenarios
 June 16, 2026
-Unlocking the PSP’s Dual Core setup.
-June 16, 2026
 Homebrew Release: Warnel Chawpiovs v1.7.0: adds “Age of Apocalypse” expansion, web version, support for French language, and more
 September 24, 2026
+Homebrew Release: Warnel Chawpiovs v1.8.0: adds “Agents of S.H.I.E.L.D.” expansion and GUI Improvements
+October 20, 2026
 CHECK OUT OUR BOARD GAME SISTER BLOG:
 2024 Top 100 SOLO board games review
 Necromolds Review: a delightful and simple wargame for families
@@ -101,6 +103,7 @@ Popular Downloads
 Archives
 Archives
 Select Month
+October 2026
 September 2026
 August 2026
 July 2026

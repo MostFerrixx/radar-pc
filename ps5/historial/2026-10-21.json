@@ -1,0 +1,141 @@
+{
+ "fecha": "2026-10-21",
+ "generado_utc": "2026-10-21T12:59:08+00:00",
+ "para": "tarea semanal 'Radar PS5 Jailbreak (13.40)' de Claude",
+ "linea_base": {
+  "firmware_del_usuario": "13.40",
+  "ultimo_firmware_conocido": "13.60 (24-jul-2026)",
+  "kernel_publico_hasta": "12.40 / 12.70 (P2JB parchado en 13.00)",
+  "userland_que_sirve_en_13_40": [
+   "LuaC0re",
+   "Y2JB",
+   "WebKit/Slopkit",
+   "BD-JB5 (hasta 13.42)"
+  ]
+ },
+ "fuentes_ok": 2,
+ "fuentes_total": 2,
+ "hay_cambios": true,
+ "fuentes": {
+  "github": {
+   "titulo": "GitHub - repos y releases del scene PS5",
+   "ver_en": "https://github.com/Gezine",
+   "ok": true,
+   "partes_ok": [
+    "users/Gezine/repos?per_page=100&sort=pushed",
+    "users/EchoStretch/repos?per_page=100&sort=pushed",
+    "repos/Gezine/Y2JB/releases?per_page=10",
+    "repos/Gezine/BD-JB5/releases?per_page=10",
+    "repos/matem6/P2JB-Y2JB-Porting/releases?per_page=10",
+    "search/repositories?q=ps5+%28exploit+OR+kernel+OR+jailbreak%29&sort=updated&order=desc&per_page=50"
+   ],
+   "primera_vez": false,
+   "lineas": 162,
+   "cambio": true,
+   "lineas_nuevas": [
+    "repo Axx33284/PC4 | PC4 - a game library for Windows with a PS4 / PS5-style console mode and a Playnite-style desktop mode",
+    "repo BeLikeBrett/SlopFin | Native Jellyfin movie/TV client for jailbroken PS5, with DualSense adaptive-trigger seeking, per-series autoplay and H.264/HEVC hardware decoding.",
+    "repo BrenoRippel/ps5-custom-payloads | ",
+    "repo DV-list/Folder-updater-for-itsplk-PS5-Payloads-Mirror | A simple tool to track PS5 payload files in a local folder, check for updates, and keep them up to date.",
+    "repo FragosoQ/PS5 | ",
+    "repo JANS66/twitch-ps5-tracker | Twitch top-6 -> PS5 game pick tracker with Telegram alerts",
+    "repo JVK3R/JobeesLair | Standalone, content-neutral PS5 homebrew indexer and media framework. Proudly built alongside AI by JVK3R.",
+    "repo Jamzi94/ps5-payload-catalog | Json  Payload Managers for auto update github dependencies ",
+    "repo JohnOnAvocados/PS5-Jailbreak-Research | ",
+    "repo Lukasog54/Fenyra-Payload | Ps5 Payload Jailbeak",
+    "repo MisterTemaki/snes9xPS5 | Port of Snes9x 1.63 for PS5",
+    "repo RDX-Sci01/PLDMGR_JSON | Custom Payload Repositories for PS5 Payload Manager",
+    "repo RastaFairy/Visual-PS5 | IDE for PS5 homebrew visual composer",
+    "repo SFEZSergey/ReplantedAndroid | PvZ: Replanted (PS5) Android port — AnyPS5 + box64 + Turnip",
+    "repo Slxcky-1/Relapse-Exploit | PS5 Host",
+    "repo SwissNHLLeague/swiss-nhl-league | Swiss NHL League – Schweizer NHL 27 E-Sport-Liga für PS5 mit 1vs1, 3vs3 und 6vs6, Clubverwaltung, Spielplänen, Tabellen und Spielerstatistiken.",
+    "repo VoxDon3/vox-launcher | VoX Launcher - PS5 payload launcher with web UI",
+    "repo Weavelefoster/ps5-emulator-controller | Emulates PS5 hardware on PC — built for gamers who want console titles running natively.",
+    "repo adhyan1885-crypto/Ps5_youtube_coach | ",
+    "repo aitorperamos/ps5-payloads | Mi repositorio personal de payloads",
+    "repo akhiltej-2514/PS5-inStock-Cron | So frustated seeing ps5 out of stock every day so making a bot to check everyfew minutes and notifying me if its avilable",
+    "repo alerm04/DualPad | Use your PS5 DualSense as an Xbox controller on Windows, with the touchpad as a mouse. Open source, single exe, 12 languages.",
+    "repo bilawalriaz/myfl-ps5-setup | Pinned Relapse and curated PS5 payload assembly, upstream review automation and restricted hosting",
+    "repo cosmicflow2512/ps5repo | ",
+    "repo darkxex/ProsperoStore | Native PS5 app store for the homebrew catalog at ProsperoStore.net (title PPSA99000)",
+    "repo hiddenkernellab/PLM-Repository | HiddenKernel repository for PS5 Payload Manager",
+    "repo iStark/PS5PCEM | PS5 PC Emulator",
+    "repo iStark/PS5PCEM.com | Official hub for the PS5PCEM a PlayStation 5 emulator, featuring game compatibility tracking, performance logs, and active project listings.",
+    "repo mihawk-99/PS5_MihawkOS | A Windows-inspired PS5 homebrew OS bringing 32-bit and 64-bit Windows gaming to console hardware through a custom Wine/Proton compatibility stack and native Vulkan graphics.",
+    "repo n00bin/nwc | Neverwinter Compendium — PS5 Item & Data Lookup",
+    "repo nexgen999/PS5-Repository-List | List of PS5 repository",
+    "repo pedrohti/PS5LinkCentalizer | Link hub for the PS5 JB scene",
+    "repo prathviindusanalytics-netizen/Hollow-Viewer | PS5 Game Mod Studio and Cheat File Manager 2026",
+    "repo sHarK-ps/PS5-PLDMGR-AutoUpdater | PS5 PLDMGR Auto Updater",
+    "repo westside0106/Ps5-Radar | "
+   ],
+   "lineas_quitadas": [
+    "repo AzrakHQ/azrak-os | PS5 Launcher OS: a PC that boots straight into the launcher (Bazzite or a minimal Fedora bootc image)",
+    "repo BaoHuynh1112/COM108-PS52562-BaoHuynh | ",
+    "repo C0rn3j/PS5 | PS5 related stuff",
+    "repo ConWan30/qortime | Signed verified match-result receipts for console money matches",
+    "repo EmaCorona/ps5-cachy-os-patch | Post-install master patch, boot fixes, 4GB VRAM and silent thermal control for CachyOS Linux on PlayStation 5",
+    "repo Everlite/EverLive | EverLive: Ultra-low-latency Linux gaming suite & native open driver for AVerMedia Live Gamer 4K (GC573) — 1440p@120Hz, PipeWire audio, 1-click install",
+    "repo HuuNhan4202/COM108-Lab6-PS51442-HuuNhan | ",
+    "repo IkpemosiArnold/ps5-price-tracker | ",
+    "repo LedyBacer/ProsperoLight | An unofficial Moonlight port (game streaming) for PS5",
+    "repo MiladRTX/ps5-homebrew-starter | Everything you need to make your first PS5 homebrew: payload and app starters, a live PC simulator with DualSense support, and a 12-chapter guide.",
+    "repo Oliv3rmoon/eden-ps5-compat | Unofficial community log of how Switch games run in ProsperoEden on PS5, with a crash report explainer.",
+    "repo PSH5JB/PSH5 | PS5 Host",
+    "repo Ps5Homs/ps5homs | ",
+    "repo RedMadKnight/BC5 | BC-250 + PS5. A native PS5 GPU path for the AMD BC-250 (Cyan Skillfish, gfx1013). User-space backend that feeds PS5 AGC command streams and native RDNA ISA shaders to amdgpu on Linux, without GNM→Vulk",
+    "repo Rufidj/bennugd2-media-player | Media player written in BennuGD2 for PC (Linux) and PS5: explorer, video/music, subtitles, streaming, Plex/radio addons, 6 languages",
+    "repo TitanCSA/Interceptor | Windows Kernel Filter Driver for keyboard, mouse and USB gamepad input interception/remapping. DS4/DualShock 4 (PS4), DualSense (PS5), wired Xbox 360 and Xbox One/Series X|S via compatible HID/XInput/",
+    "repo VenezuelanBiggie24/MacheteSVG-PS5-Save-Manager | Native PS5 & PS4 Savegame Manager and Web Save Station (:8383 + QR Code) with PFS Save Mounting, Cross-Console PS5 Save Dummy Injection, Apollo-Style PS4 Auto-Resigning, Keystone & SAMU Crypto Vault p",
+    "repo Yahballon/PS5-DevBridge | This tool helps you ",
+    "repo Yahballon/tmp_lap | AI PS5 Homebrew Testing Lab ",
+    "repo acaburaz/ps5gputester | a ps5 game that tests the gpu and stress tests, similar to furmark",
+    "repo akiba-tokyo-jp/PS5-AI-MOSS-Image | Experimental PS5-native MOSS-Image-SFT inference with Vulkan/RADV and an OpenAI Images-compatible API. Includes measured Turbo4 benchmarks.",
+    "repo binxute24-gif/COM108-Lab6-PS52192-DuyTan | ",
+    "repo ecmstudio/Gamepad-Bridge-Core | Gamepad-Core Host Pro API 2026: Native C++ Gamepad Bridge Library",
+    "repo henrikm07/Subnautica-2-Abyss-Watch | Subnautica 2 PS5 Release Date 2026: Early Access & Multiplayer News",
+    "repo knutwurst/ps5-ultrapack | macOS and Windows app to build PS5 fPKG (.pkg) and .ffpfsc containers from any source. Game folder, archive, or disk image. Pack, unpack, browse a .pkg block-by-block, patch, fake-sign. Verified launc",
+    "repo niklashochedlinger-cloud/ps5-watcher | ",
+    "repo peanutpckrupper/Halo-3-Reclaimer-PS5 | Halo 3 Reclaimer on the PS5",
+    "repo quer3q/ps5-dump-forge | A toolkit for working with PS5 game dumps. Cross-platform - including the PS5 itself.",
+    "repo quoc-toan07/COM108-LAB6-PS51869-QuocToan | ",
+    "repo rstarway/ps5 | "
+   ],
+   "menciones_13x_o_superior": [
+    "repo ZigZagBoi1/PS5-14.10-Research | Open PS5 firmware 14.10 research: Lua userland experiments, syscall and attack-surface analysis. Kernel read/write and a complete exploit are not demonstrated."
+   ],
+   "candidatos_kernel_13x": [
+    "repo ZigZagBoi1/PS5-14.10-Research | Open PS5 firmware 14.10 research: Lua userland experiments, syscall and attack-surface analysis. Kernel read/write and a complete exploit are not demonstrated."
+   ],
+   "pista_firmware_kernel_mas_alto": {
+    "firmware": "14.10",
+    "linea": "repo ZigZagBoi1/PS5-14.10-Research | Open PS5 firmware 14.10 research: Lua userland experiments, syscall and attack-surface analysis. Kernel read/write and a complete exploit are not demonstrated."
+   }
+  },
+  "wololo": {
+   "titulo": "Wololo - PS5 Jailbreak and Custom Firmware",
+   "ver_en": "https://wololo.net/ps5-jailbreak-and-custom-firmware/",
+   "ok": true,
+   "url_usada": "https://wololo.net/ps5-jailbreak-and-custom-firmware/",
+   "primera_vez": false,
+   "lineas": 324,
+   "cambio": true,
+   "lineas_nuevas": [
+    "Homebrew Release: Warnel Chawpiovs v1.8.0: adds “Agents of S.H.I.E.L.D.” expansion and GUI Improvements",
+    "October 20, 2026",
+    "Homebrew Release: Warnel Chawpiovs v1.8.0: adds “Agents of S.H.I.E.L.D.” expansion and GUI Improvements",
+    "October 20, 2026",
+    "October 2026"
+   ],
+   "lineas_quitadas": [
+    "Unlocking the PSP’s Dual Core setup."
+   ],
+   "menciones_13x_o_superior": [],
+   "candidatos_kernel_13x": [],
+   "pista_firmware_kernel_mas_alto": {
+    "firmware": "7.61",
+    "linea": "For PS5 Firmware up to 7.61 (23.01-07.61.00) , the (usermode only) bd-jb exploit works and allows some limited native execution. That exploit isn’t a Kernel exploit and doesn’t constitute a Jailbreak, but lets you run some native code on the PS5. Details here ."
+   }
+  }
+ }
+}
