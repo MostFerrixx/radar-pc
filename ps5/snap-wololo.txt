@@ -78,8 +78,6 @@ Homebrew Release: Warnel Chawpiovs v1.5.0 (PC, Nintendo Switch, Android), adds 9
 July 3, 2026
 Homebrew Release: Warnel Chawpiovs v1.4.0 (PC, Nintendo Switch, Android), adds Android Support, 7 new heroes, and 5 new scenarios
 June 16, 2026
-Homebrew Release: Warnel Chawpiovs v1.7.0: adds “Age of Apocalypse” expansion, web version, support for French language, and more
-September 24, 2026
 Homebrew Release: Warnel Chawpiovs v1.8.0: adds “Agents of S.H.I.E.L.D.” expansion and GUI Improvements
 October 20, 2026
 CHECK OUT OUR BOARD GAME SISTER BLOG:
