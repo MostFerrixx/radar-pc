@@ -1,0 +1,122 @@
+{
+ "fecha": "2026-10-28",
+ "generado_utc": "2026-10-28T14:05:03+00:00",
+ "para": "tarea semanal 'Radar PS5 Jailbreak (13.40)' de Claude",
+ "linea_base": {
+  "firmware_del_usuario": "13.40",
+  "ultimo_firmware_conocido": "13.60 (24-jul-2026)",
+  "kernel_publico_hasta": "12.40 / 12.70 (P2JB parchado en 13.00)",
+  "userland_que_sirve_en_13_40": [
+   "LuaC0re",
+   "Y2JB",
+   "WebKit/Slopkit",
+   "BD-JB5 (hasta 13.42)"
+  ]
+ },
+ "fuentes_ok": 2,
+ "fuentes_total": 2,
+ "hay_cambios": true,
+ "fuentes": {
+  "github": {
+   "titulo": "GitHub - repos y releases del scene PS5",
+   "ver_en": "https://github.com/Gezine",
+   "ok": true,
+   "partes_ok": [
+    "users/Gezine/repos?per_page=100&sort=pushed",
+    "users/EchoStretch/repos?per_page=100&sort=pushed",
+    "repos/Gezine/Y2JB/releases?per_page=10",
+    "repos/Gezine/BD-JB5/releases?per_page=10",
+    "repos/matem6/P2JB-Y2JB-Porting/releases?per_page=10",
+    "search/repositories?q=ps5+%28exploit+OR+kernel+OR+jailbreak%29&sort=updated&order=desc&per_page=50"
+   ],
+   "primera_vez": false,
+   "lineas": 162,
+   "cambio": true,
+   "lineas_nuevas": [
+    "repo 0iy/opengoal-ps5 | Play Jak and Daxter 1, 2 and 3 natively on a jailbroken PS5: OpenGOAL port with controller launcher, fast PC import and a patched graphics driver",
+    "repo C0rn3j/PS5 | PS5 related stuff",
+    "repo CrownWiZ/TTT2-Recomp-PS5 | Native PS5 homebrew port of the Tekken Tag Tournament 2 static recompilation (Xbox 360) - firmware 13.60, Relapse",
+    "repo Darkatek7/PS5SD | stable-diffusion.cpp on the PS5 GPU — native title with ggml-vulkan on RADV, image API, web UI and TV dashboard",
+    "repo Evalaw-KF/ps5pad | Pair PS5 DualSense controllers over Bluetooth on a Raspberry Pi",
+    "repo IceNoproblem/PS5LiveBridge | ps5游戏机直播工具，直接直播到B站，弹幕显示在ps5游戏画面",
+    "repo Oliv3rmoon/Nightshade-TV | Nightshade TV: Oliv3rmoon's release of ProsperoTV (BlackBearReloaded), the IPTV client for PS5 homebrew, in Nightshade's black and red.",
+    "repo Oliv3rmoon/eden-ps5-compat | Nightshade Compat Log: which Switch games run in Nightshade (and ProsperoEden) on PS5, plus a crash report explainer.",
+    "repo Vov4k957/ps5-telegram-monitor | ps5-telegram-monitor",
+    "repo ZigZagBoi1/PS5-14.10-Research | Open PS5 firmware 14.10 research: Lua userland experiments, syscall and attack-surface analysis. Kernel read/write and a complete exploit are not demonstrated.",
+    "repo amin575/PS5-Update-Tracker | ",
+    "repo boykopovar/AnyDevKit | SDK for PS5, Windows, Linux games developing",
+    "repo brinza666/movian_ps5 | PS5 port of Movian. Alternative plugin repository: https://bit.ly/mprepo",
+    "repo cosmicflow2512/ps5repo | ",
+    "repo h3lp5ystems/Washington-GoldenGate | A PS4 and PS5 emulator/s optimised specifically for M series Macbooks running the latest MacOS 26.0 or 27.0.",
+    "repo hiddenkernellab/PLM-Repository | HiddenKernel repository for PS5 Payload Manager",
+    "repo lavavex/nfs-blackbox-assets | Large mod files for the NFS Black Box PS5 apps (release assets, pinned by SHA-256)",
+    "repo lavavex/nfs-blackbox-launcher | The launcher (eboot.bin) of the NFS Black Box PS5 game apps: Prospero BlackBox built as one game's own app",
+    "repo lavavex/nfs-blackbox-ps5 | EA Black Box's Need for Speed games as homebrew apps on a jailbroken PS5, through prospero-win (bring your own copy)",
+    "repo lavavex/rpcs3-PS5 | EXPERIMENTAL: RPCS3 as a native PS5 title (RADV Vulkan, Big Picture Mode). Source only, personal use.",
+    "repo mateo-cogeanu/ProsperoCraft | Future Minecraft Java Edition homebrew for PS5. Java runtime port: https://github.com/mateo-cogeanu/ps5-java25-homebrew",
+    "repo mihawk-99/MihawkOS-Compatibility | Which Windows games run on MihawkOS for PS5: community reports, read and approved before they appear.",
+    "repo patnawa/y2jb | Y2JB Autoloader v1.0.4-fast5 - robust+fast download0.dat build (by Patnawa) for itsPLK/ps5-y2jb-autoloader",
+    "repo pl5475/ps5-workstation | ",
+    "repo prathviindusanalytics-netizen/Hollow-Viewer | PS5 Game Mod Studio and Cheat File Manager 2026",
+    "repo rumpony/Tercana | Live subtitle translation for PS Remote Play on Mac — on-device, 20+ languages, plus a trophy hub."
+   ],
+   "lineas_quitadas": [
+    "repo AldySan/SM-Toolbox | Cross-platform desktop companion for ShadowMountPlus: create and verify UFS2 .ffpkg images, manage mkpfs/ufs2tool, and send payloads to a PS5.",
+    "repo AnyTogether/AnyLauncher-Port | The AnyPS5-ARM launcher for Windows and Linux: PS5-style home screen, unlocking, controls, trophies, saves and the phone controller.",
+    "repo DeborahO18/ps5-payload-constellation | Ultimate PS5 Payload Atlas 2026: Auto-Synced Exploit Manager",
+    "repo FortiBrine/RustSense | Stream audio to your PS5 DualSense controller's headphone jack over USB HID",
+    "repo JKamsker/overdrive | Overdrive, a PS5 homebrew game store with 1,800+ games.",
+    "repo Kaoz625/blazingmount | General network-drive mount-and-play tool for jailbroken PS5 (bring-your-own-games homebrew). PRIVATE until Markus okays public release.",
+    "repo PrestaYa-Ruben/Control-Game-PS5 | ",
+    "repo Ridagames/PS-PKG-MERGER | A cross-platform GUI tool to join split PlayStation PKG files (PS3, PS4, PS5) with SHA-256 integrity verification.",
+    "repo Rufidj/bennugd2-media-player | Media player written in BennuGD2 for PC (Linux) and PS5: explorer, video/music, subtitles, streaming, Plex/radio addons, 6 languages",
+    "repo Samuel-SSLabs/Port-Integration | Buscador e catálogo unificado de ports nativos, decompilações e recompilações estáticas de consoles para PC (PS5, PS4, Switch, Xbox 360, N64 e clássicos), com rastreamento em tempo real de releases do",
+    "repo TaoEffects/rhythm-ps5 | ",
+    "repo asylumexp/ghostldr | Run a PS4 game backup inside SWRR on PS5 through Luac0re, without a kernel exploit (tooling only, no game files)",
+    "repo avoidik/ps5-payloads | ",
+    "repo fabioudev/fixplay-diagnoseTool | Cross-platform desktop tool for reading, validating and archiving NOR flash dumps from gaming consoles. Features UART error code reading for live diagnostics and DualSense controller testing. Built wi",
+    "repo halimlolo77-art/my-ps5-catalog | ",
+    "repo knutwurst/ps5-patchdl | Official updates for your PS5 and PS4 games, from any browser. PatchDL runs on the PS5, finds the newest update for every installed game, downloads it with parallel connections and resume, and install",
+    "repo mateo-cogeanu/ps5-java25-homebrew | Native OpenJDK 25 runtime port for PS5 homebrew, with console-tested milestones and Java acceptance probes.",
+    "repo mihawk-99/PS5_Mesa | ",
+    "repo nexgen999/PS5-Repository-List | List of PS5 repository",
+    "repo nexgen999/PS5-Super-PLDMGR-Auto-Updater | PS5 Super PLDMGR Auto Updater",
+    "repo pedrohti/PS5LinkCentalizer | Link hub for the PS5 JB scene",
+    "repo quer3q/ps5-dump-forge | A toolkit for working with PS5 game dumps. Cross-platform - including the PS5 itself.",
+    "repo restfv/ps5-controller-overlay | ",
+    "repo scorpion511/PS5-SCORPION | RELAPSE FOR ALL PS5 FIRMWARES",
+    "repo xaxaapple/ps5ui | ",
+    "repo yohanfv/engenheiro | A free voice race engineer for F1 25 (unofficial)"
+   ],
+   "menciones_13x_o_superior": [
+    "repo CrownWiZ/TTT2-Recomp-PS5 | Native PS5 homebrew port of the Tekken Tag Tournament 2 static recompilation (Xbox 360) - firmware 13.60, Relapse",
+    "repo ZigZagBoi1/PS5-14.10-Research | Open PS5 firmware 14.10 research: Lua userland experiments, syscall and attack-surface analysis. Kernel read/write and a complete exploit are not demonstrated."
+   ],
+   "candidatos_kernel_13x": [
+    "repo CrownWiZ/TTT2-Recomp-PS5 | Native PS5 homebrew port of the Tekken Tag Tournament 2 static recompilation (Xbox 360) - firmware 13.60, Relapse",
+    "repo ZigZagBoi1/PS5-14.10-Research | Open PS5 firmware 14.10 research: Lua userland experiments, syscall and attack-surface analysis. Kernel read/write and a complete exploit are not demonstrated."
+   ],
+   "pista_firmware_kernel_mas_alto": {
+    "firmware": "14.10",
+    "linea": "repo ZigZagBoi1/PS5-14.10-Research | Open PS5 firmware 14.10 research: Lua userland experiments, syscall and attack-surface analysis. Kernel read/write and a complete exploit are not demonstrated."
+   }
+  },
+  "wololo": {
+   "titulo": "Wololo - PS5 Jailbreak and Custom Firmware",
+   "ver_en": "https://wololo.net/ps5-jailbreak-and-custom-firmware/",
+   "ok": true,
+   "url_usada": "https://wololo.net/ps5-jailbreak-and-custom-firmware/",
+   "primera_vez": false,
+   "lineas": 322,
+   "cambio": false,
+   "lineas_nuevas": [],
+   "lineas_quitadas": [],
+   "menciones_13x_o_superior": [],
+   "candidatos_kernel_13x": [],
+   "pista_firmware_kernel_mas_alto": {
+    "firmware": "7.61",
+    "linea": "For PS5 Firmware up to 7.61 (23.01-07.61.00) , the (usermode only) bd-jb exploit works and allows some limited native execution. That exploit isn’t a Kernel exploit and doesn’t constitute a Jailbreak, but lets you run some native code on the PS5. Details here ."
+   }
+  }
+ }
+}

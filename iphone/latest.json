@@ -1,16 +1,16 @@
 {
- "fecha": "2026-10-27",
- "generado_utc": "2026-10-27T13:19:04+00:00",
+ "fecha": "2026-10-28",
+ "generado_utc": "2026-10-28T14:05:07+00:00",
  "para": "Radar iPhone: conviene comprarlo aca o alla",
  "sales_tax_supuesto": 0.07,
  "sales_tax_nota": "Florida, el estado donde suele comprar. Es un supuesto fijo, no un dato consultado.",
  "hist_dias": 180,
  "dolar": {
   "ok": true,
-  "valor": 992.53,
-  "fecha": "2026-10-27",
+  "valor": 989.97,
+  "fecha": "2026-10-28",
   "fuente": "SoloTodo (respaldo)",
-  "error": "no respondio: https://mindicador.cl/api/dolar -> <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+  "error": "no respondio: https://mindicador.cl/api/dolar -> HTTP Error 500: Internal Server Error"
  },
  "fuentes": {
   "consultas_ok": 4,
@@ -33,10 +33,6 @@
       "n_tiendas": 7,
       "historial": {
        "serie": [
-        [
-         "2026-04-30",
-         1429990
-        ],
         [
          "2026-05-01",
          1429990
@@ -756,6 +752,10 @@
         [
          "2026-10-27",
          1349990
+        ],
+        [
+         "2026-10-28",
+         1349990
         ]
        ],
        "minimo": {
@@ -792,10 +792,6 @@
       "n_tiendas": 4,
       "historial": {
        "serie": [
-        [
-         "2026-04-30",
-         1679990
-        ],
         [
          "2026-05-01",
          1679990
@@ -1515,6 +1511,10 @@
         [
          "2026-10-27",
          1649990
+        ],
+        [
+         "2026-10-28",
+         1649990
         ]
        ],
        "minimo": {
@@ -1546,10 +1546,6 @@
       "n_tiendas": 1,
       "historial": {
        "serie": [
-        [
-         "2026-05-01",
-         2027510
-        ],
         [
          "2026-05-02",
          2027510
@@ -2257,6 +2253,10 @@
         [
          "2026-10-27",
          2089990
+        ],
+        [
+         "2026-10-28",
+         2089990
         ]
        ],
        "minimo": {
@@ -2279,35 +2279,35 @@
     "apple_us": {
      "ok": false,
      "metodo": null,
-     "error": "descontinuado: la pagina responde (713759 bytes) pero ya no trae el catalogo de este modelo",
+     "error": "descontinuado: la pagina responde (713758 bytes) pero ya no trae el catalogo de este modelo",
      "url": "https://www.apple.com/shop/buy-iphone/iphone-17-pro"
     },
     "apple_cl": {
      "ok": false,
      "metodo": null,
-     "error": "descontinuado: la pagina responde (440251 bytes) pero ya no trae el catalogo de este modelo",
+     "error": "descontinuado: la pagina responde (440404 bytes) pero ya no trae el catalogo de este modelo",
      "url": "https://www.apple.com/cl/shop/buy-iphone/iphone-17-pro"
     },
     "solotodo": {
      "ok": true,
      "error": null,
      "url": "https://publicapi.solotodo.com/categories/6/browse/?search=iphone%2017%20pro%20max&ordering=offer_price_usd&page_size=60",
-     "n_descartados": 74
+     "n_descartados": 73
     }
    },
    "descartados": [
     {
-     "nombre": "Apple iPhone 15 Pro Max (256 GB / White Titanium)",
-     "precio": 849990,
-     "motivo": "no es iPhone 17 Pro Max"
-    },
-    {
      "nombre": "Apple iPhone 15 Pro Max (256 GB / Black Titanium)",
-     "precio": 849990,
+     "precio": 807490,
      "motivo": "no es iPhone 17 Pro Max"
     },
     {
      "nombre": "Apple iPhone 15 Pro Max (256 GB / Blue Titanium)",
+     "precio": 807490,
+     "motivo": "no es iPhone 17 Pro Max"
+    },
+    {
+     "nombre": "Apple iPhone 15 Pro Max (256 GB / White Titanium)",
      "precio": 849990,
      "motivo": "no es iPhone 17 Pro Max"
     },
@@ -2327,11 +2327,6 @@
      "motivo": "no es iPhone 17 Pro Max"
     },
     {
-     "nombre": "Apple iPhone 15 Pro Max (1 TB / Natural Titanium)",
-     "precio": 949990,
-     "motivo": "no es iPhone 17 Pro Max"
-    },
-    {
      "nombre": "Apple iPhone 17 Pro Max (2 TB / Cosmic Orange)",
      "precio": 2449990,
      "motivo": "capacidad fuera del radar"
@@ -2345,6 +2340,12 @@
      "nombre": "Apple iPhone 17 Pro Max (2 TB / Silver)",
      "precio": 2579990,
      "motivo": "capacidad fuera del radar"
+    },
+    {
+     "nombre": "Apple iPhone 17 Pro Max (256 GB / Deep Blue)",
+     "precio": 899900,
+     "tienda": "Claro",
+     "motivo": "tienda vetada (claro): no vende el equipo nuevo suelto"
     },
     {
      "nombre": "Apple iPhone 17 Pro Max (256 GB / Deep Blue)",
@@ -2558,13 +2559,17 @@
         [
          "2026-10-27",
          1649990
+        ],
+        [
+         "2026-10-28",
+         1649990
         ]
        ],
        "minimo": {
         "precio": 1629817,
         "fecha": "2026-09-19"
        },
-       "dias": 46,
+       "dias": 47,
        "tiendas": [
         "ABC",
         "Apple Store",
@@ -2774,13 +2779,17 @@
         [
          "2026-10-27",
          1959990
+        ],
+        [
+         "2026-10-28",
+         1959990
         ]
        ],
        "minimo": {
         "precio": 1959990,
         "fecha": "2026-09-12"
        },
-       "dias": 46,
+       "dias": 47,
        "tiendas": [
         "Apple Store",
         "Falabella",
@@ -2797,7 +2806,7 @@
      "usa_apple": 1899,
      "chile_apple": 2479990,
      "chile_retail": {
-      "producto": "Apple iPhone 18 Pro Max (1 TB / Burgundy) [MJY04BE/A]",
+      "producto": "Apple iPhone 18 Pro Max (1 TB / Glacier) [MJY14BE/A]",
       "precio": 2479990,
       "tienda": "Apple Store",
       "url": "https://www.apple.com/cl/shop/buy-iphone/iphone-18-pro",
@@ -2983,17 +2992,22 @@
         [
          "2026-10-27",
          2479990
+        ],
+        [
+         "2026-10-28",
+         2479990
         ]
        ],
        "minimo": {
         "precio": 2479990,
         "fecha": "2026-09-13"
        },
-       "dias": 45,
+       "dias": 46,
        "tiendas": [
         "Apple Store",
         "Falabella",
-        "MacOnline"
+        "MacOnline",
+        "Mercado Libre"
        ],
        "error": null
       }
@@ -3022,17 +3036,7 @@
    },
    "descartados": [
     {
-     "nombre": "Apple iPhone 16 Pro Max (256 GB / White Titanium)",
-     "precio": 829990,
-     "motivo": "no es iPhone 18 Pro Max"
-    },
-    {
      "nombre": "Apple iPhone 16 Pro Max (256 GB / Black Titanium)",
-     "precio": 829990,
-     "motivo": "no es iPhone 18 Pro Max"
-    },
-    {
-     "nombre": "Apple iPhone 16 Pro Max (256 GB / Natural Titanium)",
      "precio": 829990,
      "motivo": "no es iPhone 18 Pro Max"
     },
@@ -3042,17 +3046,27 @@
      "motivo": "no es iPhone 18 Pro Max"
     },
     {
+     "nombre": "Apple iPhone 16 Pro Max (256 GB / Natural Titanium)",
+     "precio": 930990,
+     "motivo": "no es iPhone 18 Pro Max"
+    },
+    {
+     "nombre": "Apple iPhone 16 Pro Max (256 GB / White Titanium)",
+     "precio": 930990,
+     "motivo": "no es iPhone 18 Pro Max"
+    },
+    {
+     "nombre": "Apple iPhone 16 Pro Max (512 GB / White Titanium)",
+     "precio": 1101990,
+     "motivo": "no es iPhone 18 Pro Max"
+    },
+    {
      "nombre": "Apple iPhone 16 Pro Max (512 GB / Black Titanium)",
      "precio": 1101990,
      "motivo": "no es iPhone 18 Pro Max"
     },
     {
      "nombre": "Apple iPhone 16 Pro Max (512 GB / Natural Titanium)",
-     "precio": 1199990,
-     "motivo": "no es iPhone 18 Pro Max"
-    },
-    {
-     "nombre": "Apple iPhone 16 Pro Max (512 GB / White Titanium)",
      "precio": 1199990,
      "motivo": "no es iPhone 18 Pro Max"
     },
