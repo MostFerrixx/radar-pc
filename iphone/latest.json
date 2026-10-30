@@ -1,16 +1,16 @@
 {
- "fecha": "2026-10-29",
- "generado_utc": "2026-10-29T14:26:34+00:00",
+ "fecha": "2026-10-30",
+ "generado_utc": "2026-10-30T14:16:53+00:00",
  "para": "Radar iPhone: conviene comprarlo aca o alla",
  "sales_tax_supuesto": 0.07,
  "sales_tax_nota": "Florida, el estado donde suele comprar. Es un supuesto fijo, no un dato consultado.",
  "hist_dias": 180,
  "dolar": {
   "ok": true,
-  "valor": 986.04,
-  "fecha": "2026-10-29",
-  "fuente": "SoloTodo (respaldo)",
-  "error": "no respondio: https://mindicador.cl/api/dolar -> The read operation timed out"
+  "valor": 993.22,
+  "fecha": "2026-10-30",
+  "fuente": "mindicador.cl",
+  "error": null
  },
  "fuentes": {
   "consultas_ok": 4,
@@ -27,16 +27,12 @@
      "chile_apple": null,
      "chile_retail": {
       "producto": "Apple iPhone 17 Pro Max (256 GB / Deep Blue)",
-      "precio": 1349990,
-      "tienda": "Lider",
-      "url": "https://www.lider.cl/ip/telefonia/iphone-17-pro-max-5g-256gb-azul/00019595063912",
-      "n_tiendas": 7,
+      "precio": 1399990,
+      "tienda": "Hites",
+      "url": "https://www.hites.com/iphone-17-pro-max-apple-5g-256-gb-azul-profundo-liberado-964825001.html",
+      "n_tiendas": 6,
       "historial": {
        "serie": [
-        [
-         "2026-05-02",
-         1429990
-        ],
         [
          "2026-05-03",
          1429990
@@ -756,6 +752,10 @@
         [
          "2026-10-29",
          1349990
+        ],
+        [
+         "2026-10-30",
+         1399990
         ]
        ],
        "minimo": {
@@ -792,10 +792,6 @@
       "n_tiendas": 4,
       "historial": {
        "serie": [
-        [
-         "2026-05-02",
-         1679990
-        ],
         [
          "2026-05-03",
          1679990
@@ -1515,6 +1511,10 @@
         [
          "2026-10-29",
          1649990
+        ],
+        [
+         "2026-10-30",
+         1649990
         ]
        ],
        "minimo": {
@@ -1540,16 +1540,12 @@
      "chile_apple": null,
      "chile_retail": {
       "producto": "Apple iPhone 17 Pro Max (1 TB / Deep Blue)",
-      "precio": 2089990,
-      "tienda": "MacOnline",
-      "url": "https://www.maconline.com/products/iphone-17-pro-max?default_sku=MFYX4BE/A",
-      "n_tiendas": 1,
+      "precio": 2028098,
+      "tienda": "Mercado Libre",
+      "url": "https://www.mercadolibre.cl/p/MLC1055308709?pdp_filters=official_store:all",
+      "n_tiendas": 2,
       "historial": {
        "serie": [
-        [
-         "2026-05-03",
-         2027510
-        ],
         [
          "2026-05-04",
          2027510
@@ -2257,6 +2253,10 @@
         [
          "2026-10-29",
          2089990
+        ],
+        [
+         "2026-10-30",
+         2028098
         ]
        ],
        "minimo": {
@@ -2279,30 +2279,35 @@
     "apple_us": {
      "ok": false,
      "metodo": null,
-     "error": "descontinuado: la pagina responde (713604 bytes) pero ya no trae el catalogo de este modelo",
+     "error": "descontinuado: la pagina responde (713414 bytes) pero ya no trae el catalogo de este modelo",
      "url": "https://www.apple.com/shop/buy-iphone/iphone-17-pro"
     },
     "apple_cl": {
      "ok": false,
      "metodo": null,
-     "error": "descontinuado: la pagina responde (440246 bytes) pero ya no trae el catalogo de este modelo",
+     "error": "descontinuado: la pagina responde (440224 bytes) pero ya no trae el catalogo de este modelo",
      "url": "https://www.apple.com/cl/shop/buy-iphone/iphone-17-pro"
     },
     "solotodo": {
      "ok": true,
      "error": null,
      "url": "https://publicapi.solotodo.com/categories/6/browse/?search=iphone%2017%20pro%20max&ordering=offer_price_usd&page_size=60",
-     "n_descartados": 73
+     "n_descartados": 74
     }
    },
    "descartados": [
     {
      "nombre": "Apple iPhone 15 Pro Max (256 GB / Black Titanium)",
-     "precio": 807490,
+     "precio": 750490,
      "motivo": "no es iPhone 17 Pro Max"
     },
     {
      "nombre": "Apple iPhone 15 Pro Max (256 GB / Blue Titanium)",
+     "precio": 750490,
+     "motivo": "no es iPhone 17 Pro Max"
+    },
+    {
+     "nombre": "Apple iPhone 15 Pro Max (512 GB / Natural Titanium)",
      "precio": 807490,
      "motivo": "no es iPhone 17 Pro Max"
     },
@@ -2317,13 +2322,13 @@
      "motivo": "no es iPhone 17 Pro Max"
     },
     {
-     "nombre": "Apple iPhone 15 Pro Max (512 GB / Blue Titanium)",
-     "precio": 899990,
+     "nombre": "Apple iPhone 15 Pro Max (1 TB / White Titanium)",
+     "precio": 854990,
      "motivo": "no es iPhone 17 Pro Max"
     },
     {
-     "nombre": "Apple iPhone 15 Pro Max (1 TB / White Titanium)",
-     "precio": 949990,
+     "nombre": "Apple iPhone 15 Pro Max (512 GB / Blue Titanium)",
+     "precio": 899990,
      "motivo": "no es iPhone 17 Pro Max"
     },
     {
@@ -2352,12 +2357,6 @@
      "precio": 899900,
      "tienda": "Claro",
      "motivo": "tienda vetada (claro): no vende el equipo nuevo suelto"
-    },
-    {
-     "nombre": "Apple iPhone 17 Pro Max (256 GB / Deep Blue)",
-     "precio": 899900,
-     "tienda": "Claro",
-     "motivo": "tienda vetada (claro): no vende el equipo nuevo suelto"
     }
    ]
   },
@@ -2373,7 +2372,7 @@
       "precio": 1649990,
       "tienda": "Ripley",
       "url": "https://simple.ripley.cl/iphone-18-pro-max-256gb-48mp-69-2000412932492",
-      "n_tiendas": 8,
+      "n_tiendas": 7,
       "historial": {
        "serie": [
         [
@@ -2567,13 +2566,17 @@
         [
          "2026-10-29",
          1649990
+        ],
+        [
+         "2026-10-30",
+         1649990
         ]
        ],
        "minimo": {
         "precio": 1629817,
         "fecha": "2026-09-19"
        },
-       "dias": 48,
+       "dias": 49,
        "tiendas": [
         "ABC",
         "Apple Store",
@@ -2791,13 +2794,17 @@
         [
          "2026-10-29",
          1959990
+        ],
+        [
+         "2026-10-30",
+         1959990
         ]
        ],
        "minimo": {
         "precio": 1959990,
         "fecha": "2026-09-12"
        },
-       "dias": 48,
+       "dias": 49,
        "tiendas": [
         "Apple Store",
         "Falabella",
@@ -3008,13 +3015,17 @@
         [
          "2026-10-29",
          2479990
+        ],
+        [
+         "2026-10-30",
+         2479990
         ]
        ],
        "minimo": {
         "precio": 2479990,
         "fecha": "2026-09-13"
        },
-       "dias": 47,
+       "dias": 48,
        "tiendas": [
         "Apple Store",
         "Falabella",
@@ -3047,12 +3058,12 @@
    },
    "descartados": [
     {
-     "nombre": "Apple iPhone 16 Pro Max (256 GB / Black Titanium)",
+     "nombre": "Apple iPhone 16 Pro Max (256 GB / Desert Titanium)",
      "precio": 829990,
      "motivo": "no es iPhone 18 Pro Max"
     },
     {
-     "nombre": "Apple iPhone 16 Pro Max (256 GB / Desert Titanium)",
+     "nombre": "Apple iPhone 16 Pro Max (256 GB / Black Titanium)",
      "precio": 829990,
      "motivo": "no es iPhone 18 Pro Max"
     },
