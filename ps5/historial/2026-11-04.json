@@ -1,0 +1,125 @@
+{
+ "fecha": "2026-11-04",
+ "generado_utc": "2026-11-04T15:30:14+00:00",
+ "para": "tarea semanal 'Radar PS5 Jailbreak (13.40)' de Claude",
+ "linea_base": {
+  "firmware_del_usuario": "13.40",
+  "ultimo_firmware_conocido": "13.60 (24-jul-2026)",
+  "kernel_publico_hasta": "12.40 / 12.70 (P2JB parchado en 13.00)",
+  "userland_que_sirve_en_13_40": [
+   "LuaC0re",
+   "Y2JB",
+   "WebKit/Slopkit",
+   "BD-JB5 (hasta 13.42)"
+  ]
+ },
+ "fuentes_ok": 2,
+ "fuentes_total": 2,
+ "hay_cambios": true,
+ "fuentes": {
+  "github": {
+   "titulo": "GitHub - repos y releases del scene PS5",
+   "ver_en": "https://github.com/Gezine",
+   "ok": true,
+   "partes_ok": [
+    "users/Gezine/repos?per_page=100&sort=pushed",
+    "users/EchoStretch/repos?per_page=100&sort=pushed",
+    "repos/Gezine/Y2JB/releases?per_page=10",
+    "repos/Gezine/BD-JB5/releases?per_page=10",
+    "repos/matem6/P2JB-Y2JB-Porting/releases?per_page=10",
+    "search/repositories?q=ps5+%28exploit+OR+kernel+OR+jailbreak%29&sort=updated&order=desc&per_page=50"
+   ],
+   "primera_vez": false,
+   "lineas": 163,
+   "cambio": true,
+   "lineas_nuevas": [
+    "repo Akela-x/ps5ofw | ",
+    "repo Darkatek7/ProsperoSunshine | Native Sunshine-compatible Moonlight game-stream host for the PS5",
+    "repo DevVeda/n-zik-ps5 | ",
+    "repo DualSenseClient/DualSenseClient | Unlock the full DualSense experience on Windows & Linux.",
+    "repo JANS66/twitch-ps5-tracker | Twitch top-6 -> PS5 game pick tracker with Telegram alerts",
+    "repo JDigitalsRental/JDigitalsRental | JDigitalsRental PS5 Game Rental Website",
+    "repo KytyPS5/KytyPS5 | PlayStation 5 translation layer for Windows, Linux and macOS",
+    "repo LoZazaMastro/Pixel-Museum | The games we played. The world we grew up in. An independent, interactive museum for PS5.",
+    "repo Maksre1/aero-tv-ps5 | Aero TV Launcher v1.32 with PS5-style fluid animations and OOM memory stability fixes",
+    "repo RastaFairy/Visual-PS5 | IDE for PS5 homebrew visual composer",
+    "repo ReynArts/ApexSenseBridge | Bring native PS5 DualSense adaptive triggers, haptics & touchpad features to Flydigi APEX 4, APEX 5 & APEX 6 Pro on Windows. 215+ games, Standalone + Playnite.",
+    "repo Samuel-SSLabs/Port-Integration | Buscador e catálogo unificado de ports nativos, decompilações e recompilações estáticas de consoles para PC (PS5, PS4, Switch, Xbox 360, N64 e clássicos), com rastreamento em tempo real de releases do",
+    "repo Streetuitransformer/Deathloop-Latest-2026 | ⭐️ Deathloop 2026 | Version Access | Arkane Loop Shooter Install | Deluxe Edition PC Build | Time-Bending Action Stealth Bundle ⭐️",
+    "repo TitanCSA/Interceptor | Windows Kernel Filter Driver for keyboard, mouse and USB gamepad input interception/remapping. DS4/DualShock 4 (PS4), DualSense (PS5), wired Xbox 360 and Xbox One/Series X|S via compatible HID/XInput/",
+    "repo TitanCSA/Interceptor-Gamepad-Controller | Windows Kernel Filter Driver for gamepad/controller input interception and remapping. HID, XInput/XUSB, XInputHID and GIP; DS4/PS4, DualSense/PS5, wired Xbox 360 and Xbox One/Series profiles. Microsof",
+    "repo VivaLaVent/ps5-bazzite-deck | Turn your PS5 into a Steam console: Bazzite with Steam Gaming Mode and one-click updates, built for the PlayStation 5",
+    "repo bsk193/etaHEN-mirror | Mirror of etaHEN/etaHEN (PS5 AIO HEN payload) — preserves official releases and may carry unofficial builds that are not in upstream's release feed.",
+    "repo earthonion/GarlicTransfer | PS5 save download and upload tool",
+    "repo liweili/PS5CheatCN | PS5/PS4 金手指自动汉化工具 —— 支持 MC4 / SHN / JSON",
+    "repo maiquanbr-afk/PS5Translator | ",
+    "repo mihawk-99/MihawkOS-Compatibility | Which Windows games run on MihawkOS for PS5: community reports, read and approved before they appear.",
+    "repo nexgen999/ps5webkit | ps5webkit",
+    "repo papniaczek/206JK-PS5-Konferencje | Projekt zespołowy - Platforma do organizacji konferencji i spotkań biznesowych z modułem business matchingu",
+    "repo premohq/PS5-ECAM | Wii U, 3DS, DS, and Switch emulation for PS5 homebrew (Cemu + Azahar + Melon DS + Eden)",
+    "repo pristmc-code/ps5-glibren-releases | Signed releases (and source) of glibren, the PS5 payload of Game Library Renamer. The payload updates itself from here.",
+    "repo shirenran/wiliwili-ps5 | wiliwili (Bilibili client) ported to PS5 as a native folder app — borealis/NanoVG on PS5 OpenGL, mpv + ffmpeg, mbedTLS curl",
+    "repo strongt1me/ps5-cooling-system-center-pro | Fan control, temperature monitoring and system center for the jailbroken PS5 – payload with a web UI (DE · EN · IT · ES · FR · RU · SV) | Lüftersteuerung und Systemzentrale für die PS5",
+    "repo theddack/console-game-deals | PS5·닌텐도 스위치 기기 핫딜과 한국 스토어 게임 할인 모아보기 (텔레그램 브리핑 + GitHub Pages)"
+   ],
+   "lineas_quitadas": [
+    "repo 0iy/opengoal-ps5 | Play Jak and Daxter 1, 2 and 3 natively on a jailbroken PS5: OpenGOAL port with controller launcher, fast PC import and a patched graphics driver",
+    "repo Apolonio420/dualsense-tool | Use a PS5 DualSense on Windows: virtual Xbox controller for Game Pass/Xbox games, adaptive triggers, light bar and rumble per game. Agent-friendly docs.",
+    "repo DarkXenium/omnipad-gamepad-bridge | Python bridge to read input from a USB gamepad and forward controller frames to an OmniPad PS5 device over LAN",
+    "repo Naivelk/ps5Plus | ",
+    "repo Oliv3rmoon/eden-ps5-compat | Nightshade Compat Log: which Switch games run in Nightshade (and ProsperoEden) on PS5, plus a crash report explainer.",
+    "repo OnikoKane/ps5Rumble2xbox_genshin | Fail to try to implement transfering dualSense's rumble to xbox controller in Genshin",
+    "repo RastaFairy/PS5-Permission-Broker | Payload residente para centralizar el protocolo de elevación de aplicaciones que ya utilizan los PRX compatibles con etaHEN/OnionHEN.",
+    "repo VivaLaVent/ps5-bazzite-bootc | ",
+    "repo VivaLaVent/ps5-bazzite-deck | Bazzite Deck (Steam Gaming Mode) images for the PS5 with working Game Mode, VCN and Wi-Fi",
+    "repo actuallyssstaris/ps5craft | PS5 Minecraft Java server manager: native homebrew title, web dashboard, shared backend",
+    "repo avoidik/ps5-payloads | ",
+    "repo bsk193/ps5-unified-autoloader-x | Fork of itsPLK/ps5-unified-autoloader that embeds Payload Manager X as the fallback payload manager.",
+    "repo bsk193/ps5-webkit-autoloader-x | Fork of itsPLK/ps5-webkit-autoloader that autoloads Payload Manager X. Offline WebKit exploit autoloader for PS5 FW 1.00-5.50 and 9.00-12.00.",
+    "repo codevski/aur-ps5upload-bin | AUR package for PS5Upload (ps5upload-bin), auto-updated from upstream releases",
+    "repo cosmicflow2512/ps5repo | ",
+    "repo darkxex/ps5-homebrew-catalog | https://discord.gg/Drx8tsqq3B - https://ProsperoStore.net",
+    "repo eskeysoftlabo/PBsMiniMap | PB's MiniMap - a console-safe minimap add-on for The Elder Scrolls Online (PS5/Xbox). Based on Votan's Minimap by votan.",
+    "repo henrikm07/Subnautica-2-Abyss-Watch | Subnautica 2 PS5 Release Date 2026: Early Access & Multiplayer News",
+    "repo heydemoura/EglantinePS5 | VERY experimental Nintendo Switch 2 emulator port for PS5",
+    "repo lovemkl/ps5emulator-wiki | Fan wiki site",
+    "repo mateo-cogeanu/ProsperoCraft | Future Minecraft Java Edition homebrew for PS5. Java runtime port: https://github.com/mateo-cogeanu/ps5-java25-homebrew",
+    "repo misiektoja/psn_monitor | Real-time tracking of Sony Playstation (PSN) players activities",
+    "repo nexgen999/PS5-Repository-List | List of PS5 repository",
+    "repo quer3q/ps5-dump-forge | A toolkit for working with PS5 game dumps. Cross-platform - including the PS5 itself.",
+    "repo samuelevans921/elden-ring | Top Elden Ring Gameplay Enhancement Suite 2026: ESP & No Recoil",
+    "repo scorpion511/scorp | PS4-PS5 HACK ALL IN 1",
+    "repo westside0106/Ps5-Radar | ",
+    "repo x574n/StanStationPayloadRepo | links for ps5 payloads"
+   ],
+   "menciones_13x_o_superior": [
+    "repo EchoStretch/BD-JB-Relapse | BD-JB Relapse for 13.42 and below by zecoxao, EchoStretch and Claude",
+    "repo niakw/ProsperoEden-Encore | ProsperoEden Encore Switch 1 + 2 EXPERIMENT emulator fork for PS5 FW 13.60: NSP, XCI, NSZ, XCZ, ExeFS, NRO, NSO, NCA, NAX, KIP; LZ4, ZBIC, zstd. Audited Eden/OpenGL fixes, stable per-core JIT, DualSen"
+   ],
+   "candidatos_kernel_13x": [
+    "repo EchoStretch/BD-JB-Relapse | BD-JB Relapse for 13.42 and below by zecoxao, EchoStretch and Claude"
+   ],
+   "pista_firmware_kernel_mas_alto": {
+    "firmware": "4.51",
+    "linea": "repo EchoStretch/PS5-IPV6-Kernel-Exploit | An experimental webkit-based kernel exploit (Arb. R/W) for the PS5 on <= 4.51FW"
+   }
+  },
+  "wololo": {
+   "titulo": "Wololo - PS5 Jailbreak and Custom Firmware",
+   "ver_en": "https://wololo.net/ps5-jailbreak-and-custom-firmware/",
+   "ok": true,
+   "url_usada": "https://wololo.net/ps5-jailbreak-and-custom-firmware/",
+   "primera_vez": false,
+   "lineas": 322,
+   "cambio": false,
+   "lineas_nuevas": [],
+   "lineas_quitadas": [],
+   "menciones_13x_o_superior": [],
+   "candidatos_kernel_13x": [],
+   "pista_firmware_kernel_mas_alto": {
+    "firmware": "7.61",
+    "linea": "For PS5 Firmware up to 7.61 (23.01-07.61.00) , the (usermode only) bd-jb exploit works and allows some limited native execution. That exploit isn’t a Kernel exploit and doesn’t constitute a Jailbreak, but lets you run some native code on the PS5. Details here ."
+   }
+  }
+ }
+}
