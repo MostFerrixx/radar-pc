@@ -1,14 +1,14 @@
 {
- "fecha": "2026-11-05",
- "generado_utc": "2026-11-05T15:33:57+00:00",
+ "fecha": "2026-11-06",
+ "generado_utc": "2026-11-06T15:08:57+00:00",
  "para": "Radar iPhone: conviene comprarlo aca o alla",
  "sales_tax_supuesto": 0.07,
  "sales_tax_nota": "Florida, el estado donde suele comprar. Es un supuesto fijo, no un dato consultado.",
  "hist_dias": 180,
  "dolar": {
   "ok": true,
-  "valor": 970.95,
-  "fecha": "2026-11-05",
+  "valor": 970.94,
+  "fecha": "2026-11-06",
   "fuente": "mindicador.cl",
   "error": null
  },
@@ -27,16 +27,12 @@
      "chile_apple": null,
      "chile_retail": {
       "producto": "Apple iPhone 17 Pro Max (256 GB / Cosmic Orange)",
-      "precio": 1099900,
+      "precio": 1139900,
       "tienda": "Electronica Budini",
       "url": "https://electronicabudini.cl/tienda/celulares/iphone-17-pro-max-cosmic-orange-256gb-usado/",
       "n_tiendas": 9,
       "historial": {
        "serie": [
-        [
-         "2026-05-10",
-         1419990
-        ],
         [
          "2026-05-11",
          1419990
@@ -752,6 +748,10 @@
         [
          "2026-11-05",
          1099900
+        ],
+        [
+         "2026-11-06",
+         1139900
         ]
        ],
        "minimo": {
@@ -785,11 +785,11 @@
      "usa_apple": null,
      "chile_apple": null,
      "chile_retail": {
-      "producto": "Apple iPhone 17 Pro Max (512 GB / Silver)",
-      "precio": 1549990,
+      "producto": "Apple iPhone 17 Pro Max (512 GB / Cosmic Orange)",
+      "precio": 1499990,
       "tienda": "Mercado Libre",
-      "url": "https://www.mercadolibre.cl/p/MLC1055308649?pdp_filters=official_store:all",
-      "n_tiendas": 4,
+      "url": "https://www.mercadolibre.cl/p/MLC1055308659?pdp_filters=official_store:all",
+      "n_tiendas": 2,
       "historial": {
        "serie": [
         [
@@ -798,155 +798,155 @@
         ],
         [
          "2026-05-11",
-         1679990
+         1669990
         ],
         [
          "2026-05-12",
-         1679990
+         1669990
         ],
         [
          "2026-05-13",
-         1809990
+         1669990
         ],
         [
          "2026-05-14",
-         1809990
+         1669990
         ],
         [
          "2026-05-15",
-         1809990
+         1669990
         ],
         [
          "2026-05-16",
-         1809990
+         1669990
         ],
         [
          "2026-05-17",
-         1809990
+         1669990
         ],
         [
          "2026-05-18",
-         1809990
+         1669990
         ],
         [
          "2026-05-19",
-         1809990
+         1669990
         ],
         [
          "2026-05-20",
-         1809990
+         1669990
         ],
         [
          "2026-05-21",
-         1809990
+         1669990
         ],
         [
          "2026-05-22",
-         1809990
+         1669990
         ],
         [
          "2026-05-23",
-         1809990
+         1669990
         ],
         [
          "2026-05-24",
-         1809990
+         1669990
         ],
         [
          "2026-05-25",
-         1809990
+         1669990
         ],
         [
          "2026-05-26",
-         1809990
+         1669990
         ],
         [
          "2026-05-27",
-         1809990
+         1669990
         ],
         [
          "2026-05-28",
-         1809990
+         1669990
         ],
         [
          "2026-05-29",
-         1809990
+         1669990
         ],
         [
          "2026-05-30",
-         1749990
+         1669990
         ],
         [
          "2026-05-31",
-         1749990
+         1669990
         ],
         [
          "2026-06-01",
-         1669990
+         1599990
         ],
         [
          "2026-06-02",
-         1669990
+         1649990
         ],
         [
          "2026-06-03",
-         1809990
+         1649990
         ],
         [
          "2026-06-04",
-         1809990
+         1649990
         ],
         [
          "2026-06-05",
-         1809990
+         1649990
         ],
         [
          "2026-06-06",
-         1809990
+         1649990
         ],
         [
          "2026-06-07",
-         1809990
+         1649990
         ],
         [
          "2026-06-08",
-         1809990
+         1699990
         ],
         [
          "2026-06-09",
-         1809990
+         1699990
         ],
         [
          "2026-06-10",
-         1809990
+         1699990
         ],
         [
          "2026-06-11",
-         1809990
+         1699990
         ],
         [
          "2026-06-12",
-         1809990
+         1519990
         ],
         [
          "2026-06-13",
-         1809990
+         1519990
         ],
         [
          "2026-06-14",
-         1809990
+         1519990
         ],
         [
          "2026-06-15",
-         1809990
+         1699990
         ],
         [
          "2026-06-16",
-         1809990
+         1699990
         ],
         [
          "2026-06-17",
-         1809990
+         1699990
         ],
         [
          "2026-06-18",
@@ -974,23 +974,23 @@
         ],
         [
          "2026-06-24",
-         1699990
+         1519990
         ],
         [
          "2026-06-25",
-         1699990
+         1519990
         ],
         [
          "2026-06-26",
-         1699990
+         1519990
         ],
         [
          "2026-06-27",
-         1699990
+         1519990
         ],
         [
          "2026-06-28",
-         1699990
+         1519990
         ],
         [
          "2026-06-29",
@@ -1138,39 +1138,39 @@
         ],
         [
          "2026-08-04",
-         1689990
+         1699990
         ],
         [
          "2026-08-05",
-         1689990
+         1699990
         ],
         [
          "2026-08-06",
-         1689990
+         1699990
         ],
         [
          "2026-08-07",
-         1689990
+         1734737
         ],
         [
          "2026-08-08",
-         1699990
+         1659990
         ],
         [
          "2026-08-09",
-         1699990
+         1659990
         ],
         [
          "2026-08-10",
-         1699990
+         1809990
         ],
         [
          "2026-08-11",
-         1699990
+         1735276
         ],
         [
          "2026-08-12",
-         1699990
+         1735276
         ],
         [
          "2026-08-13",
@@ -1234,43 +1234,43 @@
         ],
         [
          "2026-08-28",
-         1679990
+         1659990
         ],
         [
          "2026-08-29",
-         1749990
+         1699990
         ],
         [
          "2026-08-30",
-         1749990
+         1699990
         ],
         [
          "2026-08-31",
-         1749990
+         1699990
         ],
         [
          "2026-09-01",
-         1749990
+         1699990
         ],
         [
          "2026-09-02",
-         1749990
+         1699990
         ],
         [
          "2026-09-03",
-         1749990
+         1699990
         ],
         [
          "2026-09-04",
-         1749990
+         1469990
         ],
         [
          "2026-09-05",
-         1749990
+         1469990
         ],
         [
          "2026-09-06",
-         1749990
+         1469990
         ],
         [
          "2026-09-07",
@@ -1378,23 +1378,23 @@
         ],
         [
          "2026-10-03",
-         1749990
+         1699990
         ],
         [
          "2026-10-04",
-         1749990
+         1699990
         ],
         [
          "2026-10-05",
-         1749990
+         1549990
         ],
         [
          "2026-10-06",
-         1749990
+         1549990
         ],
         [
          "2026-10-07",
-         1749990
+         1619990
         ],
         [
          "2026-10-08",
@@ -1402,7 +1402,7 @@
         ],
         [
          "2026-10-09",
-         1699990
+         1619990
         ],
         [
          "2026-10-10",
@@ -1414,7 +1414,7 @@
         ],
         [
          "2026-10-12",
-         1699990
+         1619990
         ],
         [
          "2026-10-13",
@@ -1502,30 +1502,34 @@
         ],
         [
          "2026-11-03",
-         1579990
+         1499990
         ],
         [
          "2026-11-04",
-         1579990
+         1499990
         ],
         [
          "2026-11-05",
-         1549990
+         1499990
+        ],
+        [
+         "2026-11-06",
+         1499990
         ]
        ],
        "minimo": {
         "precio": 1469990,
-        "fecha": "2026-09-07"
+        "fecha": "2026-09-04"
        },
-       "dias": 180,
+       "dias": 181,
        "tiendas": [
         "Apple Store",
+        "Centrale",
         "Falabella",
         "Lider",
         "MacOnline",
         "Mercado Libre",
-        "Ripley",
-        "Travel Tienda"
+        "Ripley"
        ],
        "error": null
       }
@@ -1542,10 +1546,6 @@
       "n_tiendas": 1,
       "historial": {
        "serie": [
-        [
-         "2026-05-10",
-         2069990
-        ],
         [
          "2026-05-11",
          2069990
@@ -2257,6 +2257,10 @@
         [
          "2026-11-05",
          2089990
+        ],
+        [
+         "2026-11-06",
+         2089990
         ]
        ],
        "minimo": {
@@ -2282,13 +2286,13 @@
     "apple_us": {
      "ok": false,
      "metodo": null,
-     "error": "descontinuado: la pagina responde (720091 bytes) pero ya no trae el catalogo de este modelo",
+     "error": "descontinuado: la pagina responde (764252 bytes) pero ya no trae el catalogo de este modelo",
      "url": "https://www.apple.com/shop/buy-iphone/iphone-17-pro"
     },
     "apple_cl": {
      "ok": false,
      "metodo": null,
-     "error": "descontinuado: la pagina responde (440221 bytes) pero ya no trae el catalogo de este modelo",
+     "error": "descontinuado: la pagina responde (468730 bytes) pero ya no trae el catalogo de este modelo",
      "url": "https://www.apple.com/cl/shop/buy-iphone/iphone-17-pro"
     },
     "solotodo": {
@@ -2300,33 +2304,8 @@
    },
    "descartados": [
     {
-     "nombre": "Apple iPhone 15 Pro Max (256 GB / Blue Titanium)",
-     "precio": 750490,
-     "motivo": "no es iPhone 17 Pro Max"
-    },
-    {
-     "nombre": "Apple iPhone 15 Pro Max (256 GB / Natural Titanium)",
-     "precio": 750490,
-     "motivo": "no es iPhone 17 Pro Max"
-    },
-    {
      "nombre": "Apple iPhone 15 Pro Max (256 GB / Black Titanium)",
      "precio": 829990,
-     "motivo": "no es iPhone 17 Pro Max"
-    },
-    {
-     "nombre": "Apple iPhone 15 Pro Max (256 GB / White Titanium)",
-     "precio": 849990,
-     "motivo": "no es iPhone 17 Pro Max"
-    },
-    {
-     "nombre": "Apple iPhone 15 Pro Max (512 GB / White Titanium)",
-     "precio": 899990,
-     "motivo": "no es iPhone 17 Pro Max"
-    },
-    {
-     "nombre": "Apple iPhone 15 Pro Max (1 TB / Blue Titanium)",
-     "precio": 949990,
      "motivo": "no es iPhone 17 Pro Max"
     },
     {
@@ -2335,16 +2314,22 @@
      "motivo": "capacidad fuera del radar"
     },
     {
-     "nombre": "Apple iPhone 17 Pro Max (2 TB / Silver)",
-     "precio": 2579990,
-     "motivo": "capacidad fuera del radar"
-    },
-    {
      "nombre": "Apple iPhone 17 Pro Max (2 TB / Deep Blue)",
      "precio": 2579990,
      "motivo": "capacidad fuera del radar"
     },
     {
+     "nombre": "Apple iPhone 17 Pro Max (2 TB / Silver)",
+     "precio": 2579990,
+     "motivo": "capacidad fuera del radar"
+    },
+    {
+     "nombre": "Apple iPhone 17 Pro Max (256 GB / Cosmic Orange)",
+     "precio": 129990,
+     "tienda": "Movistar One",
+     "motivo": "tienda vetada (movistar): no vende el equipo nuevo suelto"
+    },
+    {
      "nombre": "Apple iPhone 17 Pro Max (256 GB / Cosmic Orange)",
      "precio": 129990,
      "tienda": "Movistar One",
@@ -2359,6 +2344,30 @@
     {
      "nombre": "Apple iPhone 17 Pro Max (256 GB / Cosmic Orange)",
      "precio": 129990,
+     "tienda": "Movistar One",
+     "motivo": "tienda vetada (movistar): no vende el equipo nuevo suelto"
+    },
+    {
+     "nombre": "Apple iPhone 17 Pro Max (256 GB / Cosmic Orange)",
+     "precio": 149990,
+     "tienda": "Movistar One",
+     "motivo": "tienda vetada (movistar): no vende el equipo nuevo suelto"
+    },
+    {
+     "nombre": "Apple iPhone 17 Pro Max (256 GB / Cosmic Orange)",
+     "precio": 149990,
+     "tienda": "Movistar One",
+     "motivo": "tienda vetada (movistar): no vende el equipo nuevo suelto"
+    },
+    {
+     "nombre": "Apple iPhone 17 Pro Max (256 GB / Cosmic Orange)",
+     "precio": 149990,
+     "tienda": "Movistar One",
+     "motivo": "tienda vetada (movistar): no vende el equipo nuevo suelto"
+    },
+    {
+     "nombre": "Apple iPhone 17 Pro Max (256 GB / Cosmic Orange)",
+     "precio": 149990,
      "tienda": "Movistar One",
      "motivo": "tienda vetada (movistar): no vende el equipo nuevo suelto"
     }
@@ -2376,7 +2385,7 @@
       "precio": 1549990,
       "tienda": "ABC",
       "url": "https://www.abc.cl/apple-iphone-18-pro-max-5g-256-gb-69-borgona/29639574.html",
-      "n_tiendas": 9,
+      "n_tiendas": 8,
       "historial": {
        "serie": [
         [
@@ -2598,13 +2607,17 @@
         [
          "2026-11-05",
          1549990
+        ],
+        [
+         "2026-11-06",
+         1549990
         ]
        ],
        "minimo": {
         "precio": 1549990,
         "fecha": "2026-11-05"
        },
-       "dias": 55,
+       "dias": 56,
        "tiendas": [
         "ABC",
         "Apple Store",
@@ -2851,13 +2864,17 @@
         [
          "2026-11-05",
          1899990
+        ],
+        [
+         "2026-11-06",
+         1899990
         ]
        ],
        "minimo": {
         "precio": 1899990,
         "fecha": "2026-11-05"
        },
-       "dias": 55,
+       "dias": 56,
        "tiendas": [
         "Apple Store",
         "Falabella",
@@ -3096,13 +3113,17 @@
         [
          "2026-11-05",
          2479990
+        ],
+        [
+         "2026-11-06",
+         2479990
         ]
        ],
        "minimo": {
         "precio": 2479990,
         "fecha": "2026-09-13"
        },
-       "dias": 54,
+       "dias": 55,
        "tiendas": [
         "Apple Store",
         "Falabella",
@@ -3130,12 +3151,12 @@
      "ok": true,
      "error": null,
      "url": "https://publicapi.solotodo.com/categories/6/browse/?search=iphone%2018%20pro%20max&ordering=offer_price_usd&page_size=60",
-     "n_descartados": 86
+     "n_descartados": 81
     }
    },
    "descartados": [
     {
-     "nombre": "Apple iPhone 16 Pro Max (256 GB / Black Titanium)",
+     "nombre": "Apple iPhone 16 Pro Max (256 GB / White Titanium)",
      "precio": 829990,
      "motivo": "no es iPhone 18 Pro Max"
     },
@@ -3145,12 +3166,17 @@
      "motivo": "no es iPhone 18 Pro Max"
     },
     {
-     "nombre": "Apple iPhone 16 Pro Max (256 GB / Natural Titanium)",
-     "precio": 930990,
+     "nombre": "Apple iPhone 16 Pro Max (256 GB / Black Titanium)",
+     "precio": 829990,
      "motivo": "no es iPhone 18 Pro Max"
     },
     {
-     "nombre": "Apple iPhone 16 Pro Max (256 GB / White Titanium)",
+     "nombre": "Apple iPhone 16 Pro Max (512 GB / Black Titanium)",
+     "precio": 929990,
+     "motivo": "no es iPhone 18 Pro Max"
+    },
+    {
+     "nombre": "Apple iPhone 16 Pro Max (256 GB / Natural Titanium)",
      "precio": 930990,
      "motivo": "no es iPhone 18 Pro Max"
     },
@@ -3160,38 +3186,33 @@
      "motivo": "no es iPhone 18 Pro Max"
     },
     {
-     "nombre": "Apple iPhone 16 Pro Max (512 GB / Black Titanium)",
-     "precio": 1101990,
-     "motivo": "no es iPhone 18 Pro Max"
-    },
-    {
-     "nombre": "Apple iPhone 16 Pro Max (512 GB / Natural Titanium)",
-     "precio": 1199990,
-     "motivo": "no es iPhone 18 Pro Max"
-    },
-    {
-     "nombre": "Apple iPhone 16 Pro Max (512 GB / Desert Titanium)",
-     "precio": 1199990,
-     "motivo": "no es iPhone 18 Pro Max"
-    },
-    {
-     "nombre": "Apple iPhone 16 Pro Max (1 TB / White Titanium)",
-     "precio": 1299990,
-     "motivo": "no es iPhone 18 Pro Max"
-    },
-    {
-     "nombre": "Apple iPhone 16 Pro Max (1 TB / Desert Titanium)",
-     "precio": 1299990,
-     "motivo": "no es iPhone 18 Pro Max"
-    },
-    {
-     "nombre": "Apple iPhone 16 Pro Max (1 TB / Natural Titanium)",
-     "precio": 1299990,
-     "motivo": "no es iPhone 18 Pro Max"
-    },
-    {
      "nombre": "Apple iPhone 17 Pro Max (256 GB / Cosmic Orange)",
      "precio": 1099900,
+     "motivo": "no es iPhone 18 Pro Max"
+    },
+    {
+     "nombre": "Apple iPhone 17 Pro Max (256 GB / Deep Blue)",
+     "precio": 1319990,
+     "motivo": "no es iPhone 18 Pro Max"
+    },
+    {
+     "nombre": "Apple iPhone 17 Pro Max (256 GB / Silver)",
+     "precio": 1349990,
+     "motivo": "no es iPhone 18 Pro Max"
+    },
+    {
+     "nombre": "Apple iPhone 17 Pro Max (512 GB / Cosmic Orange)",
+     "precio": 1499990,
+     "motivo": "no es iPhone 18 Pro Max"
+    },
+    {
+     "nombre": "Apple iPhone 17 Pro Max (512 GB / Deep Blue)",
+     "precio": 1519990,
+     "motivo": "no es iPhone 18 Pro Max"
+    },
+    {
+     "nombre": "Apple iPhone 17 Pro Max (512 GB / Silver)",
+     "precio": 1549990,
      "motivo": "no es iPhone 18 Pro Max"
     }
    ]
