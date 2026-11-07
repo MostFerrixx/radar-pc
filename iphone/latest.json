@@ -1,6 +1,6 @@
 {
- "fecha": "2026-11-06",
- "generado_utc": "2026-11-06T15:08:57+00:00",
+ "fecha": "2026-11-07",
+ "generado_utc": "2026-11-07T14:10:56+00:00",
  "para": "Radar iPhone: conviene comprarlo aca o alla",
  "sales_tax_supuesto": 0.07,
  "sales_tax_nota": "Florida, el estado donde suele comprar. Es un supuesto fijo, no un dato consultado.",
@@ -30,7 +30,7 @@
       "precio": 1139900,
       "tienda": "Electronica Budini",
       "url": "https://electronicabudini.cl/tienda/celulares/iphone-17-pro-max-cosmic-orange-256gb-usado/",
-      "n_tiendas": 9,
+      "n_tiendas": 10,
       "historial": {
        "serie": [
         [
@@ -752,13 +752,17 @@
         [
          "2026-11-06",
          1139900
+        ],
+        [
+         "2026-11-07",
+         1139900
         ]
        ],
        "minimo": {
         "precio": 999990,
         "fecha": "2026-08-18"
        },
-       "dias": 180,
+       "dias": 181,
        "tiendas": [
         "ABC",
         "Apple Store",
@@ -789,13 +793,9 @@
       "precio": 1499990,
       "tienda": "Mercado Libre",
       "url": "https://www.mercadolibre.cl/p/MLC1055308659?pdp_filters=official_store:all",
-      "n_tiendas": 2,
+      "n_tiendas": 3,
       "historial": {
        "serie": [
-        [
-         "2026-05-10",
-         1679990
-        ],
         [
          "2026-05-11",
          1669990
@@ -1515,6 +1515,10 @@
         [
          "2026-11-06",
          1499990
+        ],
+        [
+         "2026-11-07",
+         1499990
         ]
        ],
        "minimo": {
@@ -1546,10 +1550,6 @@
       "n_tiendas": 1,
       "historial": {
        "serie": [
-        [
-         "2026-05-11",
-         2069990
-        ],
         [
          "2026-05-12",
          2027510
@@ -2261,6 +2261,10 @@
         [
          "2026-11-06",
          2089990
+        ],
+        [
+         "2026-11-07",
+         2089990
         ]
        ],
        "minimo": {
@@ -2286,13 +2290,13 @@
     "apple_us": {
      "ok": false,
      "metodo": null,
-     "error": "descontinuado: la pagina responde (764252 bytes) pero ya no trae el catalogo de este modelo",
+     "error": "descontinuado: la pagina responde (764264 bytes) pero ya no trae el catalogo de este modelo",
      "url": "https://www.apple.com/shop/buy-iphone/iphone-17-pro"
     },
     "apple_cl": {
      "ok": false,
      "metodo": null,
-     "error": "descontinuado: la pagina responde (468730 bytes) pero ya no trae el catalogo de este modelo",
+     "error": "descontinuado: la pagina responde (468770 bytes) pero ya no trae el catalogo de este modelo",
      "url": "https://www.apple.com/cl/shop/buy-iphone/iphone-17-pro"
     },
     "solotodo": {
@@ -2385,7 +2389,7 @@
       "precio": 1549990,
       "tienda": "ABC",
       "url": "https://www.abc.cl/apple-iphone-18-pro-max-5g-256-gb-69-borgona/29639574.html",
-      "n_tiendas": 8,
+      "n_tiendas": 9,
       "historial": {
        "serie": [
         [
@@ -2611,13 +2615,17 @@
         [
          "2026-11-06",
          1549990
+        ],
+        [
+         "2026-11-07",
+         1549990
         ]
        ],
        "minimo": {
         "precio": 1549990,
         "fecha": "2026-11-05"
        },
-       "dias": 56,
+       "dias": 57,
        "tiendas": [
         "ABC",
         "Apple Store",
@@ -2642,7 +2650,7 @@
       "precio": 1899990,
       "tienda": "Mercado Libre",
       "url": "https://www.mercadolibre.cl/p/MLC1077855516?pdp_filters=official_store:all",
-      "n_tiendas": 4,
+      "n_tiendas": 5,
       "historial": {
        "serie": [
         [
@@ -2868,13 +2876,17 @@
         [
          "2026-11-06",
          1899990
+        ],
+        [
+         "2026-11-07",
+         1899990
         ]
        ],
        "minimo": {
         "precio": 1899990,
         "fecha": "2026-11-05"
        },
-       "dias": 56,
+       "dias": 57,
        "tiendas": [
         "Apple Store",
         "Falabella",
@@ -3117,13 +3129,17 @@
         [
          "2026-11-06",
          2479990
+        ],
+        [
+         "2026-11-07",
+         2479990
         ]
        ],
        "minimo": {
         "precio": 2479990,
         "fecha": "2026-09-13"
        },
-       "dias": 55,
+       "dias": 56,
        "tiendas": [
         "Apple Store",
         "Falabella",
@@ -3151,10 +3167,15 @@
      "ok": true,
      "error": null,
      "url": "https://publicapi.solotodo.com/categories/6/browse/?search=iphone%2018%20pro%20max&ordering=offer_price_usd&page_size=60",
-     "n_descartados": 81
+     "n_descartados": 80
     }
    },
    "descartados": [
+    {
+     "nombre": "Apple iPhone 16 Pro Max (256 GB / Natural Titanium)",
+     "precio": 829990,
+     "motivo": "no es iPhone 18 Pro Max"
+    },
     {
      "nombre": "Apple iPhone 16 Pro Max (256 GB / White Titanium)",
      "precio": 829990,
@@ -3176,18 +3197,13 @@
      "motivo": "no es iPhone 18 Pro Max"
     },
     {
-     "nombre": "Apple iPhone 16 Pro Max (256 GB / Natural Titanium)",
-     "precio": 930990,
-     "motivo": "no es iPhone 18 Pro Max"
-    },
-    {
      "nombre": "Apple iPhone 16 Pro Max (512 GB / White Titanium)",
      "precio": 1101990,
      "motivo": "no es iPhone 18 Pro Max"
     },
     {
      "nombre": "Apple iPhone 17 Pro Max (256 GB / Cosmic Orange)",
-     "precio": 1099900,
+     "precio": 1139900,
      "motivo": "no es iPhone 18 Pro Max"
     },
     {
@@ -3197,7 +3213,7 @@
     },
     {
      "nombre": "Apple iPhone 17 Pro Max (256 GB / Silver)",
-     "precio": 1349990,
+     "precio": 1329990,
      "motivo": "no es iPhone 18 Pro Max"
     },
     {
