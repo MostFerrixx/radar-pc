@@ -1,16 +1,16 @@
 {
- "fecha": "2026-11-09",
- "generado_utc": "2026-11-09T17:36:52+00:00",
+ "fecha": "2026-11-10",
+ "generado_utc": "2026-11-10T15:38:52+00:00",
  "para": "Radar iPhone: conviene comprarlo aca o alla",
  "sales_tax_supuesto": 0.07,
  "sales_tax_nota": "Florida, el estado donde suele comprar. Es un supuesto fijo, no un dato consultado.",
  "hist_dias": 180,
  "dolar": {
   "ok": true,
-  "valor": 981.98,
-  "fecha": "2026-11-09",
-  "fuente": "SoloTodo (respaldo)",
-  "error": "no respondio: https://mindicador.cl/api/dolar -> <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1011)>"
+  "valor": 969.8,
+  "fecha": "2026-11-10",
+  "fuente": "mindicador.cl",
+  "error": null
  },
  "fuentes": {
   "consultas_ok": 4,
@@ -30,13 +30,9 @@
       "precio": 1119900,
       "tienda": "Electronica Budini",
       "url": "https://electronicabudini.cl/tienda/celulares/iphone-17-pro-max-cosmic-orange-256gb-usado/",
-      "n_tiendas": 9,
+      "n_tiendas": 10,
       "historial": {
        "serie": [
-        [
-         "2026-05-14",
-         1419990
-        ],
         [
          "2026-05-15",
          1419990
@@ -752,6 +748,10 @@
         [
          "2026-11-09",
          1119900
+        ],
+        [
+         "2026-11-10",
+         1119900
         ]
        ],
        "minimo": {
@@ -792,10 +792,6 @@
       "n_tiendas": 4,
       "historial": {
        "serie": [
-        [
-         "2026-05-14",
-         1809990
-        ],
         [
          "2026-05-15",
          1809990
@@ -1511,6 +1507,10 @@
         [
          "2026-11-09",
          1649990
+        ],
+        [
+         "2026-11-10",
+         1649990
         ]
        ],
        "minimo": {
@@ -1535,17 +1535,13 @@
      "usa_apple": null,
      "chile_apple": null,
      "chile_retail": {
-      "producto": "Apple iPhone 17 Pro Max (1 TB / Silver)",
-      "precio": 2089990,
-      "tienda": "MacOnline",
-      "url": "https://www.maconline.com/products/iphone-17-pro-max?default_sku=MFYV4BE/A",
-      "n_tiendas": 1,
+      "producto": "Apple iPhone 17 Pro Max (1 TB / Deep Blue)",
+      "precio": 2028098,
+      "tienda": "Mercado Libre",
+      "url": "https://www.mercadolibre.cl/p/MLC1055308709?pdp_filters=official_store:all",
+      "n_tiendas": 2,
       "historial": {
        "serie": [
-        [
-         "2026-05-14",
-         2027510
-        ],
         [
          "2026-05-15",
          2027510
@@ -1608,139 +1604,139 @@
         ],
         [
          "2026-05-30",
-         1984544
+         2027510
         ],
         [
          "2026-05-31",
-         1984544
+         2038162
         ],
         [
          "2026-06-01",
-         1979990
+         2038162
         ],
         [
          "2026-06-02",
-         1979990
+         2027510
         ],
         [
          "2026-06-03",
-         1979990
+         2027510
         ],
         [
          "2026-06-04",
-         1979990
+         2027510
         ],
         [
          "2026-06-05",
-         1979990
+         2027510
         ],
         [
          "2026-06-06",
-         1979990
+         2027510
         ],
         [
          "2026-06-07",
-         1979990
+         2027510
         ],
         [
          "2026-06-08",
-         1984544
+         2027510
         ],
         [
          "2026-06-09",
-         1984544
+         2027510
         ],
         [
          "2026-06-10",
-         1984544
+         2027510
         ],
         [
          "2026-06-11",
-         1984544
+         2027510
         ],
         [
          "2026-06-12",
-         1984544
+         2027510
         ],
         [
          "2026-06-13",
-         1984544
+         2027510
         ],
         [
          "2026-06-14",
-         1984544
+         2038162
         ],
         [
          "2026-06-15",
-         1984544
+         2038162
         ],
         [
          "2026-06-16",
-         1984544
+         2027510
         ],
         [
          "2026-06-17",
-         1984544
+         2027510
         ],
         [
          "2026-06-18",
-         1984544
+         2038162
         ],
         [
          "2026-06-19",
-         1984544
+         2027510
         ],
         [
          "2026-06-20",
-         1984544
+         2027510
         ],
         [
          "2026-06-21",
-         1984544
+         2038162
         ],
         [
          "2026-06-22",
-         1984544
+         2038162
         ],
         [
          "2026-06-23",
-         1984544
+         2069990
         ],
         [
          "2026-06-24",
-         1984544
+         2069990
         ],
         [
          "2026-06-25",
-         1984544
+         2069990
         ],
         [
          "2026-06-26",
-         1984544
+         2069990
         ],
         [
          "2026-06-27",
-         1984544
+         2069990
         ],
         [
          "2026-06-28",
-         1984544
+         2069990
         ],
         [
          "2026-06-29",
-         1984544
+         2069990
         ],
         [
          "2026-06-30",
-         1984544
+         2069990
         ],
         [
          "2026-07-01",
-         1984544
+         2069990
         ],
         [
          "2026-07-02",
-         2027510
+         2069990
         ],
         [
          "2026-07-03",
@@ -1840,31 +1836,31 @@
         ],
         [
          "2026-07-27",
-         1949990
+         2069990
         ],
         [
          "2026-07-28",
-         1949990
+         2069990
         ],
         [
          "2026-07-29",
-         1949990
+         2069990
         ],
         [
          "2026-07-30",
-         1919990
+         2069990
         ],
         [
          "2026-07-31",
-         1949990
+         2069990
         ],
         [
          "2026-08-01",
-         1949990
+         2069990
         ],
         [
          "2026-08-02",
-         1949990
+         2069990
         ],
         [
          "2026-08-03",
@@ -1968,27 +1964,27 @@
         ],
         [
          "2026-08-28",
-         1899990
+         1869990
         ],
         [
          "2026-08-29",
-         1879990
+         2069990
         ],
         [
          "2026-08-30",
-         1879990
+         2069990
         ],
         [
          "2026-08-31",
-         1879990
+         2069990
         ],
         [
          "2026-09-01",
-         1879990
+         2069990
         ],
         [
          "2026-09-02",
-         1879990
+         2069990
         ],
         [
          "2026-09-03",
@@ -2000,131 +1996,127 @@
         ],
         [
          "2026-09-05",
-         1879990
-        ],
-        [
-         "2026-09-07",
-         1879990
-        ],
-        [
-         "2026-09-08",
-         1879990
-        ],
-        [
-         "2026-09-09",
-         1879990
-        ],
-        [
-         "2026-09-10",
-         1879990
-        ],
-        [
-         "2026-09-11",
          2069990
         ],
         [
+         "2026-09-07",
+         2069990
+        ],
+        [
+         "2026-09-08",
+         2069990
+        ],
+        [
+         "2026-09-09",
+         2069990
+        ],
+        [
+         "2026-09-10",
+         2073607
+        ],
+        [
+         "2026-09-11",
+         2073607
+        ],
+        [
          "2026-09-12",
-         1879990
+         2073607
         ],
         [
          "2026-09-13",
-         1879990
+         2073607
         ],
         [
          "2026-09-14",
-         1879990
+         2073607
         ],
         [
          "2026-09-15",
-         1879990
+         2073607
         ],
         [
          "2026-09-16",
-         1879990
+         2073607
         ],
         [
          "2026-09-17",
-         1879990
+         2073607
         ],
         [
          "2026-09-18",
-         1879990
+         2073607
         ],
         [
          "2026-09-19",
-         1879990
+         2073607
         ],
         [
          "2026-09-20",
-         1879990
+         2073607
         ],
         [
          "2026-09-21",
-         1879990
+         2073607
         ],
         [
          "2026-09-22",
-         1879990
+         2073607
         ],
         [
          "2026-09-23",
-         2089990
+         2073607
         ],
         [
          "2026-09-24",
-         2089990
+         2073607
         ],
         [
          "2026-09-25",
-         2089990
+         2073607
         ],
         [
          "2026-09-26",
-         2089990
+         2073607
         ],
         [
          "2026-09-27",
-         2089990
+         2073607
         ],
         [
          "2026-09-28",
-         2089990
+         2073607
         ],
         [
          "2026-09-29",
-         2089990
+         2073607
         ],
         [
          "2026-09-30",
-         2089990
+         2028098
         ],
         [
          "2026-10-01",
-         2089990
+         2028098
         ],
         [
          "2026-10-02",
-         2089990
+         2028098
         ],
         [
          "2026-10-03",
-         1899990
+         2028098
         ],
         [
          "2026-10-04",
-         1899990
+         2028098
         ],
         [
          "2026-10-05",
-         1899990
+         1869990
         ],
         [
          "2026-10-06",
-         1899990
-        ],
-        [
-         "2026-10-07",
-         2089990
+         1869990
         ],
         [
          "2026-10-08",
@@ -2204,74 +2196,75 @@
         ],
         [
          "2026-10-27",
-         2018726
+         2089990
         ],
         [
          "2026-10-28",
-         2086990
+         2089990
         ],
         [
          "2026-10-29",
-         2089240
+         2089990
         ],
         [
          "2026-10-30",
-         2089240
+         2028098
         ],
         [
          "2026-10-31",
-         2089990
+         2028098
         ],
         [
          "2026-11-01",
-         2089990
+         2028098
         ],
         [
          "2026-11-02",
-         2089990
+         2028098
         ],
         [
          "2026-11-03",
-         2089990
+         2028098
         ],
         [
          "2026-11-04",
-         2089990
+         2028098
         ],
         [
          "2026-11-05",
-         2089990
+         2028098
         ],
         [
          "2026-11-06",
-         2089990
+         2028098
         ],
         [
          "2026-11-07",
-         2089990
+         2028098
         ],
         [
          "2026-11-08",
-         2089990
+         2028098
         ],
         [
          "2026-11-09",
-         2089990
+         2028098
+        ],
+        [
+         "2026-11-10",
+         2028098
         ]
        ],
        "minimo": {
-        "precio": 1879990,
-        "fecha": "2026-08-29"
+        "precio": 1869990,
+        "fecha": "2026-08-28"
        },
-       "dias": 179,
+       "dias": 178,
        "tiendas": [
         "Apple Store",
         "Centrale",
-        "KDTEC",
         "MacOnline",
-        "Mercado Libre",
-        "Tecnomas.cl",
-        "Travel Tienda"
+        "Mercado Libre"
        ],
        "error": null
       }
@@ -2282,31 +2275,31 @@
     "apple_us": {
      "ok": false,
      "metodo": null,
-     "error": "descontinuado: la pagina responde (764224 bytes) pero ya no trae el catalogo de este modelo",
+     "error": "descontinuado: la pagina responde (764099 bytes) pero ya no trae el catalogo de este modelo",
      "url": "https://www.apple.com/shop/buy-iphone/iphone-17-pro"
     },
     "apple_cl": {
      "ok": false,
      "metodo": null,
-     "error": "descontinuado: la pagina responde (469392 bytes) pero ya no trae el catalogo de este modelo",
+     "error": "descontinuado: la pagina responde (468743 bytes) pero ya no trae el catalogo de este modelo",
      "url": "https://www.apple.com/cl/shop/buy-iphone/iphone-17-pro"
     },
     "solotodo": {
      "ok": true,
      "error": null,
      "url": "https://publicapi.solotodo.com/categories/6/browse/?search=iphone%2017%20pro%20max&ordering=offer_price_usd&page_size=60",
-     "n_descartados": 84
+     "n_descartados": 85
     }
    },
    "descartados": [
     {
-     "nombre": "Apple iPhone 15 Pro Max (256 GB / Black Titanium)",
-     "precio": 829990,
+     "nombre": "Apple iPhone 15 Pro Max (256 GB / White Titanium)",
+     "precio": 750490,
      "motivo": "no es iPhone 17 Pro Max"
     },
     {
-     "nombre": "Apple iPhone 15 Pro Max (256 GB / White Titanium)",
-     "precio": 849990,
+     "nombre": "Apple iPhone 15 Pro Max (256 GB / Black Titanium)",
+     "precio": 750490,
      "motivo": "no es iPhone 17 Pro Max"
     },
     {
@@ -2615,13 +2608,17 @@
         [
          "2026-11-09",
          1549990
+        ],
+        [
+         "2026-11-10",
+         1549990
         ]
        ],
        "minimo": {
         "precio": 1549990,
         "fecha": "2026-11-05"
        },
-       "dias": 59,
+       "dias": 60,
        "tiendas": [
         "ABC",
         "Apple Store",
@@ -2884,13 +2881,17 @@
         [
          "2026-11-09",
          1919990
+        ],
+        [
+         "2026-11-10",
+         1919990
         ]
        ],
        "minimo": {
         "precio": 1899990,
         "fecha": "2026-11-05"
        },
-       "dias": 59,
+       "dias": 60,
        "tiendas": [
         "Apple Store",
         "Falabella",
@@ -2907,7 +2908,7 @@
      "usa_apple": 1899,
      "chile_apple": 2479990,
      "chile_retail": {
-      "producto": "Apple iPhone 18 Pro Max (1 TB / Silver) [MJXY4BE/A]",
+      "producto": "Apple iPhone 18 Pro Max (1 TB / Black) [MJXX4BE/A]",
       "precio": 2479990,
       "tienda": "Apple Store",
       "url": "https://www.apple.com/cl/shop/buy-iphone/iphone-18-pro",
@@ -3145,17 +3146,22 @@
         [
          "2026-11-09",
          2479990
+        ],
+        [
+         "2026-11-10",
+         2479990
         ]
        ],
        "minimo": {
         "precio": 2479990,
         "fecha": "2026-09-13"
        },
-       "dias": 58,
+       "dias": 59,
        "tiendas": [
         "Apple Store",
         "Falabella",
-        "MacOnline"
+        "MacOnline",
+        "Mercado Libre"
        ],
        "error": null
       }
@@ -3179,7 +3185,7 @@
      "ok": true,
      "error": null,
      "url": "https://publicapi.solotodo.com/categories/6/browse/?search=iphone%2018%20pro%20max&ordering=offer_price_usd&page_size=60",
-     "n_descartados": 85
+     "n_descartados": 104
     }
    },
    "descartados": [
@@ -3204,18 +3210,18 @@
      "motivo": "no es iPhone 18 Pro Max"
     },
     {
-     "nombre": "Apple iPhone 16 Pro Max (512 GB / Black Titanium)",
-     "precio": 929990,
-     "motivo": "no es iPhone 18 Pro Max"
-    },
-    {
      "nombre": "Apple iPhone 16 Pro Max (512 GB / White Titanium)",
      "precio": 1101990,
      "motivo": "no es iPhone 18 Pro Max"
     },
     {
+     "nombre": "Apple iPhone 16 Pro Max (512 GB / Black Titanium)",
+     "precio": 1101990,
+     "motivo": "no es iPhone 18 Pro Max"
+    },
+    {
      "nombre": "Apple iPhone 16 Pro Max (512 GB / Natural Titanium)",
-     "precio": 1199990,
+     "precio": 1101990,
      "motivo": "no es iPhone 18 Pro Max"
     },
     {
