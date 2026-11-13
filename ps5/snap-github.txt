@@ -11,14 +11,9 @@ release 2.5 | Y2JB-P2JB V2.5 | 2026-05-25
 release 2.5.1 | Y2JB-P2JB V2.5.1 | 2026-05-25
 release 2.5.2 | Y2JB-P2JB V2.5.2 - Y2JB 1.3 PROT_EXEC fix | 2026-05-25
 release 2.6 | Y2JB-P2JB V2.6 - Y2JB 1.5 support | 2026-05-25
-repo AdamRuzick4/PlayCaption-app | Real-time Czech subtitles for PS5 games on Android TV
 repo AdrianoRFJunior/radar-ps5 | RADAR BF 2026 - Monitoramento em Tempo Real PS5 e DualSense
-repo BOX20326/dsh-touch | 摸摸：用 PS5 手柄的触摸板 + 扳机和其他按键触摸你的 AI （DSH 插件）
-repo Bobas81/Dashboard-F1-2025 | Dashboard F1 2025 PS5
+repo Ayan4k/ps5-linux-loader-catalog | 
 repo C0rn3j/PS5 | PS5 related stuff
-repo CarlosNacher/ps5-tracker | WebAPP to follow prices of PS5 and send alerts to Telegram
-repo CaseyCZ/GameS-Calendar-Website | GameS-Calendar
-repo Daaboulex/playstation-tools | pst - command-line tool for jailbroken PS4 and PS5 consoles: status, payloads, game dumps, fake packages and saves
 repo EchoStretch/BD-JB-Relapse | BD-JB Relapse for 13.42 and below by zecoxao, EchoStretch and Claude
 repo EchoStretch/BackPork | Lets you sideload system libraries into PS5 games
 repo EchoStretch/Byepervisor | A PS5 hypervisor exploit for 1.xx-2xx firmwares.
@@ -102,51 +97,56 @@ repo EchoStretch/ps5Spoofer | PS5 Spoofer
 repo EchoStretch/ps5debug-NG | PS5 debugger payload — userland TCP wire-protocol server hosted inside SceShellCore. GPL-3.
 repo EchoStretch/remote_lua_loader | 
 repo EchoStretch/umtx2 | A webkit-based kernel exploit and jailbreak for PS5
-repo ElnTsk/Relapse-Exploit | PS5 Host
-repo Frnkynstyn-IV/StynPS-PlaySelect- | A sleek, Rust-powered Linux controller remapper for DualShock 4 and DualSense. Features a PS5-style interface, auto-profile switching, gyro/touchpad mapping, and seamless AppImage packaging. Inspired 
 repo Gezine/ArtemisLuaLoader | Run arbitrary lua script from savedata
 repo Gezine/BD-JB5 | BD-JB for PS5
 repo Gezine/CivSwitch | Nintendo Switch userland code execution using Civilization 7 game cartridge
 repo Gezine/Luac0re | Luac0re is a mast1c0re variation that uses Lua scripting for easier exploit development.
 repo Gezine/PS4-P3Rfix | PS4 Persona 3 Reload patch file that enables 60fps and disables motion blur.
 repo Gezine/Y2JB | Y2JB is userland code execution using PS5 Youtube app
+repo IceNoproblem/PS5LiveBridge | ps5游戏机直播工具，直接直播到B站，弹幕显示在ps5游戏画面
 repo IkpemosiArnold/ps5-price-tracker | Watches PS Store prices for a list of PS5 games and emails you when one goes on sale. Runs on a scheduled GitHub Action.
-repo Imgkl/sony-bento | An ad-free bento Home screen and debloat script for a Sony BRAVIA Google TV used with an Apple TV and a PS5
-repo KytyPS5/KytyPS5 | PlayStation 5 translation layer for Windows, Linux and macOS
+repo MeoWDev-MOD/Control-PS-5 | Conecte o controle de PS5 (DualSense) no Nintendo Switch desbloqueado, por Bluetooth e sem adaptador: gatilhos adaptáveis, barra de luz, touchpad como cursor e perfis por jogo.
+repo MeoWDev-MOD/ps5-hdmi-tool | PS5 Slim HDMI chip repair tool: patch PS5 NOR flash (.bin) to swap Realtek RTD2175P for Nuvoton/Panasonic MN864739 (or back). Read/write NOR via CH341A programmer. Companion to the Tech MeoW HDMI Inte
+repo Mohabbadi11/ps5-wifi-driver-fix | PlayStation 5 Linux Wi-Fi Driver Fix Suite & Patches for MT7921 / MT7921e and NXP IW620
 repo Mohamedgawad1/PS5-COMPLETION-PLATFORM | COMPLETION PROGRESS 
 repo Mohamedgawad1/ps5-dashboard | 
 repo MrRobotto512/FLEX | Home movie server (Go + Wails) with a native jailbroken-PS5 client and Tailscale remote access
-repo PSH5JB/PSH5 | PS5 Host
-repo SpiderNic96/ps5-scene-wire | 
-repo VoxDon3/ZeroVox | Zero Vox — تطبيق أندرويد لاستعراض كتالوج ألعاب PS5 وPS4، ونقل الملفات إلى الجهاز عبر الشبكة المحلية، وإدارة قوائم CheatRunner.
-repo ahabzutun/dualsense-eurorack-midi | I am trying to build a codebase for decoding the PS5 DualSense controller into midi-data to control my eurorack setup.
+repo Pix13/fuse-ppkg | Fuse userland mount of PS5's PKG Files
+repo Portablelle/EdGlantine-PS5 | Isolated experimental Eden NX2 prototype for PS5; incremental dedicated-host builds and console diagnostics
+repo RedMadKnight/BC5 | BC-250 + PS5. A native PS5 GPU path for the AMD BC-250 (Cyan Skillfish, gfx1013). User-space backend that feeds PS5 AGC command streams and native RDNA ISA shaders to amdgpu on Linux, without GNM→Vulk
+repo Samych02/free-ps5-capture-card | 
+repo ShoubhitGarg/ps5-fund | 
+repo TitanCSA/Interceptor | Windows Kernel Filter Driver for keyboard, mouse and USB gamepad input interception/remapping. DS4/DualShock 4 (PS4), DualSense (PS5), wired Xbox 360 and Xbox One/Series X|S via compatible HID/XInput/
+repo TitanCSA/Interceptor-Gamepad-Controller | Windows Kernel Filter Driver for gamepad/controller input interception and remapping. HID, XInput/XUSB, XInputHID and GIP; DS4/PS4, DualSense/PS5, wired Xbox 360 and Xbox One/Series profiles. Microsof
+repo X1NONs/PrefBar | PrefBar - Standalone On-Screen Performance Overlay for Jailbroken PS5
+repo abd475/ps5-for-pc | 
+repo aless-guisset/chestcounter | Fortnite chest counter for PC and console (PS5 via Chiaki/OBS): live count by screen reading, drop-down overlay, treasure odds, phone companion. Built on LED-N/Fortnite-ChestCounter (MIT).
+repo arush-sal/gt7-telemetry-collector | Gran Turismo 7 telemetry collector: receives PS5 UDP telemetry, decrypts and decodes it, and streams canonical protobuf frames over gRPC, unix sockets or HTTP. Go library + CLI, with pcap raw dumps.
+repo barelynotlegal/PLDMNGR-PS5-Payloads |    working-nexgen999-PS5_Payload_Manager_Updater
+repo barelynotlegal/PLDMNGR-ps5sx2 | auto updating source for ps2 emu
 repo boykopovar/AnyPS5 | Tool for automatic PS5 executables porting to Linux and Windows
-repo cacharrearconjuan/mis-payloads-ps5 | 
 repo cdanv/D-Sig-PS5 | Roteador de sinais de acessibilidade para PlayStation 5 com jailbreak
-repo codewithtaukeer/cuex-club | CueX - Premium Pool, Snooker & PS5 Cafe in Prayagraj
+repo crimnsx-alt/cr1mnsx | cr1mnsx — PS5, Souls-like & Twitch (PS3 XMB theme)
 repo dante0747/gamebeeper.gg | All the games worth watching. One signal. — a fast, open-source video game news aggregator.
-repo dv404280-botee/DhruvGamepad_Step1-upgrade | gamepad ps5 Edison project 
-repo ecmstudio/Gamepad-Bridge-Core | Gamepad-Core Host Pro API 2026: Native C++ Gamepad Bridge Library
-repo henriizx7/PS5Experience_iOS | Recriação da interface do PlayStation 5 para iOS, desenvolvida em SwiftUI.
-repo houqai/Con-app | Unofficial PS Plus cloud gaming client for Mac, Windows and Android: stream PS5, PS4 and PS3 games without a console, with DualSense, upscaling and frame generation
+repo darkxex/ps5-homebrew-catalog | https://discord.gg/Drx8tsqq3B - https://ProsperoStore.net
+repo enginkulakli/-eviri | ps5 remote üzerinden çeviri 
+repo geodox/ps5-wh-widgets | Custom Welcome Hub Widget support for PS5
+repo gsstharun/Any-PS5 | Tool for automatic PS5 executables porting to Linux and Windows
+repo heydemoura/EglantinePS5 | VERY experimental Nintendo Switch 2 emulator port for PS5
+repo huddaiami-rgb/playstation-vault-indexer | PlayStation Store Full Game Database Index 2026 – All Titles, Prices & Ratings
 repo javierrl24-spec/ps5-monitor | 
-repo johnkhn-ctrl/ps5-parallax | 
-repo jstrdev/ps5directo | Gestor de archivos para PS5 con jailbreak: descarga, convierte y envía en un solo paso. Biblioteca, copias de seguridad y diagnóstico. / File manager for jailbroken PS5: download, convert and send in 
-repo mane458957-maker/sony-ps5-concept | Maquette interactive PlayStation 5 en 3D — concept indépendant, non affilié à Sony Interactive Entertainment.
-repo marcelorsdd/OpenPSApp | PlayStation App features for a jailbroken PS5: playtime, trophies and profile, served by an ELF payload with a Media-tab tile.
-repo mcogames/tutorial-ps5- | 
+repo jpemendonca/BlueBird | PS5 game sound on Bluetooth speakers and headphones, through a USB Bluetooth adapter (payload for jailbroken PS5)
+repo logicalpeyote777/ps5-14.00-jailbreak-research | Reading the Gate, Not the Lock: the sysctl kind swap on PlayStation 5 firmware 14.00. The swap leaves CTLTYPE untouched and skips PRIV_SYSCTL_WRITE - a permission bypass, not a type confusion.
+repo mane458957-maker/sony-ps5-concept | Maquette
+repo mixstudiotech/agc-driver-for-anyps5 | PS5 Agc WDDM Driver for AnyPS5
 repo n00bin/nwc | Neverwinter Compendium — PS5 Item & Data Lookup
-repo nexgen999/PS5-Linux-After.Setup.Guide | PS5-Linux-After.Setup.Guide
 repo niakw/ProsperoEden-Encore | ProsperoEden Encore — experimental Nintendo Switch 1 + 2 (NS1/NS2) emulator PS5 FW 13.60. Audited Eden Vulkan/OpenGL, per-core JIT, FSR, DualSense TV-first UI, 31 languages, multiplayer lobby, per-gam
-repo o00Miti00o/sflashdump | PS5 SFlash dumper — dual dump + CRC32 verify (FW 7.00–13.60)
-repo patoGarces/ros2_ps5_stereo | ROS 2 node for capturing and publishing stereo image pairs from the PlayStation Eye (PS5) camera. Provides synchronized left/right frames suitable for stereo depth estimation and SLAM. Lightweight, op
-repo quer3q/ampr-emu-ng | Hard fork of ampr-emu designed to achieve maximum performance and stability
+repo phantomptr/ps5term | A terminal for a jailbroken PS5: native shell, real Linux shell, SSH and SFTP.
+repo phantomptr/ps5upload | Send games, apps and homebrew to a jailbroken PS5, and manage the console from your computer, phone or browser.
+repo quer3q/kraken-mount | Minimalist PS5 game mounter supporting PKG, folder dumps, lz4, and zstd
+repo rimidalv333/botw-recomp-optimization | Archive for local optimization efforts for savagewind recomp port for ps5 via reveal of env. var manual override (technical writeup only, no project provided) 
+repo rimidalv333/erebus-webofshadows-native | Native PS5 build of WoS (Xbox 360). Game code is statically recompiled for the PS5 and drawn by EoT renderer instead of GPU emulation: 60 fps target, up to 4K. Bring your own iso disc image, no game f
+repo rishabhsharmasharma66-glitch/stick-and-balls-website | Stick & Balls is a modern gaming cafe and billiards lounge in Hanumangarh, featuring Snooker, Pool, and PS5 gaming. A perfect hangout spot for friends to play, chill, compete, and enjoy great gaming v
 repo s0liton/RommPS | A RomM server client for jailbroken PS5s. Download games from your server, full bi-directional save sync support, and extensible emulator profiles to quickly support new emulators as they release on t
 repo sHarK-ps/PS5-PLDMGR-AutoUpdater | PS5 PLDMGR Auto Updater
-repo sephiroth613/synra-games-catalogo | Catalogo de juegos digitales PS4 y PS5 - Synra Games
-repo sosmar14656/ps58178 | 
-repo swayzz90/ps5 | 
-repo theddack/console-game-deals | PS5·닌텐도 스위치 기기 핫딜과 한국 스토어 게임 할인 모아보기 (텔레그램 브리핑 + GitHub Pages)
-repo xsensenmannx/PS5PRoAgent | 
-repo yorulmazsinan/couchsubs | PS5 oyun altyazılarını anlık Türkçeye çevirip TV'de oyunun üstünde gösterir / Real-time translated PS5 subtitles on your TV
-repo zerofo/ps5-esp | 
+repo strongt1me/ps5-cooling-system-center-pro | Fan control, temperature monitoring and system center for the jailbroken PS5 – payload with a browser app and a fullscreen controller app (DE · EN · IT · ES · FR · RU · SV) | Lüftersteuerung und Syste
