@@ -1,6 +1,6 @@
 {
- "fecha": "2026-11-14",
- "generado_utc": "2026-11-14T14:14:49+00:00",
+ "fecha": "2026-11-15",
+ "generado_utc": "2026-11-15T14:49:06+00:00",
  "para": "Radar iPhone: conviene comprarlo aca o alla",
  "sales_tax_supuesto": 0.07,
  "sales_tax_nota": "Florida, el estado donde suele comprar. Es un supuesto fijo, no un dato consultado.",
@@ -27,16 +27,12 @@
      "chile_apple": null,
      "chile_retail": {
       "producto": "Apple iPhone 17 Pro Max (256 GB / Cosmic Orange)",
-      "precio": 1049900,
+      "precio": 999900,
       "tienda": "Electronica Budini",
       "url": "https://electronicabudini.cl/tienda/celulares/iphone-17-pro-max-cosmic-orange-256gb-usado/",
       "n_tiendas": 10,
       "historial": {
        "serie": [
-        [
-         "2026-05-18",
-         1429990
-        ],
         [
          "2026-05-19",
          1419990
@@ -756,11 +752,15 @@
         [
          "2026-11-14",
          1049900
+        ],
+        [
+         "2026-11-15",
+         999900
         ]
        ],
        "minimo": {
-        "precio": 999990,
-        "fecha": "2026-08-18"
+        "precio": 999900,
+        "fecha": "2026-11-15"
        },
        "dias": 181,
        "tiendas": [
@@ -796,14 +796,6 @@
       "n_tiendas": 4,
       "historial": {
        "serie": [
-        [
-         "2026-05-18",
-         1669990
-        ],
-        [
-         "2026-05-19",
-         1772920
-        ],
         [
          "2026-05-20",
          1699990
@@ -1519,13 +1511,17 @@
         [
          "2026-11-14",
          1549990
+        ],
+        [
+         "2026-11-15",
+         1549990
         ]
        ],
        "minimo": {
         "precio": 1519990,
         "fecha": "2026-06-26"
        },
-       "dias": 181,
+       "dias": 180,
        "tiendas": [
         "Apple Store",
         "Centrale",
@@ -1552,10 +1548,6 @@
       "n_tiendas": 2,
       "historial": {
        "serie": [
-        [
-         "2026-05-19",
-         2027510
-        ],
         [
          "2026-05-20",
          2069990
@@ -2263,6 +2255,10 @@
         [
          "2026-11-14",
          2028098
+        ],
+        [
+         "2026-11-15",
+         2028098
         ]
        ],
        "minimo": {
@@ -2285,28 +2281,23 @@
     "apple_us": {
      "ok": false,
      "metodo": null,
-     "error": "descontinuado: la pagina responde (765213 bytes) pero ya no trae el catalogo de este modelo",
+     "error": "descontinuado: la pagina responde (765160 bytes) pero ya no trae el catalogo de este modelo",
      "url": "https://www.apple.com/shop/buy-iphone/iphone-17-pro"
     },
     "apple_cl": {
      "ok": false,
      "metodo": null,
-     "error": "descontinuado: la pagina responde (480767 bytes) pero ya no trae el catalogo de este modelo",
+     "error": "descontinuado: la pagina responde (468908 bytes) pero ya no trae el catalogo de este modelo",
      "url": "https://www.apple.com/cl/shop/buy-iphone/iphone-17-pro"
     },
     "solotodo": {
      "ok": true,
      "error": null,
      "url": "https://publicapi.solotodo.com/categories/6/browse/?search=iphone%2017%20pro%20max&ordering=offer_price_usd&page_size=60",
-     "n_descartados": 74
+     "n_descartados": 73
     }
    },
    "descartados": [
-    {
-     "nombre": "Apple iPhone 15 Pro Max (256 GB / Blue Titanium)",
-     "precio": 750490,
-     "motivo": "no es iPhone 17 Pro Max"
-    },
     {
      "nombre": "Apple iPhone 15 Pro Max (256 GB / White Titanium)",
      "precio": 829990,
@@ -2348,6 +2339,12 @@
     {
      "nombre": "Apple iPhone 17 Pro Max (256 GB / Cosmic Orange)",
      "precio": 129990,
+     "tienda": "Movistar One",
+     "motivo": "tienda vetada (movistar): no vende el equipo nuevo suelto"
+    },
+    {
+     "nombre": "Apple iPhone 17 Pro Max (256 GB / Cosmic Orange)",
+     "precio": 149990,
      "tienda": "Movistar One",
      "motivo": "tienda vetada (movistar): no vende el equipo nuevo suelto"
     },
@@ -2641,13 +2638,17 @@
         [
          "2026-11-14",
          1549990
+        ],
+        [
+         "2026-11-15",
+         1549990
         ]
        ],
        "minimo": {
         "precio": 1379491,
         "fecha": "2026-11-11"
        },
-       "dias": 64,
+       "dias": 65,
        "tiendas": [
         "ABC",
         "Apple Store",
@@ -2930,13 +2931,17 @@
         [
          "2026-11-14",
          1879990
+        ],
+        [
+         "2026-11-15",
+         1879990
         ]
        ],
        "minimo": {
         "precio": 1879990,
         "fecha": "2026-11-13"
        },
-       "dias": 64,
+       "dias": 65,
        "tiendas": [
         "Apple Store",
         "Falabella",
@@ -3211,13 +3216,17 @@
         [
          "2026-11-14",
          2479990
+        ],
+        [
+         "2026-11-15",
+         2479990
         ]
        ],
        "minimo": {
         "precio": 2479990,
         "fecha": "2026-09-13"
        },
-       "dias": 63,
+       "dias": 64,
        "tiendas": [
         "Apple Store",
         "Falabella",
@@ -3251,17 +3260,17 @@
    },
    "descartados": [
     {
+     "nombre": "Apple iPhone 16 Pro Max (256 GB / Natural Titanium)",
+     "precio": 829990,
+     "motivo": "no es iPhone 18 Pro Max"
+    },
+    {
      "nombre": "Apple iPhone 16 Pro Max (256 GB / Desert Titanium)",
      "precio": 829990,
      "motivo": "no es iPhone 18 Pro Max"
     },
     {
      "nombre": "Apple iPhone 16 Pro Max (256 GB / Black Titanium)",
-     "precio": 829990,
-     "motivo": "no es iPhone 18 Pro Max"
-    },
-    {
-     "nombre": "Apple iPhone 16 Pro Max (256 GB / Natural Titanium)",
      "precio": 829990,
      "motivo": "no es iPhone 18 Pro Max"
     },
@@ -3282,7 +3291,7 @@
     },
     {
      "nombre": "Apple iPhone 17 Pro Max (256 GB / Cosmic Orange)",
-     "precio": 1049900,
+     "precio": 999900,
      "motivo": "no es iPhone 18 Pro Max"
     },
     {
