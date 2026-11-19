@@ -11,11 +11,11 @@ release 2.5 | Y2JB-P2JB V2.5 | 2026-05-25
 release 2.5.1 | Y2JB-P2JB V2.5.1 | 2026-05-25
 release 2.5.2 | Y2JB-P2JB V2.5.2 - Y2JB 1.3 PROT_EXEC fix | 2026-05-25
 release 2.6 | Y2JB-P2JB V2.6 - Y2JB 1.5 support | 2026-05-25
-repo 1998fxajs/ps5-pro-stock-monitor | 
-repo AdrianoRFJunior/radar-ps5 | RADAR BF 2026 - Monitoramento em Tempo Real PS5 e DualSense
-repo C0rn3j/PS5 | PS5 related stuff
+repo Ahmadramdani09/gta6-trophy-forecast | Two-part adoption model forecasting GTA VI PS5 trophy earn rates a week after launch, as logit-scale quantiles. Built by an AI agent for make.fun’s “Forecast how many GTA VI players earn each trophy i
+repo Biose-dot/gta6-trophy-guide | Offline GTA VI trophy guide and tracker — 55 PS5 trophies, roadmap to platinum, missable flags, cited guides. Built by an AI agent for make.fun's Build the best GTA 6 trophy guide bounty, $250 in USDC
+repo Brengsek27/gta6-trophy-guide-01-r3 | Leonida Trophy Atlas — Neon Depths: an offline GTA VI trophy guide & tracker with a platinum roadmap, missable flags and cited guides for all 55 PS5 trophies. Entered in make.fun gta6-trophy-guide-01.
 repo Cinderdellacompute/God-Of-War-Latest-Version | Repack 2026 Godofwar God Of War Version Pc Ps5 Highspeed Direct Link Preactivated Edition Complete Cinematic Norse Saga Kratos Atreus Fullgame Installer Repack Mods Legendary Hacks Cheats Wallhack Aim
-repo DealUnloker/ps5-stream | Receive a PS5's built-in Twitch broadcast on a Mac in a low-latency player window, without a capture card or Remote Play
+repo ColonySoulThrust/PS5-60FPS-Patch-For-GTAVI | A patch that unlocks a smooth 60FPS performance mode in GTA VI on PlayStation 5 consoles.
 repo EchoStretch/BD-JB-Relapse | BD-JB Relapse for 13.42 and below by zecoxao, EchoStretch and Claude
 repo EchoStretch/BackPork | Lets you sideload system libraries into PS5 games
 repo EchoStretch/Byepervisor | A PS5 hypervisor exploit for 1.xx-2xx firmwares.
@@ -99,54 +99,54 @@ repo EchoStretch/ps5Spoofer | PS5 Spoofer
 repo EchoStretch/ps5debug-NG | PS5 debugger payload — userland TCP wire-protocol server hosted inside SceShellCore. GPL-3.
 repo EchoStretch/remote_lua_loader | 
 repo EchoStretch/umtx2 | A webkit-based kernel exploit and jailbreak for PS5
+repo Gas2405/gta6-trophy-rarity-forecast-01 | Forecasts every GTA VI PS5 trophy's Exophase earn rate one week after launch, as five quantiles per trophy, from a damped log-time trend in logit space blended with tier-based class priors. Built by a
 repo Gezine/ArtemisLuaLoader | Run arbitrary lua script from savedata
 repo Gezine/BD-JB5 | BD-JB for PS5
 repo Gezine/CivSwitch | Nintendo Switch userland code execution using Civilization 7 game cartridge
 repo Gezine/Luac0re | Luac0re is a mast1c0re variation that uses Lua scripting for easier exploit development.
 repo Gezine/PS4-P3Rfix | PS4 Persona 3 Reload patch file that enables 60fps and disables motion blur.
 repo Gezine/Y2JB | Y2JB is userland code execution using PS5 Youtube app
-repo IkpemosiArnold/ps5-price-tracker | Watches PS Store prices for a list of PS5 games and emails you when one goes on sale. Runs on a scheduled GitHub Action.
-repo KytyPS5/KytyPS5 | PlayStation 5 translation layer for Windows, Linux and macOS
-repo Likely7/Veyra-NRVideo | Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super R
-repo M4xiGitHub/ps5-wheel-adapter | Raspberry Pi Pico firmware to drive GT7 on PS5 from a Simagic/VRS rig as a G29 with Hori auth passthrough (hardware testing pending)
-repo MrYaseen0/imran-games | Imran Games — Best Game Shop in Peshawar, Pakistan. Dark gaming e-commerce store (PS4/PS5, Xbox, headsets, accessories). COD all over Pakistan.
-repo RedMadKnight/BC5 | BC-250 + PS5. A native PS5 GPU path for the AMD BC-250 (Cyan Skillfish, gfx1013). User-space backend that feeds PS5 AGC command streams and native RDNA ISA shaders to amdgpu on Linux, without GNM→Vulk
-repo Saif-Ssj/PS5-GTA6-rental- | A project where the user has possibility to rent a ps5 and check its availability and prices by date. Submitting a new offer will send a message  to the owner directly per Whatsapp telling him that th
-repo Samuel-SSLabs/Port-Integration | Buscador e catálogo unificado de ports nativos, decompilações e recompilações estáticas de consoles para PC (PS5, PS4, Switch, Xbox 360, N64 e clássicos), com rastreamento em tempo real de releases do
-repo Santy1422/gta6-mcp | Claude plays GTA 6 on a stock PS5 via Remote Play — an MCP server. No jailbreak, no mods, launch day.
-repo SpiderNic96/ps5-scene-wire | 
+repo Iceland26/gta6-trophy-rarity-forecast-01 | Simulation-calibrated forecaster for GTA VI's PS5 trophy earn rates in week one. Built by an AI agent for make.fun's "Forecast how many GTA VI players earn each trophy in week one" bounty, $250 in USD
+repo Jelly-RayTian/gta6-trophy-guide-01 | Leonida Legend: an offline guide and tracker for all 55 GTA 6 PS5 trophies, with cited guides, a platinum roadmap and missable flags. Built by an AI agent for make.fun's "Build the best GTA 6 trophy g
+repo MaouAnimus/YoteiPort | Experimental Native x86-64 PC Runtime, HLE Bridge & Asset Pipeline for Ghost of Yotei (PS5 - PPSA26344). Clean-room BYOD.
+repo MrxClaxx/gta6-trophy-guide-01 | The best GTA 6 trophy guide and tracker — all 55 PS5 trophies, cited guides, platinum roadmap and missable watch. Built by an AI agent for make.fun's "Build the best GTA 6 trophy guide" bounty, $250 i
+repo OlahDavidXdd/ps5 | 
+repo Rifky123/gta6-trophy-forecast | Earner-accumulation quantile forecaster for GTA VI PS5 trophy earn rates on Exophase. Built by an AI agent for make.fun's "Forecast how many GTA VI players earn each trophy in week one" bounty, $250 i
+repo Syanin29/gta6-trophy-guide-01-entry | Offline GTA VI PS5 trophy guide and tracker: all 55 trophies with guides, roadmap and progress tracking. Built by an AI agent for make.fun's Build the best GTA 6 trophy guide bounty, $250 in USDC.
+repo TUHIN729/gta6-trophy-guide-3 | Vice Ledger: offline GTA 6 trophy guide and tracker for all 55 PS5 trophies, with saved progress, filters, spoiler setting, platinum roadmap and cited guides. Built by an AI agent for make.fun's "Buil
 repo TeeKay87/HEN-Cheats-Collection | The most complete cheats collection for the PS4 and PS5 with interactive cheats index
-repo TitanCSA/Interceptor | Windows Kernel Filter Driver for keyboard, mouse and USB gamepad input interception/remapping. DS4/DualShock 4 (PS4), DualSense (PS5), wired Xbox 360 and Xbox One/Series X|S via compatible HID/XInput/
-repo TitanCSA/Interceptor-Gamepad-Controller | Windows Kernel Filter Driver for gamepad/controller input interception and remapping. HID, XInput/XUSB, XInputHID and GIP; DS4/PS4, DualSense/PS5, wired Xbox 360 and Xbox One/Series profiles. Microsof
-repo X-F1REBALL-X/wk-store | PS5 jailbreak installed on the Store tile. Runs Relapse from the home screen, then opens Elf Launcher.
+repo Zain00987/gta6-trophy-guide | GTA 6 trophy guide and tracker — all 55 PS5 trophies with guides, roadmap to platinum, missable flags, checklist saved in the browser. Entry for make.fun bounty gta6-trophy-guide-01.
+repo abrocoma/PS5-CachyOS | Ready-to-flash CachyOS image for jailbroken PS5: SteamOS-style Gaming Mode, 1440p 144 Hz, HDR, FreeSync
+repo agay12/gta6-trophy-rarity-forecast | Forecast GTA VI PS5 trophy earn rates on Exophase (make.fun gta6-trophy-rarity-forecast-01)
 repo aketo1/tarjim | ترجمة عربية فورية لألعاب الـPS5 تنرسم فوق اللعبة على نفس التلفزيون، بدون إنترنت. انبنى بمساعدة الذكاء الاصطناعي (Claude).
-repo alptuggurler/subwizard | Live subtitle translator for console & PC games: capture card or screen → OCR → Gemini → on-screen overlay, phone or OBS. Built for English → Turkish; languages are configurable.
-repo arush-sal/gt7-telemetry-collector | Gran Turismo 7 telemetry collector: receives PS5 UDP telemetry, decrypts and decodes it, and streams canonical protobuf frames over gRPC, unix sockets or HTTP. Go library + CLI, with pcap raw dumps.
-repo axsomette/ma-ludotheque-ps | Ma collection de jeux PS3/PS4/PS5 physiques : photo → jaquette officielle → boîtier 3D qui s'ouvre. React + Three.js + Supabase, sur GitHub Pages.
-repo ayush-h-pawar/llm-ps51-51 | 
-repo bbxzffdjxmpn/GTA-6-FPS-Boost-Hz-Unlock-Profile-PS5-Xbox | GTA 6 FPS boost and Hz unlock profile for PS5 |
-repo bornaradusin/PC5 | A launcher for PC games on a jailbroken PS5, built on prospero-win (Wine, DXVK, VKD3D-Proton). Install games from USB with automatic covers, pick them from a carousel, and use the DualSense: vibration
-repo bothaggsigym1988/frameglide | From a 30 fps console stream to 60–120 fps on your PC. · frame-interpolation · frame-generation · nvidia · windows · dlss · super-resolution · vulkan · dlss5 · upscaling · rife · neural-rendering · ps
 repo boykopovar/AnyPS5 | Tool for automatic PS5 executables porting to Linux and Windows
-repo crimnsx-alt/cr1mnsx | cr1mnsx — PS5, Souls-like & Twitch (PS3 XMB theme)
+repo brendamendoza550368-hue/makefun-trophy-guide | Leonida Legend - GTA VI trophy guide and tracker for all 55 PS5 trophies, for the make.fun gta6-trophy-guide-01 bounty.
+repo chengyuanpeng/gta6-trophy-guide-01-entry | Leonida Platinum: an offline guide and progress tracker for all 55 GTA VI PS5 trophies — official names, descriptions and grades, own-words guides with cited sources, a platinum roadmap with missable 
+repo csev21072/ps5-live-deal-watch | 
 repo dante0747/gamebeeper.gg | All the games worth watching. One signal. — a fast, open-source video game news aggregator.
-repo evertec82/AstroHybrid-VR | Experimental same-frame stereo PC VR mod for Astro Bot (PS5), based on AstroHybrid and OpenXR.
-repo fntpjrekcqqs/GTA-6-FPS-Boost-Optimizer-Hz-Unlock-Tool | GTA 6 FPS  optimizer. How to bypass 30 fps on ps5 and xbox
+repo dentybaiq/gta6-trophy-guide-01 | Leonida — the best GTA VI trophy guide and tracker: all 55 PS5 trophies with guides, a checklist, filters, a spoiler setting and a roadmap to the platinum. Built for the make.fun bounty.
+repo errnex/gta6-trophy-guide-01-v2 | Leonida Platinum — offline GTA VI trophy guide and tracker for all 55 PS5 trophies
+repo farah2222/gta6-trophy-guide-01 | Leonida Ledger: complete guide and tracker for all 55 GTA VI PS5 trophies - cited unlock steps, spoiler-safe tracker, 9-step platinum roadmap. Built by an AI agent for make.fun’s “Build the best GTA 6
+repo faridzafrizal01-ui/gta6-trophy-guide | Leonida Platinum Path — the complete GTA VI trophy guide and tracker: all 55 PS5 trophies with cited guides, a four-phase roadmap and missable alerts. Built by an AI agent for make.fun's “Build the be
+repo iimezu/playstation-app | PS5-inspired console home launcher for Windows. Controller-first, auto-detects your games, Arabic and English, works offline.
 repo ilgartastepe/ps5-takip | 
-repo itn06052008-beep/ps5-iphone-controller | 
+repo iosai2035/gta6-trophy-guide | GTA VI trophy guide and tracker: all 55 PS5 trophies with guides, checklists and progress tracking, offline
+repo isyaweb-a11y/gta-vi-trophy-guide | Offline GTA VI PS5 trophy guide and tracker: all 55 trophies, cited guides, platinum roadmap, missable flags. Built by an AI agent for make.fun's “Build the best GTA 6 trophy guide” bounty, $250 in US
+repo isyaweb-a11y/gta6-trophy-rarity-forecast | Forecasts week-one Exophase earn rates for all 55 GTA VI PS5 trophies with pooled saturating growth curves and a count model. Built by an AI agent for make.fun’s “Forecast how many GTA VI players earn
+repo jakadul/gta6-trophy-forecast | GTA VI PS5 trophy earn-rate forecaster for make.fun gta6-trophy-rarity-forecast-01
 repo javierrl24-spec/ps5-monitor | 
-repo knutwurst/ps5-ultrapack | macOS and Windows app to build PS5 fPKG (.pkg) and .ffpfsc containers from any source. Game folder, archive, or disk image. Pack, unpack, browse a .pkg block-by-block, patch, fake-sign. Verified launc
-repo kolpakovag/play-gta-6-on-pc | Play GTA 6 on PC (19 Nov 2026): Windows client streams a hall Xbox/PS5. No Steam port, not GeForce Now, not an emulator.
-repo kytyps5-emu/KytyPS5-GTA-6 | KytyPS5 GTA 6 VI  tracks Rockstar gameplay progress on PS5 translation builds, covering kytyps5 emulator and kyty ps5 compatibility. Inspect PSSR upscaling hooks, Arc B580 logs, and local dump require
-repo midnon80-create/ps5-thai-translator | PS5 Remote Play for Android TV with live English-to-Thai subtitle translation (based on chiaki-ng)
-repo nfMalde/gt-toolz | Coach and race crew in your ear, overlays for OBS: a free toolkit for Gran Turismo 7
-repo niakw/ProsperoEden-Encore | ProsperoEden Encore — experimental Nintendo Switch 1 + 2 (NS1/NS2) emulator PS5 FW 13.60. Audited Eden Vulkan/OpenGL, per-core JIT, FSR, DualSense TV-first UI, 31 languages, multiplayer lobby, per-gam
-repo ps5pta/ps5pta.github.io | Jersey City PS5 PTA website
-repo quer3q/kraken-mount | Minimalist PS5 game mounter supporting PKG, folder dumps, zstd and lz4
-repo ramalhoboss/BrowserPS5 | A real, full web browser for the PS5: a port of current WebKit with the JavaScript JIT, drawn on the console's GPU and driven with the DualSense.
-repo sHarK-ps/PS5-PLDMGR-AutoUpdater | PS5 PLDMGR Auto Updater
-repo sephiroth613/synra-games-catalogo | Catalogo de juegos digitales PS4 y PS5 - Synra Games
-repo t296tt39/wispyx-homeproxy | OpenWrt HomeProxy prompt: fragment, Poland, PS5, AI/CoD/RU routes (wispyx)
-repo xXBneutzerNameXx/PS5-Cleanup | Clean up a jailbroken PS5 like new, no reinstall.
-repo yorulmazsinan/couchsubs | PS5 oyun altyazılarını anlık Türkçeye çevirip TV'de oyunun üstünde gösterir / Real-time translated PS5 subtitles on your TV
-repo yunusdemirbag/nino-game-translator | Nino Game Translator: PS5 oyunlarının İngilizce altyazısını anlık Türkçeye çevirip TV'de oyunun üstünde gösteren ücretsiz ve açık kaynak uygulama. Mac, Windows, Android telefon, Android TV / Google TV
+repo khususgarapan000001-maker/gta6-trophy-guide | Leonida Case File — offline GTA 6 trophy guide & tracker for all 55 PS5 trophies (make.fun gta6-trophy-guide-01)
+repo littlesisterassistant/gta6-trophy-guide-01 | GTA VI trophy guide and tracker — 55 PS5 trophies, offline web app. Built by an AI agent for make.fun's “Build the best GTA 6 trophy guide” bounty, $250 in USDC.
+repo mendozaannette15/ps5oB6Ftq8naiyrC | 
+repo mevlanayalcin/gta6-trophy-cohort-forecaster | Refresh-aware cohort-dilution and empirical-Bayes quantile forecaster for GTA VI week-one PS5 trophy earn rates. Built by an AI agent for make.fun's “Forecast how many GTA VI players earn each trophy 
+repo muhamad-refaldo/gta6-trophy-guide-20261119 | Offline GTA VI trophy guide and tracker for all 55 PS5 trophies. Built by an AI agent for make.fun's Build the best GTA 6 trophy guide bounty, $250 in USDC.
+repo pristmc-code/ps5-glibren-releases | Signed releases (and source) of glibren, the PS5 payload of Game Library Renamer. The payload updates itself from here.
+repo saipulridwan158/gta6-trophy-forecast | Quantile forecast of GTA VI PS5 trophy earn rates at 2026-11-26 on Exophase: earners-over-players count model with a calibrated logit band. Built by an AI agent for make.fun's “Forecast how many GTA V
+repo salikamarlisa3-cell/gta6-trophy-guide-01 | Leonida Trophy Atlas — offline GTA VI trophy guide & tracker: all 55 official PS5 trophies, cited guides, platinum roadmap, missable flags, spoiler-safe tracking. Built by an AI agent for make.fun’s “
+repo salikamarlisa3-cell/gta6-trophy-rarity-forecast-01 | Refresh-aware earners/players forecaster for GTA VI PS5 trophy earn rates one week after launch. Built by an AI agent for make.fun’s “Forecast how many GTA VI players earn each trophy in week one” bou
+repo sendycrypto67-lgtm/gta6-trophy-guide-01 | Offline guide and tracker for the 55 PS5 trophies of Grand Theft Auto VI (make.fun gta6-trophy-guide-01)
+repo shelbyxxx1/gta6-trophy-rarity-forecast-01-entry | Refresh-aware earners/players forecaster for GTA VI PS5 trophy earn rates on Exophase. Built by an AI agent for make.fun.
+repo slur-hunter/gta-vi-trophy-guide | GTA VI Trophy Guide — offline guide and tracker for 55 PS5 trophies (make.fun bounty gta6-trophy-guide-01)
+repo theendboy21-cpu/PS50083_TRANTHAIQUANG_PYTHON | 
+repo torunf/remoteSub | PS5 subtitle translator for chiaki-ng: local OCR + TranslateGemma
+repo vr23zone/gta6-trophy-guide-01 | Leonida Ledger — free offline GTA VI trophy guide & tracker: all 55 PS5 trophies, cited guides, platinum roadmap, missable flags
