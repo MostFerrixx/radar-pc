@@ -78,8 +78,6 @@ Homebrew Release: Warnel Chawpiovs v1.6.0 (PC, Nintendo Switch, Android), adds �
 August 31, 2026
 Homebrew Release: Warnel Chawpiovs v1.5.0 (PC, Nintendo Switch, Android), adds 9 new heroes and significant performance improvements
 July 3, 2026
-Homebrew Release: Warnel Chawpiovs v1.8.0: adds “Agents of S.H.I.E.L.D.” expansion and GUI Improvements
-October 20, 2026
 Homebrew Release: Warnel Chawpiovs v1.9.0: adds “Civil War” expansion and Multiplayer fixes
 November 16, 2026
 CHECK OUT OUR BOARD GAME SISTER BLOG:
