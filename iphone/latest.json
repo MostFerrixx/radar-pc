@@ -1,6 +1,6 @@
 {
- "fecha": "2026-11-20",
- "generado_utc": "2026-11-20T16:12:58+00:00",
+ "fecha": "2026-11-21",
+ "generado_utc": "2026-11-21T15:25:39+00:00",
  "para": "Radar iPhone: conviene comprarlo aca o alla",
  "sales_tax_supuesto": 0.07,
  "sales_tax_nota": "Florida, el estado donde suele comprar. Es un supuesto fijo, no un dato consultado.",
@@ -33,10 +33,6 @@
       "n_tiendas": 10,
       "historial": {
        "serie": [
-        [
-         "2026-05-25",
-         1419990
-        ],
         [
          "2026-05-26",
          1329990
@@ -752,6 +748,10 @@
         [
          "2026-11-20",
          999900
+        ],
+        [
+         "2026-11-21",
+         999900
         ]
        ],
        "minimo": {
@@ -789,13 +789,9 @@
       "precio": 1549990,
       "tienda": "Hites",
       "url": "https://www.hites.com/iphone-17-pro-max-apple-5g-512-gb-azul-profundo-liberado-964827001.html",
-      "n_tiendas": 4,
+      "n_tiendas": 3,
       "historial": {
        "serie": [
-        [
-         "2026-05-25",
-         1649990
-        ],
         [
          "2026-05-26",
          1649990
@@ -1511,6 +1507,10 @@
         [
          "2026-11-20",
          1549990
+        ],
+        [
+         "2026-11-21",
+         1549990
         ]
        ],
        "minimo": {
@@ -1544,10 +1544,6 @@
       "n_tiendas": 2,
       "historial": {
        "serie": [
-        [
-         "2026-05-25",
-         2069990
-        ],
         [
          "2026-05-26",
          2027510
@@ -2255,6 +2251,10 @@
         [
          "2026-11-20",
          2028098
+        ],
+        [
+         "2026-11-21",
+         2028098
         ]
        ],
        "minimo": {
@@ -2277,20 +2277,20 @@
     "apple_us": {
      "ok": false,
      "metodo": null,
-     "error": "descontinuado: la pagina responde (747496 bytes) pero ya no trae el catalogo de este modelo",
+     "error": "descontinuado: la pagina responde (747472 bytes) pero ya no trae el catalogo de este modelo",
      "url": "https://www.apple.com/shop/buy-iphone/iphone-17-pro"
     },
     "apple_cl": {
      "ok": false,
      "metodo": null,
-     "error": "descontinuado: la pagina responde (467743 bytes) pero ya no trae el catalogo de este modelo",
+     "error": "descontinuado: la pagina responde (467635 bytes) pero ya no trae el catalogo de este modelo",
      "url": "https://www.apple.com/cl/shop/buy-iphone/iphone-17-pro"
     },
     "solotodo": {
      "ok": true,
      "error": null,
      "url": "https://publicapi.solotodo.com/categories/6/browse/?search=iphone%2017%20pro%20max&ordering=offer_price_usd&page_size=60",
-     "n_descartados": 75
+     "n_descartados": 81
     }
    },
    "descartados": [
@@ -2305,13 +2305,38 @@
      "motivo": "no es iPhone 17 Pro Max"
     },
     {
-     "nombre": "Apple iPhone 17 Pro Max (2 TB / Cosmic Orange)",
-     "precio": 2449990,
-     "motivo": "capacidad fuera del radar"
+     "nombre": "Apple iPhone 15 Pro Max (256 GB / Black Titanium)",
+     "precio": 849990,
+     "motivo": "no es iPhone 17 Pro Max"
     },
     {
-     "nombre": "Apple iPhone 17 Pro Max (2 TB / Deep Blue)",
-     "precio": 2579990,
+     "nombre": "Apple iPhone 15 Pro Max (256 GB / Blue Titanium)",
+     "precio": 849990,
+     "motivo": "no es iPhone 17 Pro Max"
+    },
+    {
+     "nombre": "Apple iPhone 15 Pro Max (512 GB / Blue Titanium)",
+     "precio": 899990,
+     "motivo": "no es iPhone 17 Pro Max"
+    },
+    {
+     "nombre": "Apple iPhone 15 Pro Max (512 GB / Black Titanium)",
+     "precio": 899990,
+     "motivo": "no es iPhone 17 Pro Max"
+    },
+    {
+     "nombre": "Apple iPhone 15 Pro Max (1 TB / Blue Titanium)",
+     "precio": 949990,
+     "motivo": "no es iPhone 17 Pro Max"
+    },
+    {
+     "nombre": "Apple iPhone 15 Pro Max (1 TB / Natural Titanium)",
+     "precio": 949990,
+     "motivo": "no es iPhone 17 Pro Max"
+    },
+    {
+     "nombre": "Apple iPhone 17 Pro Max (2 TB / Cosmic Orange)",
+     "precio": 2449990,
      "motivo": "capacidad fuera del radar"
     },
     {
@@ -2320,44 +2345,13 @@
      "motivo": "capacidad fuera del radar"
     },
     {
-     "nombre": "Apple iPhone 17 Pro Max (256 GB / Cosmic Orange)",
-     "precio": 129990,
-     "tienda": "Movistar One",
-     "motivo": "tienda vetada (movistar): no vende el equipo nuevo suelto"
+     "nombre": "Apple iPhone 17 Pro Max (2 TB / Deep Blue)",
+     "precio": 2579990,
+     "motivo": "capacidad fuera del radar"
     },
     {
      "nombre": "Apple iPhone 17 Pro Max (256 GB / Cosmic Orange)",
      "precio": 129990,
-     "tienda": "Movistar One",
-     "motivo": "tienda vetada (movistar): no vende el equipo nuevo suelto"
-    },
-    {
-     "nombre": "Apple iPhone 17 Pro Max (256 GB / Cosmic Orange)",
-     "precio": 129990,
-     "tienda": "Movistar One",
-     "motivo": "tienda vetada (movistar): no vende el equipo nuevo suelto"
-    },
-    {
-     "nombre": "Apple iPhone 17 Pro Max (256 GB / Cosmic Orange)",
-     "precio": 129990,
-     "tienda": "Movistar One",
-     "motivo": "tienda vetada (movistar): no vende el equipo nuevo suelto"
-    },
-    {
-     "nombre": "Apple iPhone 17 Pro Max (256 GB / Cosmic Orange)",
-     "precio": 149990,
-     "tienda": "Movistar One",
-     "motivo": "tienda vetada (movistar): no vende el equipo nuevo suelto"
-    },
-    {
-     "nombre": "Apple iPhone 17 Pro Max (256 GB / Cosmic Orange)",
-     "precio": 149990,
-     "tienda": "Movistar One",
-     "motivo": "tienda vetada (movistar): no vende el equipo nuevo suelto"
-    },
-    {
-     "nombre": "Apple iPhone 17 Pro Max (256 GB / Cosmic Orange)",
-     "precio": 149990,
      "tienda": "Movistar One",
      "motivo": "tienda vetada (movistar): no vende el equipo nuevo suelto"
     }
@@ -2657,13 +2651,17 @@
         [
          "2026-11-20",
          1484991
+        ],
+        [
+         "2026-11-21",
+         1484991
         ]
        ],
        "minimo": {
         "precio": 1484991,
         "fecha": "2026-11-12"
        },
-       "dias": 70,
+       "dias": 71,
        "tiendas": [
         "ABC",
         "Apple Store",
@@ -2969,13 +2967,17 @@
         [
          "2026-11-20",
          1879990
+        ],
+        [
+         "2026-11-21",
+         1879990
         ]
        ],
        "minimo": {
         "precio": 1879990,
         "fecha": "2026-11-13"
        },
-       "dias": 70,
+       "dias": 71,
        "tiendas": [
         "Apple Store",
         "Falabella",
@@ -3274,13 +3276,17 @@
         [
          "2026-11-20",
          2479990
+        ],
+        [
+         "2026-11-21",
+         2479990
         ]
        ],
        "minimo": {
         "precio": 2479990,
         "fecha": "2026-09-13"
        },
-       "dias": 69,
+       "dias": 70,
        "tiendas": [
         "Apple Store",
         "Falabella",
@@ -3309,7 +3315,7 @@
      "ok": true,
      "error": null,
      "url": "https://publicapi.solotodo.com/categories/6/browse/?search=iphone%2018%20pro%20max&ordering=offer_price_usd&page_size=60",
-     "n_descartados": 65
+     "n_descartados": 72
     }
    },
    "descartados": [
@@ -3339,38 +3345,38 @@
      "motivo": "no es iPhone 18 Pro Max"
     },
     {
-     "nombre": "Apple iPhone 17 Pro Max (256 GB / Cosmic Orange)",
-     "precio": 999900,
+     "nombre": "Apple iPhone 16 Pro Max (512 GB / Natural Titanium)",
+     "precio": 1199990,
      "motivo": "no es iPhone 18 Pro Max"
     },
     {
-     "nombre": "Apple iPhone 17 Pro Max (256 GB / Silver)",
-     "precio": 1187490,
+     "nombre": "Apple iPhone 16 Pro Max (512 GB / White Titanium)",
+     "precio": 1199990,
      "motivo": "no es iPhone 18 Pro Max"
     },
     {
-     "nombre": "Apple iPhone 17 Pro Max (256 GB / Deep Blue)",
-     "precio": 1241991,
+     "nombre": "Apple iPhone 16 Pro Max (512 GB / Desert Titanium)",
+     "precio": 1199990,
      "motivo": "no es iPhone 18 Pro Max"
     },
     {
-     "nombre": "Apple iPhone 17 Pro Max (512 GB / Deep Blue)",
-     "precio": 1405990,
+     "nombre": "Apple iPhone 16 Pro Max (1 TB / White Titanium)",
+     "precio": 1299990,
      "motivo": "no es iPhone 18 Pro Max"
     },
     {
-     "nombre": "Apple iPhone 17 Pro Max (512 GB / Silver)",
-     "precio": 1649990,
+     "nombre": "Apple iPhone 16 Pro Max (1 TB / Desert Titanium)",
+     "precio": 1299990,
      "motivo": "no es iPhone 18 Pro Max"
     },
     {
-     "nombre": "Apple iPhone 17 Pro Max (512 GB / Cosmic Orange)",
-     "precio": 1649990,
+     "nombre": "Apple iPhone 16 Pro Max (1 TB / Black Titanium)",
+     "precio": 1299990,
      "motivo": "no es iPhone 18 Pro Max"
     },
     {
-     "nombre": "Apple iPhone 17 Pro Max (1 TB / Silver)",
-     "precio": 1804990,
+     "nombre": "Apple iPhone 16 Pro Max (1 TB / Natural Titanium)",
+     "precio": 1299990,
      "motivo": "no es iPhone 18 Pro Max"
     }
    ]
