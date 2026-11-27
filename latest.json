@@ -1,8 +1,8 @@
 {
- "fecha": "2026-11-26",
- "generado_utc": "2026-11-26T17:46:04+00:00",
+ "fecha": "2026-11-27",
+ "generado_utc": "2026-11-27T17:30:29+00:00",
  "fuente": "SoloTodo publicapi, via GitHub Actions",
- "dolar_referencia": 1032.93,
+ "dolar_referencia": 1037.75,
  "consultas_total": 20,
  "consultas_ok": 19,
  "errores": {
@@ -14,21 +14,21 @@
    "elegido": {
     "product_id": 397351,
     "nombre": "MSI GeForce RTX 5070 Ti 16G FRIEREN EDITION OC [G507T-16FEC]",
-    "precio_lista": 1477440,
-    "precio": 1477440,
-    "tienda": "Winpy",
-    "url": "https://www.winpy.cl/venta/tarjeta-grafica-msi-geforce-rtx-5070-ti-frieren-edition-oc-de-16gb-gddr7/",
-    "n_tiendas": 4
+    "precio_lista": 1479900,
+    "precio": 1479900,
+    "tienda": "Sandos",
+    "url": "https://sandos.cl/p/tarjeta-de-video-msi-geforce-rtx-5070-ti-frieren-edition-oc-16gb-gddr7-256-bit-pcie-50-p36987",
+    "n_tiendas": 2
    },
    "candidatos": [
     {
      "product_id": 397351,
      "nombre": "MSI GeForce RTX 5070 Ti 16G FRIEREN EDITION OC [G507T-16FEC]",
-     "precio_lista": 1477440,
-     "precio": 1477440,
-     "tienda": "Winpy",
-     "url": "https://www.winpy.cl/venta/tarjeta-grafica-msi-geforce-rtx-5070-ti-frieren-edition-oc-de-16gb-gddr7/",
-     "n_tiendas": 4
+     "precio_lista": 1479900,
+     "precio": 1479900,
+     "tienda": "Sandos",
+     "url": "https://sandos.cl/p/tarjeta-de-video-msi-geforce-rtx-5070-ti-frieren-edition-oc-16gb-gddr7-256-bit-pcie-50-p36987",
+     "n_tiendas": 2
     },
     {
      "product_id": 266814,
@@ -90,19 +90,10 @@
     {
      "product_id": 394910,
      "nombre": "Palit GeForce RTX 5080 Infinity 3 OC [NE75080U19T2-GB2035S]",
-     "precio_lista": 1969990,
-     "precio": 1969990,
+     "precio_lista": 1899990,
+     "precio": 1899990,
      "tienda": "MegaBytes",
      "url": "https://www.megabytes.cl/sitio-nuevo/producto/palit-rtx-5080-infinity-3-oc-16gb-gddr7-256bit/",
-     "n_tiendas": 1
-    },
-    {
-     "product_id": 270830,
-     "nombre": "MSI GeForce RTX 5080 16G SHADOW 3X OC [G5080-16S3C]",
-     "precio_lista": 2069990,
-     "precio": 2069990,
-     "tienda": "MyShop",
-     "url": "https://myshop.cl/producto/tarjeta-de-video-msi-shadow-3x-nvidia-geforce-rtx-5080-16g-oc-edition-16-gb-gddr7-256-bits-pcie-50-displayport-hdmi-p42488",
      "n_tiendas": 1
     },
     {
@@ -113,6 +104,15 @@
      "tienda": "MyShop",
      "url": "https://myshop.cl/producto/asus-tvideo-prime-rtx-5080-nvidia-rtx-5080-gddr7-gaming-p34312",
      "n_tiendas": 3
+    },
+    {
+     "product_id": 266473,
+     "nombre": "MSI GeForce RTX 5080 16G INSPIRE 3X OC [G5080-16I3C]",
+     "precio_lista": 2238200,
+     "precio": 2238200,
+     "tienda": "MyBox",
+     "url": "https://mybox.cl/tarjeta-de-video/5740-tarjeta-de-video-msi-rtx-5080-inspire-3x-16gb-oc-4711377292474.html",
+     "n_tiendas": 2
     }
    ],
    "descartados": []
@@ -177,7 +177,7 @@
     "precio": 986990,
     "tienda": "KDTEC",
     "url": "https://kdtec.cl/producto/prime-rx9070xt-o16g/",
-    "n_tiendas": 23
+    "n_tiendas": 24
    },
    "candidatos": [
     {
@@ -187,7 +187,7 @@
      "precio": 986990,
      "tienda": "KDTEC",
      "url": "https://kdtec.cl/producto/prime-rx9070xt-o16g/",
-     "n_tiendas": 23
+     "n_tiendas": 24
     },
     {
      "product_id": 360798,
@@ -296,18 +296,18 @@
    "elegido": {
     "product_id": 241309,
     "nombre": "AMD Ryzen 7 7800X3D Tray [100-100000910MPK]",
-    "precio": 348990,
-    "tienda": "Campcom",
-    "url": "https://campcom.cl/producto/procesador-amd-ryzen-7-7800x3d-tray",
+    "precio": 339990,
+    "tienda": "MegaBytes",
+    "url": "https://www.megabytes.cl/sitio-nuevo/producto/procesador-amd-ryzen-7-7800x-3d/",
     "n_tiendas": 3
    },
    "candidatos": [
     {
      "product_id": 241309,
      "nombre": "AMD Ryzen 7 7800X3D Tray [100-100000910MPK]",
-     "precio": 348990,
-     "tienda": "Campcom",
-     "url": "https://campcom.cl/producto/procesador-amd-ryzen-7-7800x3d-tray",
+     "precio": 339990,
+     "tienda": "MegaBytes",
+     "url": "https://www.megabytes.cl/sitio-nuevo/producto/procesador-amd-ryzen-7-7800x-3d/",
      "n_tiendas": 3
     }
    ],
@@ -338,9 +338,9 @@
      "product_id": 265417,
      "nombre": "Gigabyte B850M GAMING X WIFI6E",
      "precio_lista": 204990,
-     "precio": 204990,
-     "tienda": "Tecnomas.cl",
-     "url": "https://tecnomas.cl/producto/b850m-gaming-x-wifi6e",
+     "precio": 199990,
+     "tienda": "DazBog Store",
+     "url": "https://www.dazbogstore.cl/product/gigabyte-b850m-gaming-x-wifi6e/",
      "n_tiendas": 2
     },
     {
@@ -355,11 +355,11 @@
     {
      "product_id": 368576,
      "nombre": "MSI PRO B850-S WIFI6E",
-     "precio_lista": 205971,
-     "precio": 205971,
-     "tienda": "Thundertech",
-     "url": "https://www.thundertech.cl/msi-pro-b850-s-wifi6e-am5-ddr5",
-     "n_tiendas": 3
+     "precio_lista": 205990,
+     "precio": 205990,
+     "tienda": "MegaDrive",
+     "url": "https://megadrivestore.cl/am5/1090-msi-pro-b850-s-wifi6e.html",
+     "n_tiendas": 2
     }
    ],
    "descartados": [
@@ -384,9 +384,19 @@
      "motivo": "dice 'ASRock'"
     },
     {
+     "nombre": "ASRock B850M Pro-A WiFi",
+     "precio": 169990,
+     "motivo": "dice 'ASRock'"
+    },
+    {
      "nombre": "ASRock B850 Pro-A",
      "precio": 179990,
      "motivo": "no dice 'WIFI'"
+    },
+    {
+     "nombre": "ASRock B850M Steel Legend WiFi",
+     "precio": 189990,
+     "motivo": "dice 'ASRock'"
     },
     {
      "nombre": "ASRock B850M Pro RS WiFi",
@@ -399,17 +409,12 @@
      "motivo": "dice 'ASRock'"
     },
     {
-     "nombre": "ASRock B850 Rock WIFI 7",
-     "precio": 199990,
-     "motivo": "dice 'ASRock'"
-    },
-    {
      "nombre": "ASRock B850 Pro-A WiFi",
      "precio": 199990,
      "motivo": "dice 'ASRock'"
     },
     {
-     "nombre": "ASRock B850M Steel Legend WiFi",
+     "nombre": "ASRock B850 Rock WIFI 7",
      "precio": 199990,
      "motivo": "dice 'ASRock'"
     },
@@ -439,7 +444,7 @@
     "precio": 134890,
     "tienda": "Tecnomas.cl",
     "url": "https://tecnomas.cl/producto/b650m-gaming-wifi",
-    "n_tiendas": 4
+    "n_tiendas": 5
    },
    "candidatos": [
     {
@@ -449,7 +454,7 @@
      "precio": 134890,
      "tienda": "Tecnomas.cl",
      "url": "https://tecnomas.cl/producto/b650m-gaming-wifi",
-     "n_tiendas": 4
+     "n_tiendas": 5
     },
     {
      "product_id": 369295,
@@ -486,13 +491,13 @@
      "motivo": "no dice 'WIFI'"
     },
     {
-     "nombre": "Gigabyte B650M D3HP",
-     "precio": 127500,
+     "nombre": "ASRock B650M-HDV/M.2",
+     "precio": 127990,
      "motivo": "no dice 'WIFI'"
     },
     {
-     "nombre": "ASRock B650M-HDV/M.2",
-     "precio": 127990,
+     "nombre": "Gigabyte B650M D3HP",
+     "precio": 149990,
      "motivo": "no dice 'WIFI'"
     },
     {
@@ -588,6 +593,11 @@
      "motivo": "no dice '2 x 16 GB'"
     },
     {
+     "nombre": "Kingston Fury Beast KF560C30BBE-32 (1 x 32 GB | DIMM DDR5-6000)",
+     "precio": 769900,
+     "motivo": "no dice '2 x 16 GB'"
+    },
+    {
      "nombre": "Kingston Fury Beast Black RGB KF560C30BBEA-32 (1 x 32 GB | DIMM DDR5-6000)",
      "precio": 829990,
      "motivo": "no dice '2 x 16 GB'"
@@ -623,11 +633,11 @@
     {
      "product_id": 265390,
      "nombre": "Kingston Fury Beast KF560C30BBEK2-64 (2 x 32 GB | DIMM DDR5-6000)",
-     "precio_lista": 1742095,
-     "precio": 1754701,
-     "tienda": "MyShop",
-     "url": "https://myshop.cl/producto/64gb-6000mts-ddr5-cl30-dimm-kit-of-2-fury-beast-p45315",
-     "n_tiendas": 5
+     "precio_lista": 1755212,
+     "precio": 1755212,
+     "tienda": "NotebookStore",
+     "url": "https://notebookstore.cl/64gb-6000mts-ddr5-cl30-dimm-kit-of-2-fury-beast-2",
+     "n_tiendas": 4
     }
    ],
    "descartados": [
@@ -637,8 +647,13 @@
      "motivo": "no dice '2 x 32 GB'"
     },
     {
+     "nombre": "Kingston Fury Beast KF556C36BBE-64 (1 x 64 GB | DIMM DDR5-5600)",
+     "precio": 1296256,
+     "motivo": "no dice '2 x 32 GB'"
+    },
+    {
      "nombre": "Kingston KTD-PE432/64G (1 x 64GB | DIMM DDR4-3200 ECC Full buffer)",
-     "precio": 1386680,
+     "precio": 1413000,
      "motivo": "no dice '2 x 32 GB'"
     },
     {
@@ -653,7 +668,7 @@
     },
     {
      "nombre": "Kingston KTD-PE556D4-64G (1 x 64 GB | DIMM DDR5-5600 ECC)",
-     "precio": 2443004,
+     "precio": 2465100,
      "motivo": "no dice '2 x 32 GB'"
     },
     {
@@ -695,7 +710,7 @@
      "precio": 1359800,
      "tienda": "Sandos",
      "url": "https://sandos.cl/p/kingston-fury-beast-black-32gb-5600mhz-ddr5-amd-ex-p10742",
-     "n_tiendas": 10,
+     "n_tiendas": 11,
      "cantidad": 2,
      "precio_unitario": 679900
     },
@@ -706,7 +721,7 @@
      "precio": 1387940,
      "tienda": "Centrale",
      "url": "https://centrale.cl/producto/memoria-ram-32gb-ddr5-5600mt-s-cl36-kingston-fury-beast-rgb/",
-     "n_tiendas": 10,
+     "n_tiendas": 6,
      "cantidad": 2,
      "precio_unitario": 693970
     },
@@ -717,7 +732,7 @@
      "precio": 1398980,
      "tienda": "Centrale",
      "url": "https://centrale.cl/producto/memoria-ram-32gb-ddr5-6000mt-s-cl36-kingston-fury-beast-expo-xmp/",
-     "n_tiendas": 12,
+     "n_tiendas": 13,
      "cantidad": 2,
      "precio_unitario": 699490
     }
@@ -735,12 +750,17 @@
     },
     {
      "nombre": "A-DATA AD5S480032G-S (1 x 32 GB | SO-DIMM DDR5-4800)",
-     "precio": 535990,
+     "precio": 545990,
      "motivo": "dice 'SO-DIMM'"
     },
     {
      "nombre": "Corsair Dominator Platinum RGB CMT32GX5M2B5200C40W (2 x 16 GB | DIMM DDR5-5200)",
      "precio": 579900,
+     "motivo": "no dice '1 x 32 GB'"
+    },
+    {
+     "nombre": "Corsair Vengeance CMK32GX5M2B5200C40 (2 x 16GB | DIMM DDR5-5200)",
+     "precio": 597990,
      "motivo": "no dice '1 x 32 GB'"
     },
     {
@@ -751,11 +771,6 @@
     {
      "nombre": "Corsair Vengeance RGB CMH32GX5M2B5200Z40K (2 x 16 GB | DIMM DDR5-5200)",
      "precio": 599000,
-     "motivo": "no dice '1 x 32 GB'"
-    },
-    {
-     "nombre": "Corsair Vengeance CMK32GX5M2B5200C40 (2 x 16GB | DIMM DDR5-5200)",
-     "precio": 597990,
      "motivo": "no dice '1 x 32 GB'"
     },
     {
@@ -800,7 +815,7 @@
     },
     {
      "nombre": "Corsair Vengeance RGB CMH32GX5M2X7200C34 (2 x 16 GB | DIMM DDR5-7200)",
-     "precio": 779990,
+     "precio": 799990,
      "motivo": "no dice '1 x 32 GB'"
     },
     {
@@ -820,7 +835,12 @@
     },
     {
      "nombre": "Kingston Fury Renegade Pro KF556R28RBE2-32 (1 x 32 GB | DIMM DDR5-5600 ECC Full buffer)",
-     "precio": 976448,
+     "precio": 969152,
+     "motivo": "dice 'ECC'"
+    },
+    {
+     "nombre": "Kingston KTD-PE556D8-32G (1 x 32 GB | DIMM DDR5-5600 ECC Full buffer)",
+     "precio": 998336,
      "motivo": "dice 'ECC'"
     },
     {
@@ -829,23 +849,13 @@
      "motivo": "dice 'ECC'"
     },
     {
-     "nombre": "Kingston KTD-PE556D8-32G (1 x 32 GB | DIMM DDR5-5600 ECC Full buffer)",
-     "precio": 1026304,
-     "motivo": "dice 'ECC'"
-    },
-    {
      "nombre": "Kingston Fury Renegade Pro KF556R36RB-32 (1 x 32 GB | DIMM DDR5-5600 ECC Full buffer)",
-     "precio": 1040372,
+     "precio": 1059692,
      "motivo": "dice 'ECC'"
     },
     {
      "nombre": "Kingston KTH-PL564D8-32G (1 x 32 GB | DIMM DDR5-6400 ECC)",
      "precio": 1166918,
-     "motivo": "dice 'ECC'"
-    },
-    {
-     "nombre": "Kingston KTH-PL556D8-32G (1 x 32 GB | DIMM DDR5-5600 ECC)",
-     "precio": 1171810,
      "motivo": "dice 'ECC'"
     },
     {
@@ -855,12 +865,17 @@
     },
     {
      "nombre": "Kingston KTL-TS556E-32G (1 x 32 GB | DIMM DDR5-5600 ECC)",
-     "precio": 1177776,
+     "precio": 1199380,
+     "motivo": "dice 'ECC'"
+    },
+    {
+     "nombre": "Kingston KTH-PL556D8-32G (1 x 32 GB | DIMM DDR5-5600 ECC)",
+     "precio": 1276192,
      "motivo": "dice 'ECC'"
     },
     {
      "nombre": "Kingston KTH-PL556E-32G (1 x 32 GB | DIMM DDR5-5600 ECC)",
-     "precio": 1368241,
+     "precio": 1315500,
      "motivo": "dice 'ECC'"
     },
     {
@@ -886,27 +901,27 @@
    "elegido": {
     "product_id": 253374,
     "nombre": "Kingston NV3 2 TB (SNV3S/2000G)",
-    "precio_lista": 299900,
-    "precio": 299900,
-    "tienda": "Fiestalan",
-    "url": "https://fiestalan.cl/tienda/kingston-nv3-2-tb-snv3s-2000g-nvme-pcie-4-0-6-000mb-s/",
-    "n_tiendas": 19
+    "precio_lista": 299990,
+    "precio": 299990,
+    "tienda": "TecTec",
+    "url": "https://tectec.cl/producto/nvme-ssd-2tb-kingston-nv3-pcie-4-0-usado-certificado/",
+    "n_tiendas": 20
    },
    "candidatos": [
     {
      "product_id": 253374,
      "nombre": "Kingston NV3 2 TB (SNV3S/2000G)",
-     "precio_lista": 299900,
-     "precio": 299900,
-     "tienda": "Fiestalan",
-     "url": "https://fiestalan.cl/tienda/kingston-nv3-2-tb-snv3s-2000g-nvme-pcie-4-0-6-000mb-s/",
-     "n_tiendas": 19
+     "precio_lista": 299990,
+     "precio": 299990,
+     "tienda": "TecTec",
+     "url": "https://tectec.cl/producto/nvme-ssd-2tb-kingston-nv3-pcie-4-0-usado-certificado/",
+     "n_tiendas": 20
     },
     {
      "product_id": 220675,
      "nombre": "Lexar NM790 2 TB (LNM790X002T-RNNNGU)",
      "precio_lista": 379050,
-     "precio": 379050,
+     "precio": 359100,
      "tienda": "Tecnocam",
      "url": "https://tecnocam.cl/product/ssd-lexar-nvme-2tb-m-2-2280-pcie-gen4-granel-negro/",
      "n_tiendas": 1
@@ -957,13 +972,13 @@
      "motivo": "no dice '2 TB'"
     },
     {
-     "nombre": "Airflow Perfect 1 TB (1 TB Gen3x4 2280)",
-     "precio": 144900,
+     "nombre": "A-DATA Legend 710 1 TB (ALEG-710-1TCS)",
+     "precio": 143990,
      "motivo": "no dice '2 TB'"
     },
     {
-     "nombre": "A-DATA Legend 710 1 TB (ALEG-710-1TCS)",
-     "precio": 144990,
+     "nombre": "Airflow Perfect 1 TB (1 TB Gen3x4 2280)",
+     "precio": 144900,
      "motivo": "no dice '2 TB'"
     },
     {
@@ -974,11 +989,6 @@
     {
      "nombre": "Western Digital Green SN3000 1 TB (WDS100T4G0E)",
      "precio": 149990,
-     "motivo": "no dice '2 TB'"
-    },
-    {
-     "nombre": "Crucial E100 1 TB (CT1000E100SSD8)",
-     "precio": 153900,
      "motivo": "no dice '2 TB'"
     },
     {
@@ -1027,6 +1037,11 @@
      "motivo": "no dice '2 TB'"
     },
     {
+     "nombre": "Crucial E100 1 TB (CT1000E100SSD8)",
+     "precio": 184990,
+     "motivo": "no dice '2 TB'"
+    },
+    {
      "nombre": "Biwin 1 TB (X570)",
      "precio": 187990,
      "motivo": "no dice '2 TB'"
@@ -1057,14 +1072,14 @@
      "motivo": "no dice '2 TB'"
     },
     {
+     "nombre": "X5 Data Pro 2 TB (B0GVMMR61L)",
+     "precio": 222210,
+     "motivo": "marca fuera de la lista confiable"
+    },
+    {
      "nombre": "SanDisk 5100 Optimus 1 TB (SDSP51100TAN-000E0)",
      "precio": 233472,
      "motivo": "no dice '2 TB'"
-    },
-    {
-     "nombre": "Hiksemi Wave (S) 2 TB (HS-SSD-WAVE(S)/2048G)",
-     "precio": 233990,
-     "motivo": "marca fuera de la lista confiable"
     },
     {
      "nombre": "Netac NV7000-Q 1 TB (NT01NV7000Q-1T0-E4X)",
@@ -1077,8 +1092,8 @@
      "motivo": "no dice '2 TB'"
     },
     {
-     "nombre": "X5 Data Pro 2 TB (B0GVMMR61L)",
-     "precio": 234555,
+     "nombre": "Hiksemi Wave (S) 2 TB (HS-SSD-WAVE(S)/2048G)",
+     "precio": 233990,
      "motivo": "marca fuera de la lista confiable"
     },
     {
@@ -1112,6 +1127,11 @@
      "motivo": "marca fuera de la lista confiable"
     },
     {
+     "nombre": "A-DATA Ultimate SU650 2 TB (ASU650SS-2TT-R)",
+     "precio": 279900,
+     "motivo": "marca fuera de la lista confiable"
+    },
+    {
      "nombre": "SanDisk Ultra 3D 2 TB (SDSSDH3-2T00-G25)",
      "precio": 279990,
      "motivo": "marca fuera de la lista confiable"
@@ -1134,11 +1154,6 @@
     {
      "nombre": "Western Digital Green SN350 2 TB (WDS200T3G0C)",
      "precio": 299990,
-     "motivo": "marca fuera de la lista confiable"
-    },
-    {
-     "nombre": "A-DATA Ultimate SU650 2 TB (ASU650SS-2TT-R)",
-     "precio": 299900,
      "motivo": "marca fuera de la lista confiable"
     },
     {
@@ -1167,14 +1182,14 @@
      "motivo": "marca fuera de la lista confiable"
     },
     {
-     "nombre": "Western Digital Green SN3000 2 TB (WDS200T4G0E)",
-     "precio": 329990,
-     "motivo": "marca fuera de la lista confiable"
-    },
-    {
      "nombre": "Kingston FURY Renegade 1 TB (SFYRSK/1000G)",
      "precio": 329000,
      "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "Western Digital Green SN3000 2 TB (WDS200T4G0E)",
+     "precio": 329990,
+     "motivo": "marca fuera de la lista confiable"
     },
     {
      "nombre": "Kingston NV2 2 TB (SNV2S/2000G)",
@@ -1207,14 +1222,14 @@
      "motivo": "no dice '2 TB'"
     },
     {
-     "nombre": "A-DATA XPG Gammix S70 BLADE 2 TB (AGAMMIXS70B-2T-CS)",
-     "precio": 399990,
-     "motivo": "marca fuera de la lista confiable"
-    },
-    {
      "nombre": "Samsung PM9A1 1 TB (MZVL21T0HCLR-00A00)",
      "precio": 399990,
      "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "A-DATA XPG Gammix S70 BLADE 2 TB (AGAMMIXS70B-2T-CS)",
+     "precio": 399990,
+     "motivo": "marca fuera de la lista confiable"
     },
     {
      "nombre": "SanDisk 8100 Optimus GX Pro 1 TB (SDSP82100TAN-000E0)",
@@ -1237,14 +1252,14 @@
      "motivo": "marca fuera de la lista confiable"
     },
     {
-     "nombre": "Crucial P3 4 TB (CT4000P3SSD8)",
-     "precio": 565990,
-     "motivo": "no dice '2 TB'"
+     "nombre": "Kingston KC600 2 TB (SKC600/2048G)",
+     "precio": 552064,
+     "motivo": "marca fuera de la lista confiable"
     },
     {
-     "nombre": "Kingston KC600 2 TB (SKC600/2048G)",
-     "precio": 576992,
-     "motivo": "marca fuera de la lista confiable"
+     "nombre": "Crucial P3 4 TB (CT4000P3SSD8)",
+     "precio": 576990,
+     "motivo": "no dice '2 TB'"
     },
     {
      "nombre": "Kingston NV3 4 TB (SNV3S/4000G)",
@@ -1314,7 +1329,7 @@
     "product_id": 220675,
     "nombre": "Lexar NM790 2 TB (LNM790X002T-RNNNGU)",
     "precio_lista": 379050,
-    "precio": 379050,
+    "precio": 359100,
     "tienda": "Tecnocam",
     "url": "https://tecnocam.cl/product/ssd-lexar-nvme-2tb-m-2-2280-pcie-gen4-granel-negro/",
     "n_tiendas": 1
@@ -1324,7 +1339,7 @@
      "product_id": 220675,
      "nombre": "Lexar NM790 2 TB (LNM790X002T-RNNNGU)",
      "precio_lista": 379050,
-     "precio": 379050,
+     "precio": 359100,
      "tienda": "Tecnocam",
      "url": "https://tecnocam.cl/product/ssd-lexar-nvme-2tb-m-2-2280-pcie-gen4-granel-negro/",
      "n_tiendas": 1
@@ -1384,13 +1399,13 @@
      "motivo": "no dice '2 TB'"
     },
     {
-     "nombre": "Airflow Perfect 1 TB (1 TB Gen3x4 2280)",
-     "precio": 144900,
+     "nombre": "A-DATA Legend 710 1 TB (ALEG-710-1TCS)",
+     "precio": 143990,
      "motivo": "no dice '2 TB'"
     },
     {
-     "nombre": "A-DATA Legend 710 1 TB (ALEG-710-1TCS)",
-     "precio": 144990,
+     "nombre": "Airflow Perfect 1 TB (1 TB Gen3x4 2280)",
+     "precio": 144900,
      "motivo": "no dice '2 TB'"
     },
     {
@@ -1401,11 +1416,6 @@
     {
      "nombre": "Western Digital Green SN3000 1 TB (WDS100T4G0E)",
      "precio": 149990,
-     "motivo": "no dice '2 TB'"
-    },
-    {
-     "nombre": "Crucial E100 1 TB (CT1000E100SSD8)",
-     "precio": 153900,
      "motivo": "no dice '2 TB'"
     },
     {
@@ -1454,6 +1464,11 @@
      "motivo": "no dice '2 TB'"
     },
     {
+     "nombre": "Crucial E100 1 TB (CT1000E100SSD8)",
+     "precio": 184990,
+     "motivo": "no dice '2 TB'"
+    },
+    {
      "nombre": "Biwin 1 TB (X570)",
      "precio": 187990,
      "motivo": "no dice '2 TB'"
@@ -1484,14 +1499,14 @@
      "motivo": "no dice '2 TB'"
     },
     {
+     "nombre": "X5 Data Pro 2 TB (B0GVMMR61L)",
+     "precio": 222210,
+     "motivo": "marca fuera de la lista confiable"
+    },
+    {
      "nombre": "SanDisk 5100 Optimus 1 TB (SDSP51100TAN-000E0)",
      "precio": 233472,
      "motivo": "no dice '2 TB'"
-    },
-    {
-     "nombre": "Hiksemi Wave (S) 2 TB (HS-SSD-WAVE(S)/2048G)",
-     "precio": 233990,
-     "motivo": "marca fuera de la lista confiable"
     },
     {
      "nombre": "Netac NV7000-Q 1 TB (NT01NV7000Q-1T0-E4X)",
@@ -1504,8 +1519,8 @@
      "motivo": "no dice '2 TB'"
     },
     {
-     "nombre": "X5 Data Pro 2 TB (B0GVMMR61L)",
-     "precio": 234555,
+     "nombre": "Hiksemi Wave (S) 2 TB (HS-SSD-WAVE(S)/2048G)",
+     "precio": 233990,
      "motivo": "marca fuera de la lista confiable"
     },
     {
@@ -1539,6 +1554,11 @@
      "motivo": "marca fuera de la lista confiable"
     },
     {
+     "nombre": "A-DATA Ultimate SU650 2 TB (ASU650SS-2TT-R)",
+     "precio": 279900,
+     "motivo": "marca fuera de la lista confiable"
+    },
+    {
      "nombre": "SanDisk Ultra 3D 2 TB (SDSSDH3-2T00-G25)",
      "precio": 279990,
      "motivo": "marca fuera de la lista confiable"
@@ -1564,17 +1584,12 @@
      "motivo": "marca fuera de la lista confiable"
     },
     {
-     "nombre": "Kingston NV3 2 TB (SNV3S/2000G)",
-     "precio": 299900,
-     "motivo": "marca fuera de la lista confiable"
-    },
-    {
-     "nombre": "A-DATA Ultimate SU650 2 TB (ASU650SS-2TT-R)",
-     "precio": 299900,
-     "motivo": "marca fuera de la lista confiable"
-    },
-    {
      "nombre": "Samsung 860 EVO 2 TB (MZ-76E2T0E)",
+     "precio": 299990,
+     "motivo": "marca fuera de la lista confiable"
+    },
+    {
+     "nombre": "Kingston NV3 2 TB (SNV3S/2000G)",
      "precio": 299990,
      "motivo": "marca fuera de la lista confiable"
     },
@@ -1599,14 +1614,14 @@
      "motivo": "marca fuera de la lista confiable"
     },
     {
-     "nombre": "Western Digital Green SN3000 2 TB (WDS200T4G0E)",
-     "precio": 329990,
-     "motivo": "marca fuera de la lista confiable"
-    },
-    {
      "nombre": "Kingston FURY Renegade 1 TB (SFYRSK/1000G)",
      "precio": 329000,
      "motivo": "no dice '2 TB'"
+    },
+    {
+     "nombre": "Western Digital Green SN3000 2 TB (WDS200T4G0E)",
+     "precio": 329990,
+     "motivo": "marca fuera de la lista confiable"
     },
     {
      "nombre": "Kingston NV2 2 TB (SNV2S/2000G)",
@@ -1639,17 +1654,17 @@
      "motivo": "no dice '2 TB'"
     },
     {
-     "nombre": "A-DATA XPG Gammix S70 BLADE 2 TB (AGAMMIXS70B-2T-CS)",
-     "precio": 399990,
-     "motivo": "marca fuera de la lista confiable"
-    },
-    {
      "nombre": "Samsung PM9A1 1 TB (MZVL21T0HCLR-00A00)",
      "precio": 399990,
      "motivo": "no dice '2 TB'"
     },
     {
      "nombre": "Samsung 980 Pro 2 TB (MZ-V8P2T0CW)",
+     "precio": 399990,
+     "motivo": "marca fuera de la lista confiable"
+    },
+    {
+     "nombre": "A-DATA XPG Gammix S70 BLADE 2 TB (AGAMMIXS70B-2T-CS)",
      "precio": 399990,
      "motivo": "marca fuera de la lista confiable"
     },
@@ -1679,14 +1694,14 @@
      "motivo": "marca fuera de la lista confiable"
     },
     {
-     "nombre": "Crucial P3 4 TB (CT4000P3SSD8)",
-     "precio": 565990,
-     "motivo": "no dice '2 TB'"
+     "nombre": "Kingston KC600 2 TB (SKC600/2048G)",
+     "precio": 552064,
+     "motivo": "marca fuera de la lista confiable"
     },
     {
-     "nombre": "Kingston KC600 2 TB (SKC600/2048G)",
-     "precio": 576992,
-     "motivo": "marca fuera de la lista confiable"
+     "nombre": "Crucial P3 4 TB (CT4000P3SSD8)",
+     "precio": 576990,
+     "motivo": "no dice '2 TB'"
     },
     {
      "nombre": "Kingston NV3 4 TB (SNV3S/4000G)",
@@ -1796,6 +1811,16 @@
    ],
    "descartados": [
     {
+     "nombre": "Western Digital Green 1 TB (WDS100T5G0A)",
+     "precio": 129990,
+     "motivo": "marca fuera de la lista confiable"
+    },
+    {
+     "nombre": "X5 Data Pro 1 TB (B0GFZX6RJ4)",
+     "precio": 134910,
+     "motivo": "marca fuera de la lista confiable"
+    },
+    {
      "nombre": "Airflow Green 1 TB (1 TB SATA III M.2)",
      "precio": 138000,
      "motivo": "marca fuera de la lista confiable"
@@ -1821,17 +1846,12 @@
      "motivo": "marca fuera de la lista confiable"
     },
     {
-     "nombre": "X5 Data Pro 1 TB (B0GFZX6RJ4)",
-     "precio": 142405,
+     "nombre": "A-DATA Legend 710 1 TB (ALEG-710-1TCS)",
+     "precio": 143990,
      "motivo": "marca fuera de la lista confiable"
     },
     {
      "nombre": "Macrovip 1 TB (MV1TB)",
-     "precio": 144990,
-     "motivo": "marca fuera de la lista confiable"
-    },
-    {
-     "nombre": "Western Digital Green 1 TB (WDS100T5G0A)",
      "precio": 144990,
      "motivo": "marca fuera de la lista confiable"
     },
@@ -1841,18 +1861,8 @@
      "motivo": "marca fuera de la lista confiable"
     },
     {
-     "nombre": "A-DATA Legend 710 1 TB (ALEG-710-1TCS)",
-     "precio": 144990,
-     "motivo": "marca fuera de la lista confiable"
-    },
-    {
      "nombre": "Western Digital Green SN3000 1 TB (WDS100T4G0E)",
      "precio": 149990,
-     "motivo": "marca fuera de la lista confiable"
-    },
-    {
-     "nombre": "Crucial E100 1 TB (CT1000E100SSD8)",
-     "precio": 153900,
      "motivo": "marca fuera de la lista confiable"
     },
     {
@@ -1893,6 +1903,11 @@
     {
      "nombre": "MSI Spatium M450 1 TB (SPATIUM M450 PCIe 4.0 NVMe M.2)",
      "precio": 177990,
+     "motivo": "marca fuera de la lista confiable"
+    },
+    {
+     "nombre": "Crucial E100 1 TB (CT1000E100SSD8)",
+     "precio": 184990,
      "motivo": "marca fuera de la lista confiable"
     },
     {
@@ -1952,7 +1967,7 @@
     },
     {
      "nombre": "Advantech 1920 GB (SQF-S25C9-1K9GDSCC)",
-     "precio": 284905,
+     "precio": 269910,
      "motivo": "no dice '1 TB'"
     },
     {
@@ -1962,7 +1977,7 @@
     },
     {
      "nombre": "Kingston KC600 1 TB (SKC600/1024G)",
-     "precio": 292500,
+     "precio": 289000,
      "motivo": "marca fuera de la lista confiable"
     },
     {
@@ -1994,11 +2009,6 @@
      "nombre": "Kingston FURY Renegade 1 TB (SFYRS/1000G)",
      "precio": 479990,
      "motivo": "marca fuera de la lista confiable"
-    },
-    {
-     "nombre": "Kingston KC600 2 TB (SKC600/2048G)",
-     "precio": 576992,
-     "motivo": "no dice '1 TB'"
     }
    ]
   },
@@ -2011,7 +2021,7 @@
     "precio": 74500,
     "tienda": "MyShop",
     "url": "https://myshop.cl/producto/fuente-de-poder-850w-certificada-xpg-kyber-ii-850g-p43070",
-    "n_tiendas": 7
+    "n_tiendas": 6
    },
    "candidatos": [
     {
@@ -2021,7 +2031,7 @@
      "precio": 74500,
      "tienda": "MyShop",
      "url": "https://myshop.cl/producto/fuente-de-poder-850w-certificada-xpg-kyber-ii-850g-p43070",
-     "n_tiendas": 7
+     "n_tiendas": 6
     },
     {
      "product_id": 394045,
@@ -2033,15 +2043,6 @@
      "n_tiendas": 8
     },
     {
-     "product_id": 398678,
-     "nombre": "ASUS TUF-GAMING-850G-EVO (90YE00SA-B0AA00) (850 W)",
-     "precio_lista": 89900,
-     "precio": 89900,
-     "tienda": "Sandos",
-     "url": "https://sandos.cl/p/fuente-de-poder-asus-tuf-gaming-850g-evo-850w-certificada-80-plus-gold-atx-31-totalmente-modular-p37077",
-     "n_tiendas": 15
-    },
-    {
      "product_id": 253170,
      "nombre": "Antec Atom G850 Gold (850 W)",
      "precio_lista": 89990,
@@ -2049,6 +2050,15 @@
      "tienda": "Fiestalan",
      "url": "https://fiestalan.cl/tienda/fuente-de-poder-850w-antec-atom-g850-ec-certificada-80-plus-gold-color-negro/",
      "n_tiendas": 1
+    },
+    {
+     "product_id": 393593,
+     "nombre": "Gigabyte GP-UD850GM PG5 V2 (850 W)",
+     "precio_lista": 89990,
+     "precio": 89990,
+     "tienda": "MegaBytes",
+     "url": "https://www.megabytes.cl/sitio-nuevo/producto/gigabyte-850w-80-gold-pcie-5-0-12vhpwr-gp-ud850gm-pg5-v2/",
+     "n_tiendas": 4
     }
    ],
    "descartados": [
@@ -2056,11 +2066,6 @@
      "nombre": "Aurion ADK-A850S (850 W)",
      "precio": 45990,
      "motivo": "no dice 'Gold'"
-    },
-    {
-     "nombre": "Xilence Gaming Gold XN340 (XP850R12) (850 W)",
-     "precio": 49990,
-     "motivo": "marca vetada (Xilence)"
     },
     {
      "nombre": "Snake Hydra ATX850 (HY850WMG) (850 W)",
@@ -2073,14 +2078,14 @@
      "motivo": "no dice 'Gold'"
     },
     {
-     "nombre": "Xilence Performance X+ XN174 (XP850MR9.2) (850 W)",
-     "precio": 59990,
-     "motivo": "marca vetada (Xilence)"
-    },
-    {
      "nombre": "Gamemax GP-850 WH (850 W)",
      "precio": 60900,
      "motivo": "no dice 'Gold'"
+    },
+    {
+     "nombre": "Xilence Gaming Gold XN340 (XP850R12) (850 W)",
+     "precio": 62990,
+     "motivo": "marca vetada (Xilence)"
     },
     {
      "nombre": "Cougar ATLAS 850 (31AA085001P01) (850 W)",
@@ -2093,14 +2098,39 @@
      "motivo": "no dice 'Gold'"
     },
     {
-     "nombre": "Kronos DG850 (PMT850) (850 W)",
-     "precio": 64990,
-     "motivo": "marca vetada (Kronos)"
-    },
-    {
      "nombre": "Clio ATX PRO-M-850W (850 W)",
      "precio": 67990,
      "motivo": "marca vetada (Clio)"
+    },
+    {
+     "nombre": "Kronos DG850 (PMT850) (850 W)",
+     "precio": 69990,
+     "motivo": "marca vetada (Kronos)"
+    },
+    {
+     "nombre": "Xilence Performance X+ XN174 (XP850MR9.2) (850 W)",
+     "precio": 72990,
+     "motivo": "marca vetada (Xilence)"
+    },
+    {
+     "nombre": "Segotep GM850W (850 W)",
+     "precio": 74990,
+     "motivo": "marca vetada (Segotep)"
+    },
+    {
+     "nombre": "Apevia ATX-PM850W (850 W)",
+     "precio": 79990,
+     "motivo": "marca fuera de la lista confiable"
+    },
+    {
+     "nombre": "Thermalright TR-SP850 (850 W)",
+     "precio": 79990,
+     "motivo": "no dice 'Gold'"
+    },
+    {
+     "nombre": "Ocypus Delta P850S (850 W)",
+     "precio": 80900,
+     "motivo": "no dice 'Gold'"
     },
     {
      "nombre": "Antec CSK 850 PRO ATX3.1 (0-761345-20069-1) (850 W)",
@@ -2123,17 +2153,7 @@
      "motivo": "no dice 'Gold'"
     },
     {
-     "nombre": "Segotep GM850W (850 W)",
-     "precio": 84990,
-     "motivo": "marca vetada (Segotep)"
-    },
-    {
      "nombre": "Thermalright TR-SP850-W (850 W)",
-     "precio": 89900,
-     "motivo": "no dice 'Gold'"
-    },
-    {
-     "nombre": "Thermalright TR-SP850 (850 W)",
      "precio": 89900,
      "motivo": "no dice 'Gold'"
     },
@@ -2148,11 +2168,6 @@
      "motivo": "no dice 'Gold'"
     },
     {
-     "nombre": "Apevia ATX-PM850W (850 W)",
-     "precio": 89990,
-     "motivo": "marca fuera de la lista confiable"
-    },
-    {
      "nombre": "Gamemax RGB-850 SE PRO BK (850 W)",
      "precio": 96903,
      "motivo": "marca vetada (Gamemax)"
@@ -2164,7 +2179,7 @@
     },
     {
      "nombre": "Thermaltake Toughpower GT 850W Gold (PS-TPT-0850FNFAGG-3) (850 W)",
-     "precio": 108990,
+     "precio": 107990,
      "motivo": "marca fuera de la lista confiable"
     },
     {
@@ -2209,18 +2224,13 @@
     },
     {
      "nombre": "Cooler Master Elite Platinum 850 - W/O AC cord (MPE-85F1-AFP-C3B0CNP) (850 W)",
-     "precio": 137161,
+     "precio": 138128,
      "motivo": "no dice 'Gold'"
     },
     {
      "nombre": "Xigmatek Fury GD 850 (EN40740) (850 W)",
      "precio": 144900,
      "motivo": "marca fuera de la lista confiable"
-    },
-    {
-     "nombre": "Gigabyte Aorus GP-AE850PM PG5 ICE (850 W)",
-     "precio": 154990,
-     "motivo": "no dice 'Gold'"
     }
    ]
   },
@@ -2233,7 +2243,7 @@
     "precio": 41900,
     "tienda": "RS Tech",
     "url": "https://rstech.cl/producto/cooler-de-cpu-thermalright-peerless-assassin-120-se-argb/",
-    "n_tiendas": 3
+    "n_tiendas": 4
    },
    "candidatos": [
     {
@@ -2243,7 +2253,7 @@
      "precio": 41900,
      "tienda": "RS Tech",
      "url": "https://rstech.cl/producto/cooler-de-cpu-thermalright-peerless-assassin-120-se-argb/",
-     "n_tiendas": 3
+     "n_tiendas": 4
     },
     {
      "product_id": 270441,
@@ -2257,6 +2267,11 @@
    ],
    "descartados": [
     {
+     "nombre": "Thermalright Peerless Assassin 120 SE BLACK",
+     "precio": 38750,
+     "motivo": "no dice 'ARGB'"
+    },
+    {
      "nombre": "Thermalright Peerless Assassin 120 SE ARGB White",
      "precio": 38900,
      "motivo": "dice 'White'"
@@ -2268,11 +2283,6 @@
     },
     {
      "nombre": "Thermalright Peerless Assassin 120 Black",
-     "precio": 39990,
-     "motivo": "no dice 'ARGB'"
-    },
-    {
-     "nombre": "Thermalright Peerless Assassin 120 SE BLACK",
      "precio": 39990,
      "motivo": "no dice 'ARGB'"
     },
@@ -2337,14 +2347,14 @@
      "motivo": "no dice 'Peerless Assassin 120'"
     },
     {
-     "nombre": "Thermalright Peerless Assassin 120 Vision ARGB - White",
-     "precio": 54900,
-     "motivo": "dice 'White'"
-    },
-    {
      "nombre": "Thermalright Peerless Assassin 120 Digital White",
      "precio": 54990,
      "motivo": "no dice 'ARGB'"
+    },
+    {
+     "nombre": "Thermalright Peerless Assassin 120 Vision ARGB - White",
+     "precio": 54900,
+     "motivo": "dice 'White'"
     }
    ]
   },

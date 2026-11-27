@@ -1,0 +1,133 @@
+{
+ "fecha": "2026-11-27",
+ "generado_utc": "2026-11-27T17:30:39+00:00",
+ "para": "tarea semanal 'Radar PS5 Jailbreak (13.40)' de Claude",
+ "linea_base": {
+  "firmware_del_usuario": "13.40",
+  "ultimo_firmware_conocido": "13.60 (24-jul-2026)",
+  "kernel_publico_hasta": "12.40 / 12.70 (P2JB parchado en 13.00)",
+  "userland_que_sirve_en_13_40": [
+   "LuaC0re",
+   "Y2JB",
+   "WebKit/Slopkit",
+   "BD-JB5 (hasta 13.42)"
+  ]
+ },
+ "fuentes_ok": 2,
+ "fuentes_total": 2,
+ "hay_cambios": true,
+ "fuentes": {
+  "github": {
+   "titulo": "GitHub - repos y releases del scene PS5",
+   "ver_en": "https://github.com/Gezine",
+   "ok": true,
+   "partes_ok": [
+    "users/Gezine/repos?per_page=100&sort=pushed",
+    "users/EchoStretch/repos?per_page=100&sort=pushed",
+    "repos/Gezine/Y2JB/releases?per_page=10",
+    "repos/Gezine/BD-JB5/releases?per_page=10",
+    "repos/matem6/P2JB-Y2JB-Porting/releases?per_page=10",
+    "search/repositories?q=ps5+%28exploit+OR+kernel+OR+jailbreak%29&sort=updated&order=desc&per_page=50"
+   ],
+   "primera_vez": false,
+   "lineas": 152,
+   "cambio": true,
+   "lineas_nuevas": [
+    "repo AdrianoRFJunior/radar-ps5 | RADAR BF 2026 - Monitoramento em Tempo Real PS5 e DualSense",
+    "repo Amjz03/capture-menu | A PS5-style Create button for Windows: save recent gameplay, screenshot and record with Alt + C or your controller. Built on OBS.",
+    "repo BlackBearRevived/ps5-fsr4 | AMD FSR 4.1.1 upscaling for PS5 homebrew, with a Vulkan SDK and interactive showcase.",
+    "repo BlackBearRevived/ps5-helixsr | Native PlayStation 5 homebrew runtime and showcase for HelixSR on Vulkan compute",
+    "repo HabibUrRehmanBhattii/gta6-waypoint-teleport | Verified Teleport-to-Waypoint for GTA VI on PS5 (PPSA38500 01.002.001): memory map, method, standalone reader",
+    "repo IsaacCR2/bb-ps5-watch | ",
+    "repo NicolasGSilva/gsnes | GSNES — Console SNES Portátil (WebAssembly Snes9x 2010 + Perfis + Capas Automáticas + 5 Interfaces Selecionáveis: Aurora 360, Switch, PS5, Steam Deck e Xbox Series)",
+    "repo Ninnix/q36 | Qwen3.8-27B and Qwen3.6-35B-A3B local inference engine for Vulkan and Metal",
+    "repo Richie133/SeekerPS5 | Soulseek p2p for ps5",
+    "repo Samuel12233665/ps5-slim-tracker | ",
+    "repo ZiZc3/VI-Patch | VI patches for PS5",
+    "repo amam335345/darugoro-site | PS5コントローラーでDAWを操作するMacアプリ / Control your DAW from the sofa with a PS5 DualSense controller — a free Mac app for Logic Pro.",
+    "repo autthaponkan-git/ps5-stock-watcher | ",
+    "repo axfuury/PS5-Payload-Hub | ",
+    "repo bulinatu/Veyla | Play your PS5 on your Windows PC with almost no lag: sharp DLSS upscaling, smooth frame generation, full controller support and one-click updates. No console mods, no extra accounts.",
+    "repo coru182/PS5-KBM-Bridge | Mouse and keyboard support for unsupported PS5 games",
+    "repo cybervisi0n/ps5-mesa | mesa3d for PS5",
+    "repo cybervisi0n/ps5-mesa-radv | PS5 Mesa with RADV and Zink",
+    "repo evertec82/AstroHybrid-VR | Experimental same-frame stereo PC VR mod for Astro Bot (PS5), based on AstroHybrid and OpenXR.",
+    "repo grimmtroll2285-dot/CALLiONE | 🎮 One PS5. One dashboard. System FPKGs, Kraken & ShadowMount — together in CALLiONE. By SirenaGoloviy.",
+    "repo grzegorz2047/TrinityXSX | Play Xbox Series X|S and DRM-free PC/GOG games on PlayStation 5 — all-in-one game library with on-console GOG installer, DualSense controls, Touchpad menu, FPS HUD, Frame Generation, and Web Companion",
+    "repo leonho/AnyPS5 | Tool for automatic PS5 executables porting to Linux and Windows",
+    "repo lingchenfs1/yuanwan | 自研 PS5 远程游玩：家庭网关 + 自研传输协议 YWP，稳定第一，不走 PSN 转发",
+    "repo metalwatch-vi/metalwatch-vi.github.io | Independent Apple Silicon (macOS / Metal / ARM64) compatibility & hardware tracker for next-gen console builds",
+    "repo murilosalviati/htpc-launcher | Gamepad-driven TV launcher for Ubuntu/GNOME (Wayland). Big tiles for applications; Guide button returns home and resumes apps instead of reopening them; Start+Select+L1+R1 closes any app. Clock, Wi-Fi",
+    "repo nunesmi/radar-ps5 | ",
+    "repo onigamark/ps5-tracker | PS5 stock & deal alerts for Canadian retailers",
+    "repo pavelcanton/dualsense-bridge | Open-source MIT Sony DualSense PC bridge for Windows: USB-C/DS5Dongle auto-yield, live WASAPI & BT 0x32 haptics, racing telemetry, DSX UDP 6969, Mod Hub & 9-tab Web UI",
+    "repo permanasyidikf-sys/gta-6-vice-city-ps5-remote-play-60fps-letalan | Gta 6 Vice City Ps5 Remote Play 60Fps Letalan delivers remote play streaming configuration.",
+    "repo quer3q/kraken-mount | Minimalist PS5 game mounter supporting PKG, folder dumps, zstd and lz4",
+    "repo rdna2-commons/rdna2-commons | RDNA2 Commons: an open hybrid runtime and recompiler for Xbox Series X|S and PS5 titles on PC, with shared tests checked on real hardware. No game data, ever.",
+    "repo rfarkv/ps5-personal-payloads-catalog | ",
+    "repo scorpion511/scorp | PS4-PS5 HACK ALL IN 1",
+    "repo tvman78/Kizuna | Kizuna - PlayStation (PS1-PS5) game launcher and gamer community | Tv Man & FKOAC",
+    "repo victormfsilva/ps5-chile-monitor | Monitor de promoções de PS5 no Chile com alerta no Telegram"
+   ],
+   "lineas_quitadas": [
+    "repo AhmetQara/chiaki-ng-kbm | Play PS5 games with keyboard and mouse over Remote Play on Windows. A chiaki-ng fork with mouse look, a key-binding launcher and a GTA VI layout.",
+    "repo BerretW/ps5_metroid | ",
+    "repo ColonySoulThrust/PS5-60FPS-Patch-For-GTAVI | A patch that unlocks a smooth 60FPS performance mode in GTA VI on PlayStation 5 consoles.",
+    "repo FrancoVoid9/zstd-catalog | Catalogo comunitario del grupo \"PS5 jailbreak 1.xx 14.10 en español\"",
+    "repo HSgod/ps5-fpsunlocker-gta6 | Unlock FPS on Grand Theft Auto VI for jailbroken PS5",
+    "repo Midzer00/ds5-untethered | DS5 Untethered: DualSense (PS5 controller) haptic feedback and adaptive triggers over Bluetooth on Windows PC. Free and open source, no cable and no special dongle.",
+    "repo MrRobotto512/FLEX | Home movie server (Go + Wails) with a native jailbroken-PS5 client and Tailscale remote access",
+    "repo NotHGM/save-garage | Edit your GTA VI story save on PS5: money, ammo, stats, 100% completion and every value in the save, in 13 languages. No jailbreak.",
+    "repo OfficialSpaceship/PS5Ported | Lets you run the PS5 OS on your computer, natively whether with the application or installing the OS itself.",
+    "repo Razoc/DemonsSoulsPC | Portage PC natif de Demon's Souls (PS5) depuis ton propre dump : lanceur compatible RecompLauncher",
+    "repo SwissNHLLeague/swiss-nhl-league | Swiss NHL League – Schweizer NHL 27 E-Sport-Liga für PS5 mit 1vs1, 3vs3 und 6vs6, Clubverwaltung, Spielplänen, Tabellen und Spielerstatistiken.",
+    "repo bystritskiy/reUndr-ps5 | Need for Speed: Underground (Xbox), statically recompiled for PS5. Bring your own game.",
+    "repo chendoom/vision-captain | Play console and Mac games on Apple Vision Pro: setup checks for your Mac, headset and network, a capture-card viewer, and PS5 Remote Play. Mac and visionOS, AGPL-3.0.",
+    "repo danieelkx/ps5audio | ",
+    "repo danzig666/far-ps5pkg | Far Manager (ArcLite) / 7-Zip plugin for PS5 fake packages: .pkg, .ffpkg, .exfat, .ffpfs, .ffpfsc",
+    "repo dhverso/star-ocean-5-ps4-ptbr | Tradução PT-BR de fã do Star Ocean: Integrity and Faithlessness (recompilação PS4RT no PC, e PS4/PS5 versão europeia CUSA03219). Patch xdelta com instalador para Windows e Linux.",
+    "repo earthonion/GarlicTransfer | PS5 save download and upload tool",
+    "repo ecmstudio/Gamepad-Bridge-Core | Gamepad-Core Host Pro API 2026: Native C++ Gamepad Bridge Library",
+    "repo f00275912-maker/ps5-new | ",
+    "repo glomepe/couchcast | Your PS5 on every screen: low-latency Remote Play in the browser, with clips, recording, vertical exports and live streaming. macOS & Windows.",
+    "repo gowithme-club/ps5-playtime-tracker | Open-source playtime and trophy tracker for jailbroken PS5. Tracks PS5 and PS4 games and syncs them to your gowithme.club profile. No PSN required.",
+    "repo ilyes-order/PS5StockWatcher | Automated PlayStation stock and price monitoring with Telegram notifications.",
+    "repo ladddc0/gta-vi-json-for-feed-importing-in-ps5-jobees-lair | gta vi json for feed importing in ps5 jobee's lair",
+    "repo m2k7m/Relapse-Exploit | Exploit chain for PS5 7.00 - 13.60",
+    "repo nexusultraapp/nox-transletur | NOXIR Play - PS5 Gercek Zamanli Yapay Zeka Ceviri & LG TV Altyazi Sistemi",
+    "repo niakw/ProsperoEden-Encore | ProsperoEden Encore experimental Switch 1 + 2 (NS1/NS2) emulator PS5 FW 13.60. Audited Eden Vulkan/OpenGL, per-core JIT, FSR, DualSense TV-first UI, 31 languages, multiplayer lobby, per-game profiles,",
+    "repo p4trick004/prime-games-app | Prime Games — PS5 rental management: public booking landing, React customer/admin portal, and Deno edge-function backend. Migration to GitHub + Vercel + Supabase in progress.",
+    "repo palmkungkrab/ps5snipe | ",
+    "repo pilahito/NitroPlay | NitroPlay: juega a tu PS5 a distancia en español, con nitidez ajustable. Basado en chiaki-ng (AGPL-3.0).",
+    "repo scorpion511/PS5-SCORPION | RELAPSE FOR ALL PS5 FIRMWARES"
+   ],
+   "menciones_13x_o_superior": [
+    "repo EchoStretch/BD-JB-Relapse | BD-JB Relapse for 13.42 and below by zecoxao, EchoStretch and Claude"
+   ],
+   "candidatos_kernel_13x": [
+    "repo EchoStretch/BD-JB-Relapse | BD-JB Relapse for 13.42 and below by zecoxao, EchoStretch and Claude"
+   ],
+   "pista_firmware_kernel_mas_alto": {
+    "firmware": "4.51",
+    "linea": "repo EchoStretch/PS5-IPV6-Kernel-Exploit | An experimental webkit-based kernel exploit (Arb. R/W) for the PS5 on <= 4.51FW"
+   }
+  },
+  "wololo": {
+   "titulo": "Wololo - PS5 Jailbreak and Custom Firmware",
+   "ver_en": "https://wololo.net/ps5-jailbreak-and-custom-firmware/",
+   "ok": true,
+   "url_usada": "https://wololo.net/ps5-jailbreak-and-custom-firmware/",
+   "primera_vez": false,
+   "lineas": 323,
+   "cambio": false,
+   "lineas_nuevas": [],
+   "lineas_quitadas": [],
+   "menciones_13x_o_superior": [],
+   "candidatos_kernel_13x": [],
+   "pista_firmware_kernel_mas_alto": {
+    "firmware": "7.61",
+    "linea": "For PS5 Firmware up to 7.61 (23.01-07.61.00) , the (usermode only) bd-jb exploit works and allows some limited native execution. That exploit isn’t a Kernel exploit and doesn’t constitute a Jailbreak, but lets you run some native code on the PS5. Details here ."
+   }
+  }
+ }
+}
